@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 34500000,
     "meta": "Khung gỗ sồi Nga • Đệm lông vũ êm ái • Bảo hành 10 năm",
     "id": "5SD-FUR-035-01",
-    "image": "https://images.unsplash.com/photo-1540518614846-7ede433c457?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Bộ Bàn Ăn Gỗ Óc Chó Bắc Mỹ 8 Ghế Bọc Da Microfiber",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 26800000,
     "meta": "Tẩm sấy chống cong vênh • Sơn dầu lau tự nhiên an toàn",
     "id": "5SD-FUR-035-02",
-    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Ghế Công Thái Học Flagship Lưới Đàn Hồi Đa Điểm",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 7900000,
     "meta": "Hỗ trợ cột sống thắt lưng 4D • Tựa đầu chỉnh đa hướng",
     "id": "5SD-FUR-035-03",
-    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Đèn Chùm Pha Lê & Đồng Nguyên Chất Thiết Kế Đương Đại",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 12400000,
     "meta": "Ánh sáng CRI > 95 tôn vinh không gian • Điều chỉnh độ sáng",
     "id": "5SD-FUR-035-04",
-    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

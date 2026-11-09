@@ -1,4 +1,4 @@
-# 5SD-NEW-005 — Vanguard — Real Estate & Urban Planning News
+# 5SD-NEW-005 — Veritas — Real Estate & Urban Planning News
 
 - **Mã sản phẩm**: `5SD-NEW-005`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

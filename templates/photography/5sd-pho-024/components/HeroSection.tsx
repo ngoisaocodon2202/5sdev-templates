@@ -46,7 +46,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               >
                 Fine Art Print Framing Shop
               </span>{' '}
-              Chuyên Nghiệp Cùng Lumiere
+              Chuyên Nghiệp Cùng Aurelia
             </h1>
 
             <p className="text-sm sm:text-base text-zinc-600 leading-relaxed">
@@ -117,8 +117,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="relative overflow-hidden p-3 sm:p-4 bg-zinc-50 border border-zinc-900 rounded-lg shadow-xl">
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-900">
                 <img
-                  src="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?auto=format&fit=crop&w=900&q=80"
-                  alt="Lumiere — Fine Art Print Framing Shop"
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
+                  alt="Aurelia — Fine Art Print Framing Shop"
                   className="h-full w-full object-cover object-center transition-transform duration-700 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
@@ -126,7 +126,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 {/* Top Floating Badge */}
                 <div className="absolute left-3.5 top-3.5 flex items-center gap-2 rounded-lg bg-slate-950/80 px-3 py-1.5 text-xs font-bold text-white backdrop-blur-md border border-white/15">
                   <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span>Lumiere Flagship • 5SD-PHO-024</span>
+                  <span>Aurelia Flagship • 5SD-PHO-024</span>
                 </div>
 
                 {/* Bottom Overlay Info inside Hero Photo */}
@@ -150,7 +150,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <div className="mt-3 grid grid-cols-2 gap-3">
                 <div className="flex items-center gap-3 rounded-xl border border-current/10 p-2.5">
                   <img
-                    src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80"
                     alt="Demo 1"
                     loading="lazy"
                     className="h-14 w-20 shrink-0 rounded-lg object-cover"
@@ -162,7 +162,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 </div>
                 <div className="flex items-center gap-3 rounded-xl border border-current/10 p-2.5">
                   <img
-                    src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=900&q=80"
+                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80"
                     alt="Demo 2"
                     loading="lazy"
                     className="h-14 w-20 shrink-0 rounded-lg object-cover"

@@ -1,4 +1,4 @@
-# 5SD-EVE-026 — Hyperion — Cultural Heritage Festival
+# 5SD-EVE-026 — Prism — Cultural Heritage Festival
 
 - **Mã sản phẩm**: `5SD-EVE-026`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

@@ -1,4 +1,4 @@
-# 5SD-FIN-005 — Nova — InsurTech Smart Insurance
+# 5SD-FIN-005 — Crescendo — InsurTech Smart Insurance
 
 - **Mã sản phẩm**: `5SD-FIN-005`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

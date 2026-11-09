@@ -1,4 +1,4 @@
-# 5SD-COR-010 — Solstice — Public Relations & Communications
+# 5SD-COR-010 — Elysian — Public Relations & Communications
 
 - **Mã sản phẩm**: `5SD-COR-010`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

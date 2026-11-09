@@ -1,4 +1,4 @@
-# 5SD-PHO-018 — Aether — Stock Photo & Footage Licensing
+# 5SD-PHO-018 — Nova — Stock Photo & Footage Licensing
 
 - **Mã sản phẩm**: `5SD-PHO-018`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

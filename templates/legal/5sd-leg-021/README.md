@@ -1,4 +1,4 @@
-# 5SD-LEG-021 — Kuroshio — White-Collar Defense & Compliance
+# 5SD-LEG-021 — Stratos — White-Collar Defense & Compliance
 
 - **Mã sản phẩm**: `5SD-LEG-021`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

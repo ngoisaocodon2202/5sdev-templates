@@ -1,4 +1,4 @@
-# 5SD-NON-006 — Elysian — Scholarship & Youth Education Fund
+# 5SD-NON-006 — Sovereign — Scholarship & Youth Education Fund
 
 - **Mã sản phẩm**: `5SD-NON-006`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

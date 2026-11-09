@@ -1,4 +1,4 @@
-# 5SD-TEC-026 — Sovereign — Collaborative Whiteboard SaaS
+# 5SD-TEC-026 — Nordic — Collaborative Whiteboard SaaS
 
 - **Mã sản phẩm**: `5SD-TEC-026`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

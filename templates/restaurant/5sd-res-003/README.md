@@ -1,4 +1,4 @@
-# 5SD-RES-003 — Aethel — Japanese Omakase & Sushi
+# 5SD-RES-003 — Chronos — Japanese Omakase & Sushi
 
 - **Mã sản phẩm**: `5SD-RES-003`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

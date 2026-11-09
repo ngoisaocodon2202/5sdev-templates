@@ -1,4 +1,4 @@
-# 5SD-REA-002 — Arcadia — Oceanfront Luxury Villa Estate
+# 5SD-REA-002 — Equinox — Oceanfront Luxury Villa Estate
 
 - **Mã sản phẩm**: `5SD-REA-002`
 - **Ngành nghề**: Bất động sản (`real-estate`)

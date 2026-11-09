@@ -1,4 +1,4 @@
-# 5SD-POR-018 — Nordic — Cybersecurity Consultant
+# 5SD-POR-018 — Onyx — Cybersecurity Consultant
 
 - **Mã sản phẩm**: `5SD-POR-018`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

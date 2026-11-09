@@ -1,4 +1,4 @@
-# 5SD-PHO-030 — Celestia — Podcast & Livestream Studio
+# 5SD-PHO-030 — Nordic — Podcast & Livestream Studio
 
 - **Mã sản phẩm**: `5SD-PHO-030`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

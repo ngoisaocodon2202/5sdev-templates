@@ -1,4 +1,4 @@
-# 5SD-PHO-024 — Lumiere — Fine Art Print Framing Shop
+# 5SD-PHO-024 — Aurelia — Fine Art Print Framing Shop
 
 - **Mã sản phẩm**: `5SD-PHO-024`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

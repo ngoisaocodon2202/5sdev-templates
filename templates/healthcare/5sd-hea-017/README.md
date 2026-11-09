@@ -1,4 +1,4 @@
-# 5SD-HEA-017 — Hyperion — Traditional Oriental Medicine
+# 5SD-HEA-017 — Vanguard — Traditional Oriental Medicine
 
 - **Mã sản phẩm**: `5SD-HEA-017`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

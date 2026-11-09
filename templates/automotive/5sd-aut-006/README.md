@@ -1,4 +1,4 @@
-# 5SD-AUT-006 — Solvex — OEM Parts & Tuning Accessories
+# 5SD-AUT-006 — Apex — OEM Parts & Tuning Accessories
 
 - **Mã sản phẩm**: `5SD-AUT-006`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

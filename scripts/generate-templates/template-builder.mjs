@@ -8,6 +8,7 @@ import {
   BRAND_PREFIXES,
 } from './catalog-data.mjs';
 import { INDUSTRY_PHOTOS, AVATAR_PHOTOS } from './industry-media.mjs';
+import { generateBrandLogoSvg, generateBrandLogoComponent } from './logo-generator.mjs';
 
 export function buildAllTemplateDefinitions() {
   const definitions = [];
@@ -20,7 +21,7 @@ export function buildAllTemplateDefinitions() {
       const id = `5SD-${industry.code}-${numStr}`;
       const slug = id.toLowerCase();
       const subNiche = industry.subNiches[variantIdx % industry.subNiches.length];
-      const brandPrefix = BRAND_PREFIXES[(variantIdx * 7 + catIdx * 3) % BRAND_PREFIXES.length];
+      const brandPrefix = BRAND_PREFIXES[(variantIdx + catIdx * 11) % BRAND_PREFIXES.length];
       const styleObj = STYLE_LIST[(variantIdx * 3 + catIdx) % STYLE_LIST.length];
       const palette = PALETTES[(variantIdx * 5 + catIdx * 2) % PALETTES.length];
       const architecture = ARCHITECTURES[(variantIdx + catIdx) % ARCHITECTURES.length];
@@ -69,6 +70,7 @@ export function buildAllTemplateDefinitions() {
         heroImage: rotatedPhotos[0],
         galleryImages: rotatedPhotos,
         thumbnail: `/templates/${industry.slug}/${slug}/assets/thumbnail.svg`,
+        logoSvg: `/templates/${industry.slug}/${slug}/assets/logo.svg`,
         previewRoute: `/preview/${slug}`,
         detailsRoute: `/templates/${slug}`,
         sourcePath: `templates/${industry.slug}/${slug}`,
@@ -1349,6 +1351,7 @@ import { Menu, X, PhoneCall, Mail, MapPin, ShieldCheck, Globe } from '@shared/ic
 import { HeroSection } from './components/HeroSection';
 import { InteractiveWidget } from './components/InteractiveWidget';
 import { ContentSections } from './components/ContentSections';
+import { BrandLogo } from './components/BrandLogo';
 
 export interface TemplatePageProps {
   previewDevice?: 'desktop' | 'tablet' | 'mobile';
@@ -1408,22 +1411,9 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
       {/* Main Sticky Navigation Header */}
       <header className="sticky top-0 z-30 w-full ${theme.headerBg}">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
-          {/* Brand Identity */}
-          <a href="#top" className="flex items-center gap-3 shrink-0">
-            <span
-              className="flex h-10 w-10 items-center justify-center rounded-xl text-white font-extrabold text-sm shadow-md shrink-0"
-              style={{ background: '${btnBg}' }}
-            >
-              ${def.brandName.slice(0, 2).toUpperCase()}
-            </span>
-            <div>
-              <span className="text-base sm:text-lg font-extrabold tracking-tight block leading-none">
-                ${def.brandName}
-              </span>
-              <span className="text-[11px] opacity-70 block mt-0.5">
-                ${def.subNiche}
-              </span>
-            </div>
+          {/* Brand Identity with Dedicated Logo */}
+          <a href="#top" className="flex items-center shrink-0">
+            <BrandLogo variant="full" size="md" />
           </a>
 
           {/* Desktop Navigation Links */}
@@ -1543,15 +1533,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 pb-10 border-b border-current/10">
             <div className="space-y-3">
-              <div className="flex items-center gap-2.5">
-                <span
-                  className="flex h-8 w-8 items-center justify-center rounded-lg text-white font-extrabold text-xs"
-                  style={{ background: '${btnBg}' }}
-                >
-                  ${def.brandName.slice(0, 2).toUpperCase()}
-                </span>
-                <span className="text-base font-extrabold">${def.brandName}</span>
-              </div>
+              <BrandLogo variant="light" size="lg" />
               <p className="${theme.muted} leading-relaxed">
                 Đơn vị tiên phong trong lĩnh vực ${def.categoryNameVi} (${def.subNiche}), cam kết chất lượng chuẩn quốc tế và dịch vụ tận tâm 24/7.
               </p>
@@ -1656,9 +1638,11 @@ export function writeSingleTemplateToDisk(baseDir, def) {
   fs.writeFileSync(path.join(compDir, 'HeroSection.tsx'), generateHeroComponentCode(def, theme), 'utf8');
   fs.writeFileSync(path.join(compDir, 'InteractiveWidget.tsx'), generateInteractiveWidgetCode(def, theme), 'utf8');
   fs.writeFileSync(path.join(compDir, 'ContentSections.tsx'), generateContentSectionsCode(def, theme), 'utf8');
+  fs.writeFileSync(path.join(compDir, 'BrandLogo.tsx'), generateBrandLogoComponent(def), 'utf8');
   fs.writeFileSync(path.join(tplDir, 'page.tsx'), generatePageTsxCode(def, theme), 'utf8');
   fs.writeFileSync(path.join(styleDir, 'theme.css'), generateThemeCss(def), 'utf8');
   fs.writeFileSync(path.join(assetDir, 'thumbnail.svg'), generateThumbnailSvg(def), 'utf8');
+  fs.writeFileSync(path.join(assetDir, 'logo.svg'), generateBrandLogoSvg(def), 'utf8');
 
   const { globalIndex, domainItems, metrics, ...cleanMeta } = def;
   fs.writeFileSync(path.join(tplDir, 'metadata.json'), JSON.stringify(cleanMeta, null, 2), 'utf8');

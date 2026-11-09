@@ -1,4 +1,4 @@
-# 5SD-COR-024 — Kinetix — Commercial Facility Management
+# 5SD-COR-024 — Vertex — Commercial Facility Management
 
 - **Mã sản phẩm**: `5SD-COR-024`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

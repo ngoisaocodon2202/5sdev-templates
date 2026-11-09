@@ -1,4 +1,4 @@
-# 5SD-HEA-025 — Apex — Gastroenterology Endoscopy Center
+# 5SD-HEA-025 — Celestia — Gastroenterology Endoscopy Center
 
 - **Mã sản phẩm**: `5SD-HEA-025`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

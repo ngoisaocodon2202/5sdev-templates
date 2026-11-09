@@ -13,40 +13,40 @@ import { AnimatedCounter, ScrollReveal } from '@shared/components';
 
 const GALLERY_PROJECTS = [
   {
-    title: 'Dự Án Tiêu Điểm #01 — Sylvan Flagship',
+    title: 'Dự Án Tiêu Điểm #01 — Apex Flagship',
     category: 'Tiêu biểu',
     scale: 'Quy mô Chuẩn Quốc Tế • Hoàn thành 2026',
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Giải Pháp Chuyên Sâu #02 — MLOps & Model Training Cloud',
     category: 'Mới hoàn thành',
     scale: 'Tối ưu 40% Hiệu suất • Đạt chuẩn ISO',
-    image: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Không Gian & Trải Nghiệm #03 — Công nghệ & Phần mềm AI',
     category: 'Tiêu biểu',
     scale: 'Khách hàng Doanh nghiệp VIP • 5 Sao',
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Tổ Hợp Hiện Đại #04 — Premium E-commerce Edition',
     category: 'Mới hoàn thành',
     scale: 'Vật liệu & Công nghệ Thế hệ mới',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1200&q=80',
   },
   {
-    title: 'Hạng Mục Cao Cấp #05 — Sylvan Signature',
+    title: 'Hạng Mục Cao Cấp #05 — Apex Signature',
     category: 'Tiêu biểu',
     scale: 'Bảo hành dài hạn • Bàn giao vượt tiến độ',
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Bộ Sưu Tập Thực Tế #06 — Chuẩn Mực Mới',
     category: 'Mới hoàn thành',
     scale: 'Được bình chọn xuất sắc nhất năm',
-    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1200&q=80',
   },
 ];
 
@@ -94,19 +94,19 @@ const TESTIMONIALS = [
     name: 'Nguyễn Minh Quân',
     role: 'Tổng Giám Đốc — Tập đoàn Đầu tư Á Châu',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&q=80',
-    quote: 'Trải nghiệm hợp tác cùng Sylvan thực sự vượt mong đợi. Hình ảnh thực tế sắc nét, quy trình làm việc rõ ràng và bàn giao đúng từng cam kết trong hợp đồng.',
+    quote: 'Trải nghiệm hợp tác cùng Apex thực sự vượt mong đợi. Hình ảnh thực tế sắc nét, quy trình làm việc rõ ràng và bàn giao đúng từng cam kết trong hợp đồng.',
   },
   {
     name: 'Trần Thanh Hà',
     role: 'Giám Đốc Vận Hành — Emerald Group',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=240&q=80',
-    quote: 'Đội ngũ chuyên gia của Sylvan tư vấn rất tận tâm. Chất lượng hoàn thiện trong lĩnh vực Công nghệ & Phần mềm AI đạt chuẩn quốc tế khiến chúng tôi hoàn toàn yên tâm.',
+    quote: 'Đội ngũ chuyên gia của Apex tư vấn rất tận tâm. Chất lượng hoàn thiện trong lĩnh vực Công nghệ & Phần mềm AI đạt chuẩn quốc tế khiến chúng tôi hoàn toàn yên tâm.',
   },
   {
     name: 'Lê Hoàng Nam',
     role: 'Kiến Trúc Sư & Nhà Sáng Lập',
     avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&q=80',
-    quote: 'Chi phí minh bạch, tiến độ chuẩn xác và dịch vụ hậu mãi chu đáo. Chắc chắn chúng tôi sẽ tiếp tục đồng hành cùng Sylvan trong các dự án lớn sắp tới.',
+    quote: 'Chi phí minh bạch, tiến độ chuẩn xác và dịch vụ hậu mãi chu đáo. Chắc chắn chúng tôi sẽ tiếp tục đồng hành cùng Apex trong các dự án lớn sắp tới.',
   },
 ];
 
@@ -122,7 +122,7 @@ export const ContentSections: React.FC = () => {
 
   const faqs = [
     {
-      q: 'Quy trình triển khai dịch vụ tại Sylvan diễn ra như thế nào?',
+      q: 'Quy trình triển khai dịch vụ tại Apex diễn ra như thế nào?',
       a: 'Quy trình chuẩn hóa gồm 4 bước: (1) Tiếp nhận thông tin & Khảo sát thực tế, (2) Lên phương án demo & Báo giá chi tiết, (3) Ký hợp đồng & Triển khai chuẩn chất lượng, (4) Nghiệm thu bàn giao & Bảo hành định kỳ.',
     },
     {
@@ -130,7 +130,7 @@ export const ContentSections: React.FC = () => {
       a: 'Mức giá hiển thị trên bảng tính tương tác và bảng giá là mức giá minh bạch. Chúng tôi cam kết không phát sinh chi phí ẩn ngoài hợp đồng.',
     },
     {
-      q: 'Chính sách bảo hành và hỗ trợ sau bàn giao tại Sylvan ra sao?',
+      q: 'Chính sách bảo hành và hỗ trợ sau bàn giao tại Apex ra sao?',
       a: 'Tất cả khách hàng đều nhận được chứng nhận bảo hành điện tử chính hãng cùng đội ngũ kỹ thuật trực hỗ trợ 24/7 trên toàn quốc.',
     },
   ];
@@ -145,7 +145,7 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="left" className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80"
+                  src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 1"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -172,7 +172,7 @@ export const ContentSections: React.FC = () => {
                   </div>
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 2"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -184,15 +184,15 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="right" className="lg:col-span-6 space-y-5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold rounded-2xl">
                 <Award className="h-3.5 w-3.5 shrink-0" />
-                <span>HỒ SƠ NĂNG LỰC • SYLVAN</span>
+                <span>HỒ SƠ NĂNG LỰC • APEX</span>
               </span>
 
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight leading-tight">
-                Vì Sao Hàng Nghìn Khách Hàng Tin Tưởng Sylvan?
+                Vì Sao Hàng Nghìn Khách Hàng Tin Tưởng Apex?
               </h2>
 
               <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
-                Với định hướng lấy chất lượng và sự minh bạch làm trọng tâm, Sylvan không ngừng đầu tư vào công nghệ, con người và quy trình chuẩn quốc tế nhằm mang lại giá trị bền vững nhất cho khách hàng trong mảng MLOps & Model Training Cloud.
+                Với định hướng lấy chất lượng và sự minh bạch làm trọng tâm, Apex không ngừng đầu tư vào công nghệ, con người và quy trình chuẩn quốc tế nhằm mang lại giá trị bền vững nhất cho khách hàng trong mảng MLOps & Model Training Cloud.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
@@ -379,7 +379,7 @@ export const ContentSections: React.FC = () => {
                 ĐÁNH GIÁ TỪ KHÁCH HÀNG THỰC TẾ
               </span>
               <h2 className="mt-1 text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight">
-                Khách Hàng Nói Gì Về Sylvan
+                Khách Hàng Nói Gì Về Apex
               </h2>
             </div>
             <div className="flex items-center gap-1.5 text-amber-500 font-bold text-sm whitespace-nowrap">
@@ -467,7 +467,7 @@ export const ContentSections: React.FC = () => {
                   Đăng Ký Nhận Tư Vấn & Báo Giá
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 mb-6">
-                  Chuyên viên của Sylvan sẽ liên hệ lại trong vòng 15 phút làm việc.
+                  Chuyên viên của Apex sẽ liên hệ lại trong vòng 15 phút làm việc.
                 </p>
 
                 {leadSubmitted ? (
@@ -475,7 +475,7 @@ export const ContentSections: React.FC = () => {
                     <CheckCircle2 className="mx-auto h-10 w-10 text-emerald-500" />
                     <h4 className="text-base font-bold">Đã gửi yêu cầu tư vấn thành công!</h4>
                     <p className="text-xs text-slate-600">
-                      Cảm ơn bạn đã tin chọn Sylvan. Chúng tôi sẽ liên hệ ngay.
+                      Cảm ơn bạn đã tin chọn Apex. Chúng tôi sẽ liên hệ ngay.
                     </p>
                   </div>
                 ) : (

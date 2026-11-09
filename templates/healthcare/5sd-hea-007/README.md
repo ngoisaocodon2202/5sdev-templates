@@ -1,4 +1,4 @@
-# 5SD-HEA-007 — Hyperion — 24/7 Telehealth Video Consult
+# 5SD-HEA-007 — Maison — 24/7 Telehealth Video Consult
 
 - **Mã sản phẩm**: `5SD-HEA-007`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

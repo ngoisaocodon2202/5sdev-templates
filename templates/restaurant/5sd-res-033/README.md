@@ -1,4 +1,4 @@
-# 5SD-RES-033 — Aethel — Riverfront Sunset Restaurant
+# 5SD-RES-033 — Apex — Riverfront Sunset Restaurant
 
 - **Mã sản phẩm**: `5SD-RES-033`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

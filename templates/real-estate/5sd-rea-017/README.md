@@ -1,4 +1,4 @@
-# 5SD-REA-017 — Arcadia — Mountain Retreat Chalets
+# 5SD-REA-017 — Sylvan — Mountain Retreat Chalets
 
 - **Mã sản phẩm**: `5SD-REA-017`
 - **Ngành nghề**: Bất động sản (`real-estate`)

@@ -1,4 +1,4 @@
-# 5SD-EVE-031 — Hyperion — Cosplay & Anime Convention
+# 5SD-EVE-031 — Nova — Cosplay & Anime Convention
 
 - **Mã sản phẩm**: `5SD-EVE-031`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

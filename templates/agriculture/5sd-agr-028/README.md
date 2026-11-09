@@ -1,4 +1,4 @@
-# 5SD-AGR-028 — Chronos — Essential Oil Distillation Farm
+# 5SD-AGR-028 — Aurelia — Essential Oil Distillation Farm
 
 - **Mã sản phẩm**: `5SD-AGR-028`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

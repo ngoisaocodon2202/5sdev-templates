@@ -1,4 +1,4 @@
-# 5SD-FAS-015 — Lumiere — Handcrafted Dress Shoes
+# 5SD-FAS-015 — Sylvan — Handcrafted Dress Shoes
 
 - **Mã sản phẩm**: `5SD-FAS-015`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

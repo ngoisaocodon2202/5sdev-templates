@@ -1,4 +1,4 @@
-# 5SD-FIN-033 — Stratos — Subscription Revenue Billing
+# 5SD-FIN-033 — Prism — Subscription Revenue Billing
 
 - **Mã sản phẩm**: `5SD-FIN-033`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

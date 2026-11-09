@@ -1,4 +1,4 @@
-# 5SD-EDU-029 — Sovereign — Photography & Filmmaking Masterclass
+# 5SD-EDU-029 — Lumiere — Photography & Filmmaking Masterclass
 
 - **Mã sản phẩm**: `5SD-EDU-029`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

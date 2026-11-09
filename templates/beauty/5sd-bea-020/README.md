@@ -1,4 +1,4 @@
-# 5SD-BEA-020 — Forma — Body Sculpting & Detox
+# 5SD-BEA-020 — Nordic — Body Sculpting & Detox
 
 - **Mã sản phẩm**: `5SD-BEA-020`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

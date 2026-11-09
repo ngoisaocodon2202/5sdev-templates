@@ -1,4 +1,4 @@
-# 5SD-NON-014 — Aurelia — Animal Rescue & Sanctuary NGO
+# 5SD-NON-014 — Nordic — Animal Rescue & Sanctuary NGO
 
 - **Mã sản phẩm**: `5SD-NON-014`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

@@ -1,4 +1,4 @@
-# 5SD-AUT-004 — Arcadia — Master Auto Detailing & Ceramic
+# 5SD-AUT-004 — Nordic — Master Auto Detailing & Ceramic
 
 - **Mã sản phẩm**: `5SD-AUT-004`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

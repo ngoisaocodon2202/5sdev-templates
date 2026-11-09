@@ -1,4 +1,4 @@
-# 5SD-NON-009 — Aurelia — Community Food Bank & Zero Hunger
+# 5SD-NON-009 — Vanguard — Community Food Bank & Zero Hunger
 
 - **Mã sản phẩm**: `5SD-NON-009`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

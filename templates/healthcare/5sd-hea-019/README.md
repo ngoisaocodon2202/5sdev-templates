@@ -1,4 +1,4 @@
-# 5SD-HEA-019 — Vanguard — Medical Laboratory & DNA Testing
+# 5SD-HEA-019 — Nexora — Medical Laboratory & DNA Testing
 
 - **Mã sản phẩm**: `5SD-HEA-019`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

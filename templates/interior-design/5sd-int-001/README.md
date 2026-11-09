@@ -1,4 +1,4 @@
-# 5SD-INT-001 — Chronos — Luxury Villa Interior Studio
+# 5SD-INT-001 — Vanguard — Luxury Villa Interior Studio
 
 - **Mã sản phẩm**: `5SD-INT-001`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

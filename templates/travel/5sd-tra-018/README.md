@@ -1,4 +1,4 @@
-# 5SD-TRA-018 — Aurelia — Spiritual & Wellness Retreats
+# 5SD-TRA-018 — Prism — Spiritual & Wellness Retreats
 
 - **Mã sản phẩm**: `5SD-TRA-018`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

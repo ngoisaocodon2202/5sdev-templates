@@ -1,4 +1,4 @@
-# 5SD-NON-005 — Velvet — Ocean Plastic Cleanup Initiative
+# 5SD-NON-005 — Equinox — Ocean Plastic Cleanup Initiative
 
 - **Mã sản phẩm**: `5SD-NON-005`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

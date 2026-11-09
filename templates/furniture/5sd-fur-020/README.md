@@ -1,4 +1,4 @@
-# 5SD-FUR-020 — Nexora — Luxury Bathroom Vanity & Brass
+# 5SD-FUR-020 — Celestia — Luxury Bathroom Vanity & Brass
 
 - **Mã sản phẩm**: `5SD-FUR-020`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

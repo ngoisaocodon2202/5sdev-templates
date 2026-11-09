@@ -1,4 +1,4 @@
-# 5SD-AUT-035 — Equinox — Auto Financing & Leasing Portal
+# 5SD-AUT-035 — Lumiere — Auto Financing & Leasing Portal
 
 - **Mã sản phẩm**: `5SD-AUT-035`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

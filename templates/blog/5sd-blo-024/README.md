@@ -1,4 +1,4 @@
-# 5SD-BLO-024 — Equinox — Skincare Science & Ingredient Review
+# 5SD-BLO-024 — Kuroshio — Skincare Science & Ingredient Review
 
 - **Mã sản phẩm**: `5SD-BLO-024`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

@@ -1,4 +1,4 @@
-# 5SD-FUR-017 — Aethel — Commercial Cafe & Hotel Contract
+# 5SD-FUR-017 — Nordic — Commercial Cafe & Hotel Contract
 
 - **Mã sản phẩm**: `5SD-FUR-017`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

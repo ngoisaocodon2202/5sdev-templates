@@ -1,4 +1,4 @@
-# 5SD-RES-031 — Nexora — Ramen & Izakaya Bar
+# 5SD-RES-031 — Nordic — Ramen & Izakaya Bar
 
 - **Mã sản phẩm**: `5SD-RES-031`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

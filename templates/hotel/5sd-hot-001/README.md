@@ -1,4 +1,4 @@
-# 5SD-HOT-001 — Prism — Five-Star City Luxury Hotel
+# 5SD-HOT-001 — Valiant — Five-Star City Luxury Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-001`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

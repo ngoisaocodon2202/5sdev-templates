@@ -1,4 +1,4 @@
-# 5SD-SPA-013 — Velvet — Reflexology & Foot Sanctuary
+# 5SD-SPA-013 — Sovereign — Reflexology & Foot Sanctuary
 
 - **Mã sản phẩm**: `5SD-SPA-013`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

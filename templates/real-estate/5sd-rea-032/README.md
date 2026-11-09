@@ -1,4 +1,4 @@
-# 5SD-REA-032 — Arcadia — Fractional Property Ownership
+# 5SD-REA-032 — Atelier — Fractional Property Ownership
 
 - **Mã sản phẩm**: `5SD-REA-032`
 - **Ngành nghề**: Bất động sản (`real-estate`)

@@ -1,4 +1,4 @@
-# 5SD-EDU-011 — Sylvan — UI/UX & Product Design School
+# 5SD-EDU-011 — Zenith — UI/UX & Product Design School
 
 - **Mã sản phẩm**: `5SD-EDU-011`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

@@ -1,4 +1,4 @@
-# 5SD-EDU-030 — Kuroshio — Green Sustainability Institute
+# 5SD-EDU-030 — Nexora — Green Sustainability Institute
 
 - **Mã sản phẩm**: `5SD-EDU-030`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

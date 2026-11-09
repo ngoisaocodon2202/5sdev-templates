@@ -1,4 +1,4 @@
-# 5SD-REA-028 — Equinox — Real Estate Agent Personal Brand
+# 5SD-REA-028 — Solstice — Real Estate Agent Personal Brand
 
 - **Mã sản phẩm**: `5SD-REA-028`
 - **Ngành nghề**: Bất động sản (`real-estate`)

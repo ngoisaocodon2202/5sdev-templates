@@ -1,4 +1,4 @@
-# 5SD-TEC-010 — Maison — No-Code Workflow Automation
+# 5SD-TEC-010 — Arcadia — No-Code Workflow Automation
 
 - **Mã sản phẩm**: `5SD-TEC-010`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

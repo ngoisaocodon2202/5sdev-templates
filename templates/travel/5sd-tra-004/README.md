@@ -1,4 +1,4 @@
-# 5SD-TRA-004 — Velvet — Bespoke Private Travel Agency
+# 5SD-TRA-004 — Veritas — Bespoke Private Travel Agency
 
 - **Mã sản phẩm**: `5SD-TRA-004`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

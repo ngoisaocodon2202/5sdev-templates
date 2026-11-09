@@ -1,4 +1,4 @@
-# 5SD-FUR-019 — Crescendo — Floating Shelf & Storage System
+# 5SD-FUR-019 — Apex — Floating Shelf & Storage System
 
 - **Mã sản phẩm**: `5SD-FUR-019`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

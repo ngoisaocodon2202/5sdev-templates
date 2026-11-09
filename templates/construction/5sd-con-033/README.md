@@ -1,4 +1,4 @@
-# 5SD-CON-033 — Orchid — Hospital & Lab Turnkey Build
+# 5SD-CON-033 — Onyx — Hospital & Lab Turnkey Build
 
 - **Mã sản phẩm**: `5SD-CON-033`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

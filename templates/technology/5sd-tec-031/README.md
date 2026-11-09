@@ -1,4 +1,4 @@
-# 5SD-TEC-031 — Sovereign — Robotics Operating Platform
+# 5SD-TEC-031 — Onyx — Robotics Operating Platform
 
 - **Mã sản phẩm**: `5SD-TEC-031`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

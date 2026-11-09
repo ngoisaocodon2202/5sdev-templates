@@ -1,4 +1,4 @@
-# 5SD-BLO-026 — Onyx — Wine & Spirits Tasting Notes
+# 5SD-BLO-026 — Velvet — Wine & Spirits Tasting Notes
 
 - **Mã sản phẩm**: `5SD-BLO-026`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

@@ -1,4 +1,4 @@
-# 5SD-BLO-013 — Arcadia — Parenting & Montessori At Home
+# 5SD-BLO-013 — Nova — Parenting & Montessori At Home
 
 - **Mã sản phẩm**: `5SD-BLO-013`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

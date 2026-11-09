@@ -46,7 +46,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               >
                 Rooftop Sky Dining & Cocktail
               </span>{' '}
-              Chuyên Nghiệp Cùng Aethel
+              Chuyên Nghiệp Cùng Sovereign
             </h1>
 
             <p className="text-sm sm:text-base text-zinc-700 leading-relaxed">
@@ -117,8 +117,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             <div className="relative overflow-hidden p-3 sm:p-4 bg-white border-2 border-black shadow-[4px_4px_0px_0px_#000] rounded-xl shadow-xl">
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-900">
                 <img
-                  src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=80"
-                  alt="Aethel — Rooftop Sky Dining & Cocktail"
+                  src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80"
+                  alt="Sovereign — Rooftop Sky Dining & Cocktail"
                   className="h-full w-full object-cover object-center transition-transform duration-700 hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
@@ -126,7 +126,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 {/* Top Floating Badge */}
                 <div className="absolute left-3.5 top-3.5 flex items-center gap-2 rounded-lg bg-slate-950/80 px-3 py-1.5 text-xs font-bold text-white backdrop-blur-md border border-white/15">
                   <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span>Aethel Flagship • 5SD-RES-023</span>
+                  <span>Sovereign Flagship • 5SD-RES-023</span>
                 </div>
 
                 {/* Bottom Overlay Info inside Hero Photo */}
@@ -150,7 +150,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <div className="mt-3 grid grid-cols-2 gap-3">
                 <div className="flex items-center gap-3 rounded-xl border border-current/10 p-2.5">
                   <img
-                    src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80"
+                    src="https://images.unsplash.com/photo-1541518763669-27fef04b14ea?auto=format&fit=crop&w=1200&q=80"
                     alt="Demo 1"
                     loading="lazy"
                     className="h-14 w-20 shrink-0 rounded-lg object-cover"
@@ -162,7 +162,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 </div>
                 <div className="flex items-center gap-3 rounded-xl border border-current/10 p-2.5">
                   <img
-                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80"
+                    src="https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&w=1200&q=80"
                     alt="Demo 2"
                     loading="lazy"
                     className="h-14 w-20 shrink-0 rounded-lg object-cover"

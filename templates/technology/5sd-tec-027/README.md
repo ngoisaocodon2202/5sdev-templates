@@ -1,4 +1,4 @@
-# 5SD-TEC-027 — Kuroshio — Video Streaming SDK Platform
+# 5SD-TEC-027 — Velvet — Video Streaming SDK Platform
 
 - **Mã sản phẩm**: `5SD-TEC-027`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

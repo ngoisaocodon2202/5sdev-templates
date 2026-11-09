@@ -1,4 +1,4 @@
-# 5SD-AUT-019 — Arcadia — Car Audio & Infotainment Custom
+# 5SD-AUT-019 — Orchid — Car Audio & Infotainment Custom
 
 - **Mã sản phẩm**: `5SD-AUT-019`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

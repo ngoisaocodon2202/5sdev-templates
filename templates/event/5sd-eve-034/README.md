@@ -1,4 +1,4 @@
-# 5SD-EVE-034 — Apex — Workshop & Masterclass Pass
+# 5SD-EVE-034 — Equinox — Workshop & Masterclass Pass
 
 - **Mã sản phẩm**: `5SD-EVE-034`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

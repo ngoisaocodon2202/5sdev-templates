@@ -1,4 +1,4 @@
-# 5SD-HOT-034 — Veritas — Cave & Cliffside Suite Hotel
+# 5SD-HOT-034 — Kinetix — Cave & Cliffside Suite Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-034`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

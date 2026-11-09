@@ -1,4 +1,4 @@
-# 5SD-FAS-001 — Celestia — Haute Couture Atelier
+# 5SD-FAS-001 — Sovereign — Haute Couture Atelier
 
 - **Mã sản phẩm**: `5SD-FAS-001`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

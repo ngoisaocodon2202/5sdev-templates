@@ -1,4 +1,4 @@
-# 5SD-PET-013 — Veritas — Aquarium & Koi Pond Specialist
+# 5SD-PET-013 — Celestia — Aquarium & Koi Pond Specialist
 
 - **Mã sản phẩm**: `5SD-PET-013`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

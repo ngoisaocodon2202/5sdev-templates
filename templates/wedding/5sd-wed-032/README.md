@@ -1,4 +1,4 @@
-# 5SD-WED-032 — Maison — Eco-Friendly Sustainable Wedding
+# 5SD-WED-032 — Zenith — Eco-Friendly Sustainable Wedding
 
 - **Mã sản phẩm**: `5SD-WED-032`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

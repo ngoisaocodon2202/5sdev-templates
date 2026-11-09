@@ -1,4 +1,4 @@
-# 5SD-LOG-013 — Kinetix — B2B LTL & FTL Freight Marketplace
+# 5SD-LOG-013 — Crescendo — B2B LTL & FTL Freight Marketplace
 
 - **Mã sản phẩm**: `5SD-LOG-013`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

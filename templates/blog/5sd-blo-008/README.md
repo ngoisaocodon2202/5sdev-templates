@@ -1,4 +1,4 @@
-# 5SD-BLO-008 — Arcadia — Design Systems & UI Craft Blog
+# 5SD-BLO-008 — Prism — Design Systems & UI Craft Blog
 
 - **Mã sản phẩm**: `5SD-BLO-008`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

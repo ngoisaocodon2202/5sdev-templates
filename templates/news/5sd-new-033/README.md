@@ -1,4 +1,4 @@
-# 5SD-NEW-033 — Hyperion — Art Market & Auction News
+# 5SD-NEW-033 — Nexora — Art Market & Auction News
 
 - **Mã sản phẩm**: `5SD-NEW-033`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

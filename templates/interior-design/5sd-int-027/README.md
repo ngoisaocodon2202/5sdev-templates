@@ -1,4 +1,4 @@
-# 5SD-INT-027 — Monolith — Kitchen & Bath Remodeling
+# 5SD-INT-027 — Atelier — Kitchen & Bath Remodeling
 
 - **Mã sản phẩm**: `5SD-INT-027`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

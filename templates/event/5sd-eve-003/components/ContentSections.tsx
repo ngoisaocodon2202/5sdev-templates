@@ -16,37 +16,37 @@ const GALLERY_PROJECTS = [
     title: 'Dự Án Tiêu Điểm #01 — Vanguard Flagship',
     category: 'Tiêu biểu',
     scale: 'Quy mô Chuẩn Quốc Tế • Hoàn thành 2026',
-    image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Giải Pháp Chuyên Sâu #02 — Online Event Ticketing Marketplace',
     category: 'Mới hoàn thành',
     scale: 'Tối ưu 40% Hiệu suất • Đạt chuẩn ISO',
-    image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Không Gian & Trải Nghiệm #03 — Sự kiện & Hội nghị',
     category: 'Tiêu biểu',
     scale: 'Khách hàng Doanh nghiệp VIP • 5 Sao',
-    image: 'https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Tổ Hợp Hiện Đại #04 — Editorial Edition',
     category: 'Mới hoàn thành',
     scale: 'Vật liệu & Công nghệ Thế hệ mới',
-    image: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Hạng Mục Cao Cấp #05 — Vanguard Signature',
     category: 'Tiêu biểu',
     scale: 'Bảo hành dài hạn • Bàn giao vượt tiến độ',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Bộ Sưu Tập Thực Tế #06 — Chuẩn Mực Mới',
     category: 'Mới hoàn thành',
     scale: 'Được bình chọn xuất sắc nhất năm',
-    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=1200&q=80',
   },
 ];
 
@@ -145,7 +145,7 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="left" className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 1"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -172,7 +172,7 @@ export const ContentSections: React.FC = () => {
                   </div>
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1000&q=80"
+                  src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 2"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"

@@ -1,4 +1,4 @@
-# 5SD-PET-002 — Nexora — Boutique Pet Grooming & Spa
+# 5SD-PET-002 — Sovereign — Boutique Pet Grooming & Spa
 
 - **Mã sản phẩm**: `5SD-PET-002`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

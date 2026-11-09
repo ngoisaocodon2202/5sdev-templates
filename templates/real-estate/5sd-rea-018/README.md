@@ -1,4 +1,4 @@
-# 5SD-REA-018 — Equinox — Property Management & Concierge
+# 5SD-REA-018 — Chronos — Property Management & Concierge
 
 - **Mã sản phẩm**: `5SD-REA-018`
 - **Ngành nghề**: Bất động sản (`real-estate`)

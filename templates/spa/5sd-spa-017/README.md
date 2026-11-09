@@ -1,4 +1,4 @@
-# 5SD-SPA-017 — Aurelia — Acupuncture & Moxibustion Wellness
+# 5SD-SPA-017 — Lumiere — Acupuncture & Moxibustion Wellness
 
 - **Mã sản phẩm**: `5SD-SPA-017`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

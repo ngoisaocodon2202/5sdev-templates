@@ -1,4 +1,4 @@
-# 5SD-RES-006 — Nexora — Specialty Third-Wave Coffee
+# 5SD-RES-006 — Kinetix — Specialty Third-Wave Coffee
 
 - **Mã sản phẩm**: `5SD-RES-006`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

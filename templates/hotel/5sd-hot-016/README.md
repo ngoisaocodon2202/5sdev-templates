@@ -1,4 +1,4 @@
-# 5SD-HOT-016 — Prism — Casino & Entertainment Resort
+# 5SD-HOT-016 — Sovereign — Casino & Entertainment Resort
 
 - **Mã sản phẩm**: `5SD-HOT-016`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

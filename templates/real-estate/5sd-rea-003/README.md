@@ -1,4 +1,4 @@
-# 5SD-REA-003 — Equinox — Skyline Penthouse & Apartment
+# 5SD-REA-003 — Sovereign — Skyline Penthouse & Apartment
 
 - **Mã sản phẩm**: `5SD-REA-003`
 - **Ngành nghề**: Bất động sản (`real-estate`)

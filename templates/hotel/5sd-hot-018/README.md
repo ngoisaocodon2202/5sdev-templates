@@ -1,4 +1,4 @@
-# 5SD-HOT-018 — Nexora — wellness Detox Sanctuary
+# 5SD-HOT-018 — Aurelia — wellness Detox Sanctuary
 
 - **Mã sản phẩm**: `5SD-HOT-018`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

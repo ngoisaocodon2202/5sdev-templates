@@ -1,4 +1,4 @@
-# 5SD-BEA-004 — Atelier — High-Tech Beauty Clinic
+# 5SD-BEA-004 — Arcadia — High-Tech Beauty Clinic
 
 - **Mã sản phẩm**: `5SD-BEA-004`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

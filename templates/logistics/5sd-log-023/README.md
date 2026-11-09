@@ -1,4 +1,4 @@
-# 5SD-LOG-023 — Kinetix — Last-Mile EV Green Delivery
+# 5SD-LOG-023 — Nordic — Last-Mile EV Green Delivery
 
 - **Mã sản phẩm**: `5SD-LOG-023`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

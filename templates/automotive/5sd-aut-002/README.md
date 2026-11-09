@@ -1,4 +1,4 @@
-# 5SD-AUT-002 — Onyx — Electric Vehicle EV Flagship
+# 5SD-AUT-002 — Solvex — Electric Vehicle EV Flagship
 
 - **Mã sản phẩm**: `5SD-AUT-002`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

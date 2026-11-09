@@ -1,4 +1,4 @@
-# 5SD-COR-022 — Lumiere — Aviation & Aerospace Group
+# 5SD-COR-022 — Maison — Aviation & Aerospace Group
 
 - **Mã sản phẩm**: `5SD-COR-022`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

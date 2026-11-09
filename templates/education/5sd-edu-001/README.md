@@ -1,4 +1,4 @@
-# 5SD-EDU-001 — Sylvan — Online Learning LMS Platform
+# 5SD-EDU-001 — Celestia — Online Learning LMS Platform
 
 - **Mã sản phẩm**: `5SD-EDU-001`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

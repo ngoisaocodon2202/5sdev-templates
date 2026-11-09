@@ -1,4 +1,4 @@
-# 5SD-BLO-034 — Equinox — Newsletter Paid Community Hub
+# 5SD-BLO-034 — Stratos — Newsletter Paid Community Hub
 
 - **Mã sản phẩm**: `5SD-BLO-034`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

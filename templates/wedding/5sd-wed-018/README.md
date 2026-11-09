@@ -1,4 +1,4 @@
-# 5SD-WED-018 — Sovereign — Wedding Gift Box & Favors
+# 5SD-WED-018 — Kuroshio — Wedding Gift Box & Favors
 
 - **Mã sản phẩm**: `5SD-WED-018`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

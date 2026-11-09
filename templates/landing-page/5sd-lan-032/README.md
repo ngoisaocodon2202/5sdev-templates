@@ -1,4 +1,4 @@
-# 5SD-LAN-032 — Prism — Smart Watch Product Reveal
+# 5SD-LAN-032 — Aurelia — Smart Watch Product Reveal
 
 - **Mã sản phẩm**: `5SD-LAN-032`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

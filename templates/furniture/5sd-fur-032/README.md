@@ -1,4 +1,4 @@
-# 5SD-FUR-032 — Aethel — Sustainable Recycled Furniture
+# 5SD-FUR-032 — Orchid — Sustainable Recycled Furniture
 
 - **Mã sản phẩm**: `5SD-FUR-032`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

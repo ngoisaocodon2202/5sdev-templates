@@ -1,4 +1,4 @@
-# 5SD-COR-004 — Kinetix — Full-Service Digital Marketing
+# 5SD-COR-004 — Apex — Full-Service Digital Marketing
 
 - **Mã sản phẩm**: `5SD-COR-004`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

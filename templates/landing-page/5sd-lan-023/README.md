@@ -1,4 +1,4 @@
-# 5SD-LAN-023 — Crescendo — Recruitment & Career Hiring Campaign
+# 5SD-LAN-023 — Maison — Recruitment & Career Hiring Campaign
 
 - **Mã sản phẩm**: `5SD-LAN-023`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

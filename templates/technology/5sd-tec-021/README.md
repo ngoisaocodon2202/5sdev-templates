@@ -1,4 +1,4 @@
-# 5SD-TEC-021 — Sovereign — Enterprise Search & Knowledge Graph
+# 5SD-TEC-021 — Vanguard — Enterprise Search & Knowledge Graph
 
 - **Mã sản phẩm**: `5SD-TEC-021`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

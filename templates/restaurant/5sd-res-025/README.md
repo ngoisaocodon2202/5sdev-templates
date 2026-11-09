@@ -1,4 +1,4 @@
-# 5SD-RES-025 — Crescendo — Matcha & Japanese Wagashi Cafe
+# 5SD-RES-025 — Aurelia — Matcha & Japanese Wagashi Cafe
 
 - **Mã sản phẩm**: `5SD-RES-025`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

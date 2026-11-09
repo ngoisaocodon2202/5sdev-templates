@@ -1,4 +1,4 @@
-# 5SD-COR-006 — Aether — High-Growth Venture Startup
+# 5SD-COR-006 — Veritas — High-Growth Venture Startup
 
 - **Mã sản phẩm**: `5SD-COR-006`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

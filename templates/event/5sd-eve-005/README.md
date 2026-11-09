@@ -1,4 +1,4 @@
-# 5SD-EVE-005 — Stratos — Corporate Gala Dinner & Awards
+# 5SD-EVE-005 — Nexora — Corporate Gala Dinner & Awards
 
 - **Mã sản phẩm**: `5SD-EVE-005`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

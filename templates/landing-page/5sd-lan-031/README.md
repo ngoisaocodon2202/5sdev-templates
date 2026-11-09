@@ -1,4 +1,4 @@
-# 5SD-LAN-031 — Aethel — Holiday Gift Guide Campaign
+# 5SD-LAN-031 — Forma — Holiday Gift Guide Campaign
 
 - **Mã sản phẩm**: `5SD-LAN-031`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

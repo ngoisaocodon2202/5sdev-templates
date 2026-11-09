@@ -16,37 +16,37 @@ const GALLERY_PROJECTS = [
     title: 'Dự Án Tiêu Điểm #01 — Nexora Flagship',
     category: 'Tiêu biểu',
     scale: 'Quy mô Chuẩn Quốc Tế • Hoàn thành 2026',
-    image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Giải Pháp Chuyên Sâu #02 — Pet Health Insurance Portal',
     category: 'Mới hoàn thành',
     scale: 'Tối ưu 40% Hiệu suất • Đạt chuẩn ISO',
-    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Không Gian & Trải Nghiệm #03 — Thú cưng & Thú y',
     category: 'Tiêu biểu',
     scale: 'Khách hàng Doanh nghiệp VIP • 5 Sao',
-    image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Tổ Hợp Hiện Đại #04 — Minimalist Edition',
     category: 'Mới hoàn thành',
     scale: 'Vật liệu & Công nghệ Thế hệ mới',
-    image: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Hạng Mục Cao Cấp #05 — Nexora Signature',
     category: 'Tiêu biểu',
     scale: 'Bảo hành dài hạn • Bàn giao vượt tiến độ',
-    image: 'https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Bộ Sưu Tập Thực Tế #06 — Chuẩn Mực Mới',
     category: 'Mới hoàn thành',
     scale: 'Được bình chọn xuất sắc nhất năm',
-    image: 'https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1535930891776-0c2dfb7fda1a?auto=format&fit=crop&w=1200&q=80',
   },
 ];
 
@@ -145,7 +145,7 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="left" className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 1"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -172,7 +172,7 @@ export const ContentSections: React.FC = () => {
                   </div>
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1592194996308-7b43878e84a6?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 2"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"

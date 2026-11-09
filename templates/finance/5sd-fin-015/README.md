@@ -1,4 +1,4 @@
-# 5SD-FIN-015 — Nova — Buy Now Pay Later BNPL Platform
+# 5SD-FIN-015 — Nordic — Buy Now Pay Later BNPL Platform
 
 - **Mã sản phẩm**: `5SD-FIN-015`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

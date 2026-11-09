@@ -1,4 +1,4 @@
-# 5SD-EDU-003 — Maison — Bilingual Montessori Kindergarten
+# 5SD-EDU-003 — Onyx — Bilingual Montessori Kindergarten
 
 - **Mã sản phẩm**: `5SD-EDU-003`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

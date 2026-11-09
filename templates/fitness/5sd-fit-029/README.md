@@ -1,4 +1,4 @@
-# 5SD-FIT-029 — Onyx — Powerlifting & Strength Gym
+# 5SD-FIT-029 — Nexora — Powerlifting & Strength Gym
 
 - **Mã sản phẩm**: `5SD-FIT-029`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

@@ -1,4 +1,4 @@
-# 5SD-LAN-004 — Nexora — E-Book & Lead Magnet Funnel
+# 5SD-LAN-004 — Velvet — E-Book & Lead Magnet Funnel
 
 - **Mã sản phẩm**: `5SD-LAN-004`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

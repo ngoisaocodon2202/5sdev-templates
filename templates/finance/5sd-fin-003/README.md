@@ -1,4 +1,4 @@
-# 5SD-FIN-003 — Stratos — Private Wealth Management
+# 5SD-FIN-003 — Nova — Private Wealth Management
 
 - **Mã sản phẩm**: `5SD-FIN-003`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

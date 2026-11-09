@@ -1,4 +1,4 @@
-# 5SD-HOT-010 — Aethel — Golf & Country Club Resort
+# 5SD-HOT-010 — Atelier — Golf & Country Club Resort
 
 - **Mã sản phẩm**: `5SD-HOT-010`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

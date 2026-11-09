@@ -1,4 +1,4 @@
-# 5SD-LOG-018 — Kinetix — Dangerous Goods HAZMAT Transport
+# 5SD-LOG-018 — Vanguard — Dangerous Goods HAZMAT Transport
 
 - **Mã sản phẩm**: `5SD-LOG-018`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

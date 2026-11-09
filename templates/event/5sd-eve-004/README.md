@@ -1,4 +1,4 @@
-# 5SD-EVE-004 — Apex — Trade Show & Expo Pavilion
+# 5SD-EVE-004 — Lumiere — Trade Show & Expo Pavilion
 
 - **Mã sản phẩm**: `5SD-EVE-004`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

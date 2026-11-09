@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 185000,
     "meta": "Đơn giá/kg • Bao thủ tục hải quan hai đầu & Bảo hiểm 100% giá trị",
     "id": "5SD-LOG-006-01",
-    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Giải Pháp Hoàn Tất Đơn Hàng E-Commerce (3PL Fulfillment Pro)",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 12000,
     "meta": "Đơn giá/đơn • Lưu kho mát, Đóng gói chuẩn & Bàn giao vận chuyển trong 2h",
     "id": "5SD-LOG-006-02",
-    "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Vận Tải Đường Biển Nguyên Container (FCL) & Hàng Lẻ (LCL)",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 14500000,
     "meta": "Kết nối trực tiếp các hãng tàu Maersk, MSC, ONE • Theo dõi hải trình",
     "id": "5SD-LOG-006-03",
-    "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Chuỗi Cung Ứng Kho Lạnh Âm Sâu (-25°C) Cho Thực Phẩm & Dược Phẩm",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 450000,
     "meta": "Đơn giá/pallet/tháng • Cảnh báo nhiệt độ tự động thời gian thực",
     "id": "5SD-LOG-006-04",
-    "image": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

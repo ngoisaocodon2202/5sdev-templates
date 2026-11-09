@@ -1,4 +1,4 @@
-# 5SD-POR-016 — Atelier — Data Visualization Specialist
+# 5SD-POR-016 — Celestia — Data Visualization Specialist
 
 - **Mã sản phẩm**: `5SD-POR-016`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

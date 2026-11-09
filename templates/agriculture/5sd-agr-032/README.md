@@ -1,4 +1,4 @@
-# 5SD-AGR-032 — Nordic — Coconut Products Processing
+# 5SD-AGR-032 — Solvex — Coconut Products Processing
 
 - **Mã sản phẩm**: `5SD-AGR-032`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

@@ -1,4 +1,4 @@
-# 5SD-EVE-033 — Vanguard — Drone Light Show Production
+# 5SD-EVE-033 — Crescendo — Drone Light Show Production
 
 - **Mã sản phẩm**: `5SD-EVE-033`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

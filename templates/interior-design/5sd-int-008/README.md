@@ -1,4 +1,4 @@
-# 5SD-INT-008 — Atelier — 3D Architectural Visualization CGI
+# 5SD-INT-008 — Apex — 3D Architectural Visualization CGI
 
 - **Mã sản phẩm**: `5SD-INT-008`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

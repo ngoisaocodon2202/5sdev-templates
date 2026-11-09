@@ -1,4 +1,4 @@
-# 5SD-SPA-002 — Aurelia — Korean Jjimjilbang Sauna World
+# 5SD-SPA-002 — Hyperion — Korean Jjimjilbang Sauna World
 
 - **Mã sản phẩm**: `5SD-SPA-002`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

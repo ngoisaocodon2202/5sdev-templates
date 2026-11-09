@@ -1,4 +1,4 @@
-# 5SD-LOG-027 — Celestia — Automotive Finished Vehicle Logistics
+# 5SD-LOG-027 — Veritas — Automotive Finished Vehicle Logistics
 
 - **Mã sản phẩm**: `5SD-LOG-027`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

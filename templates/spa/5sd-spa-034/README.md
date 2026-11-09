@@ -1,4 +1,4 @@
-# 5SD-SPA-034 — Elysian — Artisanal Incense & Zen Objects
+# 5SD-SPA-034 — Zenith — Artisanal Incense & Zen Objects
 
 - **Mã sản phẩm**: `5SD-SPA-034`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

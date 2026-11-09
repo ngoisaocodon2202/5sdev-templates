@@ -1,4 +1,4 @@
-# 5SD-PHO-013 — Aether — Automotive Rolling Shot Studio
+# 5SD-PHO-013 — Prism — Automotive Rolling Shot Studio
 
 - **Mã sản phẩm**: `5SD-PHO-013`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

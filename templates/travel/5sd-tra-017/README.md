@@ -1,4 +1,4 @@
-# 5SD-TRA-017 — Vertex — Northern Lights Arctic Expedition
+# 5SD-TRA-017 — Solstice — Northern Lights Arctic Expedition
 
 - **Mã sản phẩm**: `5SD-TRA-017`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

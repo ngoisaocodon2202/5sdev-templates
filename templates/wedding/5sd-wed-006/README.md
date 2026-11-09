@@ -1,4 +1,4 @@
-# 5SD-WED-006 — Zenith — Documentary Wedding Journalism
+# 5SD-WED-006 — Vertex — Documentary Wedding Journalism
 
 - **Mã sản phẩm**: `5SD-WED-006`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

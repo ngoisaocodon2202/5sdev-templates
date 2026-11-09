@@ -1,4 +1,4 @@
-# 5SD-LOG-014 — Solstice — Courier Locker & PUDO Network
+# 5SD-LOG-014 — Equinox — Courier Locker & PUDO Network
 
 - **Mã sản phẩm**: `5SD-LOG-014`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

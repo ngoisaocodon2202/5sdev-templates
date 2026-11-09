@@ -1,4 +1,4 @@
-# 5SD-EVE-006 — Hyperion — Startup Pitch & Demo Day
+# 5SD-EVE-006 — Solvex — Startup Pitch & Demo Day
 
 - **Mã sản phẩm**: `5SD-EVE-006`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

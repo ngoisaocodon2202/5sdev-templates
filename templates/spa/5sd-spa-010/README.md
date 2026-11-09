@@ -1,4 +1,4 @@
-# 5SD-SPA-010 — Orchid — Couples Luxury Day Spa
+# 5SD-SPA-010 — Aether — Couples Luxury Day Spa
 
 - **Mã sản phẩm**: `5SD-SPA-010`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

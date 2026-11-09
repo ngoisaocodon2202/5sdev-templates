@@ -1,4 +1,4 @@
-# 5SD-AUT-031 — Solvex — Golf Cart & Resort Utility Vehicles
+# 5SD-AUT-031 — Sovereign — Golf Cart & Resort Utility Vehicles
 
 - **Mã sản phẩm**: `5SD-AUT-031`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

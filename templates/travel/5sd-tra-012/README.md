@@ -1,4 +1,4 @@
-# 5SD-TRA-012 — Vertex — Honeymoon Romantic Getaways
+# 5SD-TRA-012 — Valiant — Honeymoon Romantic Getaways
 
 - **Mã sản phẩm**: `5SD-TRA-012`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

@@ -1,4 +1,4 @@
-# 5SD-HEA-001 — Stratos — International General Hospital
+# 5SD-HEA-001 — Monolith — International General Hospital
 
 - **Mã sản phẩm**: `5SD-HEA-001`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

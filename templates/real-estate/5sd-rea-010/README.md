@@ -1,4 +1,4 @@
-# 5SD-REA-010 — Onyx — Co-Working & Flexible Office
+# 5SD-REA-010 — Kuroshio — Co-Working & Flexible Office
 
 - **Mã sản phẩm**: `5SD-REA-010`
 - **Ngành nghề**: Bất động sản (`real-estate`)

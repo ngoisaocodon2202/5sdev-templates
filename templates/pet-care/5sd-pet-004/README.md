@@ -1,4 +1,4 @@
-# 5SD-PET-004 — Aethel — Organic Pet Food & Raw Diet Shop
+# 5SD-PET-004 — Aurelia — Organic Pet Food & Raw Diet Shop
 
 - **Mã sản phẩm**: `5SD-PET-004`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

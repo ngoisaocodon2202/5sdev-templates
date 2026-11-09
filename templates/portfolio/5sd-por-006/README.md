@@ -1,4 +1,4 @@
-# 5SD-POR-006 — Atelier — Brand Identity & Type Designer
+# 5SD-POR-006 — Forma — Brand Identity & Type Designer
 
 - **Mã sản phẩm**: `5SD-POR-006`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

@@ -1,4 +1,4 @@
-# 5SD-ECO-030 — Vertex — Ceremonial Matcha & Tea Shop
+# 5SD-ECO-030 — Nova — Ceremonial Matcha & Tea Shop
 
 - **Mã sản phẩm**: `5SD-ECO-030`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

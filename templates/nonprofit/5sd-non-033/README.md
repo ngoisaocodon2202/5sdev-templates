@@ -1,4 +1,4 @@
-# 5SD-NON-033 — Vertex — Civic Tech & Open Data Initiative
+# 5SD-NON-033 — Arcadia — Civic Tech & Open Data Initiative
 
 - **Mã sản phẩm**: `5SD-NON-033`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

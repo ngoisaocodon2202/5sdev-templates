@@ -1,4 +1,4 @@
-# 5SD-AGR-022 — Nordic — Solar Agrophotovoltaics Farm
+# 5SD-AGR-022 — Nova — Solar Agrophotovoltaics Farm
 
 - **Mã sản phẩm**: `5SD-AGR-022`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

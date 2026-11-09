@@ -1,4 +1,4 @@
-# 5SD-INT-006 — Chronos — Corporate Office Workspace Design
+# 5SD-INT-006 — Nordic — Corporate Office Workspace Design
 
 - **Mã sản phẩm**: `5SD-INT-006`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

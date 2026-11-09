@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 890000,
     "meta": "Giải tỏa căng cơ cổ vai gáy • Ngâm chân thảo dược vùng cao",
     "id": "5SD-SPA-028-01",
-    "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Trải Nghiệm Tắm Khoáng Nóng Onsen Nhật Bản & Xông Đá Muối",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 650000,
     "meta": "7 bể khoáng giàu vi chất • Thưởng thức trà gạo rang & Trứng trường thọ",
     "id": "5SD-SPA-028-02",
-    "image": "https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Chữa Lành Cặp Đôi (Royal Couple Retreat) Phòng Riêng VIP",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 2150000,
     "meta": "120 phút • Tẩy tế bào chết, Bồn tắm hoa tươi & Trị liệu toàn thân",
     "id": "5SD-SPA-028-03",
-    "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Khóa Thiền Chuông Xoay Himalaya & Phục Hồi Giấc Ngủ Sâu",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 550000,
     "meta": "75 phút • Cân bằng sóng não Alpha/Theta • Giảm căng thẳng tức thì",
     "id": "5SD-SPA-028-04",
-    "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

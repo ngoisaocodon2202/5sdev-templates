@@ -1,4 +1,4 @@
-# 5SD-FIT-005 — Valiant — Boxing & MMA Martial Arts Gym
+# 5SD-FIT-005 — Elysian — Boxing & MMA Martial Arts Gym
 
 - **Mã sản phẩm**: `5SD-FIT-005`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

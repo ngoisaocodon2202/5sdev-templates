@@ -1,4 +1,4 @@
-# 5SD-POR-023 — Nordic — Game Developer & Level Artist
+# 5SD-POR-023 — Kinetix — Game Developer & Level Artist
 
 - **Mã sản phẩm**: `5SD-POR-023`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

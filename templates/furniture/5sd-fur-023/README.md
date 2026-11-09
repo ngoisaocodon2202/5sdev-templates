@@ -1,4 +1,4 @@
-# 5SD-FUR-023 — Prism — Home Bar & Wine Rack Studio
+# 5SD-FUR-023 — Sylvan — Home Bar & Wine Rack Studio
 
 - **Mã sản phẩm**: `5SD-FUR-023`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

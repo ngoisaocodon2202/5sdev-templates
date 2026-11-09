@@ -1,4 +1,4 @@
-# 5SD-HOT-004 — Veritas — Mountain Cloud Retreat Lodge
+# 5SD-HOT-004 — Orchid — Mountain Cloud Retreat Lodge
 
 - **Mã sản phẩm**: `5SD-HOT-004`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

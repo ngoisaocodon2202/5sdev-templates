@@ -1,4 +1,4 @@
-# 5SD-BEA-034 — Atelier — Eco Refillable Beauty Shop
+# 5SD-BEA-034 — Monolith — Eco Refillable Beauty Shop
 
 - **Mã sản phẩm**: `5SD-BEA-034`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

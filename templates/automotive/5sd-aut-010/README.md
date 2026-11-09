@@ -1,4 +1,4 @@
-# 5SD-AUT-010 — Equinox — Commercial Fleet Management
+# 5SD-AUT-010 — Sylvan — Commercial Fleet Management
 
 - **Mã sản phẩm**: `5SD-AUT-010`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

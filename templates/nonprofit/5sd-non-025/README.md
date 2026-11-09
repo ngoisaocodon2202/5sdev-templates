@@ -1,4 +1,4 @@
-# 5SD-NON-025 — Velvet — Volunteer Matching & Impact Hub
+# 5SD-NON-025 — Aethel — Volunteer Matching & Impact Hub
 
 - **Mã sản phẩm**: `5SD-NON-025`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

@@ -1,4 +1,4 @@
-# 5SD-LOG-028 — Kinetix — Wholesale Distribution Network
+# 5SD-LOG-028 — Onyx — Wholesale Distribution Network
 
 - **Mã sản phẩm**: `5SD-LOG-028`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

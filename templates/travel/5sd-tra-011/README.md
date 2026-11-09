@@ -1,4 +1,4 @@
-# 5SD-TRA-011 — Orchid — Corporate MICE & Team Building
+# 5SD-TRA-011 — Aethel — Corporate MICE & Team Building
 
 - **Mã sản phẩm**: `5SD-TRA-011`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

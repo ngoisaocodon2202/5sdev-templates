@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 0,
     "meta": "Phân tích 120 trang từ 40 chuyên gia đầu ngành • Biểu đồ tương tác",
     "id": "5SD-NEW-017-01",
-    "image": "https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Thẻ Độc Giả VIP (Digital All-Access) — Không Quảng Cáo & Dữ Liệu Sâu",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 990000,
     "meta": "Truy cập toàn bộ kho dữ liệu vĩ mô, Bản tin sáng & Hội thảo độc quyền",
     "id": "5SD-NEW-017-02",
-    "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Tạp Chí Ấn Bản Đặc Biệt: Kiến Trúc Bền Vững & Đô Thị Tương Lai",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 250000,
     "meta": "Ấn bản số tương tác kèm Podcast phỏng vấn các kiến trúc sư quốc tế",
     "id": "5SD-NEW-017-03",
-    "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Truyền Thông Bài Viết Chuyên Sâu & Phỏng Vấn Thương Hiệu",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 15000000,
     "meta": "Biên tập bởi nhà báo kỳ cựu • Hiển thị trang nhất 48 giờ",
     "id": "5SD-NEW-017-04",
-    "image": "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

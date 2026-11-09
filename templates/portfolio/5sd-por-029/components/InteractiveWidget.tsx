@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 12000000,
     "meta": "Nghiên cứu UX, Kiến trúc Design Tokens, 180+ Màn hình",
     "id": "5SD-POR-029-01",
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Next-Gen AI Cloud Platform Frontend Architecture",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 18500000,
     "meta": "Tối ưu tốc độ tải 0.4s • Đạt 100 điểm Lighthouse",
     "id": "5SD-POR-029-02",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Luxury Hospitality Brand Identity & Digital Flagship",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 15000000,
     "meta": "Định vị thương hiệu, Art Direction & Website tương tác",
     "id": "5SD-POR-029-03",
-    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Tư vấn Chiến lược Sản phẩm & Audit UI/UX Chuyên sâu",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 6500000,
     "meta": "Đánh giá toàn diện luồng người dùng & Lộ trình nâng cấp",
     "id": "5SD-POR-029-04",
-    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

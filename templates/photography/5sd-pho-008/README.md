@@ -1,4 +1,4 @@
-# 5SD-PHO-008 — Aether — Jewelry & Macro Watch Photography
+# 5SD-PHO-008 — Zenith — Jewelry & Macro Watch Photography
 
 - **Mã sản phẩm**: `5SD-PHO-008`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

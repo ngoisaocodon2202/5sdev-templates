@@ -1,4 +1,4 @@
-# 5SD-HEA-008 — Nova — MRI & Diagnostic Imaging Center
+# 5SD-HEA-008 — Atelier — MRI & Diagnostic Imaging Center
 
 - **Mã sản phẩm**: `5SD-HEA-008`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

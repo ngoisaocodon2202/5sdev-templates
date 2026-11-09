@@ -1,4 +1,4 @@
-# 5SD-PET-017 — Nexora — Animal Shelter & Rescue Foundation
+# 5SD-PET-017 — Chronos — Animal Shelter & Rescue Foundation
 
 - **Mã sản phẩm**: `5SD-PET-017`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

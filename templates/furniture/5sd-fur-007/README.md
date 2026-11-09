@@ -1,4 +1,4 @@
-# 5SD-FUR-007 — Aethel — Luxury Bedroom & Mattress Studio
+# 5SD-FUR-007 — Crescendo — Luxury Bedroom & Mattress Studio
 
 - **Mã sản phẩm**: `5SD-FUR-007`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

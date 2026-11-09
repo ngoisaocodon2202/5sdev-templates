@@ -1,4 +1,4 @@
-# 5SD-PHO-001 — Kinetix — Commercial Product Photography
+# 5SD-PHO-001 — Sylvan — Commercial Product Photography
 
 - **Mã sản phẩm**: `5SD-PHO-001`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

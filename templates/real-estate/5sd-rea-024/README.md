@@ -1,4 +1,4 @@
-# 5SD-REA-024 — Solvex — Auction & Distressed Property
+# 5SD-REA-024 — Zenith — Auction & Distressed Property
 
 - **Mã sản phẩm**: `5SD-REA-024`
 - **Ngành nghề**: Bất động sản (`real-estate`)

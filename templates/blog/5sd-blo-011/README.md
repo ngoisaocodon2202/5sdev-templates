@@ -1,4 +1,4 @@
-# 5SD-BLO-011 — Onyx — Specialty Coffee Brewing Guide
+# 5SD-BLO-011 — Atelier — Specialty Coffee Brewing Guide
 
 - **Mã sản phẩm**: `5SD-BLO-011`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

@@ -1,4 +1,4 @@
-# 5SD-REA-001 — Valiant — Property Listing Marketplace
+# 5SD-REA-001 — Crescendo — Property Listing Marketplace
 
 - **Mã sản phẩm**: `5SD-REA-001`
 - **Ngành nghề**: Bất động sản (`real-estate`)

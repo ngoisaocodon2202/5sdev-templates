@@ -1,4 +1,4 @@
-# 5SD-TEC-008 — Sylvan — Real-Time Big Data Analytics
+# 5SD-TEC-008 — Solstice — Real-Time Big Data Analytics
 
 - **Mã sản phẩm**: `5SD-TEC-008`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

@@ -1,4 +1,4 @@
-# 5SD-LAN-011 — Aethel — Real Estate Project Launch Page
+# 5SD-LAN-011 — Elysian — Real Estate Project Launch Page
 
 - **Mã sản phẩm**: `5SD-LAN-011`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

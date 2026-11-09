@@ -1,4 +1,4 @@
-# 5SD-NEW-006 — Apex — Sports Live Score & Journalism
+# 5SD-NEW-006 — Onyx — Sports Live Score & Journalism
 
 - **Mã sản phẩm**: `5SD-NEW-006`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

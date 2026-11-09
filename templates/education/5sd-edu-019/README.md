@@ -1,4 +1,4 @@
-# 5SD-EDU-019 — Sovereign — CFA & Financial Modeling Prep
+# 5SD-EDU-019 — Atelier — CFA & Financial Modeling Prep
 
 - **Mã sản phẩm**: `5SD-EDU-019`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

@@ -1,4 +1,4 @@
-# 5SD-TEC-030 — Maison — Open Source Project Hub
+# 5SD-TEC-030 — Veritas — Open Source Project Hub
 
 - **Mã sản phẩm**: `5SD-TEC-030`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

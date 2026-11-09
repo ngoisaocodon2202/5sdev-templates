@@ -1,4 +1,4 @@
-# 5SD-EDU-034 — Sovereign — Student Dorm & Campus Life
+# 5SD-EDU-034 — Velvet — Student Dorm & Campus Life
 
 - **Mã sản phẩm**: `5SD-EDU-034`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

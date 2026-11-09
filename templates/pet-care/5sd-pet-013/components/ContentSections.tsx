@@ -13,40 +13,40 @@ import { AnimatedCounter, ScrollReveal } from '@shared/components';
 
 const GALLERY_PROJECTS = [
   {
-    title: 'Dự Án Tiêu Điểm #01 — Veritas Flagship',
+    title: 'Dự Án Tiêu Điểm #01 — Celestia Flagship',
     category: 'Tiêu biểu',
     scale: 'Quy mô Chuẩn Quốc Tế • Hoàn thành 2026',
-    image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Giải Pháp Chuyên Sâu #02 — Aquarium & Koi Pond Specialist',
     category: 'Mới hoàn thành',
     scale: 'Tối ưu 40% Hiệu suất • Đạt chuẩn ISO',
-    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Không Gian & Trải Nghiệm #03 — Thú cưng & Thú y',
     category: 'Tiêu biểu',
     scale: 'Khách hàng Doanh nghiệp VIP • 5 Sao',
-    image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1555529771-835f59fc5efe?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Tổ Hợp Hiện Đại #04 — Bold Typography Edition',
     category: 'Mới hoàn thành',
     scale: 'Vật liệu & Công nghệ Thế hệ mới',
-    image: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80',
   },
   {
-    title: 'Hạng Mục Cao Cấp #05 — Veritas Signature',
+    title: 'Hạng Mục Cao Cấp #05 — Celestia Signature',
     category: 'Tiêu biểu',
     scale: 'Bảo hành dài hạn • Bàn giao vượt tiến độ',
-    image: 'https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Bộ Sưu Tập Thực Tế #06 — Chuẩn Mực Mới',
     category: 'Mới hoàn thành',
     scale: 'Được bình chọn xuất sắc nhất năm',
-    image: 'https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80',
   },
 ];
 
@@ -94,19 +94,19 @@ const TESTIMONIALS = [
     name: 'Nguyễn Minh Quân',
     role: 'Tổng Giám Đốc — Tập đoàn Đầu tư Á Châu',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&q=80',
-    quote: 'Trải nghiệm hợp tác cùng Veritas thực sự vượt mong đợi. Hình ảnh thực tế sắc nét, quy trình làm việc rõ ràng và bàn giao đúng từng cam kết trong hợp đồng.',
+    quote: 'Trải nghiệm hợp tác cùng Celestia thực sự vượt mong đợi. Hình ảnh thực tế sắc nét, quy trình làm việc rõ ràng và bàn giao đúng từng cam kết trong hợp đồng.',
   },
   {
     name: 'Trần Thanh Hà',
     role: 'Giám Đốc Vận Hành — Emerald Group',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=240&q=80',
-    quote: 'Đội ngũ chuyên gia của Veritas tư vấn rất tận tâm. Chất lượng hoàn thiện trong lĩnh vực Thú cưng & Thú y đạt chuẩn quốc tế khiến chúng tôi hoàn toàn yên tâm.',
+    quote: 'Đội ngũ chuyên gia của Celestia tư vấn rất tận tâm. Chất lượng hoàn thiện trong lĩnh vực Thú cưng & Thú y đạt chuẩn quốc tế khiến chúng tôi hoàn toàn yên tâm.',
   },
   {
     name: 'Lê Hoàng Nam',
     role: 'Kiến Trúc Sư & Nhà Sáng Lập',
     avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&q=80',
-    quote: 'Chi phí minh bạch, tiến độ chuẩn xác và dịch vụ hậu mãi chu đáo. Chắc chắn chúng tôi sẽ tiếp tục đồng hành cùng Veritas trong các dự án lớn sắp tới.',
+    quote: 'Chi phí minh bạch, tiến độ chuẩn xác và dịch vụ hậu mãi chu đáo. Chắc chắn chúng tôi sẽ tiếp tục đồng hành cùng Celestia trong các dự án lớn sắp tới.',
   },
 ];
 
@@ -122,7 +122,7 @@ export const ContentSections: React.FC = () => {
 
   const faqs = [
     {
-      q: 'Quy trình triển khai dịch vụ tại Veritas diễn ra như thế nào?',
+      q: 'Quy trình triển khai dịch vụ tại Celestia diễn ra như thế nào?',
       a: 'Quy trình chuẩn hóa gồm 4 bước: (1) Tiếp nhận thông tin & Khảo sát thực tế, (2) Lên phương án demo & Báo giá chi tiết, (3) Ký hợp đồng & Triển khai chuẩn chất lượng, (4) Nghiệm thu bàn giao & Bảo hành định kỳ.',
     },
     {
@@ -130,7 +130,7 @@ export const ContentSections: React.FC = () => {
       a: 'Mức giá hiển thị trên bảng tính tương tác và bảng giá là mức giá minh bạch. Chúng tôi cam kết không phát sinh chi phí ẩn ngoài hợp đồng.',
     },
     {
-      q: 'Chính sách bảo hành và hỗ trợ sau bàn giao tại Veritas ra sao?',
+      q: 'Chính sách bảo hành và hỗ trợ sau bàn giao tại Celestia ra sao?',
       a: 'Tất cả khách hàng đều nhận được chứng nhận bảo hành điện tử chính hãng cùng đội ngũ kỹ thuật trực hỗ trợ 24/7 trên toàn quốc.',
     },
   ];
@@ -145,7 +145,7 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="left" className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 1"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -172,7 +172,7 @@ export const ContentSections: React.FC = () => {
                   </div>
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 2"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -184,15 +184,15 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="right" className="lg:col-span-6 space-y-5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs bg-indigo-500/15 text-cyan-300 border border-indigo-500/30 font-mono rounded-2xl">
                 <Award className="h-3.5 w-3.5 shrink-0" />
-                <span>HỒ SƠ NĂNG LỰC • VERITAS</span>
+                <span>HỒ SƠ NĂNG LỰC • CELESTIA</span>
               </span>
 
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-extrabold tracking-tight leading-tight">
-                Vì Sao Hàng Nghìn Khách Hàng Tin Tưởng Veritas?
+                Vì Sao Hàng Nghìn Khách Hàng Tin Tưởng Celestia?
               </h2>
 
               <p className="text-sm sm:text-base text-slate-400 leading-relaxed">
-                Với định hướng lấy chất lượng và sự minh bạch làm trọng tâm, Veritas không ngừng đầu tư vào công nghệ, con người và quy trình chuẩn quốc tế nhằm mang lại giá trị bền vững nhất cho khách hàng trong mảng Aquarium & Koi Pond Specialist.
+                Với định hướng lấy chất lượng và sự minh bạch làm trọng tâm, Celestia không ngừng đầu tư vào công nghệ, con người và quy trình chuẩn quốc tế nhằm mang lại giá trị bền vững nhất cho khách hàng trong mảng Aquarium & Koi Pond Specialist.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
@@ -379,7 +379,7 @@ export const ContentSections: React.FC = () => {
                 ĐÁNH GIÁ TỪ KHÁCH HÀNG THỰC TẾ
               </span>
               <h2 className="mt-1 text-2xl sm:text-3xl lg:text-4xl font-display font-extrabold tracking-tight">
-                Khách Hàng Nói Gì Về Veritas
+                Khách Hàng Nói Gì Về Celestia
               </h2>
             </div>
             <div className="flex items-center gap-1.5 text-amber-500 font-bold text-sm whitespace-nowrap">
@@ -467,7 +467,7 @@ export const ContentSections: React.FC = () => {
                   Đăng Ký Nhận Tư Vấn & Báo Giá
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-400 mb-6">
-                  Chuyên viên của Veritas sẽ liên hệ lại trong vòng 15 phút làm việc.
+                  Chuyên viên của Celestia sẽ liên hệ lại trong vòng 15 phút làm việc.
                 </p>
 
                 {leadSubmitted ? (
@@ -475,7 +475,7 @@ export const ContentSections: React.FC = () => {
                     <CheckCircle2 className="mx-auto h-10 w-10 text-emerald-500" />
                     <h4 className="text-base font-bold">Đã gửi yêu cầu tư vấn thành công!</h4>
                     <p className="text-xs text-slate-400">
-                      Cảm ơn bạn đã tin chọn Veritas. Chúng tôi sẽ liên hệ ngay.
+                      Cảm ơn bạn đã tin chọn Celestia. Chúng tôi sẽ liên hệ ngay.
                     </p>
                   </div>
                 ) : (

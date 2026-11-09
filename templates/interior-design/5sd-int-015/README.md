@@ -1,4 +1,4 @@
-# 5SD-INT-015 — Nordic — Exhibition Booth & Pavilion
+# 5SD-INT-015 — Stratos — Exhibition Booth & Pavilion
 
 - **Mã sản phẩm**: `5SD-INT-015`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

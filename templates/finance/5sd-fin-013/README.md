@@ -1,4 +1,4 @@
-# 5SD-FIN-013 — Stratos — Private Equity Investment Group
+# 5SD-FIN-013 — Solvex — Private Equity Investment Group
 
 - **Mã sản phẩm**: `5SD-FIN-013`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

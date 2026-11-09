@@ -1,4 +1,4 @@
-# 5SD-TEC-029 — Zenith — Green Cloud Carbon Tracker
+# 5SD-TEC-029 — Celestia — Green Cloud Carbon Tracker
 
 - **Mã sản phẩm**: `5SD-TEC-029`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

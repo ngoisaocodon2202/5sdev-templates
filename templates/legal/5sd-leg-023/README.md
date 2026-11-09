@@ -1,4 +1,4 @@
-# 5SD-LEG-023 — Zenith — In-House Retainer Legal Department
+# 5SD-LEG-023 — Aethel — In-House Retainer Legal Department
 
 - **Mã sản phẩm**: `5SD-LEG-023`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

@@ -1,4 +1,4 @@
-# 5SD-FUR-033 — Prism — Crystal Chandelier Showroom
+# 5SD-FUR-033 — Hyperion — Crystal Chandelier Showroom
 
 - **Mã sản phẩm**: `5SD-FUR-033`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

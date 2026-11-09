@@ -1,4 +1,4 @@
-# 5SD-COR-025 — Solstice — Corporate Innovation Lab
+# 5SD-COR-025 — Nova — Corporate Innovation Lab
 
 - **Mã sản phẩm**: `5SD-COR-025`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

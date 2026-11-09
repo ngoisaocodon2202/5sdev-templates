@@ -1,4 +1,4 @@
-# 5SD-NON-011 — Elysian — Disability Inclusion & Social Enterprise
+# 5SD-NON-011 — Nexora — Disability Inclusion & Social Enterprise
 
 - **Mã sản phẩm**: `5SD-NON-011`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

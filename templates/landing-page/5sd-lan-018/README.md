@@ -1,4 +1,4 @@
-# 5SD-LAN-018 — Crescendo — Health Supplement Direct-to-Consumer
+# 5SD-LAN-018 — Orchid — Health Supplement Direct-to-Consumer
 
 - **Mã sản phẩm**: `5SD-LAN-018`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

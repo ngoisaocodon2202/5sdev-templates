@@ -1,4 +1,4 @@
-# 5SD-EDU-032 — Zenith — Vocational Trade College
+# 5SD-EDU-032 — Kuroshio — Vocational Trade College
 
 - **Mã sản phẩm**: `5SD-EDU-032`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

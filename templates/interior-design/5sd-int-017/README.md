@@ -1,4 +1,4 @@
-# 5SD-INT-017 — Monolith — Yacht & Private Jet Cabin Interior
+# 5SD-INT-017 — Aethel — Yacht & Private Jet Cabin Interior
 
 - **Mã sản phẩm**: `5SD-INT-017`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

@@ -1,4 +1,4 @@
-# 5SD-BEA-032 — Chronos — Hair Restoration Clinic
+# 5SD-BEA-032 — Valiant — Hair Restoration Clinic
 
 - **Mã sản phẩm**: `5SD-BEA-032`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

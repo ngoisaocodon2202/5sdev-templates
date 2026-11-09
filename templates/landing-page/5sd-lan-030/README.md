@@ -1,4 +1,4 @@
-# 5SD-LAN-030 — Veritas — Franchise Partner Recruitment
+# 5SD-LAN-030 — Sovereign — Franchise Partner Recruitment
 
 - **Mã sản phẩm**: `5SD-LAN-030`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

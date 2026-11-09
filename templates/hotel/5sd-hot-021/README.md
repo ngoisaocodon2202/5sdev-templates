@@ -1,4 +1,4 @@
-# 5SD-HOT-021 — Prism — Convention & Grand Ballroom Hotel
+# 5SD-HOT-021 — Nexora — Convention & Grand Ballroom Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-021`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

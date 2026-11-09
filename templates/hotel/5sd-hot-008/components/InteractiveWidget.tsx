@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 5400000,
     "meta": "85m² • Bao gồm bữa sáng Buffet & Trà chiều",
     "id": "5SD-HOT-008-01",
-    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Executive Club Suite Tầm Nhìn Toàn Cảnh Thành Phố",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 3200000,
     "meta": "62m² • Đưa đón sân bay miễn phí • Check-out muộn",
     "id": "5SD-HOT-008-02",
-    "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1563911302283-d2bc129e7570?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Presidential Penthouse 3 Phòng Ngủ & Quản Gia 24/7",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 14800000,
     "meta": "240m² • Đầu bếp phục vụ riêng tại biệt thự",
     "id": "5SD-HOT-008-03",
-    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Nghỉ Dưỡng Honeymoon Lãng Mạn 3 Ngày 2 Đêm",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 7900000,
     "meta": "Tặng liệu trình Spa đôi 90 phút & Tiệc tối trên biển",
     "id": "5SD-HOT-008-04",
-    "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

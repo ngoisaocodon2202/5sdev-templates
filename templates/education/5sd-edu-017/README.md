@@ -1,4 +1,4 @@
-# 5SD-EDU-017 — Zenith — Kids Coding & Scratch Camp
+# 5SD-EDU-017 — Arcadia — Kids Coding & Scratch Camp
 
 - **Mã sản phẩm**: `5SD-EDU-017`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

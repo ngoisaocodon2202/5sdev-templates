@@ -1,4 +1,4 @@
-# 5SD-HOT-031 — Prism — Hospitality Management Group
+# 5SD-HOT-031 — Chronos — Hospitality Management Group
 
 - **Mã sản phẩm**: `5SD-HOT-031`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

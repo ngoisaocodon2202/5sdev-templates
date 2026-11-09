@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 14500000,
     "meta": "Bao gồm Studio vô cực, Stylist, Makeup, Ánh sáng Profoto",
     "id": "5SD-PHO-013-01",
-    "image": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Chụp Ảnh Sản Phẩm Quảng Cáo & Ẩm Thực Độ Phân Giải 100MP",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 6800000,
     "meta": "Food Stylist chuyên nghiệp • Hậu kỳ tách nền & Phối cảnh",
     "id": "5SD-PHO-013-02",
-    "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1534972195531-a756b1126f25?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Sản Xuất Phim Doanh Nghiệp & TVC Quảng Cáo Chuẩn 4K/8K",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 35000000,
     "meta": "Kịch bản sáng tạo, Đạo diễn, Quay dựng & Chỉnh màu DaVinci",
     "id": "5SD-PHO-013-03",
-    "image": "https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Chụp Chân Dung Doanh Nhân & Lãnh Đạo Tập Đoàn",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 3900000,
     "meta": "Chụp tại văn phòng hoặc Studio • Chỉnh sửa tinh tế tự nhiên",
     "id": "5SD-PHO-013-04",
-    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

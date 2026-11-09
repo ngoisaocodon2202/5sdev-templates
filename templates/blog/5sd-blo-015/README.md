@@ -1,4 +1,4 @@
-# 5SD-BLO-015 — Solvex — AI Prompting & Workflow Experiments
+# 5SD-BLO-015 — Crescendo — AI Prompting & Workflow Experiments
 
 - **Mã sản phẩm**: `5SD-BLO-015`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

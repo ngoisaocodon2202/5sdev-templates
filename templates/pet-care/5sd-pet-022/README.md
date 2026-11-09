@@ -1,4 +1,4 @@
-# 5SD-PET-022 — Nexora — Breeder Pedigree Registry Hub
+# 5SD-PET-022 — Valiant — Breeder Pedigree Registry Hub
 
 - **Mã sản phẩm**: `5SD-PET-022`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

@@ -1,4 +1,4 @@
-# 5SD-INT-028 — Atelier — Home Cinema & Acoustic Room
+# 5SD-INT-028 — Vertex — Home Cinema & Acoustic Room
 
 - **Mã sản phẩm**: `5SD-INT-028`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

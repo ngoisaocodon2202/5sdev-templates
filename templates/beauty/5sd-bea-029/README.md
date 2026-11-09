@@ -1,4 +1,4 @@
-# 5SD-BEA-029 — Atelier — Tattoo & Piercing Art Studio
+# 5SD-BEA-029 — Stratos — Tattoo & Piercing Art Studio
 
 - **Mã sản phẩm**: `5SD-BEA-029`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

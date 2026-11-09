@@ -1,4 +1,4 @@
-# 5SD-RES-021 — Nexora — Healthy Salad & Poke Bowl
+# 5SD-RES-021 — Crescendo — Healthy Salad & Poke Bowl
 
 - **Mã sản phẩm**: `5SD-RES-021`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

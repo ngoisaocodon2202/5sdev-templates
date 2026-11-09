@@ -1,4 +1,4 @@
-# 5SD-REA-008 — Equinox — Smart Eco Township Masterplan
+# 5SD-REA-008 — Nexora — Smart Eco Township Masterplan
 
 - **Mã sản phẩm**: `5SD-REA-008`
 - **Ngành nghề**: Bất động sản (`real-estate`)

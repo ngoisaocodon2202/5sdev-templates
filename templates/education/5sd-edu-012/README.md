@@ -1,4 +1,4 @@
-# 5SD-EDU-012 — Zenith — Data Science & AI Institute
+# 5SD-EDU-012 — Monolith — Data Science & AI Institute
 
 - **Mã sản phẩm**: `5SD-EDU-012`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

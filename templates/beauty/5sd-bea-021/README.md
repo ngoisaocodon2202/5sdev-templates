@@ -1,4 +1,4 @@
-# 5SD-BEA-021 — Nordic — Aromatherapy Essential Oils
+# 5SD-BEA-021 — Velvet — Aromatherapy Essential Oils
 
 - **Mã sản phẩm**: `5SD-BEA-021`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

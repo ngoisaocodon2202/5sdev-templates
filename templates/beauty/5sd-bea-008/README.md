@@ -1,4 +1,4 @@
-# 5SD-BEA-008 — Monolith — Haute Luxury Perfumery
+# 5SD-BEA-008 — Nova — Haute Luxury Perfumery
 
 - **Mã sản phẩm**: `5SD-BEA-008`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

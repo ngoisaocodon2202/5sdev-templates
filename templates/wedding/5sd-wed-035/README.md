@@ -1,4 +1,4 @@
-# 5SD-WED-035 — Sylvan — Post-Wedding Album Print Atelier
+# 5SD-WED-035 — Hyperion — Post-Wedding Album Print Atelier
 
 - **Mã sản phẩm**: `5SD-WED-035`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

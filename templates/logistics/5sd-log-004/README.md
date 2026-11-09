@@ -1,4 +1,4 @@
-# 5SD-LOG-004 — Solstice — Cold Chain Pharmaceutical Logistics
+# 5SD-LOG-004 — Hyperion — Cold Chain Pharmaceutical Logistics
 
 - **Mã sản phẩm**: `5SD-LOG-004`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

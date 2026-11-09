@@ -1,4 +1,4 @@
-# 5SD-NEW-019 — Nova — Legal & Policy Watchdog
+# 5SD-NEW-019 — Prism — Legal & Policy Watchdog
 
 - **Mã sản phẩm**: `5SD-NEW-019`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

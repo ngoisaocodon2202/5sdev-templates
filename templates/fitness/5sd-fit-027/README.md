@@ -1,4 +1,4 @@
-# 5SD-FIT-027 — Equinox — Cold Plunge & Infrared Recovery
+# 5SD-FIT-027 — Vanguard — Cold Plunge & Infrared Recovery
 
 - **Mã sản phẩm**: `5SD-FIT-027`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

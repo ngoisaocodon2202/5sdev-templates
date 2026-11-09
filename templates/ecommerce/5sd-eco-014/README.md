@@ -1,4 +1,4 @@
-# 5SD-ECO-014 — Orchid — Multi-Vendor Mega Mall
+# 5SD-ECO-014 — Chronos — Multi-Vendor Mega Mall
 
 - **Mã sản phẩm**: `5SD-ECO-014`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

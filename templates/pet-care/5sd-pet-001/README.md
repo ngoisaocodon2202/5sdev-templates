@@ -1,4 +1,4 @@
-# 5SD-PET-001 — Crescendo — 24/7 Veterinary Hospital
+# 5SD-PET-001 — Equinox — 24/7 Veterinary Hospital
 
 - **Mã sản phẩm**: `5SD-PET-001`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

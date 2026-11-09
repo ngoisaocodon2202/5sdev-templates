@@ -1,4 +1,4 @@
-# 5SD-LAN-002 — Prism — Mobile App Store Download Hub
+# 5SD-LAN-002 — Kuroshio — Mobile App Store Download Hub
 
 - **Mã sản phẩm**: `5SD-LAN-002`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

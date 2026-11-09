@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 450000,
     "meta": "Đơn giá/m² • Hồ sơ 3D CGI, Bản vẽ kỹ thuật MEP & Dự toán",
     "id": "5SD-INT-019-01",
-    "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Thi Công Hoàn Thiện Nội Thất Căn Hộ Cao Cấp Trọn Gói",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 185000000,
     "meta": "Gỗ An Cường/Óc chó tự nhiên • Phụ kiện Hafele/Blum chính hãng",
     "id": "5SD-INT-019-02",
-    "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1567016432779-094069958ea5?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Thiết Kế Không Gian Nhà Hàng, Lounge & Flagship Store",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 380000,
     "meta": "Tối ưu luồng di chuyển khách hàng & Điểm chạm nhận diện",
     "id": "5SD-INT-019-03",
-    "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Cải Tạo & Nâng Cấp Không Gian Sống Phong Cách Japandi",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 95000000,
     "meta": "Tối ưu ánh sáng tự nhiên, vật liệu mộc & Công năng thông minh",
     "id": "5SD-INT-019-04",
-    "image": "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1540518614846-7ede433c4b49?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

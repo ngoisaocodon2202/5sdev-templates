@@ -1,4 +1,4 @@
-# 5SD-FIT-033 — Solvex — Fitness Competition & Hyrox Hub
+# 5SD-FIT-033 — Velvet — Fitness Competition & Hyrox Hub
 
 - **Mã sản phẩm**: `5SD-FIT-033`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

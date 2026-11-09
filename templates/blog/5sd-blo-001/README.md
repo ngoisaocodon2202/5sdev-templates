@@ -1,4 +1,4 @@
-# 5SD-BLO-001 — Onyx — Software Engineering & Architecture Blog
+# 5SD-BLO-001 — Aethel — Software Engineering & Architecture Blog
 
 - **Mã sản phẩm**: `5SD-BLO-001`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

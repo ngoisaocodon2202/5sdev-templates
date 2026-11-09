@@ -1,4 +1,4 @@
-# 5SD-COR-001 — Aether — Multinational Holding Group
+# 5SD-COR-001 — Kuroshio — Multinational Holding Group
 
 - **Mã sản phẩm**: `5SD-COR-001`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

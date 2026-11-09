@@ -1,4 +1,4 @@
-# 5SD-COR-009 — Kinetix — Human Resources & Headhunting
+# 5SD-COR-009 — Chronos — Human Resources & Headhunting
 
 - **Mã sản phẩm**: `5SD-COR-009`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

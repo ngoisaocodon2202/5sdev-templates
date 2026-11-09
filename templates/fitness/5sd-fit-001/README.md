@@ -1,4 +1,4 @@
-# 5SD-FIT-001 — Arcadia — Luxury Health & Fitness Club
+# 5SD-FIT-001 — Veritas — Luxury Health & Fitness Club
 
 - **Mã sản phẩm**: `5SD-FIT-001`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

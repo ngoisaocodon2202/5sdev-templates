@@ -1,4 +1,4 @@
-# 5SD-AUT-011 — Solvex — Classic & Vintage Car Restoration
+# 5SD-AUT-011 — Chronos — Classic & Vintage Car Restoration
 
 - **Mã sản phẩm**: `5SD-AUT-011`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

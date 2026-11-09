@@ -1,4 +1,4 @@
-# 5SD-COR-014 — Kinetix — Market Research & Intelligence
+# 5SD-COR-014 — Valiant — Market Research & Intelligence
 
 - **Mã sản phẩm**: `5SD-COR-014`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

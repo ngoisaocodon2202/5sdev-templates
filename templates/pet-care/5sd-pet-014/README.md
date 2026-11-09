@@ -1,4 +1,4 @@
-# 5SD-PET-014 — Aethel — Pet Travel & Relocation Concierge
+# 5SD-PET-014 — Veritas — Pet Travel & Relocation Concierge
 
 - **Mã sản phẩm**: `5SD-PET-014`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

@@ -1,4 +1,4 @@
-# 5SD-POR-010 — Monolith — Mobile iOS/Android Craftsman
+# 5SD-POR-010 — Nexora — Mobile iOS/Android Craftsman
 
 - **Mã sản phẩm**: `5SD-POR-010`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

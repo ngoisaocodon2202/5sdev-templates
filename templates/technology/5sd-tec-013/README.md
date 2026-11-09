@@ -1,4 +1,4 @@
-# 5SD-TEC-013 — Sylvan — Kubernetes Container Platform
+# 5SD-TEC-013 — Vertex — Kubernetes Container Platform
 
 - **Mã sản phẩm**: `5SD-TEC-013`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

@@ -1,4 +1,4 @@
-# 5SD-FAS-016 — Celestia — Denim & Workwear Heritage
+# 5SD-FAS-016 — Chronos — Denim & Workwear Heritage
 
 - **Mã sản phẩm**: `5SD-FAS-016`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

@@ -1,4 +1,4 @@
-# 5SD-WED-026 — Zenith — Traditional Ao Dai Cuoi Couture
+# 5SD-WED-026 — Chronos — Traditional Ao Dai Cuoi Couture
 
 - **Mã sản phẩm**: `5SD-WED-026`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

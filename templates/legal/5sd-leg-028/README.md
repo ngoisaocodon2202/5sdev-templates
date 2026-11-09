@@ -1,4 +1,4 @@
-# 5SD-LEG-028 — Zenith — Aviation & Infrastructure Law
+# 5SD-LEG-028 — Hyperion — Aviation & Infrastructure Law
 
 - **Mã sản phẩm**: `5SD-LEG-028`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

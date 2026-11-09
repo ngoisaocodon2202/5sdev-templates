@@ -1,4 +1,4 @@
-# 5SD-WED-021 — Zenith — Bachelorette Party & Bridal Shower
+# 5SD-WED-021 — Apex — Bachelorette Party & Bridal Shower
 
 - **Mã sản phẩm**: `5SD-WED-021`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

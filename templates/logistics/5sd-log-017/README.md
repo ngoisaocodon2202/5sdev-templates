@@ -1,4 +1,4 @@
-# 5SD-LOG-017 — Celestia — Reverse Logistics & Returns Hub
+# 5SD-LOG-017 — Aurelia — Reverse Logistics & Returns Hub
 
 - **Mã sản phẩm**: `5SD-LOG-017`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

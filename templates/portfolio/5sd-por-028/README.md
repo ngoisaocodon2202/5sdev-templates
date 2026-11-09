@@ -1,4 +1,4 @@
-# 5SD-POR-028 — Nordic — AR/VR Spatial Computing Creator
+# 5SD-POR-028 — Orchid — AR/VR Spatial Computing Creator
 
 - **Mã sản phẩm**: `5SD-POR-028`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

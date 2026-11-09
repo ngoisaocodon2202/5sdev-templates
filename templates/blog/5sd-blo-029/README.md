@@ -1,4 +1,4 @@
-# 5SD-BLO-029 — Equinox — Data Science Tutorials & Notebooks
+# 5SD-BLO-029 — Veritas — Data Science Tutorials & Notebooks
 
 - **Mã sản phẩm**: `5SD-BLO-029`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

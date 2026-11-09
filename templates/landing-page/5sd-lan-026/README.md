@@ -1,4 +1,4 @@
-# 5SD-LAN-026 — Aethel — Subscription Box Launch Page
+# 5SD-LAN-026 — Nova — Subscription Box Launch Page
 
 - **Mã sản phẩm**: `5SD-LAN-026`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

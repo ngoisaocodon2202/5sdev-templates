@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 25000000,
     "meta": "Tích hợp ERP, CRM, BI Dashboard & Tự động hóa quy trình",
     "id": "5SD-COR-008-01",
-    "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Tư vấn Chiến lược Tăng trưởng & Tái cấu trúc Quản trị",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 18000000,
     "meta": "ộ trình 12 tháng • Đồng hành cùng Hội đồng Quản trị",
     "id": "5SD-COR-008-02",
-    "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Phát triển Phần mềm May đo Chuẩn Quốc tế (Dedicated Team)",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 32000000,
     "meta": "Đội ngũ Kỹ sư Senior • Quy trình Agile/Scrum minh bạch",
     "id": "5SD-COR-008-03",
-    "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Chiến dịch Truyền thông Thương hiệu Đa kênh Tổng lực",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 14500000,
     "meta": "Cam kết KPI nhận diện & Tối ưu chi phí chuyển đổi",
     "id": "5SD-COR-008-04",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

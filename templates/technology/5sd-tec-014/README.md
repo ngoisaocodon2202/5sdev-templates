@@ -1,4 +1,4 @@
-# 5SD-TEC-014 — Zenith — Customer Data Platform CDP
+# 5SD-TEC-014 — Nova — Customer Data Platform CDP
 
 - **Mã sản phẩm**: `5SD-TEC-014`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

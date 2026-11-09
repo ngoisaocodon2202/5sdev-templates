@@ -1,4 +1,4 @@
-# 5SD-PET-034 — Aethel — Puppy Socialization Kindergarten
+# 5SD-PET-034 — Aether — Puppy Socialization Kindergarten
 
 - **Mã sản phẩm**: `5SD-PET-034`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

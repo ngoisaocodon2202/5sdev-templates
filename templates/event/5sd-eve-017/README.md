@@ -1,4 +1,4 @@
-# 5SD-EVE-017 — Nova — Food & Wine Tasting Festival
+# 5SD-EVE-017 — Stratos — Food & Wine Tasting Festival
 
 - **Mã sản phẩm**: `5SD-EVE-017`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

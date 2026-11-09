@@ -1,4 +1,4 @@
-# 5SD-TEC-023 — Sylvan — Headless CMS & Content API
+# 5SD-TEC-023 — Nexora — Headless CMS & Content API
 
 - **Mã sản phẩm**: `5SD-TEC-023`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

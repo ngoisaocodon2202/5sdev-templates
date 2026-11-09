@@ -1,4 +1,4 @@
-# 5SD-LOG-024 — Solstice — Marine Cargo Insurance Portal
+# 5SD-LOG-024 — Velvet — Marine Cargo Insurance Portal
 
 - **Mã sản phẩm**: `5SD-LOG-024`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

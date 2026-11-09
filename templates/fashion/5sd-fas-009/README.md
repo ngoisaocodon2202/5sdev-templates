@@ -1,4 +1,4 @@
-# 5SD-FAS-009 — Aether — Minimalist Capsule Wardrobe
+# 5SD-FAS-009 — Nordic — Minimalist Capsule Wardrobe
 
 - **Mã sản phẩm**: `5SD-FAS-009`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

@@ -1,4 +1,4 @@
-# 5SD-ECO-024 — Orchid — Sustainable Activewear Shop
+# 5SD-ECO-024 — Solstice — Sustainable Activewear Shop
 
 - **Mã sản phẩm**: `5SD-ECO-024`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

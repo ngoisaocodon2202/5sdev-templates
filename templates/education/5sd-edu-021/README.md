@@ -1,4 +1,4 @@
-# 5SD-EDU-021 — Sylvan — Public Speaking & Leadership
+# 5SD-EDU-021 — Nova — Public Speaking & Leadership
 
 - **Mã sản phẩm**: `5SD-EDU-021`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

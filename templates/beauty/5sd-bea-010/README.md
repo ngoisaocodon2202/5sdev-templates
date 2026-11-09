@@ -1,4 +1,4 @@
-# 5SD-BEA-010 — Forma — Rejuvenation Wellness Center
+# 5SD-BEA-010 — Crescendo — Rejuvenation Wellness Center
 
 - **Mã sản phẩm**: `5SD-BEA-010`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

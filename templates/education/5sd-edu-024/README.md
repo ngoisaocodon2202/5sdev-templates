@@ -1,4 +1,4 @@
-# 5SD-EDU-024 — Sovereign — Aviation & Flight Training
+# 5SD-EDU-024 — Equinox — Aviation & Flight Training
 
 - **Mã sản phẩm**: `5SD-EDU-024`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

@@ -1,4 +1,4 @@
-# 5SD-HEA-010 — Apex — Pediatrics & Children Clinic
+# 5SD-HEA-010 — Nova — Pediatrics & Children Clinic
 
 - **Mã sản phẩm**: `5SD-HEA-010`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

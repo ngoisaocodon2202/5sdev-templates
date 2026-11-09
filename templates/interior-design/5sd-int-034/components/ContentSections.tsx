@@ -16,37 +16,37 @@ const GALLERY_PROJECTS = [
     title: 'Dự Án Tiêu Điểm #01 — Forma Flagship',
     category: 'Tiêu biểu',
     scale: 'Quy mô Chuẩn Quốc Tế • Hoàn thành 2026',
-    image: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Giải Pháp Chuyên Sâu #02 — Outdoor Pool & Cabana Architecture',
     category: 'Mới hoàn thành',
     scale: 'Tối ưu 40% Hiệu suất • Đạt chuẩn ISO',
-    image: 'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Không Gian & Trải Nghiệm #03 — Thiết kế Nội thất & Kiến trúc',
     category: 'Tiêu biểu',
     scale: 'Khách hàng Doanh nghiệp VIP • 5 Sao',
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Tổ Hợp Hiện Đại #04 — Dark Luxury Edition',
     category: 'Mới hoàn thành',
     scale: 'Vật liệu & Công nghệ Thế hệ mới',
-    image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Hạng Mục Cao Cấp #05 — Forma Signature',
     category: 'Tiêu biểu',
     scale: 'Bảo hành dài hạn • Bàn giao vượt tiến độ',
-    image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Bộ Sưu Tập Thực Tế #06 — Chuẩn Mực Mới',
     category: 'Mới hoàn thành',
     scale: 'Được bình chọn xuất sắc nhất năm',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80',
   },
 ];
 
@@ -145,7 +145,7 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="left" className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80"
+                  src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 1"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -172,7 +172,7 @@ export const ContentSections: React.FC = () => {
                   </div>
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 2"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"

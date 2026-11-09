@@ -1,4 +1,4 @@
-# 5SD-WED-002 — Maison — Haute Couture Bridal Gown Atelier
+# 5SD-WED-002 — Prism — Haute Couture Bridal Gown Atelier
 
 - **Mã sản phẩm**: `5SD-WED-002`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

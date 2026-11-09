@@ -1,4 +1,4 @@
-# 5SD-ECO-015 — Vertex — Smart Home & IoT Retail
+# 5SD-ECO-015 — Elysian — Smart Home & IoT Retail
 
 - **Mã sản phẩm**: `5SD-ECO-015`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

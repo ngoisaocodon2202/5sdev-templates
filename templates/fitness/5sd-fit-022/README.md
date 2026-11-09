@@ -1,4 +1,4 @@
-# 5SD-FIT-022 — Equinox — Home Gym Equipment Store
+# 5SD-FIT-022 — Crescendo — Home Gym Equipment Store
 
 - **Mã sản phẩm**: `5SD-FIT-022`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

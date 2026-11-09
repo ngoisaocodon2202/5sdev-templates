@@ -1,4 +1,4 @@
-# 5SD-PHO-006 — Kinetix — TVC & Commercial Film Production
+# 5SD-PHO-006 — Aethel — TVC & Commercial Film Production
 
 - **Mã sản phẩm**: `5SD-PHO-006`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

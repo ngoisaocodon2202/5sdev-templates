@@ -1,4 +1,4 @@
-# 5SD-LOG-001 — Lumiere — Global Ocean & Air Freight Forwarder
+# 5SD-LOG-001 — Zenith — Global Ocean & Air Freight Forwarder
 
 - **Mã sản phẩm**: `5SD-LOG-001`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

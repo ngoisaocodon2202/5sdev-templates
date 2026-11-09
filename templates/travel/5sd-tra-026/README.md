@@ -1,4 +1,4 @@
-# 5SD-TRA-026 — Orchid — Festival & Concert Travel Packages
+# 5SD-TRA-026 — Equinox — Festival & Concert Travel Packages
 
 - **Mã sản phẩm**: `5SD-TRA-026`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

@@ -1,4 +1,4 @@
-# 5SD-BLO-016 — Onyx — Fitness & Marathon Training Log
+# 5SD-BLO-016 — Equinox — Fitness & Marathon Training Log
 
 - **Mã sản phẩm**: `5SD-BLO-016`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

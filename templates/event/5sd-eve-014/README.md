@@ -1,4 +1,4 @@
-# 5SD-EVE-014 — Apex — VIP Sponsorship & Booth Booking
+# 5SD-EVE-014 — Sylvan — VIP Sponsorship & Booth Booking
 
 - **Mã sản phẩm**: `5SD-EVE-014`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

@@ -1,4 +1,4 @@
-# 5SD-FIT-030 — Valiant — Kettlebell & Functional Training
+# 5SD-FIT-030 — Solvex — Kettlebell & Functional Training
 
 - **Mã sản phẩm**: `5SD-FIT-030`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

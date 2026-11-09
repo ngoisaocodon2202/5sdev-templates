@@ -1,4 +1,4 @@
-# 5SD-SPA-021 — Vertex — Herbal Hair Wash & Scalp Ritual
+# 5SD-SPA-021 — Nordic — Herbal Hair Wash & Scalp Ritual
 
 - **Mã sản phẩm**: `5SD-SPA-021`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

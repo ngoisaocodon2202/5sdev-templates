@@ -1,4 +1,4 @@
-# 5SD-NEW-001 — Apex — Financial & Stock Market Daily
+# 5SD-NEW-001 — Nordic — Financial & Stock Market Daily
 
 - **Mã sản phẩm**: `5SD-NEW-001`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

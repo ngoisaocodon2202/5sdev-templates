@@ -1,4 +1,4 @@
-# 5SD-NEW-007 — Stratos — Automotive Reviews & EV News
+# 5SD-NEW-007 — Sylvan — Automotive Reviews & EV News
 
 - **Mã sản phẩm**: `5SD-NEW-007`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

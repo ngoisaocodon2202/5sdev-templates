@@ -1,4 +1,4 @@
-# 5SD-REA-031 — Valiant — Senior Living Resort Community
+# 5SD-REA-031 — Maison — Senior Living Resort Community
 
 - **Mã sản phẩm**: `5SD-REA-031`
 - **Ngành nghề**: Bất động sản (`real-estate`)

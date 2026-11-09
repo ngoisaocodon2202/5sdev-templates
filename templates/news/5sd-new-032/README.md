@@ -1,4 +1,4 @@
-# 5SD-NEW-032 — Stratos — Opinion & Editorial Syndicate
+# 5SD-NEW-032 — Lumiere — Opinion & Editorial Syndicate
 
 - **Mã sản phẩm**: `5SD-NEW-032`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

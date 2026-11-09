@@ -1,4 +1,4 @@
-# 5SD-EDU-005 — Kuroshio — STEM & Robotics High School
+# 5SD-EDU-005 — Chronos — STEM & Robotics High School
 
 - **Mã sản phẩm**: `5SD-EDU-005`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

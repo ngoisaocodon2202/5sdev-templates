@@ -1,4 +1,4 @@
-# 5SD-SPA-006 — Vertex — Ayurvedic Holistic Healing Retreat
+# 5SD-SPA-006 — Maison — Ayurvedic Holistic Healing Retreat
 
 - **Mã sản phẩm**: `5SD-SPA-006`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

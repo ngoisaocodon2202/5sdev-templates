@@ -1,4 +1,4 @@
-# 5SD-FIN-006 — Vanguard — Real-Time Stock Trading Terminal
+# 5SD-FIN-006 — Equinox — Real-Time Stock Trading Terminal
 
 - **Mã sản phẩm**: `5SD-FIN-006`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

@@ -1,4 +1,4 @@
-# 5SD-CON-003 — Orchid — Green Building Materials Supply
+# 5SD-CON-003 — Kinetix — Green Building Materials Supply
 
 - **Mã sản phẩm**: `5SD-CON-003`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

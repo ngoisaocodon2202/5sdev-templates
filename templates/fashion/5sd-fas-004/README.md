@@ -1,4 +1,4 @@
-# 5SD-FAS-004 — Aether — Urban Streetwear Label
+# 5SD-FAS-004 — Vanguard — Urban Streetwear Label
 
 - **Mã sản phẩm**: `5SD-FAS-004`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

@@ -1,4 +1,4 @@
-# 5SD-LEG-016 — Kuroshio — Environmental & Energy Regulation
+# 5SD-LEG-016 — Veritas — Environmental & Energy Regulation
 
 - **Mã sản phẩm**: `5SD-LEG-016`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

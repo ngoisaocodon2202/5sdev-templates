@@ -1,4 +1,4 @@
-# 5SD-AGR-031 — Forma — Weather & Soil Sensor Analytics
+# 5SD-AGR-031 — Nexora — Weather & Soil Sensor Analytics
 
 - **Mã sản phẩm**: `5SD-AGR-031`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

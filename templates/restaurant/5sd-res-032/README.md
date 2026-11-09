@@ -1,4 +1,4 @@
-# 5SD-RES-032 — Veritas — Chocolate Roastery & Lounge
+# 5SD-RES-032 — Velvet — Chocolate Roastery & Lounge
 
 - **Mã sản phẩm**: `5SD-RES-032`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

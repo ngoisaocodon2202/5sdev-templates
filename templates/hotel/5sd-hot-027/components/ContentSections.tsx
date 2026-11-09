@@ -13,40 +13,40 @@ import { AnimatedCounter, ScrollReveal } from '@shared/components';
 
 const GALLERY_PROJECTS = [
   {
-    title: 'Dự Án Tiêu Điểm #01 — Crescendo Flagship',
+    title: 'Dự Án Tiêu Điểm #01 — Celestia Flagship',
     category: 'Tiêu biểu',
     scale: 'Quy mô Chuẩn Quốc Tế • Hoàn thành 2026',
-    image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Giải Pháp Chuyên Sâu #02 — Long-Stay Digital Nomad Hub',
     category: 'Mới hoàn thành',
     scale: 'Tối ưu 40% Hiệu suất • Đạt chuẩn ISO',
-    image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Không Gian & Trải Nghiệm #03 — Khách sạn & Lưu trú',
     category: 'Tiêu biểu',
     scale: 'Khách hàng Doanh nghiệp VIP • 5 Sao',
-    image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1503220317375-aaad61436b1b?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Tổ Hợp Hiện Đại #04 — Swiss Design Edition',
     category: 'Mới hoàn thành',
     scale: 'Vật liệu & Công nghệ Thế hệ mới',
-    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80',
   },
   {
-    title: 'Hạng Mục Cao Cấp #05 — Crescendo Signature',
+    title: 'Hạng Mục Cao Cấp #05 — Celestia Signature',
     category: 'Tiêu biểu',
     scale: 'Bảo hành dài hạn • Bàn giao vượt tiến độ',
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Bộ Sưu Tập Thực Tế #06 — Chuẩn Mực Mới',
     category: 'Mới hoàn thành',
     scale: 'Được bình chọn xuất sắc nhất năm',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=1200&q=80',
   },
 ];
 
@@ -94,19 +94,19 @@ const TESTIMONIALS = [
     name: 'Nguyễn Minh Quân',
     role: 'Tổng Giám Đốc — Tập đoàn Đầu tư Á Châu',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&q=80',
-    quote: 'Trải nghiệm hợp tác cùng Crescendo thực sự vượt mong đợi. Hình ảnh thực tế sắc nét, quy trình làm việc rõ ràng và bàn giao đúng từng cam kết trong hợp đồng.',
+    quote: 'Trải nghiệm hợp tác cùng Celestia thực sự vượt mong đợi. Hình ảnh thực tế sắc nét, quy trình làm việc rõ ràng và bàn giao đúng từng cam kết trong hợp đồng.',
   },
   {
     name: 'Trần Thanh Hà',
     role: 'Giám Đốc Vận Hành — Emerald Group',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=240&q=80',
-    quote: 'Đội ngũ chuyên gia của Crescendo tư vấn rất tận tâm. Chất lượng hoàn thiện trong lĩnh vực Khách sạn & Lưu trú đạt chuẩn quốc tế khiến chúng tôi hoàn toàn yên tâm.',
+    quote: 'Đội ngũ chuyên gia của Celestia tư vấn rất tận tâm. Chất lượng hoàn thiện trong lĩnh vực Khách sạn & Lưu trú đạt chuẩn quốc tế khiến chúng tôi hoàn toàn yên tâm.',
   },
   {
     name: 'Lê Hoàng Nam',
     role: 'Kiến Trúc Sư & Nhà Sáng Lập',
     avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&q=80',
-    quote: 'Chi phí minh bạch, tiến độ chuẩn xác và dịch vụ hậu mãi chu đáo. Chắc chắn chúng tôi sẽ tiếp tục đồng hành cùng Crescendo trong các dự án lớn sắp tới.',
+    quote: 'Chi phí minh bạch, tiến độ chuẩn xác và dịch vụ hậu mãi chu đáo. Chắc chắn chúng tôi sẽ tiếp tục đồng hành cùng Celestia trong các dự án lớn sắp tới.',
   },
 ];
 
@@ -122,7 +122,7 @@ export const ContentSections: React.FC = () => {
 
   const faqs = [
     {
-      q: 'Quy trình triển khai dịch vụ tại Crescendo diễn ra như thế nào?',
+      q: 'Quy trình triển khai dịch vụ tại Celestia diễn ra như thế nào?',
       a: 'Quy trình chuẩn hóa gồm 4 bước: (1) Tiếp nhận thông tin & Khảo sát thực tế, (2) Lên phương án demo & Báo giá chi tiết, (3) Ký hợp đồng & Triển khai chuẩn chất lượng, (4) Nghiệm thu bàn giao & Bảo hành định kỳ.',
     },
     {
@@ -130,7 +130,7 @@ export const ContentSections: React.FC = () => {
       a: 'Mức giá hiển thị trên bảng tính tương tác và bảng giá là mức giá minh bạch. Chúng tôi cam kết không phát sinh chi phí ẩn ngoài hợp đồng.',
     },
     {
-      q: 'Chính sách bảo hành và hỗ trợ sau bàn giao tại Crescendo ra sao?',
+      q: 'Chính sách bảo hành và hỗ trợ sau bàn giao tại Celestia ra sao?',
       a: 'Tất cả khách hàng đều nhận được chứng nhận bảo hành điện tử chính hãng cùng đội ngũ kỹ thuật trực hỗ trợ 24/7 trên toàn quốc.',
     },
   ];
@@ -145,7 +145,7 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="left" className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 1"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -172,7 +172,7 @@ export const ContentSections: React.FC = () => {
                   </div>
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80"
+                  src="https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 2"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -184,15 +184,15 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="right" className="lg:col-span-6 space-y-5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs bg-red-600 text-white font-mono uppercase tracking-wider rounded-lg">
                 <Award className="h-3.5 w-3.5 shrink-0" />
-                <span>HỒ SƠ NĂNG LỰC • CRESCENDO</span>
+                <span>HỒ SƠ NĂNG LỰC • CELESTIA</span>
               </span>
 
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display tracking-tight font-extrabold leading-tight">
-                Vì Sao Hàng Nghìn Khách Hàng Tin Tưởng Crescendo?
+                Vì Sao Hàng Nghìn Khách Hàng Tin Tưởng Celestia?
               </h2>
 
               <p className="text-sm sm:text-base text-zinc-600 leading-relaxed">
-                Với định hướng lấy chất lượng và sự minh bạch làm trọng tâm, Crescendo không ngừng đầu tư vào công nghệ, con người và quy trình chuẩn quốc tế nhằm mang lại giá trị bền vững nhất cho khách hàng trong mảng Long-Stay Digital Nomad Hub.
+                Với định hướng lấy chất lượng và sự minh bạch làm trọng tâm, Celestia không ngừng đầu tư vào công nghệ, con người và quy trình chuẩn quốc tế nhằm mang lại giá trị bền vững nhất cho khách hàng trong mảng Long-Stay Digital Nomad Hub.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
@@ -379,7 +379,7 @@ export const ContentSections: React.FC = () => {
                 ĐÁNH GIÁ TỪ KHÁCH HÀNG THỰC TẾ
               </span>
               <h2 className="mt-1 text-2xl sm:text-3xl lg:text-4xl font-display tracking-tight font-extrabold">
-                Khách Hàng Nói Gì Về Crescendo
+                Khách Hàng Nói Gì Về Celestia
               </h2>
             </div>
             <div className="flex items-center gap-1.5 text-amber-500 font-bold text-sm whitespace-nowrap">
@@ -467,7 +467,7 @@ export const ContentSections: React.FC = () => {
                   Đăng Ký Nhận Tư Vấn & Báo Giá
                 </h3>
                 <p className="text-xs sm:text-sm text-zinc-600 mb-6">
-                  Chuyên viên của Crescendo sẽ liên hệ lại trong vòng 15 phút làm việc.
+                  Chuyên viên của Celestia sẽ liên hệ lại trong vòng 15 phút làm việc.
                 </p>
 
                 {leadSubmitted ? (
@@ -475,7 +475,7 @@ export const ContentSections: React.FC = () => {
                     <CheckCircle2 className="mx-auto h-10 w-10 text-emerald-500" />
                     <h4 className="text-base font-bold">Đã gửi yêu cầu tư vấn thành công!</h4>
                     <p className="text-xs text-zinc-600">
-                      Cảm ơn bạn đã tin chọn Crescendo. Chúng tôi sẽ liên hệ ngay.
+                      Cảm ơn bạn đã tin chọn Celestia. Chúng tôi sẽ liên hệ ngay.
                     </p>
                   </div>
                 ) : (

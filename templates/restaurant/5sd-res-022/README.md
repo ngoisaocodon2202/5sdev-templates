@@ -1,4 +1,4 @@
-# 5SD-RES-022 — Veritas — Craft Brewery & Gastropub
+# 5SD-RES-022 — Equinox — Craft Brewery & Gastropub
 
 - **Mã sản phẩm**: `5SD-RES-022`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

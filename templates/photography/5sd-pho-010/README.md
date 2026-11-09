@@ -1,4 +1,4 @@
-# 5SD-PHO-010 — Celestia — Studio Cyclorama & Gear Rental
+# 5SD-PHO-010 — Orchid — Studio Cyclorama & Gear Rental
 
 - **Mã sản phẩm**: `5SD-PHO-010`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

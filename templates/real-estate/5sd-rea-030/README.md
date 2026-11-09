@@ -1,4 +1,4 @@
-# 5SD-REA-030 — Onyx — Waterfront Shophouse Boulevard
+# 5SD-REA-030 — Arcadia — Waterfront Shophouse Boulevard
 
 - **Mã sản phẩm**: `5SD-REA-030`
 - **Ngành nghề**: Bất động sản (`real-estate`)

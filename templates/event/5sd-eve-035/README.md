@@ -1,4 +1,4 @@
-# 5SD-EVE-035 — Stratos — Venue Booking & Floorplan Hub
+# 5SD-EVE-035 — Sovereign — Venue Booking & Floorplan Hub
 
 - **Mã sản phẩm**: `5SD-EVE-035`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

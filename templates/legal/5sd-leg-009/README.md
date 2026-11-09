@@ -1,4 +1,4 @@
-# 5SD-LEG-009 — Maison — Tech Startup & Venture Legal Hub
+# 5SD-LEG-009 — Nexora — Tech Startup & Venture Legal Hub
 
 - **Mã sản phẩm**: `5SD-LEG-009`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

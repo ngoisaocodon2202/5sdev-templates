@@ -1,4 +1,4 @@
-# 5SD-PHO-028 — Aether — Sports Action Photography
+# 5SD-PHO-028 — Solvex — Sports Action Photography
 
 - **Mã sản phẩm**: `5SD-PHO-028`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

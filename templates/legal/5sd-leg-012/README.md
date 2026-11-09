@@ -1,4 +1,4 @@
-# 5SD-LEG-012 — Sylvan — Maritime & Shipping Law Firm
+# 5SD-LEG-012 — Nordic — Maritime & Shipping Law Firm
 
 - **Mã sản phẩm**: `5SD-LEG-012`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

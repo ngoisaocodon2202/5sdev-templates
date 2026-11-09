@@ -1,4 +1,4 @@
-# 5SD-EVE-007 — Nova — Art & Design Biennale Exhibition
+# 5SD-EVE-007 — Kuroshio — Art & Design Biennale Exhibition
 
 - **Mã sản phẩm**: `5SD-EVE-007`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

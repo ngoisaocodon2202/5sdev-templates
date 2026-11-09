@@ -1,4 +1,4 @@
-# 5SD-WED-028 — Sovereign — Photo Booth & Instant Print Box
+# 5SD-WED-028 — Stratos — Photo Booth & Instant Print Box
 
 - **Mã sản phẩm**: `5SD-WED-028`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

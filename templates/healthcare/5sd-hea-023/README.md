@@ -1,4 +1,4 @@
-# 5SD-HEA-023 — Nova — Chiropractic & Spine Care
+# 5SD-HEA-023 — Velvet — Chiropractic & Spine Care
 
 - **Mã sản phẩm**: `5SD-HEA-023`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

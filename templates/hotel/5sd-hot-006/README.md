@@ -1,4 +1,4 @@
-# 5SD-HOT-006 — Prism — Serviced Executive Residences
+# 5SD-HOT-006 — Solstice — Serviced Executive Residences
 
 - **Mã sản phẩm**: `5SD-HOT-006`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

@@ -1,4 +1,4 @@
-# 5SD-NEW-023 — Hyperion — Photojournalism Visual Stories
+# 5SD-NEW-023 — Vertex — Photojournalism Visual Stories
 
 - **Mã sản phẩm**: `5SD-NEW-023`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

@@ -1,4 +1,4 @@
-# 5SD-AUT-027 — Onyx — Car Wash Subscription Club
+# 5SD-AUT-027 — Nova — Car Wash Subscription Club
 
 - **Mã sản phẩm**: `5SD-AUT-027`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

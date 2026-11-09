@@ -1,4 +1,4 @@
-# 5SD-AGR-018 — Chronos — Rice Heritage ST25 Exporter
+# 5SD-AGR-018 — Arcadia — Rice Heritage ST25 Exporter
 
 - **Mã sản phẩm**: `5SD-AGR-018`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

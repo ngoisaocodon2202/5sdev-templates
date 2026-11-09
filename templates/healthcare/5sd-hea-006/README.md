@@ -1,4 +1,4 @@
-# 5SD-HEA-006 — Stratos — Senior Doctor Specialist Portfolio
+# 5SD-HEA-006 — Arcadia — Senior Doctor Specialist Portfolio
 
 - **Mã sản phẩm**: `5SD-HEA-006`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

@@ -1,4 +1,4 @@
-# 5SD-FUR-009 — Crescendo — Modular Walk-In Wardrobe
+# 5SD-FUR-009 — Sovereign — Modular Walk-In Wardrobe
 
 - **Mã sản phẩm**: `5SD-FUR-009`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

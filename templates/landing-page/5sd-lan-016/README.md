@@ -1,4 +1,4 @@
-# 5SD-LAN-016 — Aethel — Event Early-Bird Ticket Funnel
+# 5SD-LAN-016 — Zenith — Event Early-Bird Ticket Funnel
 
 - **Mã sản phẩm**: `5SD-LAN-016`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

@@ -1,4 +1,4 @@
-# 5SD-AUT-022 — Onyx — Limousine VIP Conversion
+# 5SD-AUT-022 — Prism — Limousine VIP Conversion
 
 - **Mã sản phẩm**: `5SD-AUT-022`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

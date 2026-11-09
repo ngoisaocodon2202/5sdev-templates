@@ -1,4 +1,4 @@
-# 5SD-POR-029 — Chronos — Calligraphy & Lettering Artist
+# 5SD-POR-029 — Hyperion — Calligraphy & Lettering Artist
 
 - **Mã sản phẩm**: `5SD-POR-029`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

@@ -1,4 +1,4 @@
-# 5SD-EDU-028 — Maison — Chess & Logic Academy
+# 5SD-EDU-028 — Vanguard — Chess & Logic Academy
 
 - **Mã sản phẩm**: `5SD-EDU-028`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

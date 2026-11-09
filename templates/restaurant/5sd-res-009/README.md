@@ -1,4 +1,4 @@
-# 5SD-RES-009 — Prism — Gourmet Smash Burger & Fast Food
+# 5SD-RES-009 — Zenith — Gourmet Smash Burger & Fast Food
 
 - **Mã sản phẩm**: `5SD-RES-009`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

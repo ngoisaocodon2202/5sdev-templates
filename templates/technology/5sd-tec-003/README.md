@@ -1,4 +1,4 @@
-# 5SD-TEC-003 — Sylvan — Zero-Trust Cybersecurity Platform
+# 5SD-TEC-003 — Valiant — Zero-Trust Cybersecurity Platform
 
 - **Mã sản phẩm**: `5SD-TEC-003`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

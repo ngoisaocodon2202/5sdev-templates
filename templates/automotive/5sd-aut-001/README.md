@@ -1,4 +1,4 @@
-# 5SD-AUT-001 — Solvex — Luxury Supercar Dealership
+# 5SD-AUT-001 — Nexora — Luxury Supercar Dealership
 
 - **Mã sản phẩm**: `5SD-AUT-001`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

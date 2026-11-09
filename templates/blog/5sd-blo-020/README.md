@@ -1,4 +1,4 @@
-# 5SD-BLO-020 — Solvex — Language Learning Polyglot Notes
+# 5SD-BLO-020 — Vanguard — Language Learning Polyglot Notes
 
 - **Mã sản phẩm**: `5SD-BLO-020`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

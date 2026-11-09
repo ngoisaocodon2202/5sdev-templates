@@ -1,4 +1,4 @@
-# 5SD-BEA-022 — Chronos — Permanent Makeup Academy
+# 5SD-BEA-022 — Apex — Permanent Makeup Academy
 
 - **Mã sản phẩm**: `5SD-BEA-022`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

@@ -1,4 +1,4 @@
-# 5SD-FIN-004 — Hyperion — Algorithmic Quantitative Fund
+# 5SD-FIN-004 — Aether — Algorithmic Quantitative Fund
 
 - **Mã sản phẩm**: `5SD-FIN-004`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

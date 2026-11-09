@@ -1,4 +1,4 @@
-# 5SD-TEC-012 — Kuroshio — Observability & Log Monitoring
+# 5SD-TEC-012 — Atelier — Observability & Log Monitoring
 
 - **Mã sản phẩm**: `5SD-TEC-012`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

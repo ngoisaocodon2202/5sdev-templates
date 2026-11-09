@@ -1,4 +1,4 @@
-# 5SD-BEA-025 — Forma — Derma-Cosmetics Apothecary
+# 5SD-BEA-025 — Onyx — Derma-Cosmetics Apothecary
 
 - **Mã sản phẩm**: `5SD-BEA-025`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

@@ -1,4 +1,4 @@
-# 5SD-ECO-029 — Orchid — Pro Road Cycling Store
+# 5SD-ECO-029 — Vertex — Pro Road Cycling Store
 
 - **Mã sản phẩm**: `5SD-ECO-029`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

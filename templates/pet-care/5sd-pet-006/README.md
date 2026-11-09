@@ -1,4 +1,4 @@
-# 5SD-PET-006 — Crescendo — Cat Cafe & Adoption Sanctuary
+# 5SD-PET-006 — Lumiere — Cat Cafe & Adoption Sanctuary
 
 - **Mã sản phẩm**: `5SD-PET-006`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

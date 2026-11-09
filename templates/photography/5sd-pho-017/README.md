@@ -1,4 +1,4 @@
-# 5SD-PHO-017 — Solstice — Analog Film Lab & Darkroom
+# 5SD-PHO-017 — Vertex — Analog Film Lab & Darkroom
 
 - **Mã sản phẩm**: `5SD-PHO-017`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

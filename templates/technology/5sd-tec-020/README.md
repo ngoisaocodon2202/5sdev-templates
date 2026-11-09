@@ -1,4 +1,4 @@
-# 5SD-TEC-020 — Maison — Design-to-Code AI Copilot
+# 5SD-TEC-020 — Aurelia — Design-to-Code AI Copilot
 
 - **Mã sản phẩm**: `5SD-TEC-020`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

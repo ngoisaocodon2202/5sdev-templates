@@ -1,4 +1,4 @@
-# 5SD-ECO-020 — Vertex — Specialty Coffee Roastery Shop
+# 5SD-ECO-020 — Zenith — Specialty Coffee Roastery Shop
 
 - **Mã sản phẩm**: `5SD-ECO-020`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

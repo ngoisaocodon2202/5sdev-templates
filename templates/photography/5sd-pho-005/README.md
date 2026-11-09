@@ -1,4 +1,4 @@
-# 5SD-PHO-005 — Celestia — Fine Art Black & White Gallery
+# 5SD-PHO-005 — Kinetix — Fine Art Black & White Gallery
 
 - **Mã sản phẩm**: `5SD-PHO-005`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

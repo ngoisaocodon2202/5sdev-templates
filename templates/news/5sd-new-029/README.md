@@ -1,4 +1,4 @@
-# 5SD-NEW-029 — Nova — Fact-Checking & Media Literacy
+# 5SD-NEW-029 — Forma — Fact-Checking & Media Literacy
 
 - **Mã sản phẩm**: `5SD-NEW-029`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

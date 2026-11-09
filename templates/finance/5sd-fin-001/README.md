@@ -1,4 +1,4 @@
-# 5SD-FIN-001 — Vanguard — Next-Gen Digital Neobank
+# 5SD-FIN-001 — Atelier — Next-Gen Digital Neobank
 
 - **Mã sản phẩm**: `5SD-FIN-001`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

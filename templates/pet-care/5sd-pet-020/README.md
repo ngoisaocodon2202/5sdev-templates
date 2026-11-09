@@ -1,4 +1,4 @@
-# 5SD-PET-020 — Prism — Hydrotherapy & Pet Rehabilitation
+# 5SD-PET-020 — Kinetix — Hydrotherapy & Pet Rehabilitation
 
 - **Mã sản phẩm**: `5SD-PET-020`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

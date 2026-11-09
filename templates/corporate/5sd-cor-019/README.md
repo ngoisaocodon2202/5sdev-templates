@@ -1,4 +1,4 @@
-# 5SD-COR-019 — Kinetix — Telecommunications Provider
+# 5SD-COR-019 — Solstice — Telecommunications Provider
 
 - **Mã sản phẩm**: `5SD-COR-019`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

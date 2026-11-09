@@ -1,4 +1,4 @@
-# 5SD-EVE-008 — Vanguard — Marathon & Triathlon Race Hub
+# 5SD-EVE-008 — Nordic — Marathon & Triathlon Race Hub
 
 - **Mã sản phẩm**: `5SD-EVE-008`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

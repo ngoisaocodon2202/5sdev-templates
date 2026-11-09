@@ -1,4 +1,4 @@
-# 5SD-PET-009 — Aethel — Mobile Pet Grooming Van
+# 5SD-PET-009 — Kuroshio — Mobile Pet Grooming Van
 
 - **Mã sản phẩm**: `5SD-PET-009`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

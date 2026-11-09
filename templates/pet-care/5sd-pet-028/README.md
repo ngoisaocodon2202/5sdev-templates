@@ -1,4 +1,4 @@
-# 5SD-PET-028 — Veritas — Pet Influencer Agency
+# 5SD-PET-028 — Prism — Pet Influencer Agency
 
 - **Mã sản phẩm**: `5SD-PET-028`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

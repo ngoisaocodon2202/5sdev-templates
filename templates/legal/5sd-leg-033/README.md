@@ -1,4 +1,4 @@
-# 5SD-LEG-033 — Zenith — Corporate Company Secretarial
+# 5SD-LEG-033 — Atelier — Corporate Company Secretarial
 
 - **Mã sản phẩm**: `5SD-LEG-033`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

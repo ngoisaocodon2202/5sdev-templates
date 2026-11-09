@@ -1,4 +1,4 @@
-# 5SD-FIT-006 — Arcadia — Indoor Cycling & Spin Club
+# 5SD-FIT-006 — Stratos — Indoor Cycling & Spin Club
 
 - **Mã sản phẩm**: `5SD-FIT-006`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

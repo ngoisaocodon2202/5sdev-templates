@@ -1,4 +1,4 @@
-# 5SD-EVE-002 — Nova — Electronic Music Festival Hub
+# 5SD-EVE-002 — Aurelia — Electronic Music Festival Hub
 
 - **Mã sản phẩm**: `5SD-EVE-002`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

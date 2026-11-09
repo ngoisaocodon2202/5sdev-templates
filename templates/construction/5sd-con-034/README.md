@@ -1,4 +1,4 @@
-# 5SD-CON-034 — Vertex — Green Roof & Vertical Garden
+# 5SD-CON-034 — Sylvan — Green Roof & Vertical Garden
 
 - **Mã sản phẩm**: `5SD-CON-034`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

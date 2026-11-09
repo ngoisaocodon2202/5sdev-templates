@@ -1,4 +1,4 @@
-# 5SD-RES-011 — Nexora — Plant-Based Vegan Kitchen
+# 5SD-RES-011 — Orchid — Plant-Based Vegan Kitchen
 
 - **Mã sản phẩm**: `5SD-RES-011`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

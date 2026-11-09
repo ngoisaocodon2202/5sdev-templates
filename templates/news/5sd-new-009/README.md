@@ -1,4 +1,4 @@
-# 5SD-NEW-009 — Nova — Investigative Longform Journalism
+# 5SD-NEW-009 — Elysian — Investigative Longform Journalism
 
 - **Mã sản phẩm**: `5SD-NEW-009`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

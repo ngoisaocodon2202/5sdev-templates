@@ -1,4 +1,4 @@
-# 5SD-FUR-015 — Nexora — Ceramic Vase & Table Sculpture
+# 5SD-FUR-015 — Solvex — Ceramic Vase & Table Sculpture
 
 - **Mã sản phẩm**: `5SD-FUR-015`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

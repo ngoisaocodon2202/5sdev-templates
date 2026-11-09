@@ -1,4 +1,4 @@
-# 5SD-INT-005 — Nordic — F&B Cafe & Restaurant Spatial
+# 5SD-INT-005 — Kuroshio — F&B Cafe & Restaurant Spatial
 
 - **Mã sản phẩm**: `5SD-INT-005`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

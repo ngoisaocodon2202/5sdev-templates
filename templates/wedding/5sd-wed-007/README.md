@@ -1,4 +1,4 @@
-# 5SD-WED-007 — Maison — Floral Design & Concept Styling
+# 5SD-WED-007 — Nova — Floral Design & Concept Styling
 
 - **Mã sản phẩm**: `5SD-WED-007`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

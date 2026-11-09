@@ -1,4 +1,4 @@
-# 5SD-WED-022 — Maison — Wedding Fireworks & Lighting FX
+# 5SD-WED-022 — Celestia — Wedding Fireworks & Lighting FX
 
 - **Mã sản phẩm**: `5SD-WED-022`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

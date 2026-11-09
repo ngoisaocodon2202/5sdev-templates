@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" fill="none">
+  <defs>
+    <linearGradient id="logoGrad-5sd-int-025" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="textGrad-5sd-int-025" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <filter id="glow-5sd-int-025" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#9333EA" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Emblem Mark Badge -->
+  <g filter="url(#glow-5sd-int-025)">
+    <rect x="4" y="8" width="48" height="48" rx="14" fill="url(#logoGrad-5sd-int-025)" />
+    <rect x="5.5" y="9.5" width="45" height="45" rx="12.5" stroke="#ffffff" stroke-opacity="0.25" stroke-width="1.5" />
+    <!-- Embedded Industry Symbol -->
+    <g transform="translate(16, 14) scale(1.0)" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M3 3h18v18H3V3zm2 2v14h14V5H5zm2 2h4v4H7V7zm6 0h4v4h-4V7zm0 6h4v4h-4v-4zm-6 0h4v4H7v-4z" />
+    </g>
+    <!-- Monogram Initial Pill -->
+    <circle cx="44" cy="48" r="9" fill="#0f172a" stroke="#06B6D4" stroke-width="1.5" />
+    <text x="44" y="51.5" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="8.5" fill="#ffffff" letter-spacing="0.02em">
+      AR
+    </text>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(64, 0)">
+    <text x="0" y="32" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="20" fill="url(#textGrad-5sd-int-025)" letter-spacing="0.03em">
+      Arcadia
+    </text>
+    
+    <!-- Sub-niche category pill -->
+    <rect x="0" y="40" width="180" height="15" rx="4" fill="#9333EA22" stroke="#9333EA55" stroke-width="0.8" />
+    <text x="6" y="51" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="8" fill="#9333EA" letter-spacing="0.08em">
+      CO-LIVING & HOSPITALITY CO...
+    </text>
+  </g>
+</svg>

@@ -1,4 +1,4 @@
-# 5SD-FIT-009 — Onyx — Calisthenics & Street Workout
+# 5SD-FIT-009 — Valiant — Calisthenics & Street Workout
 
 - **Mã sản phẩm**: `5SD-FIT-009`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

@@ -1,4 +1,4 @@
-# 5SD-EDU-022 — Zenith — Medical & Nursing Exam Prep
+# 5SD-EDU-022 — Aether — Medical & Nursing Exam Prep
 
 - **Mã sản phẩm**: `5SD-EDU-022`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

@@ -13,40 +13,40 @@ import { AnimatedCounter, ScrollReveal } from '@shared/components';
 
 const GALLERY_PROJECTS = [
   {
-    title: 'Dự Án Tiêu Điểm #01 — Prism Flagship',
+    title: 'Dự Án Tiêu Điểm #01 — Vertex Flagship',
     category: 'Tiêu biểu',
     scale: 'Quy mô Chuẩn Quốc Tế • Hoàn thành 2026',
-    image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Giải Pháp Chuyên Sâu #02 — Overwater Bungalow Maldives Style',
     category: 'Mới hoàn thành',
     scale: 'Tối ưu 40% Hiệu suất • Đạt chuẩn ISO',
-    image: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1591088398332-8a7791972843?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Không Gian & Trải Nghiệm #03 — Khách sạn & Lưu trú',
     category: 'Tiêu biểu',
     scale: 'Khách hàng Doanh nghiệp VIP • 5 Sao',
-    image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1000&q=80',
+    image: 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Tổ Hợp Hiện Đại #04 — Bold Typography Edition',
     category: 'Mới hoàn thành',
     scale: 'Vật liệu & Công nghệ Thế hệ mới',
-    image: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80',
   },
   {
-    title: 'Hạng Mục Cao Cấp #05 — Prism Signature',
+    title: 'Hạng Mục Cao Cấp #05 — Vertex Signature',
     category: 'Tiêu biểu',
     scale: 'Bảo hành dài hạn • Bàn giao vượt tiến độ',
-    image: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1549294413-26f195200c16?auto=format&fit=crop&w=1200&q=80',
   },
   {
     title: 'Bộ Sưu Tập Thực Tế #06 — Chuẩn Mực Mới',
     category: 'Mới hoàn thành',
     scale: 'Được bình chọn xuất sắc nhất năm',
-    image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=900&q=80',
+    image: 'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80',
   },
 ];
 
@@ -94,19 +94,19 @@ const TESTIMONIALS = [
     name: 'Nguyễn Minh Quân',
     role: 'Tổng Giám Đốc — Tập đoàn Đầu tư Á Châu',
     avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&q=80',
-    quote: 'Trải nghiệm hợp tác cùng Prism thực sự vượt mong đợi. Hình ảnh thực tế sắc nét, quy trình làm việc rõ ràng và bàn giao đúng từng cam kết trong hợp đồng.',
+    quote: 'Trải nghiệm hợp tác cùng Vertex thực sự vượt mong đợi. Hình ảnh thực tế sắc nét, quy trình làm việc rõ ràng và bàn giao đúng từng cam kết trong hợp đồng.',
   },
   {
     name: 'Trần Thanh Hà',
     role: 'Giám Đốc Vận Hành — Emerald Group',
     avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=240&q=80',
-    quote: 'Đội ngũ chuyên gia của Prism tư vấn rất tận tâm. Chất lượng hoàn thiện trong lĩnh vực Khách sạn & Lưu trú đạt chuẩn quốc tế khiến chúng tôi hoàn toàn yên tâm.',
+    quote: 'Đội ngũ chuyên gia của Vertex tư vấn rất tận tâm. Chất lượng hoàn thiện trong lĩnh vực Khách sạn & Lưu trú đạt chuẩn quốc tế khiến chúng tôi hoàn toàn yên tâm.',
   },
   {
     name: 'Lê Hoàng Nam',
     role: 'Kiến Trúc Sư & Nhà Sáng Lập',
     avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&q=80',
-    quote: 'Chi phí minh bạch, tiến độ chuẩn xác và dịch vụ hậu mãi chu đáo. Chắc chắn chúng tôi sẽ tiếp tục đồng hành cùng Prism trong các dự án lớn sắp tới.',
+    quote: 'Chi phí minh bạch, tiến độ chuẩn xác và dịch vụ hậu mãi chu đáo. Chắc chắn chúng tôi sẽ tiếp tục đồng hành cùng Vertex trong các dự án lớn sắp tới.',
   },
 ];
 
@@ -122,7 +122,7 @@ export const ContentSections: React.FC = () => {
 
   const faqs = [
     {
-      q: 'Quy trình triển khai dịch vụ tại Prism diễn ra như thế nào?',
+      q: 'Quy trình triển khai dịch vụ tại Vertex diễn ra như thế nào?',
       a: 'Quy trình chuẩn hóa gồm 4 bước: (1) Tiếp nhận thông tin & Khảo sát thực tế, (2) Lên phương án demo & Báo giá chi tiết, (3) Ký hợp đồng & Triển khai chuẩn chất lượng, (4) Nghiệm thu bàn giao & Bảo hành định kỳ.',
     },
     {
@@ -130,7 +130,7 @@ export const ContentSections: React.FC = () => {
       a: 'Mức giá hiển thị trên bảng tính tương tác và bảng giá là mức giá minh bạch. Chúng tôi cam kết không phát sinh chi phí ẩn ngoài hợp đồng.',
     },
     {
-      q: 'Chính sách bảo hành và hỗ trợ sau bàn giao tại Prism ra sao?',
+      q: 'Chính sách bảo hành và hỗ trợ sau bàn giao tại Vertex ra sao?',
       a: 'Tất cả khách hàng đều nhận được chứng nhận bảo hành điện tử chính hãng cùng đội ngũ kỹ thuật trực hỗ trợ 24/7 trên toàn quốc.',
     },
   ];
@@ -145,7 +145,7 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="left" className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 1"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -172,7 +172,7 @@ export const ContentSections: React.FC = () => {
                   </div>
                 </div>
                 <img
-                  src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=900&q=80"
+                  src="https://images.unsplash.com/photo-1549294413-26f195200c16?auto=format&fit=crop&w=1200&q=80"
                   alt="Về chúng tôi 2"
                   loading="lazy"
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
@@ -184,15 +184,15 @@ export const ContentSections: React.FC = () => {
             <ScrollReveal direction="right" className="lg:col-span-6 space-y-5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs bg-indigo-500/15 text-cyan-300 border border-indigo-500/30 font-mono rounded-2xl">
                 <Award className="h-3.5 w-3.5 shrink-0" />
-                <span>HỒ SƠ NĂNG LỰC • PRISM</span>
+                <span>HỒ SƠ NĂNG LỰC • VERTEX</span>
               </span>
 
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-extrabold tracking-tight leading-tight">
-                Vì Sao Hàng Nghìn Khách Hàng Tin Tưởng Prism?
+                Vì Sao Hàng Nghìn Khách Hàng Tin Tưởng Vertex?
               </h2>
 
               <p className="text-sm sm:text-base text-slate-400 leading-relaxed">
-                Với định hướng lấy chất lượng và sự minh bạch làm trọng tâm, Prism không ngừng đầu tư vào công nghệ, con người và quy trình chuẩn quốc tế nhằm mang lại giá trị bền vững nhất cho khách hàng trong mảng Overwater Bungalow Maldives Style.
+                Với định hướng lấy chất lượng và sự minh bạch làm trọng tâm, Vertex không ngừng đầu tư vào công nghệ, con người và quy trình chuẩn quốc tế nhằm mang lại giá trị bền vững nhất cho khách hàng trong mảng Overwater Bungalow Maldives Style.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
@@ -379,7 +379,7 @@ export const ContentSections: React.FC = () => {
                 ĐÁNH GIÁ TỪ KHÁCH HÀNG THỰC TẾ
               </span>
               <h2 className="mt-1 text-2xl sm:text-3xl lg:text-4xl font-display font-extrabold tracking-tight">
-                Khách Hàng Nói Gì Về Prism
+                Khách Hàng Nói Gì Về Vertex
               </h2>
             </div>
             <div className="flex items-center gap-1.5 text-amber-500 font-bold text-sm whitespace-nowrap">
@@ -467,7 +467,7 @@ export const ContentSections: React.FC = () => {
                   Đăng Ký Nhận Tư Vấn & Báo Giá
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-400 mb-6">
-                  Chuyên viên của Prism sẽ liên hệ lại trong vòng 15 phút làm việc.
+                  Chuyên viên của Vertex sẽ liên hệ lại trong vòng 15 phút làm việc.
                 </p>
 
                 {leadSubmitted ? (
@@ -475,7 +475,7 @@ export const ContentSections: React.FC = () => {
                     <CheckCircle2 className="mx-auto h-10 w-10 text-emerald-500" />
                     <h4 className="text-base font-bold">Đã gửi yêu cầu tư vấn thành công!</h4>
                     <p className="text-xs text-slate-400">
-                      Cảm ơn bạn đã tin chọn Prism. Chúng tôi sẽ liên hệ ngay.
+                      Cảm ơn bạn đã tin chọn Vertex. Chúng tôi sẽ liên hệ ngay.
                     </p>
                   </div>
                 ) : (

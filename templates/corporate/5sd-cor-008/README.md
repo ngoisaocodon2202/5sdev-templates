@@ -1,4 +1,4 @@
-# 5SD-COR-008 — Celestia — Executive Business Portfolio
+# 5SD-COR-008 — Sylvan — Executive Business Portfolio
 
 - **Mã sản phẩm**: `5SD-COR-008`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

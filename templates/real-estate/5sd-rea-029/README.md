@@ -1,4 +1,4 @@
-# 5SD-REA-029 — Solvex — Warehouse & Cold Storage Lease
+# 5SD-REA-029 — Prism — Warehouse & Cold Storage Lease
 
 - **Mã sản phẩm**: `5SD-REA-029`
 - **Ngành nghề**: Bất động sản (`real-estate`)

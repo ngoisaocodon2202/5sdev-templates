@@ -1,4 +1,4 @@
-# 5SD-REA-012 — Arcadia — Retail Mall Leasing Portal
+# 5SD-REA-012 — Velvet — Retail Mall Leasing Portal
 
 - **Mã sản phẩm**: `5SD-REA-012`
 - **Ngành nghề**: Bất động sản (`real-estate`)

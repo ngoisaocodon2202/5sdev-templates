@@ -1,4 +1,4 @@
-# 5SD-NON-032 — Orchid — Biodiversity Marine Coral Reef
+# 5SD-NON-032 — Prism — Biodiversity Marine Coral Reef
 
 - **Mã sản phẩm**: `5SD-NON-032`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

@@ -1,4 +1,4 @@
-# 5SD-COR-033 — Celestia — Cloud ERP Implementation Partner
+# 5SD-COR-033 — Lumiere — Cloud ERP Implementation Partner
 
 - **Mã sản phẩm**: `5SD-COR-033`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

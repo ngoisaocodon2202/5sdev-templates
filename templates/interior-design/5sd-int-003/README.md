@@ -1,4 +1,4 @@
-# 5SD-INT-003 — Atelier — Wabi-Sabi & Japandi Design Lab
+# 5SD-INT-003 — Nexora — Wabi-Sabi & Japandi Design Lab
 
 - **Mã sản phẩm**: `5SD-INT-003`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

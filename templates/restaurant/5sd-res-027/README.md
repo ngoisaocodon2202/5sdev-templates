@@ -1,4 +1,4 @@
-# 5SD-RES-027 — Veritas — Artisanal Gelato Studio
+# 5SD-RES-027 — Lumiere — Artisanal Gelato Studio
 
 - **Mã sản phẩm**: `5SD-RES-027`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

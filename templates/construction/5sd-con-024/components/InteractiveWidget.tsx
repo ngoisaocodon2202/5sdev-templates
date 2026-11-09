@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 8500000,
     "meta": "Đơn giá/m² • Miễn 100% phí thiết kế 3D & Xin phép xây dựng",
     "id": "5SD-CON-024-01",
-    "image": "https://images.unsplash.com/photo-1541888946425-d09bb18086f6?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Tổng Thầu Thiết Kế & Thi Công Nhà Xưởng Công Nghiệp Chuẩn LEED",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 4200000,
     "meta": "Kết cấu thép tiền chế • Hệ thống PCCC tự động thẩm duyệt",
     "id": "5SD-CON-024-02",
-    "image": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1600573472591-ee6c563aaec9?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Hệ Thống Điện Mặt Trời Áp Mái & Lưu Trữ Hybrid Công Suất Cao",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 65000000,
     "meta": "Tấm pin hiệu suất 22.8% • Giám sát sản lượng qua App 24/7",
     "id": "5SD-CON-024-03",
-    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Giải Pháp Mặt Dựng Nhôm Kính Low-E Cách Âm Cách Nhiệt",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 3400000,
     "meta": "Chống bão cấp 15 • Tiết kiệm 40% điện năng điều hòa",
     "id": "5SD-CON-024-04",
-    "image": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

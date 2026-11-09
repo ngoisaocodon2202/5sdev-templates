@@ -1,4 +1,4 @@
-# 5SD-TRA-034 — Velvet — Airport Lounge & Fast-Track VIP
+# 5SD-TRA-034 — Kuroshio — Airport Lounge & Fast-Track VIP
 
 - **Mã sản phẩm**: `5SD-TRA-034`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

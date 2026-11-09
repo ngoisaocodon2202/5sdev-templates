@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 480000,
     "meta": "8kg đa dạng 12 loại rau củ • Giao lạnh tận nhà trong ngày",
     "id": "5SD-AGR-014-01",
-    "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Trà Shan Tuyết Cổ Thụ Hà Giang 300 Năm Tuổi Thượng Hạng",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 1250000,
     "meta": "Hộp quà 250g • Hái tay 1 tôm 1 lá • Hương cốm tự nhiên",
     "id": "5SD-AGR-014-02",
-    "image": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gạo Ông Cua ST25 Lúa Tôm Đặc Sản Sóc Trăng Chính Hiệu",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 390000,
     "meta": "Túi hút chân không 10kg • Cơm dẻo thơm, giàu dinh dưỡng",
     "id": "5SD-AGR-014-03",
-    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Hệ Thống Cảm Biến Tưới Nhỏ Giọt & Dinh Dưỡng Nhà Màng IoT",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 18500000,
     "meta": "Tiết kiệm 60% nước & phân bón • Điều khiển tự động qua Smartphone",
     "id": "5SD-AGR-014-04",
-    "image": "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

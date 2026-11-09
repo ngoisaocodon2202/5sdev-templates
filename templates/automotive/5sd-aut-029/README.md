@@ -1,4 +1,4 @@
-# 5SD-AUT-029 — Arcadia — Hybrid & Hydrogen Vehicle Lab
+# 5SD-AUT-029 — Crescendo — Hybrid & Hydrogen Vehicle Lab
 
 - **Mã sản phẩm**: `5SD-AUT-029`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

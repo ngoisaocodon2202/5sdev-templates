@@ -1,4 +1,4 @@
-# 5SD-POR-019 — Chronos — Growth Marketing Lead
+# 5SD-POR-019 — Sylvan — Growth Marketing Lead
 
 - **Mã sản phẩm**: `5SD-POR-019`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

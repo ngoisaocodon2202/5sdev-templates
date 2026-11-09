@@ -1,4 +1,4 @@
-# 5SD-BEA-031 — Nordic — Postpartum Beauty Recovery
+# 5SD-BEA-031 — Aethel — Postpartum Beauty Recovery
 
 - **Mã sản phẩm**: `5SD-BEA-031`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

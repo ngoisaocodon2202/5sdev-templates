@@ -1,4 +1,4 @@
-# 5SD-FIT-002 — Equinox — High-Intensity CrossFit Box
+# 5SD-FIT-002 — Onyx — High-Intensity CrossFit Box
 
 - **Mã sản phẩm**: `5SD-FIT-002`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

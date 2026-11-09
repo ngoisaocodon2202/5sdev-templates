@@ -1,4 +1,4 @@
-# 5SD-COR-031 — Aether — Corporate Event & Exhibition
+# 5SD-COR-031 — Aurelia — Corporate Event & Exhibition
 
 - **Mã sản phẩm**: `5SD-COR-031`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

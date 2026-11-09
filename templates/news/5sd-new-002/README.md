@@ -1,4 +1,4 @@
-# 5SD-NEW-002 — Stratos — Technology & Startup News Portal
+# 5SD-NEW-002 — Velvet — Technology & Startup News Portal
 
 - **Mã sản phẩm**: `5SD-NEW-002`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

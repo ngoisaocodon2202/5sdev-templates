@@ -1,4 +1,4 @@
-# 5SD-FIN-026 — Vanguard — ESG Green Bond Platform
+# 5SD-FIN-026 — Aethel — ESG Green Bond Platform
 
 - **Mã sản phẩm**: `5SD-FIN-026`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

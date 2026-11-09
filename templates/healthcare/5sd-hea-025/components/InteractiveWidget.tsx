@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 3950000,
     "meta": "Xét nghiệm máu, Siêu âm 4D, Chụp CT liều thấp",
     "id": "5SD-HEA-025-01",
-    "image": "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Thẩm Mỹ Răng Sứ Bảo Tồn & Chỉnh Nha Invisalign",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 5500000,
     "meta": "Quét dấu răng 3D iTero • Xem trước kết quả",
     "id": "5SD-HEA-025-02",
-    "image": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Khám Chuyên Khoa Tim Mạch & Nội Tiết Cùng Giáo Sư",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 850000,
     "meta": "Hồ sơ bệnh án điện tử bảo mật tuyệt đối",
     "id": "5SD-HEA-025-03",
-    "image": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Tư Vấn Bác Sĩ Gia Đình Từ Xa Qua Telehealth 4K",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 450000,
     "meta": "Kê đơn điện tử & Giao thuốc tận nhà trong 1h",
     "id": "5SD-HEA-025-04",
-    "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1579684453423-f84349ef60b0?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

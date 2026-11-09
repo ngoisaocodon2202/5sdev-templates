@@ -1,4 +1,4 @@
-# 5SD-FIN-022 — Apex — Crowdfunding Equity Platform
+# 5SD-FIN-022 — Chronos — Crowdfunding Equity Platform
 
 - **Mã sản phẩm**: `5SD-FIN-022`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

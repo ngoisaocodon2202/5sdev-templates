@@ -1,4 +1,4 @@
-# 5SD-TEC-017 — Kuroshio — Web3 Infrastructure & Node RPC
+# 5SD-TEC-017 — Equinox — Web3 Infrastructure & Node RPC
 
 - **Mã sản phẩm**: `5SD-TEC-017`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

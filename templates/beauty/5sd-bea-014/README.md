@@ -1,4 +1,4 @@
-# 5SD-BEA-014 — Atelier — Organic Botanical Skincare
+# 5SD-BEA-014 — Aurelia — Organic Botanical Skincare
 
 - **Mã sản phẩm**: `5SD-BEA-014`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

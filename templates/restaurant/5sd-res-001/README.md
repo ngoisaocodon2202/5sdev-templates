@@ -1,4 +1,4 @@
-# 5SD-RES-001 — Nexora — Contemporary Fine Dining
+# 5SD-RES-001 — Onyx — Contemporary Fine Dining
 
 - **Mã sản phẩm**: `5SD-RES-001`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

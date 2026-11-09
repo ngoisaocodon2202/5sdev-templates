@@ -1,4 +1,4 @@
-# 5SD-LAN-019 — Nexora — Developer Beta Access Portal
+# 5SD-LAN-019 — Hyperion — Developer Beta Access Portal
 
 - **Mã sản phẩm**: `5SD-LAN-019`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

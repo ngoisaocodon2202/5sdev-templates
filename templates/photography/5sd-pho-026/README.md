@@ -1,4 +1,4 @@
-# 5SD-PHO-026 — Kinetix — AI Retouching & CGI Compositing
+# 5SD-PHO-026 — Lumiere — AI Retouching & CGI Compositing
 
 - **Mã sản phẩm**: `5SD-PHO-026`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

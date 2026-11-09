@@ -1,4 +1,4 @@
-# 5SD-LAN-025 — Veritas — Interactive Quiz Funnel Page
+# 5SD-LAN-025 — Vertex — Interactive Quiz Funnel Page
 
 - **Mã sản phẩm**: `5SD-LAN-025`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

@@ -1,4 +1,4 @@
-# 5SD-ECO-005 — Vertex — Artisan Furniture Store
+# 5SD-ECO-005 — Solvex — Artisan Furniture Store
 
 - **Mã sản phẩm**: `5SD-ECO-005`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

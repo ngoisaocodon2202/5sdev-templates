@@ -1,4 +1,4 @@
-# 5SD-FAS-035 — Lumiere — Runway Show Digital Hub
+# 5SD-FAS-035 — Equinox — Runway Show Digital Hub
 
 - **Mã sản phẩm**: `5SD-FAS-035`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

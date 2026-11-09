@@ -1,4 +1,4 @@
-# 5SD-BLO-027 — Valiant — Music Production & Vinyl Blog
+# 5SD-BLO-027 — Apex — Music Production & Vinyl Blog
 
 - **Mã sản phẩm**: `5SD-BLO-027`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

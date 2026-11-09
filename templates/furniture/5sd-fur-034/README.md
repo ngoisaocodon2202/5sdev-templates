@@ -1,4 +1,4 @@
-# 5SD-FUR-034 — Crescendo — Tatami & Zen Meditation Space
+# 5SD-FUR-034 — Solstice — Tatami & Zen Meditation Space
 
 - **Mã sản phẩm**: `5SD-FUR-034`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

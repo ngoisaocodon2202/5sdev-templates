@@ -1,4 +1,4 @@
-# 5SD-HOT-025 — Aethel — Surf & Yoga Beach Club
+# 5SD-HOT-025 — Velvet — Surf & Yoga Beach Club
 
 - **Mã sản phẩm**: `5SD-HOT-025`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

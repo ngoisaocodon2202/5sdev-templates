@@ -1,4 +1,4 @@
-# 5SD-EDU-016 — Sylvan — Corporate L&D Training Portal
+# 5SD-EDU-016 — Prism — Corporate L&D Training Portal
 
 - **Mã sản phẩm**: `5SD-EDU-016`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

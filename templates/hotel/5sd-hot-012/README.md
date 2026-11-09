@@ -1,4 +1,4 @@
-# 5SD-HOT-012 — Crescendo — Vineyard Chateau Winery Stay
+# 5SD-HOT-012 — Nova — Vineyard Chateau Winery Stay
 
 - **Mã sản phẩm**: `5SD-HOT-012`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

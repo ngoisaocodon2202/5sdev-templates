@@ -1,4 +1,4 @@
-# 5SD-BLO-010 — Solvex — Mindfulness & Philosophy Essays
+# 5SD-BLO-010 — Maison — Mindfulness & Philosophy Essays
 
 - **Mã sản phẩm**: `5SD-BLO-010`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

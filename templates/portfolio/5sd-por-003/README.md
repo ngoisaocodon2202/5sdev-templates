@@ -1,4 +1,4 @@
-# 5SD-POR-003 — Nordic — Creative Director & Strategist
+# 5SD-POR-003 — Crescendo — Creative Director & Strategist
 
 - **Mã sản phẩm**: `5SD-POR-003`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

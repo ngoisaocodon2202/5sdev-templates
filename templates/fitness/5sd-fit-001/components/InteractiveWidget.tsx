@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 1250000,
     "meta": "Đơn giá/tháng • Không giới hạn Gym, Yoga, GroupX, Bể bơi bốn mùa & Sauna",
     "id": "5SD-FIT-001-01",
-    "image": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Lộ Trình Huấn Luyện Cá Nhân 1-Kèm-1 Cam Kết Giảm Mỡ Tăng Cơ",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 8900000,
     "meta": "24 buổi PT chuyên sâu • Đo InBody hàng tuần & Thực đơn dinh dưỡng",
     "id": "5SD-FIT-001-02",
-    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Khóa Tập Reformer Pilates Chỉnh Dáng & Cân Bằng Cột Sống",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 5400000,
     "meta": "16 buổi lớp nhỏ 1:4 • Máy nhập khẩu Hàn Quốc • Giảng viên chứng chỉ quốc tế",
     "id": "5SD-FIT-001-03",
-    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Sân Tập Pickleball & Tennis Mái Che Tiêu Chuẩn Thi Đấu",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 350000,
     "meta": "Đơn giá/giờ • Mặt sân giảm chấn • Cho thuê vợt Carbon & Máy bắn bóng",
     "id": "5SD-FIT-001-04",
-    "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

@@ -1,4 +1,4 @@
-# 5SD-LOG-002 — Celestia — Same-Day Last-Mile Express Delivery
+# 5SD-LOG-002 — Monolith — Same-Day Last-Mile Express Delivery
 
 - **Mã sản phẩm**: `5SD-LOG-002`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

@@ -1,4 +1,4 @@
-# 5SD-LAN-029 — Nexora — Fitness 30-Day Challenge Signup
+# 5SD-LAN-029 — Equinox — Fitness 30-Day Challenge Signup
 
 - **Mã sản phẩm**: `5SD-LAN-029`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

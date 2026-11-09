@@ -1,4 +1,4 @@
-# 5SD-PHO-027 — Solstice — Hospitality Resort Visual Agency
+# 5SD-PHO-027 — Nexora — Hospitality Resort Visual Agency
 
 - **Mã sản phẩm**: `5SD-PHO-027`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

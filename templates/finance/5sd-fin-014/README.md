@@ -1,4 +1,4 @@
-# 5SD-FIN-014 — Hyperion — Credit Score & Financial Health
+# 5SD-FIN-014 — Kuroshio — Credit Score & Financial Health
 
 - **Mã sản phẩm**: `5SD-FIN-014`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

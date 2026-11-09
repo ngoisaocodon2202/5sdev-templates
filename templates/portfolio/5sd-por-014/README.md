@@ -1,4 +1,4 @@
-# 5SD-POR-014 — Chronos — Executive CEO & Angel Investor
+# 5SD-POR-014 — Velvet — Executive CEO & Angel Investor
 
 - **Mã sản phẩm**: `5SD-POR-014`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

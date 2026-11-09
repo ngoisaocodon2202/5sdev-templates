@@ -1,4 +1,4 @@
-# 5SD-CON-023 — Orchid — Demolition & Site Preparation
+# 5SD-CON-023 — Vanguard — Demolition & Site Preparation
 
 - **Mã sản phẩm**: `5SD-CON-023`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

@@ -1,4 +1,4 @@
-# 5SD-CON-019 — Vertex — Port & Marine Engineering
+# 5SD-CON-019 — Equinox — Port & Marine Engineering
 
 - **Mã sản phẩm**: `5SD-CON-019`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

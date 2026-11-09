@@ -1,4 +1,4 @@
-# 5SD-NON-002 — Orchid — Reforestation & Carbon Offset NGO
+# 5SD-NON-002 — Nova — Reforestation & Carbon Offset NGO
 
 - **Mã sản phẩm**: `5SD-NON-002`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

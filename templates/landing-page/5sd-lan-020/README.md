@@ -1,4 +1,4 @@
-# 5SD-LAN-020 — Veritas — Book Pre-Order Bestseller Page
+# 5SD-LAN-020 — Solstice — Book Pre-Order Bestseller Page
 
 - **Mã sản phẩm**: `5SD-LAN-020`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

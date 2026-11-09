@@ -1,4 +1,4 @@
-# 5SD-POR-001 — Atelier — Principal Product Designer
+# 5SD-POR-001 — Nova — Principal Product Designer
 
 - **Mã sản phẩm**: `5SD-POR-001`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

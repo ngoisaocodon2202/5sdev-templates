@@ -1,4 +1,4 @@
-# 5SD-WED-013 — Sovereign — Wedding Live Band & Symphony
+# 5SD-WED-013 — Aurelia — Wedding Live Band & Symphony
 
 - **Mã sản phẩm**: `5SD-WED-013`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

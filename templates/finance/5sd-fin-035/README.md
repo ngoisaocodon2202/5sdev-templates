@@ -1,4 +1,4 @@
-# 5SD-FIN-035 — Nova — CFO Financial Planning FP&A
+# 5SD-FIN-035 — Maison — CFO Financial Planning FP&A
 
 - **Mã sản phẩm**: `5SD-FIN-035`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

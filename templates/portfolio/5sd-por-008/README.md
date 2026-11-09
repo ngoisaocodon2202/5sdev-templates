@@ -1,4 +1,4 @@
-# 5SD-POR-008 — Nordic — Commercial Film Director
+# 5SD-POR-008 — Vanguard — Commercial Film Director
 
 - **Mã sản phẩm**: `5SD-POR-008`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

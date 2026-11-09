@@ -1,4 +1,4 @@
-# 5SD-ECO-027 — Velvet — Botanical Indoor Plant Shop
+# 5SD-ECO-027 — Maison — Botanical Indoor Plant Shop
 
 - **Mã sản phẩm**: `5SD-ECO-027`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

@@ -1,4 +1,4 @@
-# 5SD-BEA-028 — Monolith — Facial Massage Bar
+# 5SD-BEA-028 — Elysian — Facial Massage Bar
 
 - **Mã sản phẩm**: `5SD-BEA-028`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

@@ -1,4 +1,4 @@
-# 5SD-HEA-004 — Vanguard — Smart Digital Pharmacy
+# 5SD-HEA-004 — Solstice — Smart Digital Pharmacy
 
 - **Mã sản phẩm**: `5SD-HEA-004`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

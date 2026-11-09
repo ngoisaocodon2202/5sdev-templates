@@ -1,4 +1,4 @@
-# 5SD-BEA-001 — Nordic — Luxury Nail & Art Studio
+# 5SD-BEA-001 — Hyperion — Luxury Nail & Art Studio
 
 - **Mã sản phẩm**: `5SD-BEA-001`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

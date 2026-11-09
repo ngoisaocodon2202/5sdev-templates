@@ -1,4 +1,4 @@
-# 5SD-SPA-007 — Aurelia — Himalayan Salt Cave Therapy
+# 5SD-SPA-007 — Atelier — Himalayan Salt Cave Therapy
 
 - **Mã sản phẩm**: `5SD-SPA-007`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

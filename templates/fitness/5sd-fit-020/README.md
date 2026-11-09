@@ -1,4 +1,4 @@
-# 5SD-FIT-020 — Valiant — Senior Active Mobility Studio
+# 5SD-FIT-020 — Nova — Senior Active Mobility Studio
 
 - **Mã sản phẩm**: `5SD-FIT-020`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

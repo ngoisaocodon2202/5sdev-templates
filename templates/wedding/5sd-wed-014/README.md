@@ -1,4 +1,4 @@
-# 5SD-WED-014 — Kuroshio — Artisan Multi-Tier Wedding Cake
+# 5SD-WED-014 — Vanguard — Artisan Multi-Tier Wedding Cake
 
 - **Mã sản phẩm**: `5SD-WED-014`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

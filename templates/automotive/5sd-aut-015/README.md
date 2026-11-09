@@ -1,4 +1,4 @@
-# 5SD-AUT-015 — Equinox — Auto Glass & Body Shop
+# 5SD-AUT-015 — Aethel — Auto Glass & Body Shop
 
 - **Mã sản phẩm**: `5SD-AUT-015`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

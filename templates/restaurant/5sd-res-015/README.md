@@ -1,4 +1,4 @@
-# 5SD-RES-015 — Crescendo — VIP Banquet & Dining Reservation
+# 5SD-RES-015 — Arcadia — VIP Banquet & Dining Reservation
 
 - **Mã sản phẩm**: `5SD-RES-015`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

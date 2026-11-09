@@ -1,4 +1,4 @@
-# 5SD-FAS-008 — Solstice — Bridal Gown Couture
+# 5SD-FAS-008 — Kuroshio — Bridal Gown Couture
 
 - **Mã sản phẩm**: `5SD-FAS-008`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

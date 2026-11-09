@@ -1,4 +1,4 @@
-# 5SD-WED-024 — Kuroshio — Elopement & Micro-Wedding Studio
+# 5SD-WED-024 — Onyx — Elopement & Micro-Wedding Studio
 
 - **Mã sản phẩm**: `5SD-WED-024`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

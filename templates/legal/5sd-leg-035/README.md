@@ -1,4 +1,4 @@
-# 5SD-LEG-035 — Sovereign — Supreme Court Appellate Practice
+# 5SD-LEG-035 — Nova — Supreme Court Appellate Practice
 
 - **Mã sản phẩm**: `5SD-LEG-035`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

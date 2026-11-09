@@ -1,4 +1,4 @@
-# 5SD-PHO-025 — Celestia — Photography Workshop & Masterclass
+# 5SD-PHO-025 — Vanguard — Photography Workshop & Masterclass
 
 - **Mã sản phẩm**: `5SD-PHO-025`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

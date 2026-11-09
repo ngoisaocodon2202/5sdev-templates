@@ -1,4 +1,4 @@
-# 5SD-TEC-024 — Zenith — Identity & Passkey Auth SaaS
+# 5SD-TEC-024 — Solvex — Identity & Passkey Auth SaaS
 
 - **Mã sản phẩm**: `5SD-TEC-024`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

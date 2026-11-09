@@ -1,4 +1,4 @@
-# 5SD-FAS-014 — Aether — Silk Scarves & Resortwear
+# 5SD-FAS-014 — Onyx — Silk Scarves & Resortwear
 
 - **Mã sản phẩm**: `5SD-FAS-014`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

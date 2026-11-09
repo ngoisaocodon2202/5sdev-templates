@@ -1,4 +1,4 @@
-# 5SD-FUR-035 — Nexora — Turnkey Apartment Furniture Pack
+# 5SD-FUR-035 — Prism — Turnkey Apartment Furniture Pack
 
 - **Mã sản phẩm**: `5SD-FUR-035`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

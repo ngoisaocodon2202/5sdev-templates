@@ -1,4 +1,4 @@
-# 5SD-EDU-004 — Sovereign — International Primary School
+# 5SD-EDU-004 — Sylvan — International Primary School
 
 - **Mã sản phẩm**: `5SD-EDU-004`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

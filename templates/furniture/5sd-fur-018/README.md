@@ -1,4 +1,4 @@
-# 5SD-FUR-018 — Prism — Acoustic Wall Panel & Decor
+# 5SD-FUR-018 — Velvet — Acoustic Wall Panel & Decor
 
 - **Mã sản phẩm**: `5SD-FUR-018`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

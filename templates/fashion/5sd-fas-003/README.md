@@ -1,4 +1,4 @@
-# 5SD-FAS-003 — Solstice — Bespoke Menswear Tailoring
+# 5SD-FAS-003 — Aurelia — Bespoke Menswear Tailoring
 
 - **Mã sản phẩm**: `5SD-FAS-003`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

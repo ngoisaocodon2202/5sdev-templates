@@ -1,4 +1,4 @@
-# 5SD-SPA-014 — Elysian — Detox Juice & Fasting Retreat
+# 5SD-SPA-014 — Forma — Detox Juice & Fasting Retreat
 
 - **Mã sản phẩm**: `5SD-SPA-014`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

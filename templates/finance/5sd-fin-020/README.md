@@ -1,4 +1,4 @@
-# 5SD-FIN-020 — Nova — Audit & Risk Advisory Firm
+# 5SD-FIN-020 — Onyx — Audit & Risk Advisory Firm
 
 - **Mã sản phẩm**: `5SD-FIN-020`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

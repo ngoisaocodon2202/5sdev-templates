@@ -1,4 +1,4 @@
-# 5SD-POR-026 — Atelier — Design System Architect
+# 5SD-POR-026 — Zenith — Design System Architect
 
 - **Mã sản phẩm**: `5SD-POR-026`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

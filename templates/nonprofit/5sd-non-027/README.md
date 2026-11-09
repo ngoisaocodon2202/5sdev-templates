@@ -1,4 +1,4 @@
-# 5SD-NON-027 — Orchid — Digital Literacy For Rural Kids
+# 5SD-NON-027 — Zenith — Digital Literacy For Rural Kids
 
 - **Mã sản phẩm**: `5SD-NON-027`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

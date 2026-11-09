@@ -1,4 +1,4 @@
-# 5SD-LAN-003 — Crescendo — High-Ticket Webinar Registration
+# 5SD-LAN-003 — Nordic — High-Ticket Webinar Registration
 
 - **Mã sản phẩm**: `5SD-LAN-003`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

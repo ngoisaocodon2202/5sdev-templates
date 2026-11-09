@@ -1,4 +1,4 @@
-# 5SD-INT-013 — Atelier — Medical & Spa Clinic Interior
+# 5SD-INT-013 — Chronos — Medical & Spa Clinic Interior
 
 - **Mã sản phẩm**: `5SD-INT-013`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

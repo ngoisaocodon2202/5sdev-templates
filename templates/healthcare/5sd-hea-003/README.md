@@ -1,4 +1,4 @@
-# 5SD-HEA-003 — Nova — Multi-Specialty Medical Center
+# 5SD-HEA-003 — Hyperion — Multi-Specialty Medical Center
 
 - **Mã sản phẩm**: `5SD-HEA-003`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

@@ -1,4 +1,4 @@
-# 5SD-AUT-007 — Onyx — Autonomous Mobility Fleet
+# 5SD-AUT-007 — Celestia — Autonomous Mobility Fleet
 
 - **Mã sản phẩm**: `5SD-AUT-007`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

@@ -1,4 +1,4 @@
-# 5SD-INT-007 — Monolith — Boutique Hotel Interior Studio
+# 5SD-INT-007 — Velvet — Boutique Hotel Interior Studio
 
 - **Mã sản phẩm**: `5SD-INT-007`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

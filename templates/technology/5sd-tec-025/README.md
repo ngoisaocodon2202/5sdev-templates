@@ -1,4 +1,4 @@
-# 5SD-TEC-025 — Maison — Payment Orchestration Engine
+# 5SD-TEC-025 — Kuroshio — Payment Orchestration Engine
 
 - **Mã sản phẩm**: `5SD-TEC-025`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

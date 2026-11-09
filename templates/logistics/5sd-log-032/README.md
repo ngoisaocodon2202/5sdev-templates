@@ -1,4 +1,4 @@
-# 5SD-LOG-032 — Celestia — Air Express Document Courier
+# 5SD-LOG-032 — Stratos — Air Express Document Courier
 
 - **Mã sản phẩm**: `5SD-LOG-032`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

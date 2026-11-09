@@ -1,4 +1,4 @@
-# 5SD-PHO-032 — Solstice — Cosplay & Concept Art Studio
+# 5SD-PHO-032 — Apex — Cosplay & Concept Art Studio
 
 - **Mã sản phẩm**: `5SD-PHO-032`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

@@ -1,4 +1,4 @@
-# 5SD-FIN-030 — Nova — Forex & Treasury Hedging
+# 5SD-FIN-030 — Orchid — Forex & Treasury Hedging
 
 - **Mã sản phẩm**: `5SD-FIN-030`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

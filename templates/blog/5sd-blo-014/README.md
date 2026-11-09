@@ -1,4 +1,4 @@
-# 5SD-BLO-014 — Equinox — Sustainable Zero-Waste Lifestyle
+# 5SD-BLO-014 — Aether — Sustainable Zero-Waste Lifestyle
 
 - **Mã sản phẩm**: `5SD-BLO-014`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

@@ -1,4 +1,4 @@
-# 5SD-WED-016 — Zenith — Honeymoon Concierge & Registry
+# 5SD-WED-016 — Nexora — Honeymoon Concierge & Registry
 
 - **Mã sản phẩm**: `5SD-WED-016`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

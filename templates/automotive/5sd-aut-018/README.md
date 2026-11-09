@@ -1,4 +1,4 @@
-# 5SD-AUT-018 — Valiant — Off-Road 4x4 Overland Outfitters
+# 5SD-AUT-018 — Monolith — Off-Road 4x4 Overland Outfitters
 
 - **Mã sản phẩm**: `5SD-AUT-018`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

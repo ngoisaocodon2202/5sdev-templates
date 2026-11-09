@@ -1,4 +1,4 @@
-# 5SD-HOT-002 — Crescendo — Private Island Beach Resort
+# 5SD-HOT-002 — Zenith — Private Island Beach Resort
 
 - **Mã sản phẩm**: `5SD-HOT-002`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

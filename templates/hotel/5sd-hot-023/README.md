@@ -1,4 +1,4 @@
-# 5SD-HOT-023 — Nexora — Historic Ryokan Inn
+# 5SD-HOT-023 — Kuroshio — Historic Ryokan Inn
 
 - **Mã sản phẩm**: `5SD-HOT-023`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

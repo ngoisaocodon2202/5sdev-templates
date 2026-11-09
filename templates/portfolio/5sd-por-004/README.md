@@ -1,4 +1,4 @@
-# 5SD-POR-004 — Chronos — Award-Winning Architect
+# 5SD-POR-004 — Equinox — Award-Winning Architect
 
 - **Mã sản phẩm**: `5SD-POR-004`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

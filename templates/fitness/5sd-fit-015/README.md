@@ -1,4 +1,4 @@
-# 5SD-FIT-015 — Valiant — Corporate Employee Wellness Program
+# 5SD-FIT-015 — Prism — Corporate Employee Wellness Program
 
 - **Mã sản phẩm**: `5SD-FIT-015`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

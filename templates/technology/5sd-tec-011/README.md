@@ -1,4 +1,4 @@
-# 5SD-TEC-011 — Sovereign — API Gateway & Microservices
+# 5SD-TEC-011 — Maison — API Gateway & Microservices
 
 - **Mã sản phẩm**: `5SD-TEC-011`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

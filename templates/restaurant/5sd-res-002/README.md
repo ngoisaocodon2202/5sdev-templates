@@ -1,4 +1,4 @@
-# 5SD-RES-002 — Veritas — Authentic Italian Trattoria
+# 5SD-RES-002 — Sylvan — Authentic Italian Trattoria
 
 - **Mã sản phẩm**: `5SD-RES-002`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

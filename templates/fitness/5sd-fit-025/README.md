@@ -1,4 +1,4 @@
-# 5SD-FIT-025 — Valiant — Fencing & Archery Club
+# 5SD-FIT-025 — Forma — Fencing & Archery Club
 
 - **Mã sản phẩm**: `5SD-FIT-025`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

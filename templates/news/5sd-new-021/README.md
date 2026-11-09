@@ -1,4 +1,4 @@
-# 5SD-NEW-021 — Apex — B2B Retail & E-Commerce Digest
+# 5SD-NEW-021 — Maison — B2B Retail & E-Commerce Digest
 
 - **Mã sản phẩm**: `5SD-NEW-021`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

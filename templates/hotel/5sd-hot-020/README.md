@@ -1,4 +1,4 @@
-# 5SD-HOT-020 — Aethel — Floating River Eco Lodge
+# 5SD-HOT-020 — Lumiere — Floating River Eco Lodge
 
 - **Mã sản phẩm**: `5SD-HOT-020`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

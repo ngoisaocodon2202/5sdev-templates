@@ -1,4 +1,4 @@
-# 5SD-FIT-019 — Onyx — Kids Gymnastics & Motor Skills
+# 5SD-FIT-019 — Vertex — Kids Gymnastics & Motor Skills
 
 - **Mã sản phẩm**: `5SD-FIT-019`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

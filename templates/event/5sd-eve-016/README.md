@@ -1,4 +1,4 @@
-# 5SD-EVE-016 — Hyperion — Book Fair & Literary Festival
+# 5SD-EVE-016 — Elysian — Book Fair & Literary Festival
 
 - **Mã sản phẩm**: `5SD-EVE-016`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

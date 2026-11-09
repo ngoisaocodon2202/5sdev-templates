@@ -1,4 +1,4 @@
-# 5SD-TRA-002 — Vertex — Luxury Yacht & Cruise Ha Long
+# 5SD-TRA-002 — Apex — Luxury Yacht & Cruise Ha Long
 
 - **Mã sản phẩm**: `5SD-TRA-002`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

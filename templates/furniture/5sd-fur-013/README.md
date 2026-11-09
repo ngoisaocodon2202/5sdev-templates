@@ -1,4 +1,4 @@
-# 5SD-FUR-013 — Prism — Kids Montessori Room Furniture
+# 5SD-FUR-013 — Lumiere — Kids Montessori Room Furniture
 
 - **Mã sản phẩm**: `5SD-FUR-013`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

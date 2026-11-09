@@ -1,4 +1,4 @@
-# 5SD-FAS-020 — Lumiere — Maternity Chic Apparel
+# 5SD-FAS-020 — Aethel — Maternity Chic Apparel
 
 - **Mã sản phẩm**: `5SD-FAS-020`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

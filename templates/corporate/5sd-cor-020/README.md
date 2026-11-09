@@ -1,4 +1,4 @@
-# 5SD-COR-020 — Solstice — Energy & Utilities Corporation
+# 5SD-COR-020 — Prism — Energy & Utilities Corporation
 
 - **Mã sản phẩm**: `5SD-COR-020`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

@@ -1,4 +1,4 @@
-# 5SD-LEG-007 — Sylvan — Labor & Employment Law Practice
+# 5SD-LEG-007 — Vanguard — Labor & Employment Law Practice
 
 - **Mã sản phẩm**: `5SD-LEG-007`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

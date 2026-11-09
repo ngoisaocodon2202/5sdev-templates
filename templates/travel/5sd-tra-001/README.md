@@ -1,4 +1,4 @@
-# 5SD-TRA-001 — Orchid — Global Tour Booking Platform
+# 5SD-TRA-001 — Velvet — Global Tour Booking Platform
 
 - **Mã sản phẩm**: `5SD-TRA-001`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

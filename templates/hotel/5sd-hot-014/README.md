@@ -1,4 +1,4 @@
-# 5SD-HOT-014 — Veritas — Family Waterpark Resort
+# 5SD-HOT-014 — Crescendo — Family Waterpark Resort
 
 - **Mã sản phẩm**: `5SD-HOT-014`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

@@ -1,4 +1,4 @@
-# 5SD-RES-018 — Aethel — Mexican Tacos & Mezcal Bar
+# 5SD-RES-018 — Vertex — Mexican Tacos & Mezcal Bar
 
 - **Mã sản phẩm**: `5SD-RES-018`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

@@ -1,4 +1,4 @@
-# 5SD-RES-007 — Veritas — Artisan Sourdough Bakery
+# 5SD-RES-007 — Aethel — Artisan Sourdough Bakery
 
 - **Mã sản phẩm**: `5SD-RES-007`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

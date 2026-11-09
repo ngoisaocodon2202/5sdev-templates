@@ -1,4 +1,4 @@
-# 5SD-TEC-007 — Kuroshio — Hardware IoT & Edge Computing
+# 5SD-TEC-007 — Hyperion — Hardware IoT & Edge Computing
 
 - **Mã sản phẩm**: `5SD-TEC-007`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

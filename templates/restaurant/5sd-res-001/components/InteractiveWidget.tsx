@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 1850000,
     "meta": "Kết hợp rượu vang • Phục vụ tại bàn",
     "id": "5SD-RES-001-01",
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Combo Hải sản Thượng hạng & Wagyu A5",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 2450000,
     "meta": "Dành cho 2-4 thực khách • Tươi sống",
     "id": "5SD-RES-001-02",
-    "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Set Trà chiều Nghệ thuật & Bánh Pháp",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 690000,
     "meta": "14:00 - 17:30 hàng ngày • View toàn cảnh",
     "id": "5SD-RES-001-03",
-    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Tiệc Tối Riêng Tư Phòng VIP Sang Trọng",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 4500000,
     "meta": "Thực đơn thiết kế riêng • Sommelier",
     "id": "5SD-RES-001-04",
-    "image": "https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

@@ -1,4 +1,4 @@
-# 5SD-BLO-032 — Valiant — Mental Health & Journaling Space
+# 5SD-BLO-032 — Chronos — Mental Health & Journaling Space
 
 - **Mã sản phẩm**: `5SD-BLO-032`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

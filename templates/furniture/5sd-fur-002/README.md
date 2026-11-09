@@ -1,4 +1,4 @@
-# 5SD-FUR-002 — Aethel — Handcrafted Italian Leather Sofa
+# 5SD-FUR-002 — Maison — Handcrafted Italian Leather Sofa
 
 - **Mã sản phẩm**: `5SD-FUR-002`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

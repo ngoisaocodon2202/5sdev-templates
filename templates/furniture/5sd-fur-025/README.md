@@ -1,4 +1,4 @@
-# 5SD-FUR-025 — Nexora — Compact Studio Space-Saving Bed
+# 5SD-FUR-025 — Elysian — Compact Studio Space-Saving Bed
 
 - **Mã sản phẩm**: `5SD-FUR-025`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

@@ -1,4 +1,4 @@
-# 5SD-HOT-032 — Crescendo — Yacht Berth & Marina Hotel
+# 5SD-HOT-032 — Elysian — Yacht Berth & Marina Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-032`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

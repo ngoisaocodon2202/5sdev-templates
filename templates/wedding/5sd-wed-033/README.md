@@ -1,4 +1,4 @@
-# 5SD-WED-033 — Sovereign — Celebrity VIP Wedding Security
+# 5SD-WED-033 — Monolith — Celebrity VIP Wedding Security
 
 - **Mã sản phẩm**: `5SD-WED-033`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

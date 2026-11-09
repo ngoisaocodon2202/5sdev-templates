@@ -1,4 +1,4 @@
-# 5SD-FAS-012 — Kinetix — Avant-Garde Runway Showcase
+# 5SD-FAS-012 — Celestia — Avant-Garde Runway Showcase
 
 - **Mã sản phẩm**: `5SD-FAS-012`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

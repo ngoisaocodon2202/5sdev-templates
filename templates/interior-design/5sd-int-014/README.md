@@ -1,4 +1,4 @@
-# 5SD-INT-014 — Forma — Smart Home Integration Design
+# 5SD-INT-014 — Elysian — Smart Home Integration Design
 
 - **Mã sản phẩm**: `5SD-INT-014`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

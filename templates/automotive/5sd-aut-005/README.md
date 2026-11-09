@@ -1,4 +1,4 @@
-# 5SD-AUT-005 — Equinox — Performance Motorcycle Showroom
+# 5SD-AUT-005 — Velvet — Performance Motorcycle Showroom
 
 - **Mã sản phẩm**: `5SD-AUT-005`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

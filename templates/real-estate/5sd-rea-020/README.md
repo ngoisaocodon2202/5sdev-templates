@@ -1,4 +1,4 @@
-# 5SD-REA-020 — Onyx — Virtual 3D Matterport Showcase
+# 5SD-REA-020 — Stratos — Virtual 3D Matterport Showcase
 
 - **Mã sản phẩm**: `5SD-REA-020`
 - **Ngành nghề**: Bất động sản (`real-estate`)

@@ -1,4 +1,4 @@
-# 5SD-FIT-034 — Onyx — Smart Fitness Tracker Portal
+# 5SD-FIT-034 — Apex — Smart Fitness Tracker Portal
 
 - **Mã sản phẩm**: `5SD-FIT-034`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

@@ -1,4 +1,4 @@
-# 5SD-HOT-033 — Nexora — Farmstay & Organic Orchard
+# 5SD-HOT-033 — Stratos — Farmstay & Organic Orchard
 
 - **Mã sản phẩm**: `5SD-HOT-033`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

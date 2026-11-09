@@ -1,4 +1,4 @@
-# 5SD-POR-035 — Monolith — Interactive Agency Showreel
+# 5SD-POR-035 — Vertex — Interactive Agency Showreel
 
 - **Mã sản phẩm**: `5SD-POR-035`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

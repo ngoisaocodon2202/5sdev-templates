@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 2450000,
     "meta": "Bảo hành 24 tháng • Giao nhanh 2h",
     "id": "5SD-ECO-023-01",
-    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Artisan Crafted Collector Series",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 4890000,
     "meta": "Chế tác thủ công • Phiên bản giới hạn",
     "id": "5SD-ECO-023-02",
-    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Essential Daily Studio Kit",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 1650000,
     "meta": "Vật liệu cao cấp • Đổi trả 30 ngày",
     "id": "5SD-ECO-023-03",
-    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Ultra Performance Flagship Box",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 6200000,
     "meta": "Chứng nhận quốc tế • Tặng phụ kiện",
     "id": "5SD-ECO-023-04",
-    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

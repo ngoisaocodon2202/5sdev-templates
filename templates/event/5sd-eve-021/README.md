@@ -1,4 +1,4 @@
-# 5SD-EVE-021 — Hyperion — New Year Countdown Concert
+# 5SD-EVE-021 — Zenith — New Year Countdown Concert
 
 - **Mã sản phẩm**: `5SD-EVE-021`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

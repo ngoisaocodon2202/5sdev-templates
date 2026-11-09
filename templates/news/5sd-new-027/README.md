@@ -1,4 +1,4 @@
-# 5SD-NEW-027 — Stratos — Digital Marketing & AdTech News
+# 5SD-NEW-027 — Equinox — Digital Marketing & AdTech News
 
 - **Mã sản phẩm**: `5SD-NEW-027`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

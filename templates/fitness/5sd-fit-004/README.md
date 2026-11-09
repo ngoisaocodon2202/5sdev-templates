@@ -1,4 +1,4 @@
-# 5SD-FIT-004 — Onyx — Boutique Reformer Pilates Studio
+# 5SD-FIT-004 — Chronos — Boutique Reformer Pilates Studio
 
 - **Mã sản phẩm**: `5SD-FIT-004`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

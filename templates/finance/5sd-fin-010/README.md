@@ -1,4 +1,4 @@
-# 5SD-FIN-010 — Nova — Tax & Accounting Automation SaaS
+# 5SD-FIN-010 — Vanguard — Tax & Accounting Automation SaaS
 
 - **Mã sản phẩm**: `5SD-FIN-010`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

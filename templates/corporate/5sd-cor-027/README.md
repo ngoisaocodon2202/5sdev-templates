@@ -1,4 +1,4 @@
-# 5SD-COR-027 — Lumiere — Government & Public Sector Portal
+# 5SD-COR-027 — Crescendo — Government & Public Sector Portal
 
 - **Mã sản phẩm**: `5SD-COR-027`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

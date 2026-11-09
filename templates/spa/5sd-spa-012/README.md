@@ -1,4 +1,4 @@
-# 5SD-SPA-012 — Aurelia — Aromatherapy & Botanical Apothecary
+# 5SD-SPA-012 — Equinox — Aromatherapy & Botanical Apothecary
 
 - **Mã sản phẩm**: `5SD-SPA-012`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

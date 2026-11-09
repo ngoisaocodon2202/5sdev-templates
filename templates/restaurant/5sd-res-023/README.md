@@ -1,4 +1,4 @@
-# 5SD-RES-023 — Aethel — Rooftop Sky Dining & Cocktail
+# 5SD-RES-023 — Sovereign — Rooftop Sky Dining & Cocktail
 
 - **Mã sản phẩm**: `5SD-RES-023`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

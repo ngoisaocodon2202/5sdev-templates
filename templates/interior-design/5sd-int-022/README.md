@@ -1,4 +1,4 @@
-# 5SD-INT-022 — Monolith — Lighting Design Consultancy
+# 5SD-INT-022 — Hyperion — Lighting Design Consultancy
 
 - **Mã sản phẩm**: `5SD-INT-022`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

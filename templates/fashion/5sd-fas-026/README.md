@@ -1,4 +1,4 @@
-# 5SD-FAS-026 — Celestia — Evening Gala Dress Rental
+# 5SD-FAS-026 — Solstice — Evening Gala Dress Rental
 
 - **Mã sản phẩm**: `5SD-FAS-026`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

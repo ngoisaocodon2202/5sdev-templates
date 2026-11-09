@@ -1,4 +1,4 @@
-# 5SD-LEG-027 — Sylvan — Sports & Athlete Representation
+# 5SD-LEG-027 — Orchid — Sports & Athlete Representation
 
 - **Mã sản phẩm**: `5SD-LEG-027`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

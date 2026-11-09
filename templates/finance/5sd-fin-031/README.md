@@ -1,4 +1,4 @@
-# 5SD-FIN-031 — Vanguard — Real Estate Crowdfunding
+# 5SD-FIN-031 — Hyperion — Real Estate Crowdfunding
 
 - **Mã sản phẩm**: `5SD-FIN-031`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

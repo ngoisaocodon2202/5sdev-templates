@@ -1,4 +1,4 @@
-# 5SD-POR-033 — Nordic — Documentary Journalist
+# 5SD-POR-033 — Maison — Documentary Journalist
 
 - **Mã sản phẩm**: `5SD-POR-033`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

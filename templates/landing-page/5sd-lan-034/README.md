@@ -1,4 +1,4 @@
-# 5SD-LAN-034 — Nexora — Community Discord/Slack Invite Hub
+# 5SD-LAN-034 — Lumiere — Community Discord/Slack Invite Hub
 
 - **Mã sản phẩm**: `5SD-LAN-034`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

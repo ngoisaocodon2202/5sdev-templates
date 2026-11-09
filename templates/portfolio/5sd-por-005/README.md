@@ -1,4 +1,4 @@
-# 5SD-POR-005 — Monolith — 3D Motion & WebGL Artist
+# 5SD-POR-005 — Sovereign — 3D Motion & WebGL Artist
 
 - **Mã sản phẩm**: `5SD-POR-005`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

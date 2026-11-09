@@ -1,4 +1,4 @@
-# 5SD-FIT-007 — Equinox — Running & Marathon Training Club
+# 5SD-FIT-007 — Kinetix — Running & Marathon Training Club
 
 - **Mã sản phẩm**: `5SD-FIT-007`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

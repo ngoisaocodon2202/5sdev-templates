@@ -1,4 +1,4 @@
-# 5SD-FAS-017 — Kinetix — Cashmere & Knitwear Studio
+# 5SD-FAS-017 — Elysian — Cashmere & Knitwear Studio
 
 - **Mã sản phẩm**: `5SD-FAS-017`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

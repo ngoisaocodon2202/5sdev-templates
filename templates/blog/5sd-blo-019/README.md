@@ -1,4 +1,4 @@
-# 5SD-BLO-019 — Equinox — Gardening & Urban Jungle Diary
+# 5SD-BLO-019 — Aurelia — Gardening & Urban Jungle Diary
 
 - **Mã sản phẩm**: `5SD-BLO-019`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

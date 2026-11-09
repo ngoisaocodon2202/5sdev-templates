@@ -1,4 +1,4 @@
-# 5SD-BLO-004 — Equinox — Culinary Recipes & Kitchen Stories
+# 5SD-BLO-004 — Monolith — Culinary Recipes & Kitchen Stories
 
 - **Mã sản phẩm**: `5SD-BLO-004`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

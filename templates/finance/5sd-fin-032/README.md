@@ -1,4 +1,4 @@
-# 5SD-FIN-032 — Apex — Corporate IPO Advisory
+# 5SD-FIN-032 — Solstice — Corporate IPO Advisory
 
 - **Mã sản phẩm**: `5SD-FIN-032`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

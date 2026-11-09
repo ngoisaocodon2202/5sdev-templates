@@ -1,4 +1,4 @@
-# 5SD-PHO-029 — Lumiere — Brand Storytelling Video Agency
+# 5SD-PHO-029 — Kuroshio — Brand Storytelling Video Agency
 
 - **Mã sản phẩm**: `5SD-PHO-029`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

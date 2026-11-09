@@ -1,4 +1,4 @@
-# 5SD-NON-031 — Elysian — Art Therapy For Hospitalized Kids
+# 5SD-NON-031 — Solstice — Art Therapy For Hospitalized Kids
 
 - **Mã sản phẩm**: `5SD-NON-031`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

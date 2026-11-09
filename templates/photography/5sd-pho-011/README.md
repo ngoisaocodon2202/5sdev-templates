@@ -1,4 +1,4 @@
-# 5SD-PHO-011 — Kinetix — Color Grading & Post-Production
+# 5SD-PHO-011 — Hyperion — Color Grading & Post-Production
 
 - **Mã sản phẩm**: `5SD-PHO-011`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

@@ -1,4 +1,4 @@
-# 5SD-POR-032 — Forma — Venture Studio Founder
+# 5SD-POR-032 — Arcadia — Venture Studio Founder
 
 - **Mã sản phẩm**: `5SD-POR-032`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

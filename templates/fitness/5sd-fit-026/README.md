@@ -1,4 +1,4 @@
-# 5SD-FIT-026 — Arcadia — Barre & Aerial Silk Studio
+# 5SD-FIT-026 — Aurelia — Barre & Aerial Silk Studio
 
 - **Mã sản phẩm**: `5SD-FIT-026`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

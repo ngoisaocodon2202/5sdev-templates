@@ -1,4 +1,4 @@
-# 5SD-TEC-022 — Kuroshio — Feature Flag & Experimentation
+# 5SD-TEC-022 — Lumiere — Feature Flag & Experimentation
 
 - **Mã sản phẩm**: `5SD-TEC-022`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

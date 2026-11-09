@@ -1,4 +1,4 @@
-# 5SD-PHO-021 — Kinetix — Stop-Motion Animation Studio
+# 5SD-PHO-021 — Equinox — Stop-Motion Animation Studio
 
 - **Mã sản phẩm**: `5SD-PHO-021`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

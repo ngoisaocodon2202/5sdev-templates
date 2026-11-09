@@ -1,4 +1,4 @@
-# 5SD-FIT-003 — Solvex — 1-on-1 Personal Trainer Portfolio
+# 5SD-FIT-003 — Sylvan — 1-on-1 Personal Trainer Portfolio
 
 - **Mã sản phẩm**: `5SD-FIT-003`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

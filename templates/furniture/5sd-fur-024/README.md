@@ -1,4 +1,4 @@
-# 5SD-FUR-024 — Crescendo — Pet-Friendly Stain-Resistant Sofa
+# 5SD-FUR-024 — Chronos — Pet-Friendly Stain-Resistant Sofa
 
 - **Mã sản phẩm**: `5SD-FUR-024`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

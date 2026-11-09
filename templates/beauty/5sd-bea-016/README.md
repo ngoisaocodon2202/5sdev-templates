@@ -1,4 +1,4 @@
-# 5SD-BEA-016 — Nordic — Laser & Hair Removal Center
+# 5SD-BEA-016 — Lumiere — Laser & Hair Removal Center
 
 - **Mã sản phẩm**: `5SD-BEA-016`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

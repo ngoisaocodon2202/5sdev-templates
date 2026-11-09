@@ -1,4 +1,4 @@
-# 5SD-HEA-035 — Apex — Executive VIP Health Checkup
+# 5SD-HEA-035 — Zenith — Executive VIP Health Checkup
 
 - **Mã sản phẩm**: `5SD-HEA-035`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

@@ -1,4 +1,4 @@
-# 5SD-HEA-016 — Stratos — Oncology Screening & Care
+# 5SD-HEA-016 — Aurelia — Oncology Screening & Care
 
 - **Mã sản phẩm**: `5SD-HEA-016`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

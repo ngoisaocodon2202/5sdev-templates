@@ -1,4 +1,4 @@
-# 5SD-FAS-027 — Kinetix — Personal Styling & Wardrobe
+# 5SD-FAS-027 — Prism — Personal Styling & Wardrobe
 
 - **Mã sản phẩm**: `5SD-FAS-027`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

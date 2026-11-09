@@ -1,4 +1,4 @@
-# 5SD-SPA-035 — Orchid — Wellness Membership Club
+# 5SD-SPA-035 — Monolith — Wellness Membership Club
 
 - **Mã sản phẩm**: `5SD-SPA-035`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

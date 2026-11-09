@@ -1,4 +1,4 @@
-# 5SD-ECO-007 — Velvet — Fresh Grocery Market
+# 5SD-ECO-007 — Nordic — Fresh Grocery Market
 
 - **Mã sản phẩm**: `5SD-ECO-007`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

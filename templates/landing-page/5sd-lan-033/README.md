@@ -1,4 +1,4 @@
-# 5SD-LAN-033 — Crescendo — Consultation Strategy Call Booking
+# 5SD-LAN-033 — Vanguard — Consultation Strategy Call Booking
 
 - **Mã sản phẩm**: `5SD-LAN-033`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

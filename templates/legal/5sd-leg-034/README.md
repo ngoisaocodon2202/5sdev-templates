@@ -1,4 +1,4 @@
-# 5SD-LEG-034 — Maison — Pro Bono Legal Aid Foundation
+# 5SD-LEG-034 — Vertex — Pro Bono Legal Aid Foundation
 
 - **Mã sản phẩm**: `5SD-LEG-034`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

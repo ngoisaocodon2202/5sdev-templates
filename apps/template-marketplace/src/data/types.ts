@@ -16,6 +16,8 @@ export interface TemplateRegistryItem {
   slug: string;            // e.g. "5sd-eco-001"
   name: string;            // e.g. "Aurelia Atelier — Luxury Fashion Flagship Store"
   nameVi: string;          // Vietnamese subtitle/name
+  brandName?: string;      // e.g. "Aurelia"
+  logoSvg?: string;        // e.g. "/templates/ecommerce/5sd-eco-001/assets/logo.svg"
   category: string;        // e.g. "ecommerce"
   categoryName: string;    // e.g. "E-commerce"
   categoryNameVi: string;  // e.g. "Thương mại điện tử"

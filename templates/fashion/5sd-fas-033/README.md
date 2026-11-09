@@ -1,4 +1,4 @@
-# 5SD-FAS-033 — Solstice — Fashion Model Agency Book
+# 5SD-FAS-033 — Aether — Fashion Model Agency Book
 
 - **Mã sản phẩm**: `5SD-FAS-033`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

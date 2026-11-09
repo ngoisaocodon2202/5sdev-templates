@@ -1,4 +1,4 @@
-# 5SD-SPA-024 — Elysian — Organic Tea & Mindfulness Lounge
+# 5SD-SPA-024 — Celestia — Organic Tea & Mindfulness Lounge
 
 - **Mã sản phẩm**: `5SD-SPA-024`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

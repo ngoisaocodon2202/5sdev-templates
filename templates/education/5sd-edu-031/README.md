@@ -1,4 +1,4 @@
-# 5SD-EDU-031 — Sylvan — E-Library & Academic Journal
+# 5SD-EDU-031 — Solvex — E-Library & Academic Journal
 
 - **Mã sản phẩm**: `5SD-EDU-031`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

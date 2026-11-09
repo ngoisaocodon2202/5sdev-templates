@@ -1,4 +1,4 @@
-# 5SD-INT-033 — Atelier — Bespoke Staircase & Atrium Design
+# 5SD-INT-033 — Sovereign — Bespoke Staircase & Atrium Design
 
 - **Mã sản phẩm**: `5SD-INT-033`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

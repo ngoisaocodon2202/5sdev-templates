@@ -1,4 +1,4 @@
-# 5SD-BLO-018 — Arcadia — Cinema & Film Theory Essays
+# 5SD-BLO-018 — Forma — Cinema & Film Theory Essays
 
 - **Mã sản phẩm**: `5SD-BLO-018`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

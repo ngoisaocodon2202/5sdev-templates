@@ -1,4 +1,4 @@
-# 5SD-TEC-035 — Maison — Database Sharding & Replication
+# 5SD-TEC-035 — Stratos — Database Sharding & Replication
 
 - **Mã sản phẩm**: `5SD-TEC-035`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

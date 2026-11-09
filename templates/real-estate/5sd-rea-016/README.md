@@ -1,4 +1,4 @@
-# 5SD-REA-016 — Valiant — Heritage Restoration Properties
+# 5SD-REA-016 — Onyx — Heritage Restoration Properties
 
 - **Mã sản phẩm**: `5SD-REA-016`
 - **Ngành nghề**: Bất động sản (`real-estate`)

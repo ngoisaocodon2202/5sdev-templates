@@ -1,4 +1,4 @@
-# 5SD-CON-020 — Aurelia — Modular Prefab House Builder
+# 5SD-CON-020 — Sovereign — Modular Prefab House Builder
 
 - **Mã sản phẩm**: `5SD-CON-020`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

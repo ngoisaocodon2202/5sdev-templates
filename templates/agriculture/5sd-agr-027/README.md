@@ -1,4 +1,4 @@
-# 5SD-AGR-027 — Nordic — Biodegradable Packaging Supply
+# 5SD-AGR-027 — Forma — Biodegradable Packaging Supply
 
 - **Mã sản phẩm**: `5SD-AGR-027`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

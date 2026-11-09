@@ -1,4 +1,4 @@
-# 5SD-REA-023 — Equinox — Green LEED Certified Buildings
+# 5SD-REA-023 — Valiant — Green LEED Certified Buildings
 
 - **Mã sản phẩm**: `5SD-REA-023`
 - **Ngành nghề**: Bất động sản (`real-estate`)

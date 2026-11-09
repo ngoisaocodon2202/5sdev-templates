@@ -1,4 +1,4 @@
-# 5SD-AUT-013 — Valiant — Yacht & Marine Craft Dealer
+# 5SD-AUT-013 — Stratos — Yacht & Marine Craft Dealer
 
 - **Mã sản phẩm**: `5SD-AUT-013`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

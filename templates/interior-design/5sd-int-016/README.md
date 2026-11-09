@@ -1,4 +1,4 @@
-# 5SD-INT-016 — Chronos — Landscape & Zen Garden Studio
+# 5SD-INT-016 — Kinetix — Landscape & Zen Garden Studio
 
 - **Mã sản phẩm**: `5SD-INT-016`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

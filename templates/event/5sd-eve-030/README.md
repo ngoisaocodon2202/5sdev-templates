@@ -1,4 +1,4 @@
-# 5SD-EVE-030 — Stratos — Shareholder Annual General Meeting
+# 5SD-EVE-030 — Vertex — Shareholder Annual General Meeting
 
 - **Mã sản phẩm**: `5SD-EVE-030`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

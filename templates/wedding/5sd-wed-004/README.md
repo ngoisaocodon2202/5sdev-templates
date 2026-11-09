@@ -1,4 +1,4 @@
-# 5SD-WED-004 — Kuroshio — Digital Wedding Invitation & RSVP
+# 5SD-WED-004 — Maison — Digital Wedding Invitation & RSVP
 
 - **Mã sản phẩm**: `5SD-WED-004`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

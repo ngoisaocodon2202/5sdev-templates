@@ -1,4 +1,4 @@
-# 5SD-COR-030 — Solstice — Quality Assurance & ISO Certification
+# 5SD-COR-030 — Forma — Quality Assurance & ISO Certification
 
 - **Mã sản phẩm**: `5SD-COR-030`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

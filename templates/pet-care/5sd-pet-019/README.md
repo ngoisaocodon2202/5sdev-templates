@@ -1,4 +1,4 @@
-# 5SD-PET-019 — Aethel — Pet Bakery & Birthday Cakes
+# 5SD-PET-019 — Stratos — Pet Bakery & Birthday Cakes
 
 - **Mã sản phẩm**: `5SD-PET-019`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

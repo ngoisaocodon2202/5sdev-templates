@@ -1,4 +1,4 @@
-# 5SD-FUR-001 — Veritas — Scandinavian Living Room Store
+# 5SD-FUR-001 — Arcadia — Scandinavian Living Room Store
 
 - **Mã sản phẩm**: `5SD-FUR-001`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

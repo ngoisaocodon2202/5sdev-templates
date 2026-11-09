@@ -1,4 +1,4 @@
-# 5SD-LEG-018 — Zenith — Bankruptcy & Debt Restructuring
+# 5SD-LEG-018 — Sylvan — Bankruptcy & Debt Restructuring
 
 - **Mã sản phẩm**: `5SD-LEG-018`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

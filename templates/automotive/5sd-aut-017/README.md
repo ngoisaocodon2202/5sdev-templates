@@ -1,4 +1,4 @@
-# 5SD-AUT-017 — Onyx — Tire & Forged Wheel Studio
+# 5SD-AUT-017 — Zenith — Tire & Forged Wheel Studio
 
 - **Mã sản phẩm**: `5SD-AUT-017`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

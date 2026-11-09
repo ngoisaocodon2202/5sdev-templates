@@ -1,4 +1,4 @@
-# 5SD-FIN-008 — Stratos — Cross-Border Remittance Hub
+# 5SD-FIN-008 — Forma — Cross-Border Remittance Hub
 
 - **Mã sản phẩm**: `5SD-FIN-008`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

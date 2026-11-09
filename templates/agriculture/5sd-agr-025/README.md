@@ -1,4 +1,4 @@
-# 5SD-AGR-025 — Atelier — B2B Wholesale Produce Exchange
+# 5SD-AGR-025 — Equinox — B2B Wholesale Produce Exchange
 
 - **Mã sản phẩm**: `5SD-AGR-025`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

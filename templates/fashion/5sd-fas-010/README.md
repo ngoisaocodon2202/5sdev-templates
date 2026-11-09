@@ -1,4 +1,4 @@
-# 5SD-FAS-010 — Lumiere — Vintage & Archival Fashion
+# 5SD-FAS-010 — Velvet — Vintage & Archival Fashion
 
 - **Mã sản phẩm**: `5SD-FAS-010`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

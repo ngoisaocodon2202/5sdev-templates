@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 3800000,
     "meta": "60 phút • Bác sĩ da liễu trực tiếp thực hiện",
     "id": "5SD-BEA-029-01",
-    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Bộ Tinh chất Phục hồi Sinh học Peptide",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 1450000,
     "meta": "Chiết xuất thiên nhiên • Mọi loại da",
     "id": "5SD-BEA-029-02",
-    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Chăm sóc Da Thủy phân Glass Skin 9 Bước",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 950000,
     "meta": "75 phút • Cấp ẩm chuyên sâu tức thì",
     "id": "5SD-BEA-029-03",
-    "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Thiết kế Tạo mẫu Tóc & Phục hồi Keratin",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 1250000,
     "meta": "Sản phẩm hữu cơ • Bảo hành nếp 30 ngày",
     "id": "5SD-BEA-029-04",
-    "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

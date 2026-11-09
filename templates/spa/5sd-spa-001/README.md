@@ -1,4 +1,4 @@
-# 5SD-SPA-001 — Vertex — Japanese Onsen & Thermal Bath
+# 5SD-SPA-001 — Orchid — Japanese Onsen & Thermal Bath
 
 - **Mã sản phẩm**: `5SD-SPA-001`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

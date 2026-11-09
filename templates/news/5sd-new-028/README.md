@@ -1,4 +1,4 @@
-# 5SD-NEW-028 — Hyperion — Gaming & Esports Media Hub
+# 5SD-NEW-028 — Sovereign — Gaming & Esports Media Hub
 
 - **Mã sản phẩm**: `5SD-NEW-028`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

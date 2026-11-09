@@ -1,4 +1,4 @@
-# 5SD-NEW-026 — Apex — Aviation & Defense Digest
+# 5SD-NEW-026 — Crescendo — Aviation & Defense Digest
 
 - **Mã sản phẩm**: `5SD-NEW-026`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

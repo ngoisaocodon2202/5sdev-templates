@@ -1,4 +1,4 @@
-# 5SD-EDU-002 — Zenith — IELTS & English Language Center
+# 5SD-EDU-002 — Veritas — IELTS & English Language Center
 
 - **Mã sản phẩm**: `5SD-EDU-002`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

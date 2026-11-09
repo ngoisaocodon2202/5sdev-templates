@@ -1,4 +1,4 @@
-# 5SD-FIT-018 — Solvex — Body Composition InBody Lab
+# 5SD-FIT-018 — Atelier — Body Composition InBody Lab
 
 - **Mã sản phẩm**: `5SD-FIT-018`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

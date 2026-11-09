@@ -1,4 +1,4 @@
-# 5SD-BLO-028 — Arcadia — Career Coaching & Resume Advice
+# 5SD-BLO-028 — Celestia — Career Coaching & Resume Advice
 
 - **Mã sản phẩm**: `5SD-BLO-028`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

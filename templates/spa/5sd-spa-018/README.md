@@ -1,4 +1,4 @@
-# 5SD-SPA-018 — Velvet — Forest Bathing Shinrin-Yoku Lodge
+# 5SD-SPA-018 — Nexora — Forest Bathing Shinrin-Yoku Lodge
 
 - **Mã sản phẩm**: `5SD-SPA-018`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

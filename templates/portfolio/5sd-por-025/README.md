@@ -1,4 +1,4 @@
-# 5SD-POR-025 — Monolith — Keynote Speaker & Author
+# 5SD-POR-025 — Valiant — Keynote Speaker & Author
 
 - **Mã sản phẩm**: `5SD-POR-025`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

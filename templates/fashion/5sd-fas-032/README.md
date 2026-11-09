@@ -1,4 +1,4 @@
-# 5SD-FAS-032 — Kinetix — Bespoke Wedding Suits
+# 5SD-FAS-032 — Nova — Bespoke Wedding Suits
 
 - **Mã sản phẩm**: `5SD-FAS-032`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

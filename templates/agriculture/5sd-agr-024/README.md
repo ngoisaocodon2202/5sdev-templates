@@ -1,4 +1,4 @@
-# 5SD-AGR-024 — Monolith — Eco-Agri Tourism Farmstay
+# 5SD-AGR-024 — Crescendo — Eco-Agri Tourism Farmstay
 
 - **Mã sản phẩm**: `5SD-AGR-024`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

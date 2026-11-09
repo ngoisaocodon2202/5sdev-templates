@@ -1,4 +1,4 @@
-# 5SD-ECO-035 — Vertex — Gaming Peripherals Store
+# 5SD-ECO-035 — Forma — Gaming Peripherals Store
 
 - **Mã sản phẩm**: `5SD-ECO-035`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

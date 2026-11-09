@@ -1,4 +1,4 @@
-# 5SD-LOG-011 — Lumiere — Supply Chain Control Tower SaaS
+# 5SD-LOG-011 — Nova — Supply Chain Control Tower SaaS
 
 - **Mã sản phẩm**: `5SD-LOG-011`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

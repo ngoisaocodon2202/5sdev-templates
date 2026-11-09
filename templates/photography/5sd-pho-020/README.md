@@ -1,4 +1,4 @@
-# 5SD-PHO-020 — Celestia — Documentary Visual Journalism
+# 5SD-PHO-020 — Crescendo — Documentary Visual Journalism
 
 - **Mã sản phẩm**: `5SD-PHO-020`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

@@ -1,4 +1,4 @@
-# 5SD-RES-028 — Aethel — Breakfast & All-Day Brunch
+# 5SD-RES-028 — Nexora — Breakfast & All-Day Brunch
 
 - **Mã sản phẩm**: `5SD-RES-028`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

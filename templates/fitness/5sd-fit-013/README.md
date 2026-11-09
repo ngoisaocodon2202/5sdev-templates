@@ -1,4 +1,4 @@
-# 5SD-FIT-013 — Solvex — Bouldering & Rock Climbing Gym
+# 5SD-FIT-013 — Hyperion — Bouldering & Rock Climbing Gym
 
 - **Mã sản phẩm**: `5SD-FIT-013`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

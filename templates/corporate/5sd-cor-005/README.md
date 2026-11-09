@@ -1,4 +1,4 @@
-# 5SD-COR-005 — Solstice — Management Strategy Consulting
+# 5SD-COR-005 — Celestia — Management Strategy Consulting
 
 - **Mã sản phẩm**: `5SD-COR-005`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

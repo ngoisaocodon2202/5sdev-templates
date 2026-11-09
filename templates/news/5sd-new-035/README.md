@@ -1,4 +1,4 @@
-# 5SD-NEW-035 — Vanguard — Press Release Wire Distribution
+# 5SD-NEW-035 — Kuroshio — Press Release Wire Distribution
 
 - **Mã sản phẩm**: `5SD-NEW-035`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

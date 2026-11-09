@@ -1,4 +1,4 @@
-# 5SD-AGR-008 — Chronos — Organic Honey & Royal Jelly Apiary
+# 5SD-AGR-008 — Stratos — Organic Honey & Royal Jelly Apiary
 
 - **Mã sản phẩm**: `5SD-AGR-008`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

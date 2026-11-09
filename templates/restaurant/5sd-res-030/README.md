@@ -1,4 +1,4 @@
-# 5SD-RES-030 — Crescendo — Farm-to-Table Bistro
+# 5SD-RES-030 — Kuroshio — Farm-to-Table Bistro
 
 - **Mã sản phẩm**: `5SD-RES-030`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

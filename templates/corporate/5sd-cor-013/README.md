@@ -1,4 +1,4 @@
-# 5SD-COR-013 — Celestia — Investor Relations Portal
+# 5SD-COR-013 — Aethel — Investor Relations Portal
 
 - **Mã sản phẩm**: `5SD-COR-013`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

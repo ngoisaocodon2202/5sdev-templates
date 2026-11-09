@@ -1,4 +1,4 @@
-# 5SD-ECO-034 — Orchid — Fine Art Prints & Posters
+# 5SD-ECO-034 — Sovereign — Fine Art Prints & Posters
 
 - **Mã sản phẩm**: `5SD-ECO-034`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

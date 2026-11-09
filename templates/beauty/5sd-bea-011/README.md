@@ -1,4 +1,4 @@
-# 5SD-BEA-011 — Nordic — Korean Glass-Skin Studio
+# 5SD-BEA-011 — Equinox — Korean Glass-Skin Studio
 
 - **Mã sản phẩm**: `5SD-BEA-011`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

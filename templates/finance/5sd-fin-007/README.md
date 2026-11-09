@@ -1,4 +1,4 @@
-# 5SD-FIN-007 — Apex — B2B Corporate Expense Cards
+# 5SD-FIN-007 — Sovereign — B2B Corporate Expense Cards
 
 - **Mã sản phẩm**: `5SD-FIN-007`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

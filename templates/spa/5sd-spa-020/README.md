@@ -1,4 +1,4 @@
-# 5SD-SPA-020 — Orchid — Sleep Recovery & Antistress Spa
+# 5SD-SPA-020 — Kuroshio — Sleep Recovery & Antistress Spa
 
 - **Mã sản phẩm**: `5SD-SPA-020`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

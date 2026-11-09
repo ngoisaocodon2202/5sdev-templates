@@ -1,4 +1,4 @@
-# 5SD-FIT-028 — Solvex — Pre & Postnatal Fitness Studio
+# 5SD-FIT-028 — Lumiere — Pre & Postnatal Fitness Studio
 
 - **Mã sản phẩm**: `5SD-FIT-028`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

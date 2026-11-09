@@ -1,4 +1,4 @@
-# 5SD-CON-014 — Vertex — Smart Glass & Aluminum Facade
+# 5SD-CON-014 — Atelier — Smart Glass & Aluminum Facade
 
 - **Mã sản phẩm**: `5SD-CON-014`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

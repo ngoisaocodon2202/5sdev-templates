@@ -1,4 +1,4 @@
-# 5SD-SPA-004 — Elysian — Hatha & Vinyasa Yoga Sanctuary
+# 5SD-SPA-004 — Prism — Hatha & Vinyasa Yoga Sanctuary
 
 - **Mã sản phẩm**: `5SD-SPA-004`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

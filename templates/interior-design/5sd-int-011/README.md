@@ -1,4 +1,4 @@
-# 5SD-INT-011 — Chronos — Neoclassical Palace Interior
+# 5SD-INT-011 — Onyx — Neoclassical Palace Interior
 
 - **Mã sản phẩm**: `5SD-INT-011`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

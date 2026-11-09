@@ -1,4 +1,4 @@
-# 5SD-EVE-018 — Vanguard — Real Estate Investor Summit
+# 5SD-EVE-018 — Kinetix — Real Estate Investor Summit
 
 - **Mã sản phẩm**: `5SD-EVE-018`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

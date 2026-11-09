@@ -1,4 +1,4 @@
-# 5SD-INT-024 — Forma — Art Gallery & Museum Spatial
+# 5SD-INT-024 — Prism — Art Gallery & Museum Spatial
 
 - **Mã sản phẩm**: `5SD-INT-024`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

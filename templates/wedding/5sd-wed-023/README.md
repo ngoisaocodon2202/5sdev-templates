@@ -1,4 +1,4 @@
-# 5SD-WED-023 — Sovereign — Yacht Private Wedding Charter
+# 5SD-WED-023 — Veritas — Yacht Private Wedding Charter
 
 - **Mã sản phẩm**: `5SD-WED-023`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

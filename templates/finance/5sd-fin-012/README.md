@@ -1,4 +1,4 @@
-# 5SD-FIN-012 — Apex — Venture Capital Firm Portal
+# 5SD-FIN-012 — Nexora — Venture Capital Firm Portal
 
 - **Mã sản phẩm**: `5SD-FIN-012`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

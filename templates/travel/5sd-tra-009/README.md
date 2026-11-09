@@ -1,4 +1,4 @@
-# 5SD-TRA-009 — Velvet — Japanese Cherry Blossom & Autumn Tour
+# 5SD-TRA-009 — Stratos — Japanese Cherry Blossom & Autumn Tour
 
 - **Mã sản phẩm**: `5SD-TRA-009`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

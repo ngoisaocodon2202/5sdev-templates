@@ -1,4 +1,4 @@
-# 5SD-LEG-010 — Sovereign — Data Privacy GDPR/PDPD Compliance
+# 5SD-LEG-010 — Solvex — Data Privacy GDPR/PDPD Compliance
 
 - **Mã sản phẩm**: `5SD-LEG-010`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

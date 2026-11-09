@@ -1,4 +1,4 @@
-# 5SD-AUT-026 — Solvex — Smart Parking & Telematics
+# 5SD-AUT-026 — Vertex — Smart Parking & Telematics
 
 - **Mã sản phẩm**: `5SD-AUT-026`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

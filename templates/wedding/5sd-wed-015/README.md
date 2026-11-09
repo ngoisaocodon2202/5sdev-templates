@@ -1,4 +1,4 @@
-# 5SD-WED-015 — Sylvan — Luxury Wedding Car & Limousine
+# 5SD-WED-015 — Lumiere — Luxury Wedding Car & Limousine
 
 - **Mã sản phẩm**: `5SD-WED-015`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

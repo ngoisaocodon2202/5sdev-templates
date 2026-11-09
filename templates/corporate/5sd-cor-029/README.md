@@ -1,4 +1,4 @@
-# 5SD-COR-029 — Kinetix — Supply Chain Procurement B2B
+# 5SD-COR-029 — Sovereign — Supply Chain Procurement B2B
 
 - **Mã sản phẩm**: `5SD-COR-029`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

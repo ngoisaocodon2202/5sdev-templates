@@ -1,4 +1,4 @@
-# 5SD-EDU-010 — Kuroshio — EdTech Student Dashboard
+# 5SD-EDU-010 — Valiant — EdTech Student Dashboard
 
 - **Mã sản phẩm**: `5SD-EDU-010`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

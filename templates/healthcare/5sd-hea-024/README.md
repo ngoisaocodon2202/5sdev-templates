@@ -1,4 +1,4 @@
-# 5SD-HEA-024 — Vanguard — Sleep Disorder Clinic
+# 5SD-HEA-024 — Apex — Sleep Disorder Clinic
 
 - **Mã sản phẩm**: `5SD-HEA-024`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

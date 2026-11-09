@@ -1,4 +1,4 @@
-# 5SD-AUT-032 — Onyx — Heavy Truck & Bus Dealer
+# 5SD-AUT-032 — Forma — Heavy Truck & Bus Dealer
 
 - **Mã sản phẩm**: `5SD-AUT-032`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

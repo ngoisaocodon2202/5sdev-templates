@@ -1,4 +1,4 @@
-# 5SD-HOT-019 — Veritas — Airport Transit Executive Hotel
+# 5SD-HOT-019 — Vanguard — Airport Transit Executive Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-019`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

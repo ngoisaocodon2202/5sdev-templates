@@ -1,4 +1,4 @@
-# 5SD-HEA-027 — Hyperion — Health Insurance & Claims Portal
+# 5SD-HEA-027 — Onyx — Health Insurance & Claims Portal
 
 - **Mã sản phẩm**: `5SD-HEA-027`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

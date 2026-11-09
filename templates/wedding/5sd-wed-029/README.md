@@ -1,4 +1,4 @@
-# 5SD-WED-029 — Kuroshio — Venue Finder & Budget Calculator
+# 5SD-WED-029 — Kinetix — Venue Finder & Budget Calculator
 
 - **Mã sản phẩm**: `5SD-WED-029`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

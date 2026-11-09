@@ -1,4 +1,4 @@
-# 5SD-TRA-006 — Orchid — Travel Storytelling & Visual Blog
+# 5SD-TRA-006 — Sylvan — Travel Storytelling & Visual Blog
 
 - **Mã sản phẩm**: `5SD-TRA-006`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

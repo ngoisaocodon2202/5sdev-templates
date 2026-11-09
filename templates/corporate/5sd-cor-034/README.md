@@ -1,4 +1,4 @@
-# 5SD-COR-034 — Kinetix — Customer Experience CX Agency
+# 5SD-COR-034 — Nexora — Customer Experience CX Agency
 
 - **Mã sản phẩm**: `5SD-COR-034`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

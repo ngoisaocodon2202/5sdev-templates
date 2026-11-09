@@ -1,4 +1,4 @@
-# 5SD-ECO-013 — Elysian — Minimalist Concept Store
+# 5SD-ECO-013 — Sylvan — Minimalist Concept Store
 
 - **Mã sản phẩm**: `5SD-ECO-013`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

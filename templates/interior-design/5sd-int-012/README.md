@@ -1,4 +1,4 @@
-# 5SD-INT-012 — Monolith — Biophilic Green Space Design
+# 5SD-INT-012 — Sylvan — Biophilic Green Space Design
 
 - **Mã sản phẩm**: `5SD-INT-012`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

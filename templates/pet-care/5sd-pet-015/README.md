@@ -1,4 +1,4 @@
-# 5SD-PET-015 — Prism — Veterinary Dental & Surgery Center
+# 5SD-PET-015 — Onyx — Veterinary Dental & Surgery Center
 
 - **Mã sản phẩm**: `5SD-PET-015`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

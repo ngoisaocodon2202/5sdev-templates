@@ -1,4 +1,4 @@
-# 5SD-FIT-024 — Onyx — Basketball Youth Academy
+# 5SD-FIT-024 — Sovereign — Basketball Youth Academy
 
 - **Mã sản phẩm**: `5SD-FIT-024`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

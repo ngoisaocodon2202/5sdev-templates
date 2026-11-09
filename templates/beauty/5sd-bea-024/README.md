@@ -1,4 +1,4 @@
-# 5SD-BEA-024 — Atelier — Beauty Box Subscription
+# 5SD-BEA-024 — Veritas — Beauty Box Subscription
 
 - **Mã sản phẩm**: `5SD-BEA-024`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

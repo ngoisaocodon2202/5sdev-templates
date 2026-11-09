@@ -1,4 +1,4 @@
-# 5SD-TRA-035 — Elysian — Travel Gear & E-Sim Store
+# 5SD-TRA-035 — Nordic — Travel Gear & E-Sim Store
 
 - **Mã sản phẩm**: `5SD-TRA-035`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

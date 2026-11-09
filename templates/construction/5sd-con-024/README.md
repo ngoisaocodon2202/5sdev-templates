@@ -1,4 +1,4 @@
-# 5SD-CON-024 — Vertex — Quantity Surveying & Cost Audit
+# 5SD-CON-024 — Lumiere — Quantity Surveying & Cost Audit
 
 - **Mã sản phẩm**: `5SD-CON-024`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

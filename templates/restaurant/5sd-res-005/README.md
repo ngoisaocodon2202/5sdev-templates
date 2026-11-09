@@ -1,4 +1,4 @@
-# 5SD-RES-005 — Crescendo — Korean BBQ & Bistro
+# 5SD-RES-005 — Stratos — Korean BBQ & Bistro
 
 - **Mã sản phẩm**: `5SD-RES-005`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

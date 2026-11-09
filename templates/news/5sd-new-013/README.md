@@ -1,4 +1,4 @@
-# 5SD-NEW-013 — Hyperion — Healthcare & Medical Breakthroughs
+# 5SD-NEW-013 — Valiant — Healthcare & Medical Breakthroughs
 
 - **Mã sản phẩm**: `5SD-NEW-013`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

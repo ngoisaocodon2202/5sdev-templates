@@ -1,4 +1,4 @@
-# 5SD-WED-010 — Sylvan — Traditional Vietnamese Le Hang Thuan
+# 5SD-WED-010 — Equinox — Traditional Vietnamese Le Hang Thuan
 
 - **Mã sản phẩm**: `5SD-WED-010`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

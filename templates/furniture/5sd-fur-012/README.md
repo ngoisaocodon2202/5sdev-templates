@@ -1,4 +1,4 @@
-# 5SD-FUR-012 — Aethel — Mid-Century Modern Collectibles
+# 5SD-FUR-012 — Vanguard — Mid-Century Modern Collectibles
 
 - **Mã sản phẩm**: `5SD-FUR-012`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

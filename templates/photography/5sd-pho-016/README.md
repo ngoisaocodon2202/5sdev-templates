@@ -1,4 +1,4 @@
-# 5SD-PHO-016 — Kinetix — 360° Virtual Tour Photography
+# 5SD-PHO-016 — Atelier — 360° Virtual Tour Photography
 
 - **Mã sản phẩm**: `5SD-PHO-016`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

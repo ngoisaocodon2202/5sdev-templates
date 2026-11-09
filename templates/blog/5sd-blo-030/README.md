@@ -1,4 +1,4 @@
-# 5SD-BLO-030 — Solvex — Pet Care & Dog Training Blog
+# 5SD-BLO-030 — Onyx — Pet Care & Dog Training Blog
 
 - **Mã sản phẩm**: `5SD-BLO-030`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

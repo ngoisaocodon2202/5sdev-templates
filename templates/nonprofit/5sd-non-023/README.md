@@ -1,4 +1,4 @@
-# 5SD-NON-023 — Vertex — Rare Disease Research Foundation
+# 5SD-NON-023 — Stratos — Rare Disease Research Foundation
 
 - **Mã sản phẩm**: `5SD-NON-023`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

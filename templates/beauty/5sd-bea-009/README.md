@@ -1,4 +1,4 @@
-# 5SD-BEA-009 — Atelier — Medical Dermatology Institute
+# 5SD-BEA-009 — Aether — Medical Dermatology Institute
 
 - **Mã sản phẩm**: `5SD-BEA-009`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

@@ -1,4 +1,4 @@
-# 5SD-LOG-020 — Aether — Fleet Fuel & Telematics IoT
+# 5SD-LOG-020 — Nexora — Fleet Fuel & Telematics IoT
 
 - **Mã sản phẩm**: `5SD-LOG-020`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

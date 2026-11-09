@@ -1,4 +1,4 @@
-# 5SD-HEA-026 — Stratos — Medical Equipment B2B Supply
+# 5SD-HEA-026 — Veritas — Medical Equipment B2B Supply
 
 - **Mã sản phẩm**: `5SD-HEA-026`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

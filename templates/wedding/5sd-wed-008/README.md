@@ -1,4 +1,4 @@
-# 5SD-WED-008 — Sovereign — Fine Wedding Ring & Diamond Band
+# 5SD-WED-008 — Aether — Fine Wedding Ring & Diamond Band
 
 - **Mã sản phẩm**: `5SD-WED-008`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

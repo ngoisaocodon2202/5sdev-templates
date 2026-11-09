@@ -1,4 +1,4 @@
-# 5SD-BLO-025 — Solvex — Architecture Sketchbook Journal
+# 5SD-BLO-025 — Nordic — Architecture Sketchbook Journal
 
 - **Mã sản phẩm**: `5SD-BLO-025`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

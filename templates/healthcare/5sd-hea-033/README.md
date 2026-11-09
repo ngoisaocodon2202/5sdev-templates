@@ -1,4 +1,4 @@
-# 5SD-HEA-033 — Nova — Diabetes Management Digital App
+# 5SD-HEA-033 — Aethel — Diabetes Management Digital App
 
 - **Mã sản phẩm**: `5SD-HEA-033`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

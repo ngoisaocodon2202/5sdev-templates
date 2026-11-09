@@ -1,4 +1,4 @@
-# 5SD-INT-018 — Atelier — Color & Material Board Consultancy
+# 5SD-INT-018 — Valiant — Color & Material Board Consultancy
 
 - **Mã sản phẩm**: `5SD-INT-018`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

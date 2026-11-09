@@ -1,4 +1,4 @@
-# 5SD-LEG-019 — Maison — Franchise & Licensing Legal
+# 5SD-LEG-019 — Chronos — Franchise & Licensing Legal
 
 - **Mã sản phẩm**: `5SD-LEG-019`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

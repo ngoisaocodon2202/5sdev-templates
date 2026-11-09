@@ -1,4 +1,4 @@
-# 5SD-SPA-030 — Orchid — Holistic Nutrition & Gut Health
+# 5SD-SPA-030 — Stratos — Holistic Nutrition & Gut Health
 
 - **Mã sản phẩm**: `5SD-SPA-030`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

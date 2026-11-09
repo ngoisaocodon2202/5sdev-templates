@@ -1,4 +1,4 @@
-# 5SD-HEA-029 — Vanguard — Occupational Health Corporate
+# 5SD-HEA-029 — Chronos — Occupational Health Corporate
 
 - **Mã sản phẩm**: `5SD-HEA-029`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

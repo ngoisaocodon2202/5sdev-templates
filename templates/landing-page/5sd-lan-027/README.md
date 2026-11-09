@@ -1,4 +1,4 @@
-# 5SD-LAN-027 — Prism — No-Code Template Bundle Page
+# 5SD-LAN-027 — Aether — No-Code Template Bundle Page
 
 - **Mã sản phẩm**: `5SD-LAN-027`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

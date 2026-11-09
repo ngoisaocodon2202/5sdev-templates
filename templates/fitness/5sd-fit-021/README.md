@@ -1,4 +1,4 @@
-# 5SD-FIT-021 — Arcadia — Triathlon & Ironman Coaching
+# 5SD-FIT-021 — Aether — Triathlon & Ironman Coaching
 
 - **Mã sản phẩm**: `5SD-FIT-021`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

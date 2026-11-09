@@ -1,4 +1,4 @@
-# 5SD-HOT-009 — Veritas — Capsule & Smart Pod Hotel
+# 5SD-HOT-009 — Maison — Capsule & Smart Pod Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-009`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

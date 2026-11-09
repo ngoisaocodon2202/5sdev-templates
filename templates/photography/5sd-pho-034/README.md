@@ -1,4 +1,4 @@
-# 5SD-PHO-034 — Lumiere — Graduation & Yearbook Studio
+# 5SD-PHO-034 — Veritas — Graduation & Yearbook Studio
 
 - **Mã sản phẩm**: `5SD-PHO-034`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

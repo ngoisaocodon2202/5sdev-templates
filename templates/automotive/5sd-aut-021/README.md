@@ -1,4 +1,4 @@
-# 5SD-AUT-021 — Solvex — Vehicle Inspection & Warranty
+# 5SD-AUT-021 — Solstice — Vehicle Inspection & Warranty
 
 - **Mã sản phẩm**: `5SD-AUT-021`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

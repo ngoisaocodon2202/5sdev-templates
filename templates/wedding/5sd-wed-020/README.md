@@ -1,4 +1,4 @@
-# 5SD-WED-020 — Sylvan — Seating Chart & Guest Manager
+# 5SD-WED-020 — Velvet — Seating Chart & Guest Manager
 
 - **Mã sản phẩm**: `5SD-WED-020`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

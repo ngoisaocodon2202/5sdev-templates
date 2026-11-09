@@ -1,4 +1,4 @@
-# 5SD-EVE-032 — Nova — Golf Tournament Leaderboard
+# 5SD-EVE-032 — Aether — Golf Tournament Leaderboard
 
 - **Mã sản phẩm**: `5SD-EVE-032`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

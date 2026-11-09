@@ -1,4 +1,4 @@
-# 5SD-HEA-032 — Hyperion — Urgent Care Walk-in Clinic
+# 5SD-HEA-032 — Kinetix — Urgent Care Walk-in Clinic
 
 - **Mã sản phẩm**: `5SD-HEA-032`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

@@ -1,4 +1,4 @@
-# 5SD-RES-035 — Crescendo — Noodle & Pho Heritage House
+# 5SD-RES-035 — Veritas — Noodle & Pho Heritage House
 
 - **Mã sản phẩm**: `5SD-RES-035`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 1450000,
     "meta": "2 ngày sự kiện • Tài liệu chuyên sâu • Tiệc Tea-break & Networking",
     "id": "5SD-EVE-002-01",
-    "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Vé VIP Executive Pass — Hàng Ghế Đầu & Tiệc Tối Cùng Diễn Giả",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 4900000,
     "meta": "Phòng chờ VIP Lounge • Kết nối 1-1 cùng C-Level & Quà tặng độc quyền",
     "id": "5SD-EVE-002-02",
-    "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Gian Hàng Triển Lãm Tiêu Chuẩn & Tài Trợ Thương Hiệu",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 28000000,
     "meta": "Vị trí trung tâm sảnh chính • Logo trên toàn bộ ấn phẩm truyền thông",
     "id": "5SD-EVE-002-03",
-    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Vé Group Enterprise (5 Người) — Đào Tạo & Kết Nối Đội Ngũ",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 5900000,
     "meta": "Tiết kiệm 20% • Cấp chứng nhận tham dự cho từng thành viên",
     "id": "5SD-EVE-002-04",
-    "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

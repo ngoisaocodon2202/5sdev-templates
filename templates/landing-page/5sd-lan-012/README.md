@@ -1,4 +1,4 @@
-# 5SD-LAN-012 — Prism — Cosmetic Hero Product Spotlight
+# 5SD-LAN-012 — Stratos — Cosmetic Hero Product Spotlight
 
 - **Mã sản phẩm**: `5SD-LAN-012`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

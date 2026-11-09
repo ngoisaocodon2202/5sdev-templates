@@ -1,4 +1,4 @@
-# 5SD-COR-002 — Lumiere — Enterprise Technology Solutions
+# 5SD-COR-002 — Nordic — Enterprise Technology Solutions
 
 - **Mã sản phẩm**: `5SD-COR-002`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

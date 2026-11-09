@@ -1,4 +1,4 @@
-# 5SD-INT-004 — Forma — Commercial Retail Space Design
+# 5SD-INT-004 — Solvex — Commercial Retail Space Design
 
 - **Mã sản phẩm**: `5SD-INT-004`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

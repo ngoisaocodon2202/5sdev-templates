@@ -1,4 +1,4 @@
-# 5SD-AGR-030 — Atelier — Regenerative Permaculture Institute
+# 5SD-AGR-030 — Lumiere — Regenerative Permaculture Institute
 
 - **Mã sản phẩm**: `5SD-AGR-030`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

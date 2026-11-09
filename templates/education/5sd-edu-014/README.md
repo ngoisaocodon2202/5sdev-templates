@@ -1,4 +1,4 @@
-# 5SD-EDU-014 — Sovereign — Fine Arts & Illustration School
+# 5SD-EDU-014 — Hyperion — Fine Arts & Illustration School
 
 - **Mã sản phẩm**: `5SD-EDU-014`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

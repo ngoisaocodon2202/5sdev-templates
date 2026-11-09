@@ -1,4 +1,4 @@
-# 5SD-LEG-017 — Sylvan — Entertainment & Media Copyright
+# 5SD-LEG-017 — Onyx — Entertainment & Media Copyright
 
 - **Mã sản phẩm**: `5SD-LEG-017`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

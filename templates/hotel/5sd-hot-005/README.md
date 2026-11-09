@@ -1,4 +1,4 @@
-# 5SD-HOT-005 — Aethel — Heritage Colonial Palace Hotel
+# 5SD-HOT-005 — Hyperion — Heritage Colonial Palace Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-005`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

@@ -1,4 +1,4 @@
-# 5SD-BLO-031 — Onyx — DIY Woodworking & Craft Log
+# 5SD-BLO-031 — Sylvan — DIY Woodworking & Craft Log
 
 - **Mã sản phẩm**: `5SD-BLO-031`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

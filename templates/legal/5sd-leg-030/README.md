@@ -1,4 +1,4 @@
-# 5SD-LEG-030 — Sovereign — Digital Signature & E-Contract Hub
+# 5SD-LEG-030 — Prism — Digital Signature & E-Contract Hub
 
 - **Mã sản phẩm**: `5SD-LEG-030`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

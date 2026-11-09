@@ -1,4 +1,4 @@
-# 5SD-EVE-012 — Nova — Fashion Week Runway Schedule
+# 5SD-EVE-012 — Veritas — Fashion Week Runway Schedule
 
 - **Mã sản phẩm**: `5SD-EVE-012`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

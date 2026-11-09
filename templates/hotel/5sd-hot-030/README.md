@@ -1,4 +1,4 @@
-# 5SD-HOT-030 — Aethel — Direct Booking Engine Portal
+# 5SD-HOT-030 — Sylvan — Direct Booking Engine Portal
 
 - **Mã sản phẩm**: `5SD-HOT-030`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

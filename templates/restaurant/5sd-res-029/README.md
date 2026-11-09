@@ -1,4 +1,4 @@
-# 5SD-RES-029 — Prism — Corporate Catering & Events
+# 5SD-RES-029 — Solvex — Corporate Catering & Events
 
 - **Mã sản phẩm**: `5SD-RES-029`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

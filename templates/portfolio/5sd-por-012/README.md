@@ -1,4 +1,4 @@
-# 5SD-POR-012 — Forma — Sound Designer & Composer
+# 5SD-POR-012 — Kuroshio — Sound Designer & Composer
 
 - **Mã sản phẩm**: `5SD-POR-012`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

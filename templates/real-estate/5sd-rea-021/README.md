@@ -1,4 +1,4 @@
-# 5SD-REA-021 — Valiant — Serviced Apartment Rental
+# 5SD-REA-021 — Kinetix — Serviced Apartment Rental
 
 - **Mã sản phẩm**: `5SD-REA-021`
 - **Ngành nghề**: Bất động sản (`real-estate`)

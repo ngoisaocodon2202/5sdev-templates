@@ -1,4 +1,4 @@
-# 5SD-RES-010 — Crescendo — Ocean Fresh Seafood Palace
+# 5SD-RES-010 — Monolith — Ocean Fresh Seafood Palace
 
 - **Mã sản phẩm**: `5SD-RES-010`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

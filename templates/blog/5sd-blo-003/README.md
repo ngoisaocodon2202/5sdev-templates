@@ -1,4 +1,4 @@
-# 5SD-BLO-003 — Arcadia — Minimalist Living & Productivity
+# 5SD-BLO-003 — Zenith — Minimalist Living & Productivity
 
 - **Mã sản phẩm**: `5SD-BLO-003`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

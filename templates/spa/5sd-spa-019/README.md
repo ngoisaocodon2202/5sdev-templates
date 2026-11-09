@@ -1,4 +1,4 @@
-# 5SD-SPA-019 — Elysian — Breathwork & Ice Bath Sanctuary
+# 5SD-SPA-019 — Solvex — Breathwork & Ice Bath Sanctuary
 
 - **Mã sản phẩm**: `5SD-SPA-019`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

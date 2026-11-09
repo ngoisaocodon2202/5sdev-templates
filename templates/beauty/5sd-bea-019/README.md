@@ -1,4 +1,4 @@
-# 5SD-BEA-019 — Atelier — Cosmetic Dentistry & Smile Studio
+# 5SD-BEA-019 — Kuroshio — Cosmetic Dentistry & Smile Studio
 
 - **Mã sản phẩm**: `5SD-BEA-019`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

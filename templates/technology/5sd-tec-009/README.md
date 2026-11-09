@@ -1,4 +1,4 @@
-# 5SD-TEC-009 — Zenith — Vector Database & RAG Engine
+# 5SD-TEC-009 — Prism — Vector Database & RAG Engine
 
 - **Mã sản phẩm**: `5SD-TEC-009`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

@@ -1,4 +1,4 @@
-# 5SD-BEA-035 — Forma — VIP Celebrity Beauty Concierge
+# 5SD-BEA-035 — Orchid — VIP Celebrity Beauty Concierge
 
 - **Mã sản phẩm**: `5SD-BEA-035`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

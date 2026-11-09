@@ -1,4 +1,4 @@
-# 5SD-ECO-031 — Aurelia — Streetwear Capsule Drop
+# 5SD-ECO-031 — Aether — Streetwear Capsule Drop
 
 - **Mã sản phẩm**: `5SD-ECO-031`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

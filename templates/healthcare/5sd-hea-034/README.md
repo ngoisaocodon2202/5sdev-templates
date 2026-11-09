@@ -1,4 +1,4 @@
-# 5SD-HEA-034 — Vanguard — Women Wellness & OB-GYN
+# 5SD-HEA-034 — Valiant — Women Wellness & OB-GYN
 
 - **Mã sản phẩm**: `5SD-HEA-034`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

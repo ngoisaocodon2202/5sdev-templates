@@ -1,4 +1,4 @@
-# 5SD-FIT-017 — Equinox — Physiotherapy & Sports Recovery
+# 5SD-FIT-017 — Maison — Physiotherapy & Sports Recovery
 
 - **Mã sản phẩm**: `5SD-FIT-017`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

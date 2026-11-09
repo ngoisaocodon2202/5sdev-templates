@@ -1,4 +1,4 @@
-# 5SD-TEC-006 — Sovereign — Cross-Platform Mobile App Hub
+# 5SD-TEC-006 — Orchid — Cross-Platform Mobile App Hub
 
 - **Mã sản phẩm**: `5SD-TEC-006`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

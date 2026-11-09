@@ -1,4 +1,4 @@
-# 5SD-EDU-023 — Maison — Culinary & Pastry Chef School
+# 5SD-EDU-023 — Crescendo — Culinary & Pastry Chef School
 
 - **Mã sản phẩm**: `5SD-EDU-023`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

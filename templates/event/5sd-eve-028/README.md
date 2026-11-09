@@ -1,4 +1,4 @@
-# 5SD-EVE-028 — Vanguard — Craft Beer & Jazz Night
+# 5SD-EVE-028 — Maison — Craft Beer & Jazz Night
 
 - **Mã sản phẩm**: `5SD-EVE-028`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

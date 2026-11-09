@@ -1,4 +1,4 @@
-# 5SD-BEA-015 — Forma — Men Grooming & Barber Lounge
+# 5SD-BEA-015 — Vanguard — Men Grooming & Barber Lounge
 
 - **Mã sản phẩm**: `5SD-BEA-015`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

@@ -1,4 +1,4 @@
-# 5SD-INT-025 — Nordic — Co-Living & Hospitality Concept
+# 5SD-INT-025 — Arcadia — Co-Living & Hospitality Concept
 
 - **Mã sản phẩm**: `5SD-INT-025`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

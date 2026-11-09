@@ -1,4 +1,4 @@
-# 5SD-RES-020 — Crescendo — Thai Royal Street Kitchen
+# 5SD-RES-020 — Aether — Thai Royal Street Kitchen
 
 - **Mã sản phẩm**: `5SD-RES-020`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

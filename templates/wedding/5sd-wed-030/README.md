@@ -1,4 +1,4 @@
-# 5SD-WED-030 — Sylvan — Anniversary & Vow Renewal Planner
+# 5SD-WED-030 — Aethel — Anniversary & Vow Renewal Planner
 
 - **Mã sản phẩm**: `5SD-WED-030`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

@@ -1,4 +1,4 @@
-# 5SD-COR-017 — Lumiere — Mergers & Acquisitions Advisory
+# 5SD-COR-017 — Orchid — Mergers & Acquisitions Advisory
 
 - **Mã sản phẩm**: `5SD-COR-017`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

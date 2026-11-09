@@ -1,4 +1,4 @@
-# 5SD-TEC-033 — Sylvan — AI Customer Support Copilot
+# 5SD-TEC-033 — Chronos — AI Customer Support Copilot
 
 - **Mã sản phẩm**: `5SD-TEC-033`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

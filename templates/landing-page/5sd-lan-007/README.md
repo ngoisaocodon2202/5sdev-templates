@@ -1,4 +1,4 @@
-# 5SD-LAN-007 — Prism — B2B Enterprise Demo Request
+# 5SD-LAN-007 — Veritas — B2B Enterprise Demo Request
 
 - **Mã sản phẩm**: `5SD-LAN-007`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

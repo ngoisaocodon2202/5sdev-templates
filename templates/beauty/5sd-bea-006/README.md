@@ -1,4 +1,4 @@
-# 5SD-BEA-006 — Nordic — Bridal & Editorial Makeup Artist
+# 5SD-BEA-006 — Atelier — Bridal & Editorial Makeup Artist
 
 - **Mã sản phẩm**: `5SD-BEA-006`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

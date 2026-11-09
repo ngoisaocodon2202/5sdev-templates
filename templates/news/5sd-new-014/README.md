@@ -1,4 +1,4 @@
-# 5SD-NEW-014 — Nova — Education & Career Insights
+# 5SD-NEW-014 — Zenith — Education & Career Insights
 
 - **Mã sản phẩm**: `5SD-NEW-014`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

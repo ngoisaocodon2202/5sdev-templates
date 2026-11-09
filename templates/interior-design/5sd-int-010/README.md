@@ -1,4 +1,4 @@
-# 5SD-INT-010 — Nordic — Minimalist Monochrome Interiors
+# 5SD-INT-010 — Veritas — Minimalist Monochrome Interiors
 
 - **Mã sản phẩm**: `5SD-INT-010`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

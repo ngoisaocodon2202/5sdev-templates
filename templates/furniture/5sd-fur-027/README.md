@@ -1,4 +1,4 @@
-# 5SD-FUR-027 — Aethel — Botanical Planter & Stand Store
+# 5SD-FUR-027 — Kinetix — Botanical Planter & Stand Store
 
 - **Mã sản phẩm**: `5SD-FUR-027`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

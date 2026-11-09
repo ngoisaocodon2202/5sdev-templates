@@ -1,4 +1,4 @@
-# 5SD-NEW-017 — Stratos — Crypto & Fintech Intelligence
+# 5SD-NEW-017 — Hyperion — Crypto & Fintech Intelligence
 
 - **Mã sản phẩm**: `5SD-NEW-017`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

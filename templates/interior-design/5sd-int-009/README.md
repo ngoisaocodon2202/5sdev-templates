@@ -1,4 +1,4 @@
-# 5SD-INT-009 — Forma — Heritage Home Renovation
+# 5SD-INT-009 — Celestia — Heritage Home Renovation
 
 - **Mã sản phẩm**: `5SD-INT-009`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

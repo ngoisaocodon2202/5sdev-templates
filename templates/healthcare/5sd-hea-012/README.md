@@ -1,4 +1,4 @@
-# 5SD-HEA-012 — Hyperion — Orthopedics & Sports Medicine
+# 5SD-HEA-012 — Crescendo — Orthopedics & Sports Medicine
 
 - **Mã sản phẩm**: `5SD-HEA-012`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

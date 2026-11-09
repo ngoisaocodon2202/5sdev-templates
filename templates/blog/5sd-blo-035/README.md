@@ -1,4 +1,4 @@
-# 5SD-BLO-035 — Solvex — Author Book Launch & Essays
+# 5SD-BLO-035 — Kinetix — Author Book Launch & Essays
 
 - **Mã sản phẩm**: `5SD-BLO-035`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

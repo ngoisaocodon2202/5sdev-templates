@@ -1,4 +1,4 @@
-# 5SD-FUR-011 — Veritas — Bespoke Kitchen Cabinetry
+# 5SD-FUR-011 — Aurelia — Bespoke Kitchen Cabinetry
 
 - **Mã sản phẩm**: `5SD-FUR-011`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

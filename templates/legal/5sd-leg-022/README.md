@@ -1,4 +1,4 @@
-# 5SD-LEG-022 — Sylvan — Healthcare & Pharma Regulatory
+# 5SD-LEG-022 — Kinetix — Healthcare & Pharma Regulatory
 
 - **Mã sản phẩm**: `5SD-LEG-022`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

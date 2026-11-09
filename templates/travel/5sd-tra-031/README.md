@@ -1,4 +1,4 @@
-# 5SD-TRA-031 — Orchid — Luxury Train Journey Indochina
+# 5SD-TRA-031 — Lumiere — Luxury Train Journey Indochina
 
 - **Mã sản phẩm**: `5SD-TRA-031`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

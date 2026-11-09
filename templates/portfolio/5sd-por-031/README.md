@@ -1,4 +1,4 @@
-# 5SD-POR-031 — Atelier — Landscape Architect Portfolio
+# 5SD-POR-031 — Prism — Landscape Architect Portfolio
 
 - **Mã sản phẩm**: `5SD-POR-031`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

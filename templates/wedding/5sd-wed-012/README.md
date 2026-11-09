@@ -1,4 +1,4 @@
-# 5SD-WED-012 — Maison — Bridal Makeup & Hair Styling
+# 5SD-WED-012 — Forma — Bridal Makeup & Hair Styling
 
 - **Mã sản phẩm**: `5SD-WED-012`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

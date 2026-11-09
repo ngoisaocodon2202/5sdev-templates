@@ -1,4 +1,4 @@
-# 5SD-NON-020 — Velvet — Transparency Crowdfunding Platform
+# 5SD-NON-020 — Sylvan — Transparency Crowdfunding Platform
 
 - **Mã sản phẩm**: `5SD-NON-020`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

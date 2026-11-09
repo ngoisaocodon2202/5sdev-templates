@@ -1,4 +1,4 @@
-# 5SD-EDU-033 — Maison — Exam Testing & Assessment Hub
+# 5SD-EDU-033 — Nordic — Exam Testing & Assessment Hub
 
 - **Mã sản phẩm**: `5SD-EDU-033`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

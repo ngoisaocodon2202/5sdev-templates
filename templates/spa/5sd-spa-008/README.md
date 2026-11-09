@@ -1,4 +1,4 @@
-# 5SD-SPA-008 — Velvet — Floatation Sensory Deprivation Pod
+# 5SD-SPA-008 — Vertex — Floatation Sensory Deprivation Pod
 
 - **Mã sản phẩm**: `5SD-SPA-008`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

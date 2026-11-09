@@ -1,4 +1,4 @@
-# 5SD-BLO-005 — Solvex — Solo Travel & Visual Diary
+# 5SD-BLO-005 — Orchid — Solo Travel & Visual Diary
 
 - **Mã sản phẩm**: `5SD-BLO-005`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

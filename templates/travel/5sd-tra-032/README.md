@@ -1,4 +1,4 @@
-# 5SD-TRA-032 — Vertex — Medical Tourism Concierge
+# 5SD-TRA-032 — Nexora — Medical Tourism Concierge
 
 - **Mã sản phẩm**: `5SD-TRA-032`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

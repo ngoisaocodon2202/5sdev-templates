@@ -1,4 +1,4 @@
-# 5SD-REA-034 — Solvex — Interior Turnkey Handover Pack
+# 5SD-REA-034 — Nova — Interior Turnkey Handover Pack
 
 - **Mã sản phẩm**: `5SD-REA-034`
 - **Ngành nghề**: Bất động sản (`real-estate`)

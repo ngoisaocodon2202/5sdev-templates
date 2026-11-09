@@ -1,4 +1,4 @@
-# 5SD-REA-006 — Valiant — Contemporary Architecture Studio
+# 5SD-REA-006 — Vanguard — Contemporary Architecture Studio
 
 - **Mã sản phẩm**: `5SD-REA-006`
 - **Ngành nghề**: Bất động sản (`real-estate`)

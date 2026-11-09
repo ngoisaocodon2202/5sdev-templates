@@ -1,4 +1,4 @@
-# 5SD-LAN-035 — Veritas — One-Page Startup Pitch Deck
+# 5SD-LAN-035 — Nexora — One-Page Startup Pitch Deck
 
 - **Mã sản phẩm**: `5SD-LAN-035`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

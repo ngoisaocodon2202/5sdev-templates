@@ -1,4 +1,4 @@
-# 5SD-TEC-016 — Sovereign — Computer Vision Inspection AI
+# 5SD-TEC-016 — Crescendo — Computer Vision Inspection AI
 
 - **Mã sản phẩm**: `5SD-TEC-016`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

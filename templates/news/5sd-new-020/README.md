@@ -1,4 +1,4 @@
-# 5SD-NEW-020 — Vanguard — Local City Guide & Events Media
+# 5SD-NEW-020 — Arcadia — Local City Guide & Events Media
 
 - **Mã sản phẩm**: `5SD-NEW-020`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

@@ -1,4 +1,4 @@
-# 5SD-FIN-011 — Vanguard — SME Working Capital Lending
+# 5SD-FIN-011 — Lumiere — SME Working Capital Lending
 
 - **Mã sản phẩm**: `5SD-FIN-011`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

@@ -1,4 +1,4 @@
-# 5SD-BLO-006 — Onyx — Product Management & Strategy
+# 5SD-BLO-006 — Hyperion — Product Management & Strategy
 
 - **Mã sản phẩm**: `5SD-BLO-006`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

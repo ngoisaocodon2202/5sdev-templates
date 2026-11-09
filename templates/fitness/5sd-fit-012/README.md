@@ -1,4 +1,4 @@
-# 5SD-FIT-012 — Equinox — Golf Indoor Simulator Lounge
+# 5SD-FIT-012 — Orchid — Golf Indoor Simulator Lounge
 
 - **Mã sản phẩm**: `5SD-FIT-012`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

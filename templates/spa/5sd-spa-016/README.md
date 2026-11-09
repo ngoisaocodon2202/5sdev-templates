@@ -1,4 +1,4 @@
-# 5SD-SPA-016 — Vertex — Hammam Moroccan Bathhouse
+# 5SD-SPA-016 — Vanguard — Hammam Moroccan Bathhouse
 
 - **Mã sản phẩm**: `5SD-SPA-016`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

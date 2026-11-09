@@ -1,4 +1,4 @@
-# 5SD-FIN-018 — Stratos — Personal Budgeting & FIRE App
+# 5SD-FIN-018 — Celestia — Personal Budgeting & FIRE App
 
 - **Mã sản phẩm**: `5SD-FIN-018`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

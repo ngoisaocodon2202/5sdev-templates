@@ -1,4 +1,4 @@
-# 5SD-INT-035 — Nordic — Turnkey Design-Build Atelier
+# 5SD-INT-035 — Aurelia — Turnkey Design-Build Atelier
 
 - **Mã sản phẩm**: `5SD-INT-035`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

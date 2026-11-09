@@ -1,4 +1,4 @@
-# 5SD-EDU-020 — Kuroshio — Digital Marketing Mastery
+# 5SD-EDU-020 — Vertex — Digital Marketing Mastery
 
 - **Mã sản phẩm**: `5SD-EDU-020`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

@@ -1,4 +1,4 @@
-# 5SD-COR-035 — Solstice — Global Employer Branding
+# 5SD-COR-035 — Solvex — Global Employer Branding
 
 - **Mã sản phẩm**: `5SD-COR-035`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

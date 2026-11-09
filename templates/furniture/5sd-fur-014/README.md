@@ -1,4 +1,4 @@
-# 5SD-FUR-014 — Crescendo — Smart Motorized Curtain & Blinds
+# 5SD-FUR-014 — Nexora — Smart Motorized Curtain & Blinds
 
 - **Mã sản phẩm**: `5SD-FUR-014`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

@@ -1,4 +1,4 @@
-# 5SD-TRA-019 — Velvet — Golf Tourism & Club Packages
+# 5SD-TRA-019 — Arcadia — Golf Tourism & Club Packages
 
 - **Mã sản phẩm**: `5SD-TRA-019`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

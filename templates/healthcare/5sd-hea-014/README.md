@@ -1,4 +1,4 @@
-# 5SD-HEA-014 — Vanguard — Mental Health & Psychology Clinic
+# 5SD-HEA-014 — Sovereign — Mental Health & Psychology Clinic
 
 - **Mã sản phẩm**: `5SD-HEA-014`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

@@ -1,4 +1,4 @@
-# 5SD-TRA-027 — Vertex — Eco-Tourism Mekong Delta
+# 5SD-TRA-027 — Sovereign — Eco-Tourism Mekong Delta
 
 - **Mã sản phẩm**: `5SD-TRA-027`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

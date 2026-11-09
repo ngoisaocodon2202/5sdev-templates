@@ -1,4 +1,4 @@
-# 5SD-AGR-003 — Chronos — Global Agricultural Export Corp
+# 5SD-AGR-003 — Veritas — Global Agricultural Export Corp
 
 - **Mã sản phẩm**: `5SD-AGR-003`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

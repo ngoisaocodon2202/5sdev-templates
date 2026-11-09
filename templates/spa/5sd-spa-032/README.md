@@ -1,4 +1,4 @@
-# 5SD-SPA-032 — Aurelia — Cryotherapy & Red Light Lounge
+# 5SD-SPA-032 — Aethel — Cryotherapy & Red Light Lounge
 
 - **Mã sản phẩm**: `5SD-SPA-032`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

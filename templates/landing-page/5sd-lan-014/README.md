@@ -1,4 +1,4 @@
-# 5SD-LAN-014 — Nexora — Podcast Launch & Sponsorship
+# 5SD-LAN-014 — Aethel — Podcast Launch & Sponsorship
 
 - **Mã sản phẩm**: `5SD-LAN-014`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

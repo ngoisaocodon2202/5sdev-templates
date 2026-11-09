@@ -1,4 +1,4 @@
-# 5SD-ECO-016 — Aurelia — Hi-Fi Audio & Vinyl Gear
+# 5SD-ECO-016 — Stratos — Hi-Fi Audio & Vinyl Gear
 
 - **Mã sản phẩm**: `5SD-ECO-016`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

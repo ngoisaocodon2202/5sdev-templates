@@ -1,4 +1,4 @@
-# 5SD-LAN-015 — Veritas — VIP Mastermind Application Page
+# 5SD-LAN-015 — Valiant — VIP Mastermind Application Page
 
 - **Mã sản phẩm**: `5SD-LAN-015`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

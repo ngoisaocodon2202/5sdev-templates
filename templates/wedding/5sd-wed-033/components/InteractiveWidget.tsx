@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 65000000,
     "meta": "Lên ý tưởng độc bản, Điều phối 100% kịch bản & Hoa tươi nhập khẩu",
     "id": "5SD-WED-033-01",
-    "image": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Thuê Váy Cưới Haute Couture Đính Pha Lê Swarovski Thủ Công",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 18500000,
     "meta": "Thiết kế riêng theo số đo cô dâu • Tặng kèm voan & Phụ kiện",
     "id": "5SD-WED-033-02",
-    "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1520390138845-fd2d229dd553?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Quay Phóng Sự Cưới & Chụp Pre-Wedding Nghệ Thuật",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 22000000,
     "meta": "Ekip 5 người • Bàn giao Photobook cao cấp & Phim 4K cảm xúc",
     "id": "5SD-WED-033-03",
-    "image": "https://images.unsplash.com/photo-1507504031003-b417219a0fde?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Thiệp Cưới Điện Tử Tương Tác & Hệ Thống Quản Lý Khách Mời RSVP",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 2500000,
     "meta": "Tên miền riêng cặp đôi • Tự động thống kê bàn tiệc & Lời chúc",
     "id": "5SD-WED-033-04",
-    "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

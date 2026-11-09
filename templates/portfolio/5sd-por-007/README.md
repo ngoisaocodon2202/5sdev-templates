@@ -1,4 +1,4 @@
-# 5SD-POR-007 — Forma — AI Engineer & Researcher
+# 5SD-POR-007 — Aurelia — AI Engineer & Researcher
 
 - **Mã sản phẩm**: `5SD-POR-007`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

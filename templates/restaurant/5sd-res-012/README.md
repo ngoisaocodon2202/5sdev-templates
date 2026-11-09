@@ -1,4 +1,4 @@
-# 5SD-RES-012 — Veritas — Cloud Kitchen & Food Delivery
+# 5SD-RES-012 — Hyperion — Cloud Kitchen & Food Delivery
 
 - **Mã sản phẩm**: `5SD-RES-012`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

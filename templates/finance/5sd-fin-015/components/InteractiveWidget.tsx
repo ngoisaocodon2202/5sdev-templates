@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 5000000,
     "meta": "Tự động tái cân bằng danh mục bằng AI • Rút vốn linh hoạt",
     "id": "5SD-FIN-015-01",
-    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Tài Khoản Quản Trị Ngân Quỹ Doanh Nghiệp (Treasury Pro)",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 1500000,
     "meta": "Thẻ tín dụng doanh nghiệp không giới hạn • Đối soát ERP",
     "id": "5SD-FIN-015-02",
-    "image": "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Bảo Hiểm Sức Khỏe & Đầu Tư Liên Kết Toàn Cầu",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 12500000,
     "meta": "Bảo lãnh viện phí tại 500+ bệnh viện quốc tế",
     "id": "5SD-FIN-015-03",
-    "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Giải Pháp Cổng Thanh Toán Đa Kênh Quốc Tế (Payment Hub)",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 2900000,
     "meta": "Hỗ trợ Apple Pay, Visa/Master, VietQR • Tỷ lệ duyệt 99.6%",
     "id": "5SD-FIN-015-04",
-    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

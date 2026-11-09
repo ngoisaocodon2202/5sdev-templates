@@ -1,4 +1,4 @@
-# 5SD-AGR-017 — Nordic — Cordyceps & Medicinal Mushroom Lab
+# 5SD-AGR-017 — Prism — Cordyceps & Medicinal Mushroom Lab
 
 - **Mã sản phẩm**: `5SD-AGR-017`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

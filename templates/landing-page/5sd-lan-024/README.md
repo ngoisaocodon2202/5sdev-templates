@@ -1,4 +1,4 @@
-# 5SD-LAN-024 — Nexora — Loyalty Club Membership Signup
+# 5SD-LAN-024 — Atelier — Loyalty Club Membership Signup
 
 - **Mã sản phẩm**: `5SD-LAN-024`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

@@ -1,4 +1,4 @@
-# 5SD-BLO-022 — Valiant — Digital Zine & Creative Writing
+# 5SD-BLO-022 — Nexora — Digital Zine & Creative Writing
 
 - **Mã sản phẩm**: `5SD-BLO-022`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

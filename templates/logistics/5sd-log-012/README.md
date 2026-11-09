@@ -1,4 +1,4 @@
-# 5SD-LOG-012 — Celestia — Autonomous Warehouse Robotics
+# 5SD-LOG-012 — Aether — Autonomous Warehouse Robotics
 
 - **Mã sản phẩm**: `5SD-LOG-012`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

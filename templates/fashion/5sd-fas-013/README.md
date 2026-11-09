@@ -1,4 +1,4 @@
-# 5SD-FAS-013 — Solstice — Kids Designer Boutique
+# 5SD-FAS-013 — Veritas — Kids Designer Boutique
 
 - **Mã sản phẩm**: `5SD-FAS-013`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

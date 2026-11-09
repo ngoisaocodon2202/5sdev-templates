@@ -1,4 +1,4 @@
-# 5SD-AUT-012 — Onyx — Motorsport Racing Team Hub
+# 5SD-AUT-012 — Elysian — Motorsport Racing Team Hub
 
 - **Mã sản phẩm**: `5SD-AUT-012`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

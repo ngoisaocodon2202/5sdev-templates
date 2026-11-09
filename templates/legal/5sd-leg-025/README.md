@@ -1,4 +1,4 @@
-# 5SD-LEG-025 — Sovereign — Trademark Registration Portal
+# 5SD-LEG-025 — Zenith — Trademark Registration Portal
 
 - **Mã sản phẩm**: `5SD-LEG-025`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

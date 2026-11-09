@@ -1,4 +1,4 @@
-# 5SD-AUT-025 — Equinox — RV & Motorhome Dealership
+# 5SD-AUT-025 — Atelier — RV & Motorhome Dealership
 
 - **Mã sản phẩm**: `5SD-AUT-025`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

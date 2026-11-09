@@ -1,4 +1,4 @@
-# 5SD-BLO-012 — Valiant — Photography Gear & Film Log
+# 5SD-BLO-012 — Vertex — Photography Gear & Film Log
 
 - **Mã sản phẩm**: `5SD-BLO-012`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

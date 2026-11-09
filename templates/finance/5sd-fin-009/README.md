@@ -1,4 +1,4 @@
-# 5SD-FIN-009 — Hyperion — Automated Robo-Advisor
+# 5SD-FIN-009 — Aurelia — Automated Robo-Advisor
 
 - **Mã sản phẩm**: `5SD-FIN-009`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

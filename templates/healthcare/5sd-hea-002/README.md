@@ -1,4 +1,4 @@
-# 5SD-HEA-002 — Hyperion — Luxury Cosmetic Dental Clinic
+# 5SD-HEA-002 — Orchid — Luxury Cosmetic Dental Clinic
 
 - **Mã sản phẩm**: `5SD-HEA-002`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

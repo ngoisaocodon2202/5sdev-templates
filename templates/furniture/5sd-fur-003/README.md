@@ -1,4 +1,4 @@
-# 5SD-FUR-003 — Prism — Solid Walnut Dining Furniture
+# 5SD-FUR-003 — Atelier — Solid Walnut Dining Furniture
 
 - **Mã sản phẩm**: `5SD-FUR-003`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

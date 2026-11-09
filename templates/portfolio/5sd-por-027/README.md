@@ -1,4 +1,4 @@
-# 5SD-POR-027 — Forma — Fractional CTO Advisory
+# 5SD-POR-027 — Monolith — Fractional CTO Advisory
 
 - **Mã sản phẩm**: `5SD-POR-027`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

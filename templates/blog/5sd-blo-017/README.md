@@ -1,4 +1,4 @@
-# 5SD-BLO-017 — Valiant — History & Cultural Anthropology
+# 5SD-BLO-017 — Sovereign — History & Cultural Anthropology
 
 - **Mã sản phẩm**: `5SD-BLO-017`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

@@ -1,4 +1,4 @@
-# 5SD-COR-016 — Aether — Corporate Governance & Compliance
+# 5SD-COR-016 — Monolith — Corporate Governance & Compliance
 
 - **Mã sản phẩm**: `5SD-COR-016`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

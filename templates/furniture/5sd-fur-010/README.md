@@ -1,4 +1,4 @@
-# 5SD-FUR-010 — Nexora — Artisan Rugs & Tapestry Gallery
+# 5SD-FUR-010 — Forma — Artisan Rugs & Tapestry Gallery
 
 - **Mã sản phẩm**: `5SD-FUR-010`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

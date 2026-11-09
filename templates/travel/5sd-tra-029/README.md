@@ -1,4 +1,4 @@
-# 5SD-TRA-029 — Velvet — Historical Battlefield & Museum Tour
+# 5SD-TRA-029 — Aurelia — Historical Battlefield & Museum Tour
 
 - **Mã sản phẩm**: `5SD-TRA-029`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

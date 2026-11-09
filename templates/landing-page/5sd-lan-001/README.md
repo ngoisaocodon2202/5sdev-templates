@@ -1,4 +1,4 @@
-# 5SD-LAN-001 — Aethel — SaaS Product Launch Waitlist
+# 5SD-LAN-001 — Solvex — SaaS Product Launch Waitlist
 
 - **Mã sản phẩm**: `5SD-LAN-001`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

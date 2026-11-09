@@ -1,4 +1,4 @@
-# 5SD-NEW-015 — Vanguard — Agri-Business & Commodity Market
+# 5SD-NEW-015 — Monolith — Agri-Business & Commodity Market
 
 - **Mã sản phẩm**: `5SD-NEW-015`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

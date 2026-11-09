@@ -86,8 +86,17 @@ export const TemplateCard: React.FC<TemplateCardProps> = ({ template }) => {
             </span>
           </div>
 
-          {/* Template Name */}
-          <Link to={template.detailsRoute} className="block group-hover:text-indigo-300 transition">
+          {/* Template Brand & Name */}
+          <Link to={template.detailsRoute} className="flex items-center gap-2.5 group-hover:text-indigo-300 transition">
+            <div
+              className="flex h-7 w-7 items-center justify-center rounded-lg text-white font-black text-xs shrink-0 shadow-sm"
+              style={{
+                background: `linear-gradient(135deg, ${template.primaryColor}, ${template.secondaryColor})`,
+              }}
+              title={template.brandName || template.name}
+            >
+              {(template.brandName || template.name).slice(0, 2).toUpperCase()}
+            </div>
             <h3 className="font-display text-base sm:text-lg font-bold text-white truncate">
               {template.name}
             </h3>

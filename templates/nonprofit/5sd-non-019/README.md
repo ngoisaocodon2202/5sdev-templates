@@ -1,4 +1,4 @@
-# 5SD-NON-019 — Aurelia — Rural Library & Books For Kids
+# 5SD-NON-019 — Onyx — Rural Library & Books For Kids
 
 - **Mã sản phẩm**: `5SD-NON-019`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

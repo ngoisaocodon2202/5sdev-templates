@@ -1,4 +1,4 @@
-# 5SD-ECO-010 — Vertex — Swiss Watch Horology
+# 5SD-ECO-010 — Celestia — Swiss Watch Horology
 
 - **Mã sản phẩm**: `5SD-ECO-010`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

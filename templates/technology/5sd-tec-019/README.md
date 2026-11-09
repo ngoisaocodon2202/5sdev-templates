@@ -1,4 +1,4 @@
-# 5SD-TEC-019 — Zenith — Automated QA Testing Cloud
+# 5SD-TEC-019 — Forma — Automated QA Testing Cloud
 
 - **Mã sản phẩm**: `5SD-TEC-019`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

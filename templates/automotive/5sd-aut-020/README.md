@@ -1,4 +1,4 @@
-# 5SD-AUT-020 — Equinox — Aviation Private Aircraft Broker
+# 5SD-AUT-020 — Hyperion — Aviation Private Aircraft Broker
 
 - **Mã sản phẩm**: `5SD-AUT-020`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

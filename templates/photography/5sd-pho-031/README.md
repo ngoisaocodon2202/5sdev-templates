@@ -1,4 +1,4 @@
-# 5SD-PHO-031 — Kinetix — Street Photography Collective
+# 5SD-PHO-031 — Velvet — Street Photography Collective
 
 - **Mã sản phẩm**: `5SD-PHO-031`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

@@ -1,4 +1,4 @@
-# 5SD-NON-018 — Vertex — Blood & Organ Donation Awareness
+# 5SD-NON-018 — Veritas — Blood & Organ Donation Awareness
 
 - **Mã sản phẩm**: `5SD-NON-018`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

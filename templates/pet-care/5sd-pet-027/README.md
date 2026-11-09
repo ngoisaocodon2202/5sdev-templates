@@ -1,4 +1,4 @@
-# 5SD-PET-027 — Nexora — Veterinary Pharmacy & Supplements
+# 5SD-PET-027 — Solstice — Veterinary Pharmacy & Supplements
 
 - **Mã sản phẩm**: `5SD-PET-027`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

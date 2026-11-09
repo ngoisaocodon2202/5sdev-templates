@@ -1,4 +1,4 @@
-# 5SD-BEA-002 — Chronos — Holistic Aesthetic Spa
+# 5SD-BEA-002 — Solstice — Holistic Aesthetic Spa
 
 - **Mã sản phẩm**: `5SD-BEA-002`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

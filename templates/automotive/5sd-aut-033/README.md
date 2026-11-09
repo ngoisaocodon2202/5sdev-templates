@@ -1,4 +1,4 @@
-# 5SD-AUT-033 — Valiant — Battery Swapping Station Network
+# 5SD-AUT-033 — Aurelia — Battery Swapping Station Network
 
 - **Mã sản phẩm**: `5SD-AUT-033`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

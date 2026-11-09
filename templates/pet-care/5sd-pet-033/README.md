@@ -1,4 +1,4 @@
-# 5SD-PET-033 — Veritas — Pet Subscription Surprise Box
+# 5SD-PET-033 — Nova — Pet Subscription Surprise Box
 
 - **Mã sản phẩm**: `5SD-PET-033`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

@@ -1,4 +1,4 @@
-# 5SD-SPA-009 — Elysian — Gua Sha & Meridian Facial Spa
+# 5SD-SPA-009 — Nova — Gua Sha & Meridian Facial Spa
 
 - **Mã sản phẩm**: `5SD-SPA-009`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

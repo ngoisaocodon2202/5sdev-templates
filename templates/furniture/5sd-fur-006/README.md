@@ -1,4 +1,4 @@
-# 5SD-FUR-006 — Veritas — Minimalist Japanese Muji-Style Home
+# 5SD-FUR-006 — Aether — Minimalist Japanese Muji-Style Home
 
 - **Mã sản phẩm**: `5SD-FUR-006`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

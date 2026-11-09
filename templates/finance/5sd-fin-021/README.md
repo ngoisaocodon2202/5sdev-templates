@@ -1,4 +1,4 @@
-# 5SD-FIN-021 — Vanguard — Commodity & Gold Trading Hub
+# 5SD-FIN-021 — Sylvan — Commodity & Gold Trading Hub
 
 - **Mã sản phẩm**: `5SD-FIN-021`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

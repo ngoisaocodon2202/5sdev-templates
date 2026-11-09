@@ -1,4 +1,4 @@
-# 5SD-ECO-003 — Elysian — Luxury Boutique Mall
+# 5SD-ECO-003 — Lumiere — Luxury Boutique Mall
 
 - **Mã sản phẩm**: `5SD-ECO-003`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

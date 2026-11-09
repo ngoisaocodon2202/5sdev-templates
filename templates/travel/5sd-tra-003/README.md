@@ -1,4 +1,4 @@
-# 5SD-TRA-003 — Aurelia — Mountain Glamping & Eco Camp
+# 5SD-TRA-003 — Celestia — Mountain Glamping & Eco Camp
 
 - **Mã sản phẩm**: `5SD-TRA-003`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

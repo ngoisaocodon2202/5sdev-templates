@@ -1,4 +1,4 @@
-# 5SD-AGR-002 — Nordic — IoT Smart Greenhouse Agritech
+# 5SD-AGR-002 — Celestia — IoT Smart Greenhouse Agritech
 
 - **Mã sản phẩm**: `5SD-AGR-002`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

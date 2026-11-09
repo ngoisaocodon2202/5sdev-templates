@@ -1,4 +1,4 @@
-# 5SD-SPA-026 — Vertex — Lymphatic Drainage Body Sculpt
+# 5SD-SPA-026 — Onyx — Lymphatic Drainage Body Sculpt
 
 - **Mã sản phẩm**: `5SD-SPA-026`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

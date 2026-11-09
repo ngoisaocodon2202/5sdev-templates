@@ -1,4 +1,4 @@
-# 5SD-PET-030 — Prism — Bespoke Cat Tree & Furniture
+# 5SD-PET-030 — Maison — Bespoke Cat Tree & Furniture
 
 - **Mã sản phẩm**: `5SD-PET-030`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

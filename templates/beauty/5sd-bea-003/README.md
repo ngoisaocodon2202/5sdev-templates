@@ -1,4 +1,4 @@
-# 5SD-BEA-003 — Monolith — Clinical Skincare Lab
+# 5SD-BEA-003 — Prism — Clinical Skincare Lab
 
 - **Mã sản phẩm**: `5SD-BEA-003`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

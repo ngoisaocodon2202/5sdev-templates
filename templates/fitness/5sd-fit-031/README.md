@@ -1,4 +1,4 @@
-# 5SD-FIT-031 — Arcadia — Rowing & Water Sports Club
+# 5SD-FIT-031 — Kuroshio — Rowing & Water Sports Club
 
 - **Mã sản phẩm**: `5SD-FIT-031`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

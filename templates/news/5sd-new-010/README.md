@@ -1,4 +1,4 @@
-# 5SD-NEW-010 — Vanguard — Podcast & Audio News Network
+# 5SD-NEW-010 — Stratos — Podcast & Audio News Network
 
 - **Mã sản phẩm**: `5SD-NEW-010`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

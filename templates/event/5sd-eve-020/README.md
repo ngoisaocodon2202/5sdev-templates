@@ -1,4 +1,4 @@
-# 5SD-EVE-020 — Stratos — University Hackathon Portal
+# 5SD-EVE-020 — Valiant — University Hackathon Portal
 
 - **Mã sản phẩm**: `5SD-EVE-020`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

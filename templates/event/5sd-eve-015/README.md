@@ -1,4 +1,4 @@
-# 5SD-EVE-015 — Stratos — Stand-Up Comedy & Theater Show
+# 5SD-EVE-015 — Chronos — Stand-Up Comedy & Theater Show
 
 - **Mã sản phẩm**: `5SD-EVE-015`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

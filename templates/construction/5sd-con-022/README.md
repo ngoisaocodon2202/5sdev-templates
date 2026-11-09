@@ -1,4 +1,4 @@
-# 5SD-CON-022 — Elysian — HVAC & Chiller Central System
+# 5SD-CON-022 — Aurelia — HVAC & Chiller Central System
 
 - **Mã sản phẩm**: `5SD-CON-022`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

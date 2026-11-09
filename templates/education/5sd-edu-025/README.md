@@ -1,4 +1,4 @@
-# 5SD-EDU-025 — Kuroshio — Architecture & BIM Academy
+# 5SD-EDU-025 — Sovereign — Architecture & BIM Academy
 
 - **Mã sản phẩm**: `5SD-EDU-025`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

@@ -1,4 +1,4 @@
-# 5SD-RES-016 — Nexora — Dimsum & Cantonese Cuisine
+# 5SD-RES-016 — Maison — Dimsum & Cantonese Cuisine
 
 - **Mã sản phẩm**: `5SD-RES-016`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

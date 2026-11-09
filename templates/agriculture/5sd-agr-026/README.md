@@ -1,4 +1,4 @@
-# 5SD-AGR-026 — Forma — Blockchain Food Traceability SaaS
+# 5SD-AGR-026 — Sovereign — Blockchain Food Traceability SaaS
 
 - **Mã sản phẩm**: `5SD-AGR-026`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

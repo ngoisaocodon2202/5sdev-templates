@@ -1,4 +1,4 @@
-# 5SD-FIN-025 — Nova — Family Office Advisory
+# 5SD-FIN-025 — Kinetix — Family Office Advisory
 
 - **Mã sản phẩm**: `5SD-FIN-025`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

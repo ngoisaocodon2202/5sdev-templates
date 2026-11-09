@@ -1,4 +1,4 @@
-# 5SD-HEA-020 — Apex — Nutrition & Metabolic Clinic
+# 5SD-HEA-020 — Solvex — Nutrition & Metabolic Clinic
 
 - **Mã sản phẩm**: `5SD-HEA-020`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

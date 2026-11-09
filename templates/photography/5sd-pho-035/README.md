@@ -1,4 +1,4 @@
-# 5SD-PHO-035 — Celestia — Visual Art Exhibition Space
+# 5SD-PHO-035 — Onyx — Visual Art Exhibition Space
 
 - **Mã sản phẩm**: `5SD-PHO-035`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

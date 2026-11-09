@@ -1,4 +1,4 @@
-# 5SD-PET-025 — Prism — Eco-Friendly Cat Litter & Toys
+# 5SD-PET-025 — Orchid — Eco-Friendly Cat Litter & Toys
 
 - **Mã sản phẩm**: `5SD-PET-025`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

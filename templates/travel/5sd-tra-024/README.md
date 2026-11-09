@@ -1,4 +1,4 @@
-# 5SD-TRA-024 — Velvet — Photography Landscape Workshops
+# 5SD-TRA-024 — Aether — Photography Landscape Workshops
 
 - **Mã sản phẩm**: `5SD-TRA-024`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

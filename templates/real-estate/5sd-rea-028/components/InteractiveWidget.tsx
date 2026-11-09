@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 28500000,
     "meta": "Bến du thuyền nội khu • Bàn giao hoàn thiện",
     "id": "5SD-REA-028-01",
-    "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Căn Hộ Sky Villa 3 Phòng Ngủ Tầm Nhìn Panorama",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 8900000,
     "meta": "Thang máy riêng • Hệ thống SmartHome chuẩn Đức",
     "id": "5SD-REA-028-02",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Shophouse Thương Mại Đại Lộ Trung Tâm Đắc Địa",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 16400000,
     "meta": "2 mặt tiền • Khu dân cư sầm uất 50.000 dân",
     "id": "5SD-REA-028-03",
-    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1584738766473-61c083514bf4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Văn Phòng Hạng A Chuẩn LEED Gold Trung Tâm Quận 1",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 950000,
     "meta": "Giá thuê/m² • Hệ thống quản lý tòa nhà BMS",
     "id": "5SD-REA-028-04",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

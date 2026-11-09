@@ -1,4 +1,4 @@
-# 5SD-EVE-022 — Nova — Charity Gala & Auction Night
+# 5SD-EVE-022 — Monolith — Charity Gala & Auction Night
 
 - **Mã sản phẩm**: `5SD-EVE-022`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

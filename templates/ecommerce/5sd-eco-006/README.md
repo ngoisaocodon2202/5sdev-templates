@@ -1,4 +1,4 @@
-# 5SD-ECO-006 — Aurelia — Limited Sneaker Vault
+# 5SD-ECO-006 — Kuroshio — Limited Sneaker Vault
 
 - **Mã sản phẩm**: `5SD-ECO-006`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

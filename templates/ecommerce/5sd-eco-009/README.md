@@ -1,4 +1,4 @@
-# 5SD-ECO-009 — Orchid — Fine Jewelry & Diamond Shop
+# 5SD-ECO-009 — Apex — Fine Jewelry & Diamond Shop
 
 - **Mã sản phẩm**: `5SD-ECO-009`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

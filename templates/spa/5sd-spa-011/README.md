@@ -1,4 +1,4 @@
-# 5SD-SPA-011 — Vertex — Prenatal & Postpartum Care Spa
+# 5SD-SPA-011 — Crescendo — Prenatal & Postpartum Care Spa
 
 - **Mã sản phẩm**: `5SD-SPA-011`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

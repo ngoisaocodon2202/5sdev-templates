@@ -1,4 +1,4 @@
-# 5SD-BLO-009 — Equinox — Indie Hacker & SaaS Building Log
+# 5SD-BLO-009 — Arcadia — Indie Hacker & SaaS Building Log
 
 - **Mã sản phẩm**: `5SD-BLO-009`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

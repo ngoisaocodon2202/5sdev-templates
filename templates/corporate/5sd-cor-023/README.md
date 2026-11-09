@@ -1,4 +1,4 @@
-# 5SD-COR-023 — Celestia — Retail Franchise Holding
+# 5SD-COR-023 — Atelier — Retail Franchise Holding
 
 - **Mã sản phẩm**: `5SD-COR-023`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

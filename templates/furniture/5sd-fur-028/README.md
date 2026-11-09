@@ -1,4 +1,4 @@
-# 5SD-FUR-028 — Prism — Custom Upholstery & Fabric Lab
+# 5SD-FUR-028 — Aethel — Custom Upholstery & Fabric Lab
 
 - **Mã sản phẩm**: `5SD-FUR-028`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

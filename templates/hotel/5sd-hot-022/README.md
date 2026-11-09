@@ -1,4 +1,4 @@
-# 5SD-HOT-022 — Crescendo — Adults-Only Romantic Resort
+# 5SD-HOT-022 — Solvex — Adults-Only Romantic Resort
 
 - **Mã sản phẩm**: `5SD-HOT-022`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

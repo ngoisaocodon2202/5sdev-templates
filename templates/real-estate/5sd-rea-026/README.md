@@ -1,4 +1,4 @@
-# 5SD-REA-026 — Valiant — Smart Home Automation Condos
+# 5SD-REA-026 — Orchid — Smart Home Automation Condos
 
 - **Mã sản phẩm**: `5SD-REA-026`
 - **Ngành nghề**: Bất động sản (`real-estate`)

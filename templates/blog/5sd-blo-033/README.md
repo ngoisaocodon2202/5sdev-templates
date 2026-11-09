@@ -1,4 +1,4 @@
-# 5SD-BLO-033 — Arcadia — Street Food Hunter Review
+# 5SD-BLO-033 — Elysian — Street Food Hunter Review
 
 - **Mã sản phẩm**: `5SD-BLO-033`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

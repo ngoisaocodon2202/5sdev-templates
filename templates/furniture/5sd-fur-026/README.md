@@ -1,4 +1,4 @@
-# 5SD-FUR-026 — Veritas — Entryway Console & Mirror Shop
+# 5SD-FUR-026 — Stratos — Entryway Console & Mirror Shop
 
 - **Mã sản phẩm**: `5SD-FUR-026`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

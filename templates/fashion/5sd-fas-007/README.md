@@ -1,4 +1,4 @@
-# 5SD-FAS-007 — Kinetix — High-Performance Athleisure
+# 5SD-FAS-007 — Solvex — High-Performance Athleisure
 
 - **Mã sản phẩm**: `5SD-FAS-007`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

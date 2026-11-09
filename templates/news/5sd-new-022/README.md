@@ -1,4 +1,4 @@
-# 5SD-NEW-022 — Stratos — Women Leadership & Empowerment
+# 5SD-NEW-022 — Atelier — Women Leadership & Empowerment
 
 - **Mã sản phẩm**: `5SD-NEW-022`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

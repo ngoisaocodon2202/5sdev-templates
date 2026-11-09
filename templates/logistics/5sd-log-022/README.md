@@ -1,4 +1,4 @@
-# 5SD-LOG-022 — Celestia — Bonded Warehouse & Free Trade Zone
+# 5SD-LOG-022 — Kuroshio — Bonded Warehouse & Free Trade Zone
 
 - **Mã sản phẩm**: `5SD-LOG-022`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

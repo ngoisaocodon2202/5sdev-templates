@@ -1,4 +1,4 @@
-# 5SD-NEW-025 — Vanguard — Book Review & Literary Critic
+# 5SD-NEW-025 — Aether — Book Review & Literary Critic
 
 - **Mã sản phẩm**: `5SD-NEW-025`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

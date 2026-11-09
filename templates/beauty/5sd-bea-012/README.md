@@ -1,4 +1,4 @@
-# 5SD-BEA-012 — Chronos — Lash & Brow Bar
+# 5SD-BEA-012 — Sovereign — Lash & Brow Bar
 
 - **Mã sản phẩm**: `5SD-BEA-012`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

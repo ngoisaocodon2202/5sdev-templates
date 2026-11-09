@@ -1,4 +1,4 @@
-# 5SD-RES-026 — Nexora — Hotpot & Mala Tang Paradise
+# 5SD-RES-026 — Vanguard — Hotpot & Mala Tang Paradise
 
 - **Mã sản phẩm**: `5SD-RES-026`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

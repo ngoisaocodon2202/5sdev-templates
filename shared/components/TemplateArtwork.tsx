@@ -108,17 +108,35 @@ export const TemplateThumbnailArtwork: React.FC<ArtworkProps> = ({
             {code.toLowerCase()}.5sdev.vn
           </span>
         </div>
-        <span
-          className="rounded px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase text-white whitespace-nowrap"
-          style={{ background: primaryColor }}
-        >
-          {styleId}
-        </span>
+        <div className="flex items-center gap-1.5">
+          <div
+            className="flex h-4 w-4 items-center justify-center rounded text-[8px] font-black text-white shrink-0"
+            style={{
+              background: `linear-gradient(135deg, ${primaryColor}, ${secondaryColor})`,
+            }}
+          >
+            {title.slice(0, 2).toUpperCase()}
+          </div>
+          <span
+            className="rounded px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase text-white whitespace-nowrap"
+            style={{ background: primaryColor }}
+          >
+            {styleId}
+          </span>
+        </div>
       </div>
 
       {/* Bottom Mini Website Hero Preview Overlay */}
-      <div className="absolute inset-x-3 bottom-3 rounded-xl bg-slate-950/80 p-3 backdrop-blur-md border border-white/15">
-        <div className="flex items-center justify-between gap-2">
+      <div className="absolute inset-x-3 bottom-3 rounded-xl bg-slate-950/80 p-2.5 sm:p-3 backdrop-blur-md border border-white/15">
+        <div className="flex items-center justify-between gap-2.5">
+          <div
+            className="flex h-8 w-8 items-center justify-center rounded-lg text-white font-black text-xs shrink-0 shadow-md"
+            style={{
+              background: `linear-gradient(135deg, ${primaryColor}, ${secondaryColor})`,
+            }}
+          >
+            {title.slice(0, 2).toUpperCase()}
+          </div>
           <div className="min-w-0 flex-1">
             <div className="text-xs font-bold text-white truncate">{title}</div>
             <div className="text-[10px] text-slate-300 truncate mt-0.5">

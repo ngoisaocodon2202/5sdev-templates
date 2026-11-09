@@ -1,4 +1,4 @@
-# 5SD-FAS-028 — Solstice — Footwear & Sneaker Lab
+# 5SD-FAS-028 — Arcadia — Footwear & Sneaker Lab
 
 - **Mã sản phẩm**: `5SD-FAS-028`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

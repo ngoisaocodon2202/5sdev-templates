@@ -1,4 +1,4 @@
-# 5SD-FIN-019 — Hyperion — Microfinance & Financial Inclusion
+# 5SD-FIN-019 — Veritas — Microfinance & Financial Inclusion
 
 - **Mã sản phẩm**: `5SD-FIN-019`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

@@ -1,4 +1,4 @@
-# 5SD-LEG-006 — Kuroshio — Tax Law & Transfer Pricing
+# 5SD-LEG-006 — Aurelia — Tax Law & Transfer Pricing
 
 - **Mã sản phẩm**: `5SD-LEG-006`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

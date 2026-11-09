@@ -1,4 +1,4 @@
-# 5SD-INT-032 — Monolith — Showflat Real Estate Styling
+# 5SD-INT-032 — Equinox — Showflat Real Estate Styling
 
 - **Mã sản phẩm**: `5SD-INT-032`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

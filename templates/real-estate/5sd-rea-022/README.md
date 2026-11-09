@@ -1,4 +1,4 @@
-# 5SD-REA-022 — Arcadia — Hospitality Land Development
+# 5SD-REA-022 — Aethel — Hospitality Land Development
 
 - **Mã sản phẩm**: `5SD-REA-022`
 - **Ngành nghề**: Bất động sản (`real-estate`)

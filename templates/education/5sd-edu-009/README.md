@@ -1,4 +1,4 @@
-# 5SD-EDU-009 — Sovereign — 1-on-1 Live Tutor Marketplace
+# 5SD-EDU-009 — Aethel — 1-on-1 Live Tutor Marketplace
 
 - **Mã sản phẩm**: `5SD-EDU-009`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

@@ -1,4 +1,4 @@
-# 5SD-POR-022 — Forma — Copywriter & Brand Storyteller
+# 5SD-POR-022 — Stratos — Copywriter & Brand Storyteller
 
 - **Mã sản phẩm**: `5SD-POR-022`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

@@ -1,4 +1,4 @@
-# 5SD-FAS-006 — Celestia — Sustainable Linen Apparel
+# 5SD-FAS-006 — Nexora — Sustainable Linen Apparel
 
 - **Mã sản phẩm**: `5SD-FAS-006`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

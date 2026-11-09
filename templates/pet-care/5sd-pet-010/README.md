@@ -1,4 +1,4 @@
-# 5SD-PET-010 — Prism — Luxury Pet Apparel & Collars
+# 5SD-PET-010 — Nordic — Luxury Pet Apparel & Collars
 
 - **Mã sản phẩm**: `5SD-PET-010`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

@@ -1,4 +1,4 @@
-# 5SD-SPA-005 — Orchid — Traditional Thai & Shiatsu Massage
+# 5SD-SPA-005 — Arcadia — Traditional Thai & Shiatsu Massage
 
 - **Mã sản phẩm**: `5SD-SPA-005`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

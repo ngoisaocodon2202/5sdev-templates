@@ -1,4 +1,4 @@
-# 5SD-NEW-011 — Apex — Science & Climate Change Report
+# 5SD-NEW-011 — Kinetix — Science & Climate Change Report
 
 - **Mã sản phẩm**: `5SD-NEW-011`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

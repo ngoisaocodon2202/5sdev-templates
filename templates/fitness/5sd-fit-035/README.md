@@ -1,4 +1,4 @@
-# 5SD-FIT-035 — Valiant — Athletic Performance Lab
+# 5SD-FIT-035 — Celestia — Athletic Performance Lab
 
 - **Mã sản phẩm**: `5SD-FIT-035`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

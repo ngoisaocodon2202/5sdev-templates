@@ -1,4 +1,4 @@
-# 5SD-NEW-031 — Apex — Live Video Broadcast Newsroom
+# 5SD-NEW-031 — Vanguard — Live Video Broadcast Newsroom
 
 - **Mã sản phẩm**: `5SD-NEW-031`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

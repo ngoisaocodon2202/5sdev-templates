@@ -1,4 +1,4 @@
-# 5SD-TEC-028 — Sylvan — MLOps & Model Training Cloud
+# 5SD-TEC-028 — Apex — MLOps & Model Training Cloud
 
 - **Mã sản phẩm**: `5SD-TEC-028`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

@@ -1,4 +1,4 @@
-# 5SD-COR-032 — Lumiere — Intellectual Property Licensing
+# 5SD-COR-032 — Vanguard — Intellectual Property Licensing
 
 - **Mã sản phẩm**: `5SD-COR-032`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

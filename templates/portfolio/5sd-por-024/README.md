@@ -1,4 +1,4 @@
-# 5SD-POR-024 — Chronos — Portrait & Editorial Photographer
+# 5SD-POR-024 — Aethel — Portrait & Editorial Photographer
 
 - **Mã sản phẩm**: `5SD-POR-024`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

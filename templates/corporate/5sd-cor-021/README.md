@@ -1,4 +1,4 @@
-# 5SD-COR-021 — Aether — Pharmaceutical & Biotech Corp
+# 5SD-COR-021 — Arcadia — Pharmaceutical & Biotech Corp
 
 - **Mã sản phẩm**: `5SD-COR-021`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

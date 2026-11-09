@@ -1,4 +1,4 @@
-# 5SD-LEG-032 — Sylvan — Insurance Claims Legal Advisory
+# 5SD-LEG-032 — Maison — Insurance Claims Legal Advisory
 
 - **Mã sản phẩm**: `5SD-LEG-032`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

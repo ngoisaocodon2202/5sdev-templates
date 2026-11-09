@@ -1,4 +1,4 @@
-# 5SD-BEA-030 — Forma — Sunless Tanning & Glow Bar
+# 5SD-BEA-030 — Kinetix — Sunless Tanning & Glow Bar
 
 - **Mã sản phẩm**: `5SD-BEA-030`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

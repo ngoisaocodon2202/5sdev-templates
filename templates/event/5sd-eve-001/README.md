@@ -1,4 +1,4 @@
-# 5SD-EVE-001 — Hyperion — Global Tech & AI Summit
+# 5SD-EVE-001 — Forma — Global Tech & AI Summit
 
 - **Mã sản phẩm**: `5SD-EVE-001`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

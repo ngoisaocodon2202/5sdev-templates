@@ -1,4 +1,4 @@
-# 5SD-ECO-022 — Velvet — Eco-Friendly Kids Toys
+# 5SD-ECO-022 — Orchid — Eco-Friendly Kids Toys
 
 - **Mã sản phẩm**: `5SD-ECO-022`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

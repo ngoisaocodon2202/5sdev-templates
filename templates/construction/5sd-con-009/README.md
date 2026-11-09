@@ -1,4 +1,4 @@
-# 5SD-CON-009 — Vertex — BIM 3D Digital Twin Engineering
+# 5SD-CON-009 — Hyperion — BIM 3D Digital Twin Engineering
 
 - **Mã sản phẩm**: `5SD-CON-009`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

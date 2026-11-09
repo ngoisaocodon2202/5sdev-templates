@@ -1,4 +1,4 @@
-# 5SD-CON-028 — Orchid — Smart Grid Electrical Substation
+# 5SD-CON-028 — Nordic — Smart Grid Electrical Substation
 
 - **Mã sản phẩm**: `5SD-CON-028`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

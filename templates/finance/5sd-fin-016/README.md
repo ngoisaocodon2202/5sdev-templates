@@ -1,4 +1,4 @@
-# 5SD-FIN-016 — Vanguard — Payroll & Compensation SaaS
+# 5SD-FIN-016 — Velvet — Payroll & Compensation SaaS
 
 - **Mã sản phẩm**: `5SD-FIN-016`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

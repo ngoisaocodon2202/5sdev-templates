@@ -1,4 +1,4 @@
-# 5SD-ECO-004 — Orchid — Organic Cosmetics Shop
+# 5SD-ECO-004 — Nexora — Organic Cosmetics Shop
 
 - **Mã sản phẩm**: `5SD-ECO-004`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

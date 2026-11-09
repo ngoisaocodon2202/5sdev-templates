@@ -1,4 +1,4 @@
-# 5SD-AGR-009 — Monolith — Tropical Fruit Export Orchard
+# 5SD-AGR-009 — Kinetix — Tropical Fruit Export Orchard
 
 - **Mã sản phẩm**: `5SD-AGR-009`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

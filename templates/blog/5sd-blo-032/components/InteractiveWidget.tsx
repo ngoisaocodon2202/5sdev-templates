@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 0,
     "meta": "Phân tích thực chiến Code-Splitting, State Management & Tối ưu Render",
     "id": "5SD-BLO-032-01",
-    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Hành Trình Tự Do Tài Chính & Xây Dựng Danh Mục Đầu Tư Cá Nhân",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 0,
     "meta": "Kèm bảng tính Excel/Notion phân bổ tài sản miễn phí cho độc giả",
     "id": "5SD-BLO-032-02",
-    "image": "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Thành Viên Cộng Đồng Độc Giả Chuyên Sâu (Insider Club)",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 490000,
     "meta": "Nhận bản tin chuyên sâu thứ 5 hàng tuần, Kho tài nguyên & Hỏi đáp trực tiếp",
     "id": "5SD-BLO-032-03",
-    "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "E-Book & Bộ Template Quản Lý Hiệu Suất Làm Việc Cá Nhân",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 290000,
     "meta": "220 trang PDF + Hệ thống quản lý tri thức cá nhân hoàn chỉnh",
     "id": "5SD-BLO-032-04",
-    "image": "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

@@ -1,4 +1,4 @@
-# 5SD-AUT-014 — Arcadia — Electric E-Bike & Scooter Brand
+# 5SD-AUT-014 — Kinetix — Electric E-Bike & Scooter Brand
 
 - **Mã sản phẩm**: `5SD-AUT-014`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

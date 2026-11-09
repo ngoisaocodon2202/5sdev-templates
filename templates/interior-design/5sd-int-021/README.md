@@ -1,4 +1,4 @@
-# 5SD-INT-021 — Chronos — Custom Millwork & Joinery Studio
+# 5SD-INT-021 — Orchid — Custom Millwork & Joinery Studio
 
 - **Mã sản phẩm**: `5SD-INT-021`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

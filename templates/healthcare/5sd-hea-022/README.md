@@ -1,4 +1,4 @@
-# 5SD-HEA-022 — Hyperion — Vaccination & Immunization Hub
+# 5SD-HEA-022 — Nordic — Vaccination & Immunization Hub
 
 - **Mã sản phẩm**: `5SD-HEA-022`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

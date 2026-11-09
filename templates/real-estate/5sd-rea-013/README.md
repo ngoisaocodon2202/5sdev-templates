@@ -1,4 +1,4 @@
-# 5SD-REA-013 — Equinox — PropTech Valuation & Analytics
+# 5SD-REA-013 — Apex — PropTech Valuation & Analytics
 
 - **Mã sản phẩm**: `5SD-REA-013`
 - **Ngành nghề**: Bất động sản (`real-estate`)

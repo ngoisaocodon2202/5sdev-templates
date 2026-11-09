@@ -1,4 +1,4 @@
-# 5SD-AUT-008 — Valiant — EV Charging Network Hub
+# 5SD-AUT-008 — Veritas — EV Charging Network Hub
 
 - **Mã sản phẩm**: `5SD-AUT-008`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

@@ -1,4 +1,4 @@
-# 5SD-FUR-005 — Nexora — Ergonomic Home Office Desk
+# 5SD-FUR-005 — Nova — Ergonomic Home Office Desk
 
 - **Mã sản phẩm**: `5SD-FUR-005`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

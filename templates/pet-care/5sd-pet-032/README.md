@@ -1,4 +1,4 @@
-# 5SD-PET-032 — Nexora — Grooming Academy & Certification
+# 5SD-PET-032 — Vertex — Grooming Academy & Certification
 
 - **Mã sản phẩm**: `5SD-PET-032`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

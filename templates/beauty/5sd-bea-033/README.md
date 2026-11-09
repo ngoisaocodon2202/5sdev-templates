@@ -1,4 +1,4 @@
-# 5SD-BEA-033 — Monolith — Custom Foundation Mixing Lab
+# 5SD-BEA-033 — Zenith — Custom Foundation Mixing Lab
 
 - **Mã sản phẩm**: `5SD-BEA-033`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

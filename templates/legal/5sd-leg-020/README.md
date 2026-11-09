@@ -1,4 +1,4 @@
-# 5SD-LEG-020 — Sovereign — LegalTech Contract Automation
+# 5SD-LEG-020 — Elysian — LegalTech Contract Automation
 
 - **Mã sản phẩm**: `5SD-LEG-020`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

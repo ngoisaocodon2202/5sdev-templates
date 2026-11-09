@@ -1,4 +1,4 @@
-# 5SD-LOG-026 — Lumiere — Agricultural Cold Storage Hub
+# 5SD-LOG-026 — Celestia — Agricultural Cold Storage Hub
 
 - **Mã sản phẩm**: `5SD-LOG-026`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

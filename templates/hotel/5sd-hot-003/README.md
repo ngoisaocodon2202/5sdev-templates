@@ -1,4 +1,4 @@
-# 5SD-HOT-003 — Nexora — Aesthetic Boutique Homestay
+# 5SD-HOT-003 — Monolith — Aesthetic Boutique Homestay
 
 - **Mã sản phẩm**: `5SD-HOT-003`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

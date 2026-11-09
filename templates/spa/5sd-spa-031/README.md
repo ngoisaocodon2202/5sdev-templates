@@ -1,4 +1,4 @@
-# 5SD-SPA-031 — Vertex — Reiki & Mindful Coaching
+# 5SD-SPA-031 — Kinetix — Reiki & Mindful Coaching
 
 - **Mã sản phẩm**: `5SD-SPA-031`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

@@ -1,4 +1,4 @@
-# 5SD-AUT-009 — Arcadia — Certified Pre-Owned Cars
+# 5SD-AUT-009 — Onyx — Certified Pre-Owned Cars
 
 - **Mã sản phẩm**: `5SD-AUT-009`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

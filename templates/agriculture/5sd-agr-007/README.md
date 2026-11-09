@@ -1,4 +1,4 @@
-# 5SD-AGR-007 — Nordic — Precision Drone Crop Spraying
+# 5SD-AGR-007 — Elysian — Precision Drone Crop Spraying
 
 - **Mã sản phẩm**: `5SD-AGR-007`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

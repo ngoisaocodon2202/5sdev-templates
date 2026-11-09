@@ -1,4 +1,4 @@
-# 5SD-BEA-023 — Monolith — Luxury Bath & Body Care
+# 5SD-BEA-023 — Celestia — Luxury Bath & Body Care
 
 - **Mã sản phẩm**: `5SD-BEA-023`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

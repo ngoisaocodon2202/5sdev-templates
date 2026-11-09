@@ -1,4 +1,4 @@
-# 5SD-CON-029 — Vertex — Timber & Cross-Laminated Wood
+# 5SD-CON-029 — Velvet — Timber & Cross-Laminated Wood
 
 - **Mã sản phẩm**: `5SD-CON-029`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

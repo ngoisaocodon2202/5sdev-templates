@@ -1,4 +1,4 @@
-# 5SD-SPA-023 — Velvet — Corporate Burnout Recovery Retreat
+# 5SD-SPA-023 — Apex — Corporate Burnout Recovery Retreat
 
 - **Mã sản phẩm**: `5SD-SPA-023`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

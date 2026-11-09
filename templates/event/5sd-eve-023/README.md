@@ -1,4 +1,4 @@
-# 5SD-EVE-023 — Vanguard — Stage Sound & LED Matrix Rental
+# 5SD-EVE-023 — Orchid — Stage Sound & LED Matrix Rental
 
 - **Mã sản phẩm**: `5SD-EVE-023`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

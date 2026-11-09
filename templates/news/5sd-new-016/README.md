@@ -1,4 +1,4 @@
-# 5SD-NEW-016 — Apex — Travel & Gastronomy Magazine
+# 5SD-NEW-016 — Orchid — Travel & Gastronomy Magazine
 
 - **Mã sản phẩm**: `5SD-NEW-016`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

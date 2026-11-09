@@ -1,4 +1,4 @@
-# 5SD-REA-011 — Valiant — Student Housing & Co-Living
+# 5SD-REA-011 — Nordic — Student Housing & Co-Living
 
 - **Mã sản phẩm**: `5SD-REA-011`
 - **Ngành nghề**: Bất động sản (`real-estate`)

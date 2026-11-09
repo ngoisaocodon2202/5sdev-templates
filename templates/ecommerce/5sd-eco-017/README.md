@@ -1,4 +1,4 @@
-# 5SD-ECO-017 — Velvet — Handcrafted Ceramic Tableware
+# 5SD-ECO-017 — Kinetix — Handcrafted Ceramic Tableware
 
 - **Mã sản phẩm**: `5SD-ECO-017`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

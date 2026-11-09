@@ -1,4 +1,4 @@
-# 5SD-POR-030 — Monolith — Culinary Chef Personal Brand
+# 5SD-POR-030 — Solstice — Culinary Chef Personal Brand
 
 - **Mã sản phẩm**: `5SD-POR-030`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

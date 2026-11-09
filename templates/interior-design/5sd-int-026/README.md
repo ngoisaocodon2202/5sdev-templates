@@ -1,4 +1,4 @@
-# 5SD-INT-026 — Chronos — Sustainable Passive House Studio
+# 5SD-INT-026 — Maison — Sustainable Passive House Studio
 
 - **Mã sản phẩm**: `5SD-INT-026`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

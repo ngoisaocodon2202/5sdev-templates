@@ -1,4 +1,4 @@
-# 5SD-LOG-008 — Kinetix — Cross-Border Vietnam-Global Cargo
+# 5SD-LOG-008 — Maison — Cross-Border Vietnam-Global Cargo
 
 - **Mã sản phẩm**: `5SD-LOG-008`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

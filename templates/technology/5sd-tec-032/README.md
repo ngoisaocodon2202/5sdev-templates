@@ -1,4 +1,4 @@
-# 5SD-TEC-032 — Kuroshio — Digital Twin Industrial SaaS
+# 5SD-TEC-032 — Sylvan — Digital Twin Industrial SaaS
 
 - **Mã sản phẩm**: `5SD-TEC-032`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

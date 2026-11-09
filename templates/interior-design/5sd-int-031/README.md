@@ -1,4 +1,4 @@
-# 5SD-INT-031 — Chronos — Virtual Staging & VR Walkthrough
+# 5SD-INT-031 — Crescendo — Virtual Staging & VR Walkthrough
 
 - **Mã sản phẩm**: `5SD-INT-031`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

@@ -1,4 +1,4 @@
-# 5SD-HOT-013 — Nexora — Urban Design Art Hotel
+# 5SD-HOT-013 — Aether — Urban Design Art Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-013`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

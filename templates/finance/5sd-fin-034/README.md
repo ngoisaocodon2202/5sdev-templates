@@ -1,4 +1,4 @@
-# 5SD-FIN-034 — Hyperion — Digital Gold & Asset Vault
+# 5SD-FIN-034 — Arcadia — Digital Gold & Asset Vault
 
 - **Mã sản phẩm**: `5SD-FIN-034`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

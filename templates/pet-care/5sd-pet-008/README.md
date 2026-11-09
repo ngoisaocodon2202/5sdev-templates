@@ -1,4 +1,4 @@
-# 5SD-PET-008 — Veritas — Exotic Pet & Avian Clinic
+# 5SD-PET-008 — Solvex — Exotic Pet & Avian Clinic
 
 - **Mã sản phẩm**: `5SD-PET-008`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

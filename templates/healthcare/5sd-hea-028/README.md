@@ -1,4 +1,4 @@
-# 5SD-HEA-028 — Nova — Blood Donation & Biobank
+# 5SD-HEA-028 — Sylvan — Blood Donation & Biobank
 
 - **Mã sản phẩm**: `5SD-HEA-028`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

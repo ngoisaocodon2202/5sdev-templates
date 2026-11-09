@@ -1,4 +1,4 @@
-# 5SD-WED-003 — Sovereign — Grand Convention Wedding Palace
+# 5SD-WED-003 — Arcadia — Grand Convention Wedding Palace
 
 - **Mã sản phẩm**: `5SD-WED-003`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

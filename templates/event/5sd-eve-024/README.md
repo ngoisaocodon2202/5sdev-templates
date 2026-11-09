@@ -1,4 +1,4 @@
-# 5SD-EVE-024 — Apex — Event Check-In & Badge QR App
+# 5SD-EVE-024 — Hyperion — Event Check-In & Badge QR App
 
 - **Mã sản phẩm**: `5SD-EVE-024`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 8900000,
     "meta": "24 tuần • Mentor 1-1 từ Senior BigTech",
     "id": "5SD-EDU-021-01",
-    "image": "https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Khóa Luyện Thi IELTS 7.5+ Intensive Cam Kết Đầu Ra",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 6500000,
     "meta": "36 buổi • Chấm chữa Writing không giới hạn",
     "id": "5SD-EDU-021-02",
-    "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Chương trình MBA Quản trị Chiến lược Doanh nghiệp",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 14500000,
     "meta": "Case study thực chiến • Chứng chỉ quốc tế",
     "id": "5SD-EDU-021-03",
-    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1491841573634-28140fc7ced7?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Trại Hè STEM Robotics & Tư Duy Sáng Tạo Quốc Tế",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 4200000,
     "meta": "Thực hành dự án thật • Thi đấu quốc tế",
     "id": "5SD-EDU-021-04",
-    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

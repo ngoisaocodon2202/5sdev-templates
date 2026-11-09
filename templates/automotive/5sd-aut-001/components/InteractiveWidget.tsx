@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 14500000,
     "meta": "Trả góp từ 14.5tr/tháng • Hỗ trợ lái tự động cấp độ 3",
     "id": "5SD-AUT-001-01",
-    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Phủ Ceramic Đồ Họa 9H & Dán Phim Cách Nhiệt Quang Học",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 18500000,
     "meta": "Phòng thi công tiêu chuẩn châu Âu • Chống xước & Tia UV 99%",
     "id": "5SD-AUT-001-02",
-    "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1553440569-bcc63803a83d?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Dịch Vụ Thuê Xe Hạng Sang Có Tài Xế Đưa Đón VIP",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 4500000,
     "meta": "Phục vụ hội nghị, đón đối tác ngoại giao • Chuẩn mực 5 sao",
     "id": "5SD-AUT-001-03",
-    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Bộ Nâng Cấp Hiệu Suất Mâm Forged & Hệ Thống Phanh Carbon",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 32000000,
     "meta": "Giảm 28% trọng lượng không treo • Nhập khẩu chính ngạch",
     "id": "5SD-AUT-001-04",
-    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

@@ -1,4 +1,4 @@
-# 5SD-BLO-007 — Valiant — Book Club & Reading Notes
+# 5SD-BLO-007 — Solstice — Book Club & Reading Notes
 
 - **Mã sản phẩm**: `5SD-BLO-007`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

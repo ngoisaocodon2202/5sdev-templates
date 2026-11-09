@@ -1,4 +1,4 @@
-# 5SD-TEC-002 — Kuroshio — Autonomous AI Agent SaaS
+# 5SD-TEC-002 — Aethel — Autonomous AI Agent SaaS
 
 - **Mã sản phẩm**: `5SD-TEC-002`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

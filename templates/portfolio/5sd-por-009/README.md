@@ -1,4 +1,4 @@
-# 5SD-POR-009 — Chronos — Independent UX Researcher
+# 5SD-POR-009 — Lumiere — Independent UX Researcher
 
 - **Mã sản phẩm**: `5SD-POR-009`
 - **Ngành nghề**: Hồ sơ Năng lực & Cá nhân (`portfolio`)

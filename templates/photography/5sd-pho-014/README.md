@@ -1,4 +1,4 @@
-# 5SD-PHO-014 — Lumiere — Event & Concert Live Coverage
+# 5SD-PHO-014 — Arcadia — Event & Concert Live Coverage
 
 - **Mã sản phẩm**: `5SD-PHO-014`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

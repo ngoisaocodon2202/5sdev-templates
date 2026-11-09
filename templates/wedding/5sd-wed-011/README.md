@@ -1,4 +1,4 @@
-# 5SD-WED-011 — Zenith — Bespoke Groom Tuxedo & Suit
+# 5SD-WED-011 — Sovereign — Bespoke Groom Tuxedo & Suit
 
 - **Mã sản phẩm**: `5SD-WED-011`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

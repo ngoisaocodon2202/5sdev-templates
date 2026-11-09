@@ -3,6 +3,7 @@ import { Menu, X, PhoneCall, Mail, MapPin, ShieldCheck, Globe } from '@shared/ic
 import { HeroSection } from './components/HeroSection';
 import { InteractiveWidget } from './components/InteractiveWidget';
 import { ContentSections } from './components/ContentSections';
+import { BrandLogo } from './components/BrandLogo';
 
 export interface TemplatePageProps {
   previewDevice?: 'desktop' | 'tablet' | 'mobile';
@@ -62,22 +63,9 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
       {/* Main Sticky Navigation Header */}
       <header className="sticky top-0 z-30 w-full bg-[#080C16]/90 border-b border-slate-800/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
-          {/* Brand Identity */}
-          <a href="#top" className="flex items-center gap-3 shrink-0">
-            <span
-              className="flex h-10 w-10 items-center justify-center rounded-xl text-white font-extrabold text-sm shadow-md shrink-0"
-              style={{ background: 'linear-gradient(135deg, #0284C7, #10B981)' }}
-            >
-              VE
-            </span>
-            <div>
-              <span className="text-base sm:text-lg font-extrabold tracking-tight block leading-none">
-                Velvet
-              </span>
-              <span className="text-[11px] opacity-70 block mt-0.5">
-                Renewable Solar Village Project
-              </span>
-            </div>
+          {/* Brand Identity with Dedicated Logo */}
+          <a href="#top" className="flex items-center shrink-0">
+            <BrandLogo variant="full" size="md" />
           </a>
 
           {/* Desktop Navigation Links */}
@@ -197,15 +185,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 pb-10 border-b border-current/10">
             <div className="space-y-3">
-              <div className="flex items-center gap-2.5">
-                <span
-                  className="flex h-8 w-8 items-center justify-center rounded-lg text-white font-extrabold text-xs"
-                  style={{ background: 'linear-gradient(135deg, #0284C7, #10B981)' }}
-                >
-                  VE
-                </span>
-                <span className="text-base font-extrabold">Velvet</span>
-              </div>
+              <BrandLogo variant="light" size="lg" />
               <p className="text-slate-400 leading-relaxed">
                 Đơn vị tiên phong trong lĩnh vực Tổ chức Phi lợi nhuận & Từ thiện (Renewable Solar Village Project), cam kết chất lượng chuẩn quốc tế và dịch vụ tận tâm 24/7.
               </p>

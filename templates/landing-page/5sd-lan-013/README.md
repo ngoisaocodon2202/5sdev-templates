@@ -1,4 +1,4 @@
-# 5SD-LAN-013 — Crescendo — Newsletter Subscriber Growth Page
+# 5SD-LAN-013 — Kinetix — Newsletter Subscriber Growth Page
 
 - **Mã sản phẩm**: `5SD-LAN-013`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

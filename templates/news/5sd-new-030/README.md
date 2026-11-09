@@ -1,4 +1,4 @@
-# 5SD-NEW-030 — Vanguard — Executive Morning Briefing
+# 5SD-NEW-030 — Aurelia — Executive Morning Briefing
 
 - **Mã sản phẩm**: `5SD-NEW-030`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

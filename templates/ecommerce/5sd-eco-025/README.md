@@ -1,4 +1,4 @@
-# 5SD-ECO-025 — Vertex — Professional Chef Cookware
+# 5SD-ECO-025 — Prism — Professional Chef Cookware
 
 - **Mã sản phẩm**: `5SD-ECO-025`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

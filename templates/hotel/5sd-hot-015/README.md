@@ -1,4 +1,4 @@
-# 5SD-HOT-015 — Aethel — Pet-Friendly Staycation Villa
+# 5SD-HOT-015 — Equinox — Pet-Friendly Staycation Villa
 
 - **Mã sản phẩm**: `5SD-HOT-015`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

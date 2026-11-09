@@ -1,4 +1,4 @@
-# 5SD-AGR-004 — Monolith — Specialty Arabica Coffee Estate
+# 5SD-AGR-004 — Onyx — Specialty Arabica Coffee Estate
 
 - **Mã sản phẩm**: `5SD-AGR-004`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

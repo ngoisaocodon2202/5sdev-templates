@@ -1,4 +1,4 @@
-# 5SD-FIN-023 — Stratos — Invoice Factoring & Supply Finance
+# 5SD-FIN-023 — Elysian — Invoice Factoring & Supply Finance
 
 - **Mã sản phẩm**: `5SD-FIN-023`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

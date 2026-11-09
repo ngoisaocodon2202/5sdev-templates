@@ -1,4 +1,4 @@
-# 5SD-LEG-008 — Zenith — Banking & Capital Markets Law
+# 5SD-LEG-008 — Lumiere — Banking & Capital Markets Law
 
 - **Mã sản phẩm**: `5SD-LEG-008`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

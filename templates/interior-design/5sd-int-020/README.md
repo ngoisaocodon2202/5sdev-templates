@@ -1,4 +1,4 @@
-# 5SD-INT-020 — Nordic — Small Apartment Optimization
+# 5SD-INT-020 — Monolith — Small Apartment Optimization
 
 - **Mã sản phẩm**: `5SD-INT-020`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

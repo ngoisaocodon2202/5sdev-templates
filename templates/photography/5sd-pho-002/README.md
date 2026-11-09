@@ -1,4 +1,4 @@
-# 5SD-PHO-002 — Solstice — Fashion Editorial Lookbook Studio
+# 5SD-PHO-002 — Chronos — Fashion Editorial Lookbook Studio
 
 - **Mã sản phẩm**: `5SD-PHO-002`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

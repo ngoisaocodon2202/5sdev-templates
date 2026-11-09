@@ -1,4 +1,4 @@
-# 5SD-NEW-034 — Nova — Parenting & Modern Family Media
+# 5SD-NEW-034 — Solvex — Parenting & Modern Family Media
 
 - **Mã sản phẩm**: `5SD-NEW-034`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

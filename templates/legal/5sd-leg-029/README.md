@@ -1,4 +1,4 @@
-# 5SD-LEG-029 — Maison — Nonprofit & Foundation Legal Setup
+# 5SD-LEG-029 — Solstice — Nonprofit & Foundation Legal Setup
 
 - **Mã sản phẩm**: `5SD-LEG-029`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

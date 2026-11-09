@@ -1,4 +1,4 @@
-# 5SD-BEA-017 — Chronos — Scalp Care & Japanese Head Spa
+# 5SD-BEA-017 — Nexora — Scalp Care & Japanese Head Spa
 
 - **Mã sản phẩm**: `5SD-BEA-017`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

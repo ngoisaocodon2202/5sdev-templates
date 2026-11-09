@@ -1,4 +1,4 @@
-# 5SD-LAN-005 — Veritas — Hardware Kickstarter Crowdfunding
+# 5SD-LAN-005 — Apex — Hardware Kickstarter Crowdfunding
 
 - **Mã sản phẩm**: `5SD-LAN-005`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

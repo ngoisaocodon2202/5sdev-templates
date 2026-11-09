@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 490000,
     "meta": "Tích hợp đầy đủ công cụ cốt lõi • Khởi tạo trong 3 phút",
     "id": "5SD-LAN-035-01",
-    "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Growth Pro — Tối Ưu Chuyển Đổi & Tự Động Hóa Toàn Diện",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 1490000,
     "meta": "A/B Testing không giới hạn, Phân tích phễu & Tích hợp CRM/Zalo OA",
     "id": "5SD-LAN-035-02",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Scale Enterprise — Hạ Tầng Độc Lập & Chuyên Gia Đồng Hành",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 4200000,
     "meta": "Tùy biến theo nhận diện thương hiệu • Cam kết tốc độ tải dưới 0.5s",
     "id": "5SD-LAN-035-03",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Bộ Tài Nguyên & Kịch Bản Tăng Trưởng Chuyển Đổi 10X",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 890000,
     "meta": "50+ Mẫu tiêu đề thu hút, Checklist tối ưu quảng cáo & Tracking",
     "id": "5SD-LAN-035-04",
-    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

@@ -1,4 +1,4 @@
-# 5SD-PET-011 — Crescendo — Pet DNA & Breed Testing Lab
+# 5SD-PET-011 — Velvet — Pet DNA & Breed Testing Lab
 
 - **Mã sản phẩm**: `5SD-PET-011`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

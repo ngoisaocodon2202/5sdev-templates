@@ -1,4 +1,4 @@
-# 5SD-FIT-008 — Solvex — Sports Nutrition & Meal Prep
+# 5SD-FIT-008 — Aethel — Sports Nutrition & Meal Prep
 
 - **Mã sản phẩm**: `5SD-FIT-008`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

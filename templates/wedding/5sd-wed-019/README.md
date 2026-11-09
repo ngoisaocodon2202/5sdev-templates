@@ -1,4 +1,4 @@
-# 5SD-WED-019 — Kuroshio — Save-The-Date Love Story Website
+# 5SD-WED-019 — Nordic — Save-The-Date Love Story Website
 
 - **Mã sản phẩm**: `5SD-WED-019`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

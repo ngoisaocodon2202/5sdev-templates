@@ -1,4 +1,4 @@
-# 5SD-COR-015 — Solstice — Business Process Outsourcing BPO
+# 5SD-COR-015 — Zenith — Business Process Outsourcing BPO
 
 - **Mã sản phẩm**: `5SD-COR-015`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

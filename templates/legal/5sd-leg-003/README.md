@@ -1,4 +1,4 @@
-# 5SD-LEG-003 — Zenith — Real Estate & Construction Law
+# 5SD-LEG-003 — Equinox — Real Estate & Construction Law
 
 - **Mã sản phẩm**: `5SD-LEG-003`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

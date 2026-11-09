@@ -1,4 +1,4 @@
-# 5SD-HOT-029 — Veritas — Rooftop Infinity Pool Hotel
+# 5SD-HOT-029 — Onyx — Rooftop Infinity Pool Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-029`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

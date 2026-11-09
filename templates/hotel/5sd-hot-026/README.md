@@ -1,4 +1,4 @@
-# 5SD-HOT-026 — Prism — Boutique Bed & Breakfast
+# 5SD-HOT-026 — Apex — Boutique Bed & Breakfast
 
 - **Mã sản phẩm**: `5SD-HOT-026`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

@@ -1,4 +1,4 @@
-# 5SD-CON-030 — Aurelia — Paint & Protective Coating Brand
+# 5SD-CON-030 — Apex — Paint & Protective Coating Brand
 
 - **Mã sản phẩm**: `5SD-CON-030`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

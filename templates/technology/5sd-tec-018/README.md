@@ -1,4 +1,4 @@
-# 5SD-TEC-018 — Sylvan — Quantum Computing Simulator
+# 5SD-TEC-018 — Sovereign — Quantum Computing Simulator
 
 - **Mã sản phẩm**: `5SD-TEC-018`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

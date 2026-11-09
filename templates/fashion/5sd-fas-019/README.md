@@ -1,4 +1,4 @@
-# 5SD-FAS-019 — Aether — Modest Fashion Collection
+# 5SD-FAS-019 — Kinetix — Modest Fashion Collection
 
 - **Mã sản phẩm**: `5SD-FAS-019`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

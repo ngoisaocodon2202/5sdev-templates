@@ -1,4 +1,4 @@
-# 5SD-TEC-001 — Sovereign — Generative AI Foundation Lab
+# 5SD-TEC-001 — Kinetix — Generative AI Foundation Lab
 
 - **Mã sản phẩm**: `5SD-TEC-001`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

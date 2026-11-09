@@ -1,4 +1,4 @@
-# 5SD-HEA-021 — Stratos — ENT & Hearing Specialist
+# 5SD-HEA-021 — Kuroshio — ENT & Hearing Specialist
 
 - **Mã sản phẩm**: `5SD-HEA-021`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

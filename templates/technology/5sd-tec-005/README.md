@@ -1,4 +1,4 @@
-# 5SD-TEC-005 — Maison — Developer CLI & DevTools
+# 5SD-TEC-005 — Monolith — Developer CLI & DevTools
 
 - **Mã sản phẩm**: `5SD-TEC-005`
 - **Ngành nghề**: Công nghệ & Phần mềm AI (`technology`)

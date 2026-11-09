@@ -1,4 +1,4 @@
-# 5SD-LAN-010 — Veritas — Agency Free Audit Lead Gen
+# 5SD-LAN-010 — Chronos — Agency Free Audit Lead Gen
 
 - **Mã sản phẩm**: `5SD-LAN-010`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

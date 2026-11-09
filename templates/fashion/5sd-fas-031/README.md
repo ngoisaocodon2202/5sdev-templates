@@ -1,4 +1,4 @@
-# 5SD-FAS-031 — Celestia — Golf & Tennis Club Apparel
+# 5SD-FAS-031 — Vertex — Golf & Tennis Club Apparel
 
 - **Mã sản phẩm**: `5SD-FAS-031`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

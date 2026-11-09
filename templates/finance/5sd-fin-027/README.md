@@ -1,4 +1,4 @@
-# 5SD-FIN-027 — Apex — Financial Literacy Academy
+# 5SD-FIN-027 — Valiant — Financial Literacy Academy
 
 - **Mã sản phẩm**: `5SD-FIN-027`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

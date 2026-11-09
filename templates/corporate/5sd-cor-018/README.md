@@ -1,4 +1,4 @@
-# 5SD-COR-018 — Celestia — Industrial Manufacturing Group
+# 5SD-COR-018 — Hyperion — Industrial Manufacturing Group
 
 - **Mã sản phẩm**: `5SD-COR-018`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

@@ -1,4 +1,4 @@
-# 5SD-REA-014 — Solvex — Real Estate Investment REITs
+# 5SD-REA-014 — Celestia — Real Estate Investment REITs
 
 - **Mã sản phẩm**: `5SD-REA-014`
 - **Ngành nghề**: Bất động sản (`real-estate`)

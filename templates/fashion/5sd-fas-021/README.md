@@ -1,4 +1,4 @@
-# 5SD-FAS-021 — Celestia — Gender-Neutral Street Brand
+# 5SD-FAS-021 — Valiant — Gender-Neutral Street Brand
 
 - **Mã sản phẩm**: `5SD-FAS-021`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

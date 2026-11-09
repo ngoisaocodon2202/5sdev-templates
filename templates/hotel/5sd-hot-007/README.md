@@ -1,4 +1,4 @@
-# 5SD-HOT-007 — Crescendo — Eco-Bamboo Jungle Resort
+# 5SD-HOT-007 — Prism — Eco-Bamboo Jungle Resort
 
 - **Mã sản phẩm**: `5SD-HOT-007`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

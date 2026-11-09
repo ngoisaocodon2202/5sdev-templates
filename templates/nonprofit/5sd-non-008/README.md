@@ -1,4 +1,4 @@
-# 5SD-NON-008 — Vertex — Disaster Relief & Emergency Aid
+# 5SD-NON-008 — Aurelia — Disaster Relief & Emergency Aid
 
 - **Mã sản phẩm**: `5SD-NON-008`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

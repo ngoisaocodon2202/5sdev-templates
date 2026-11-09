@@ -1,4 +1,4 @@
-# 5SD-WED-031 — Zenith — Halal & Multicultural Wedding
+# 5SD-WED-031 — Valiant — Halal & Multicultural Wedding
 
 - **Mã sản phẩm**: `5SD-WED-031`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

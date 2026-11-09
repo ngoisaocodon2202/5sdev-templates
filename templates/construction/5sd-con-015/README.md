@@ -1,4 +1,4 @@
-# 5SD-CON-015 — Aurelia — Acoustic & Cleanroom Construction
+# 5SD-CON-015 — Vertex — Acoustic & Cleanroom Construction
 
 - **Mã sản phẩm**: `5SD-CON-015`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

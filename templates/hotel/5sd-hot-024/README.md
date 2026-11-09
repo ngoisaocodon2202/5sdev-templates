@@ -1,4 +1,4 @@
-# 5SD-HOT-024 — Veritas — Desert Luxury Tent Camp
+# 5SD-HOT-024 — Nordic — Desert Luxury Tent Camp
 
 - **Mã sản phẩm**: `5SD-HOT-024`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

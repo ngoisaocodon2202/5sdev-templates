@@ -1,4 +1,4 @@
-# 5SD-RES-024 — Prism — Halal Middle Eastern Grill
+# 5SD-RES-024 — Forma — Halal Middle Eastern Grill
 
 - **Mã sản phẩm**: `5SD-RES-024`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

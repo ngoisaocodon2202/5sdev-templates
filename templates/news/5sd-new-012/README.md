@@ -1,4 +1,4 @@
-# 5SD-NEW-012 — Stratos — Entertainment & Cinema Review
+# 5SD-NEW-012 — Aethel — Entertainment & Cinema Review
 
 - **Mã sản phẩm**: `5SD-NEW-012`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

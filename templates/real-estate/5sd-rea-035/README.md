@@ -1,4 +1,4 @@
-# 5SD-REA-035 — Onyx — Global Golden Visa Properties
+# 5SD-REA-035 — Aether — Global Golden Visa Properties
 
 - **Mã sản phẩm**: `5SD-REA-035`
 - **Ngành nghề**: Bất động sản (`real-estate`)

@@ -1,4 +1,4 @@
-# 5SD-BLO-023 — Arcadia — Remote Work & Nomad Guide
+# 5SD-BLO-023 — Solvex — Remote Work & Nomad Guide
 
 - **Mã sản phẩm**: `5SD-BLO-023`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

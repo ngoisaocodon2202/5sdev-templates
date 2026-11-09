@@ -1,4 +1,4 @@
-# 5SD-FAS-025 — Lumiere — Luxury Watch Straps & Accessories
+# 5SD-FAS-025 — Hyperion — Luxury Watch Straps & Accessories
 
 - **Mã sản phẩm**: `5SD-FAS-025`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

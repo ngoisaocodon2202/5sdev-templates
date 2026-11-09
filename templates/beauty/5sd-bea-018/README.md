@@ -1,4 +1,4 @@
-# 5SD-BEA-018 — Monolith — Vegan Cruelty-Free Makeup
+# 5SD-BEA-018 — Solvex — Vegan Cruelty-Free Makeup
 
 - **Mã sản phẩm**: `5SD-BEA-018`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

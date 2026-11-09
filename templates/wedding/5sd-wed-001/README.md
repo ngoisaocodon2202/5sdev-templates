@@ -1,4 +1,4 @@
-# 5SD-WED-001 — Zenith — Luxury Destination Wedding Planner
+# 5SD-WED-001 — Solstice — Luxury Destination Wedding Planner
 
 - **Mã sản phẩm**: `5SD-WED-001`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

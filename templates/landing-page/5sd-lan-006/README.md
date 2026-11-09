@@ -1,4 +1,4 @@
-# 5SD-LAN-006 — Aethel — Black Friday Flash Sale Campaign
+# 5SD-LAN-006 — Celestia — Black Friday Flash Sale Campaign
 
 - **Mã sản phẩm**: `5SD-LAN-006`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

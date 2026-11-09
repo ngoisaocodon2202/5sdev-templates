@@ -1,4 +1,4 @@
-# 5SD-FUR-029 — Crescendo — Minimalist Clock & Desk Objects
+# 5SD-FUR-029 — Valiant — Minimalist Clock & Desk Objects
 
 - **Mã sản phẩm**: `5SD-FUR-029`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

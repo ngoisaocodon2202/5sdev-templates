@@ -1,4 +1,4 @@
-# 5SD-SPA-033 — Velvet — Silent Meditation Monastery Stay
+# 5SD-SPA-033 — Valiant — Silent Meditation Monastery Stay
 
 - **Mã sản phẩm**: `5SD-SPA-033`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 1290000,
     "meta": "Không giới hạn truy vấn • Tích hợp Slack, Jira, GitHub",
     "id": "5SD-TEC-024-01",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Cloud Scale — Hạ tầng Đa vùng Tự động Co giãn",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 3490000,
     "meta": "Cân bằng tải toàn cầu • Bảo mật DDoS đa lớp",
     "id": "5SD-TEC-024-02",
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Gói Enterprise Zero-Trust — Triển khai On-Premise / VPC",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 8900000,
     "meta": "Mô hình AI riêng biệt • Kỹ sư hỗ trợ 24/7",
     "id": "5SD-TEC-024-03",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Bộ Công cụ Developer SDK & API Gateway Tốc độ Cao",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 690000,
     "meta": "10 triệu requests/tháng • Độ trễ dưới 15ms",
     "id": "5SD-TEC-024-04",
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

@@ -1,4 +1,4 @@
-# 5SD-PET-023 — Veritas — Pet Memorial & Compassionate Care
+# 5SD-PET-023 — Zenith — Pet Memorial & Compassionate Care
 
 - **Mã sản phẩm**: `5SD-PET-023`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

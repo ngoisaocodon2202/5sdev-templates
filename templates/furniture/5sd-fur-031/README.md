@@ -1,4 +1,4 @@
-# 5SD-FUR-031 — Veritas — Bookshelf & Home Library System
+# 5SD-FUR-031 — Monolith — Bookshelf & Home Library System
 
 - **Mã sản phẩm**: `5SD-FUR-031`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

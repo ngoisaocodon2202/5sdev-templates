@@ -1,4 +1,4 @@
-# 5SD-CON-004 — Vertex — Solar & Renewable Energy EPC
+# 5SD-CON-004 — Aethel — Solar & Renewable Energy EPC
 
 - **Mã sản phẩm**: `5SD-CON-004`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

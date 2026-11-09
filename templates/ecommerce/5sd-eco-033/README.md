@@ -1,4 +1,4 @@
-# 5SD-ECO-033 — Elysian — Mirrorless Camera & Optics
+# 5SD-ECO-033 — Equinox — Mirrorless Camera & Optics
 
 - **Mã sản phẩm**: `5SD-ECO-033`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

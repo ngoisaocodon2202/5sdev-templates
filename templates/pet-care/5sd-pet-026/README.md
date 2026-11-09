@@ -1,4 +1,4 @@
-# 5SD-PET-026 — Crescendo — Equine & Horse Riding Club
+# 5SD-PET-026 — Hyperion — Equine & Horse Riding Club
 
 - **Mã sản phẩm**: `5SD-PET-026`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

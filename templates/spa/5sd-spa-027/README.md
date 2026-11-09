@@ -1,4 +1,4 @@
-# 5SD-SPA-027 — Aurelia — Senior Longevity Wellness Center
+# 5SD-SPA-027 — Sylvan — Senior Longevity Wellness Center
 
 - **Mã sản phẩm**: `5SD-SPA-027`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

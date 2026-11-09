@@ -1,4 +1,4 @@
-# 5SD-REA-015 — Onyx — Luxury Yacht Marina Residences
+# 5SD-REA-015 — Veritas — Luxury Yacht Marina Residences
 
 - **Mã sản phẩm**: `5SD-REA-015`
 - **Ngành nghề**: Bất động sản (`real-estate`)

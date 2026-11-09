@@ -1,4 +1,4 @@
-# 5SD-EDU-013 — Maison — Music & Conservatory Academy
+# 5SD-EDU-013 — Orchid — Music & Conservatory Academy
 
 - **Mã sản phẩm**: `5SD-EDU-013`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

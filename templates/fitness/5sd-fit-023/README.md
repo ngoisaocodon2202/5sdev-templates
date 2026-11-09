@@ -1,4 +1,4 @@
-# 5SD-FIT-023 — Solvex — Badminton & Squash Arena
+# 5SD-FIT-023 — Equinox — Badminton & Squash Arena
 
 - **Mã sản phẩm**: `5SD-FIT-023`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

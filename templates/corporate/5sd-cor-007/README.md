@@ -1,4 +1,4 @@
-# 5SD-COR-007 — Lumiere — B2B SaaS Enterprise Platform
+# 5SD-COR-007 — Onyx — B2B SaaS Enterprise Platform
 
 - **Mã sản phẩm**: `5SD-COR-007`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

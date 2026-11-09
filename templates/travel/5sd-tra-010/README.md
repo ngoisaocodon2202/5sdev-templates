@@ -1,4 +1,4 @@
-# 5SD-TRA-010 — Elysian — Island Hopping & Scuba Diving
+# 5SD-TRA-010 — Kinetix — Island Hopping & Scuba Diving
 
 - **Mã sản phẩm**: `5SD-TRA-010`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

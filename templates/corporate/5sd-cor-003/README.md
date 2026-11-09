@@ -1,4 +1,4 @@
-# 5SD-COR-003 — Celestia — Custom Software Outsourcing Agency
+# 5SD-COR-003 — Velvet — Custom Software Outsourcing Agency
 
 - **Mã sản phẩm**: `5SD-COR-003`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

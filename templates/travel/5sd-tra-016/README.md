@@ -1,4 +1,4 @@
-# 5SD-TRA-016 — Orchid — Safari & Wildlife Conservation
+# 5SD-TRA-016 — Hyperion — Safari & Wildlife Conservation
 
 - **Mã sản phẩm**: `5SD-TRA-016`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

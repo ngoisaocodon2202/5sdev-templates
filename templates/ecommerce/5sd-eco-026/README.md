@@ -1,4 +1,4 @@
-# 5SD-ECO-026 — Aurelia — Smart Wearable Fitness Tech
+# 5SD-ECO-026 — Arcadia — Smart Wearable Fitness Tech
 
 - **Mã sản phẩm**: `5SD-ECO-026`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

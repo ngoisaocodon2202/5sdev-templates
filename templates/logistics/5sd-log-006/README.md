@@ -1,4 +1,4 @@
-# 5SD-LOG-006 — Lumiere — E-Commerce 3PL Fulfillment Hub
+# 5SD-LOG-006 — Prism — E-Commerce 3PL Fulfillment Hub
 
 - **Mã sản phẩm**: `5SD-LOG-006`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

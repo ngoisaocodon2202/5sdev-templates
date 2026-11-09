@@ -1,4 +1,4 @@
-# 5SD-RES-034 — Prism — Private Chef Dining Club
+# 5SD-RES-034 — Celestia — Private Chef Dining Club
 
 - **Mã sản phẩm**: `5SD-RES-034`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

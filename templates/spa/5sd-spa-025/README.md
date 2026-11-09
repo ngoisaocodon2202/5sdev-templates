@@ -1,4 +1,4 @@
-# 5SD-SPA-025 — Orchid — Sound Bowl Vibration Therapy
+# 5SD-SPA-025 — Veritas — Sound Bowl Vibration Therapy
 
 - **Mã sản phẩm**: `5SD-SPA-025`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

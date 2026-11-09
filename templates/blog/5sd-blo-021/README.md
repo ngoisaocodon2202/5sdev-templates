@@ -1,4 +1,4 @@
-# 5SD-BLO-021 — Onyx — Podcast Show Notes & Transcripts
+# 5SD-BLO-021 — Lumiere — Podcast Show Notes & Transcripts
 
 - **Mã sản phẩm**: `5SD-BLO-021`
 - **Ngành nghề**: Blog & Xuất bản Nội dung (`blog`)

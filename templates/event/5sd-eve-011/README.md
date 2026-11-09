@@ -1,4 +1,4 @@
-# 5SD-EVE-011 — Hyperion — Automotive Launch Event
+# 5SD-EVE-011 — Celestia — Automotive Launch Event
 
 - **Mã sản phẩm**: `5SD-EVE-011`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

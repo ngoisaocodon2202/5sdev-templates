@@ -1,4 +1,4 @@
-# 5SD-AGR-010 — Atelier — Sustainable Aquaculture & Seafood
+# 5SD-AGR-010 — Aethel — Sustainable Aquaculture & Seafood
 
 - **Mã sản phẩm**: `5SD-AGR-010`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

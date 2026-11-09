@@ -1,4 +1,4 @@
-# 5SD-EDU-007 — Zenith — Full-Stack Coding Bootcamp
+# 5SD-EDU-007 — Stratos — Full-Stack Coding Bootcamp
 
 - **Mã sản phẩm**: `5SD-EDU-007`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

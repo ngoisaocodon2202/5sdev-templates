@@ -1,4 +1,4 @@
-# 5SD-FIT-032 — Equinox — Skateboarding & Urban Sports
+# 5SD-FIT-032 — Nordic — Skateboarding & Urban Sports
 
 - **Mã sản phẩm**: `5SD-FIT-032`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

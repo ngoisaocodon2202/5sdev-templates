@@ -3,6 +3,7 @@ import { Menu, X, PhoneCall, Mail, MapPin, ShieldCheck, Globe } from '@shared/ic
 import { HeroSection } from './components/HeroSection';
 import { InteractiveWidget } from './components/InteractiveWidget';
 import { ContentSections } from './components/ContentSections';
+import { BrandLogo } from './components/BrandLogo';
 
 export interface TemplatePageProps {
   previewDevice?: 'desktop' | 'tablet' | 'mobile';
@@ -42,7 +43,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <Mail className="h-3.5 w-3.5" />
-              contact@lumiere.vn
+              contact@sylvan.vn
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <MapPin className="h-3.5 w-3.5" />
@@ -62,22 +63,9 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
       {/* Main Sticky Navigation Header */}
       <header className="sticky top-0 z-30 w-full bg-[#FAF7F2]/95 border-b border-stone-200 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
-          {/* Brand Identity */}
-          <a href="#top" className="flex items-center gap-3 shrink-0">
-            <span
-              className="flex h-10 w-10 items-center justify-center rounded-xl text-white font-extrabold text-sm shadow-md shrink-0"
-              style={{ background: 'linear-gradient(135deg, #047857, #14B8A6)' }}
-            >
-              LU
-            </span>
-            <div>
-              <span className="text-base sm:text-lg font-extrabold tracking-tight block leading-none">
-                Lumiere
-              </span>
-              <span className="text-[11px] opacity-70 block mt-0.5">
-                Handcrafted Dress Shoes
-              </span>
-            </div>
+          {/* Brand Identity with Dedicated Logo */}
+          <a href="#top" className="flex items-center shrink-0">
+            <BrandLogo variant="full" size="md" />
           </a>
 
           {/* Desktop Navigation Links */}
@@ -133,7 +121,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
               onClick={() => scrollToId('about-section')}
               className="block w-full text-left py-2 text-sm font-semibold border-b border-current/5"
             >
-              Giới thiệu Lumiere
+              Giới thiệu Sylvan
             </button>
             <button
               type="button"
@@ -197,15 +185,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 pb-10 border-b border-current/10">
             <div className="space-y-3">
-              <div className="flex items-center gap-2.5">
-                <span
-                  className="flex h-8 w-8 items-center justify-center rounded-lg text-white font-extrabold text-xs"
-                  style={{ background: 'linear-gradient(135deg, #047857, #14B8A6)' }}
-                >
-                  LU
-                </span>
-                <span className="text-base font-extrabold">Lumiere</span>
-              </div>
+              <BrandLogo variant="light" size="lg" />
               <p className="text-stone-600 leading-relaxed">
                 Đơn vị tiên phong trong lĩnh vực Thời trang & Phụ kiện (Handcrafted Dress Shoes), cam kết chất lượng chuẩn quốc tế và dịch vụ tận tâm 24/7.
               </p>
@@ -225,7 +205,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
 
             <div className="space-y-2.5">
               <h4 className="font-bold uppercase tracking-wider text-[11px] opacity-80">
-                Về Lumiere
+                Về Sylvan
               </h4>
               <ul className="space-y-2 text-stone-600">
                 <li><a href="#about-section" className="hover:underline">Câu chuyện Thương hiệu</a></li>
@@ -246,7 +226,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="h-3.5 w-3.5 shrink-0" />
-                  <span>contact@lumiere.vn</span>
+                  <span>contact@sylvan.vn</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <MapPin className="h-3.5 w-3.5 shrink-0" />
@@ -258,7 +238,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
 
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-stone-600">
             <div>
-              © 2026 <strong>Lumiere — Handcrafted Dress Shoes</strong> • Mã giao diện: <code className="font-mono font-bold">5SD-FAS-015</code>
+              © 2026 <strong>Sylvan — Handcrafted Dress Shoes</strong> • Mã giao diện: <code className="font-mono font-bold">5SD-FAS-015</code>
             </div>
             <div>
               Phát triển trên nền tảng <strong>5S DEV.TEMPLATES (5sdev.vn)</strong> • Style: Editorial

@@ -1,4 +1,4 @@
-# 5SD-NEW-018 — Hyperion — Energy & Green Transition Portal
+# 5SD-NEW-018 — Solstice — Energy & Green Transition Portal
 
 - **Mã sản phẩm**: `5SD-NEW-018`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

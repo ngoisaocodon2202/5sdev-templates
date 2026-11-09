@@ -1,4 +1,4 @@
-# 5SD-INT-002 — Monolith — Penthouse & Duplex Architecture
+# 5SD-INT-002 — Lumiere — Penthouse & Duplex Architecture
 
 - **Mã sản phẩm**: `5SD-INT-002`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

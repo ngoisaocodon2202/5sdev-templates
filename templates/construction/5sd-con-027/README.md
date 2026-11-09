@@ -1,4 +1,4 @@
-# 5SD-CON-027 — Elysian — Swimming Pool & Sauna Construction
+# 5SD-CON-027 — Kuroshio — Swimming Pool & Sauna Construction
 
 - **Mã sản phẩm**: `5SD-CON-027`
 - **Ngành nghề**: Xây dựng & Công trình (`construction`)

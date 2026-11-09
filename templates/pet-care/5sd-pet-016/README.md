@@ -1,4 +1,4 @@
-# 5SD-PET-016 — Crescendo — Pet Photography Studio
+# 5SD-PET-016 — Sylvan — Pet Photography Studio
 
 - **Mã sản phẩm**: `5SD-PET-016`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

@@ -1,4 +1,4 @@
-# 5SD-COR-011 — Aether — Global Import-Export Trading
+# 5SD-COR-011 — Stratos — Global Import-Export Trading
 
 - **Mã sản phẩm**: `5SD-COR-011`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

@@ -1,4 +1,4 @@
-# 5SD-RES-019 — Prism — Mediterranean Tapas Lounge
+# 5SD-RES-019 — Nova — Mediterranean Tapas Lounge
 
 - **Mã sản phẩm**: `5SD-RES-019`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

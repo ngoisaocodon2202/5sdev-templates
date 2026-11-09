@@ -1,4 +1,4 @@
-# 5SD-HOT-008 — Nexora — Thermal Onsen & Spa Hotel
+# 5SD-HOT-008 — Arcadia — Thermal Onsen & Spa Hotel
 
 - **Mã sản phẩm**: `5SD-HOT-008`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

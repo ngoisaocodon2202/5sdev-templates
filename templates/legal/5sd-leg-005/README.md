@@ -1,4 +1,4 @@
-# 5SD-LEG-005 — Sovereign — FDI Foreign Investment Advisory
+# 5SD-LEG-005 — Forma — FDI Foreign Investment Advisory
 
 - **Mã sản phẩm**: `5SD-LEG-005`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

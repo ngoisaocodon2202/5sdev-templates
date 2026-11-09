@@ -1,4 +1,4 @@
-# 5SD-LOG-003 — Kinetix — Smart Warehouse WMS & Fulfillment
+# 5SD-LOG-003 — Orchid — Smart Warehouse WMS & Fulfillment
 
 - **Mã sản phẩm**: `5SD-LOG-003`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 3450000,
     "meta": "100% Wool Ý • Chuẩn phom Á Đông",
     "id": "5SD-FAS-005-01",
-    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Đầm Lụa Tơ Tằm Mulberry Thiết Kế Độc Bản",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 4200000,
     "meta": "Khâu tay tỉ mỉ • Miễn phí chỉnh sửa số đo",
     "id": "5SD-FAS-005-02",
-    "image": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Túi Xách Da Thật Full-Grain Chế Tác Tay",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 5800000,
     "meta": "Khóa mạ vàng 18K • Bảo hành trọn đời",
     "id": "5SD-FAS-005-03",
-    "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Set Resortwear Linen Hữu Cơ Cao Cấp",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 1950000,
     "meta": "Thoáng mát tự nhiên • Đủ size S-XL",
     "id": "5SD-FAS-005-04",
-    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

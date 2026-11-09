@@ -1,4 +1,4 @@
-# 5SD-FUR-016 — Veritas — Rattan & Bamboo Craft Furniture
+# 5SD-FUR-016 — Kuroshio — Rattan & Bamboo Craft Furniture
 
 - **Mã sản phẩm**: `5SD-FUR-016`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

@@ -1,4 +1,4 @@
-# 5SD-EDU-015 — Kuroshio — Study Abroad Consulting
+# 5SD-EDU-015 — Solstice — Study Abroad Consulting
 
 - **Mã sản phẩm**: `5SD-EDU-015`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

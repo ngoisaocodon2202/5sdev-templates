@@ -3,6 +3,7 @@ import { Menu, X, PhoneCall, Mail, MapPin, ShieldCheck, Globe } from '@shared/ic
 import { HeroSection } from './components/HeroSection';
 import { InteractiveWidget } from './components/InteractiveWidget';
 import { ContentSections } from './components/ContentSections';
+import { BrandLogo } from './components/BrandLogo';
 
 export interface TemplatePageProps {
   previewDevice?: 'desktop' | 'tablet' | 'mobile';
@@ -42,7 +43,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <Mail className="h-3.5 w-3.5" />
-              contact@nexora.vn
+              contact@arcadia.vn
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <MapPin className="h-3.5 w-3.5" />
@@ -62,22 +63,9 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
       {/* Main Sticky Navigation Header */}
       <header className="sticky top-0 z-30 w-full bg-[#080C16]/90 border-b border-slate-800/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
-          {/* Brand Identity */}
-          <a href="#top" className="flex items-center gap-3 shrink-0">
-            <span
-              className="flex h-10 w-10 items-center justify-center rounded-xl text-white font-extrabold text-sm shadow-md shrink-0"
-              style={{ background: 'linear-gradient(135deg, #15803D, #CA8A04)' }}
-            >
-              NE
-            </span>
-            <div>
-              <span className="text-base sm:text-lg font-extrabold tracking-tight block leading-none">
-                Nexora
-              </span>
-              <span className="text-[11px] opacity-70 block mt-0.5">
-                Thermal Onsen & Spa Hotel
-              </span>
-            </div>
+          {/* Brand Identity with Dedicated Logo */}
+          <a href="#top" className="flex items-center shrink-0">
+            <BrandLogo variant="full" size="md" />
           </a>
 
           {/* Desktop Navigation Links */}
@@ -133,7 +121,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
               onClick={() => scrollToId('about-section')}
               className="block w-full text-left py-2 text-sm font-semibold border-b border-current/5"
             >
-              Giới thiệu Nexora
+              Giới thiệu Arcadia
             </button>
             <button
               type="button"
@@ -197,15 +185,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 pb-10 border-b border-current/10">
             <div className="space-y-3">
-              <div className="flex items-center gap-2.5">
-                <span
-                  className="flex h-8 w-8 items-center justify-center rounded-lg text-white font-extrabold text-xs"
-                  style={{ background: 'linear-gradient(135deg, #15803D, #CA8A04)' }}
-                >
-                  NE
-                </span>
-                <span className="text-base font-extrabold">Nexora</span>
-              </div>
+              <BrandLogo variant="light" size="lg" />
               <p className="text-slate-400 leading-relaxed">
                 Đơn vị tiên phong trong lĩnh vực Khách sạn & Lưu trú (Thermal Onsen & Spa Hotel), cam kết chất lượng chuẩn quốc tế và dịch vụ tận tâm 24/7.
               </p>
@@ -225,7 +205,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
 
             <div className="space-y-2.5">
               <h4 className="font-bold uppercase tracking-wider text-[11px] opacity-80">
-                Về Nexora
+                Về Arcadia
               </h4>
               <ul className="space-y-2 text-slate-400">
                 <li><a href="#about-section" className="hover:underline">Câu chuyện Thương hiệu</a></li>
@@ -246,7 +226,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="h-3.5 w-3.5 shrink-0" />
-                  <span>contact@nexora.vn</span>
+                  <span>contact@arcadia.vn</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <MapPin className="h-3.5 w-3.5 shrink-0" />
@@ -258,7 +238,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
 
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-400">
             <div>
-              © 2026 <strong>Nexora — Thermal Onsen & Spa Hotel</strong> • Mã giao diện: <code className="font-mono font-bold">5SD-HOT-008</code>
+              © 2026 <strong>Arcadia — Thermal Onsen & Spa Hotel</strong> • Mã giao diện: <code className="font-mono font-bold">5SD-HOT-008</code>
             </div>
             <div>
               Phát triển trên nền tảng <strong>5S DEV.TEMPLATES (5sdev.vn)</strong> • Style: 3D Interactive

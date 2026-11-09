@@ -1,4 +1,4 @@
-# 5SD-BEA-005 — Forma — Celebrity Hair Salon
+# 5SD-BEA-005 — Maison — Celebrity Hair Salon
 
 - **Mã sản phẩm**: `5SD-BEA-005`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

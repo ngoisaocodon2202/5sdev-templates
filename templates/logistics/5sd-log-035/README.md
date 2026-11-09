@@ -1,4 +1,4 @@
-# 5SD-LOG-035 — Aether — Digital Bill of Lading Platform
+# 5SD-LOG-035 — Valiant — Digital Bill of Lading Platform
 
 - **Mã sản phẩm**: `5SD-LOG-035`
 - **Ngành nghề**: Vận tải & Chuỗi cung ứng (`logistics`)

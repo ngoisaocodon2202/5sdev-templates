@@ -1,4 +1,4 @@
-# 5SD-EDU-006 — Sylvan — Global Research University
+# 5SD-EDU-006 — Elysian — Global Research University
 
 - **Mã sản phẩm**: `5SD-EDU-006`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

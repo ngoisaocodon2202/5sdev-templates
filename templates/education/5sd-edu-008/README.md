@@ -1,4 +1,4 @@
-# 5SD-EDU-008 — Maison — Executive MBA Academy
+# 5SD-EDU-008 — Kinetix — Executive MBA Academy
 
 - **Mã sản phẩm**: `5SD-EDU-008`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

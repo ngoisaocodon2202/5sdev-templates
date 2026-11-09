@@ -1,4 +1,4 @@
-# 5SD-ECO-002 — Velvet — Consumer Electronics Hub
+# 5SD-ECO-002 — Vanguard — Consumer Electronics Hub
 
 - **Mã sản phẩm**: `5SD-ECO-002`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

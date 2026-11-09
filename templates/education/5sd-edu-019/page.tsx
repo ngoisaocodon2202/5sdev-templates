@@ -3,6 +3,7 @@ import { Menu, X, PhoneCall, Mail, MapPin, ShieldCheck, Globe } from '@shared/ic
 import { HeroSection } from './components/HeroSection';
 import { InteractiveWidget } from './components/InteractiveWidget';
 import { ContentSections } from './components/ContentSections';
+import { BrandLogo } from './components/BrandLogo';
 
 export interface TemplatePageProps {
   previewDevice?: 'desktop' | 'tablet' | 'mobile';
@@ -42,7 +43,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <Mail className="h-3.5 w-3.5" />
-              contact@sovereign.vn
+              contact@atelier.vn
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <MapPin className="h-3.5 w-3.5" />
@@ -62,22 +63,9 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
       {/* Main Sticky Navigation Header */}
       <header className="sticky top-0 z-30 w-full bg-[#080C16]/90 border-b border-slate-800/80 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
-          {/* Brand Identity */}
-          <a href="#top" className="flex items-center gap-3 shrink-0">
-            <span
-              className="flex h-10 w-10 items-center justify-center rounded-xl text-white font-extrabold text-sm shadow-md shrink-0"
-              style={{ background: 'linear-gradient(135deg, #C2410C, #E11D48)' }}
-            >
-              SO
-            </span>
-            <div>
-              <span className="text-base sm:text-lg font-extrabold tracking-tight block leading-none">
-                Sovereign
-              </span>
-              <span className="text-[11px] opacity-70 block mt-0.5">
-                CFA & Financial Modeling Prep
-              </span>
-            </div>
+          {/* Brand Identity with Dedicated Logo */}
+          <a href="#top" className="flex items-center shrink-0">
+            <BrandLogo variant="full" size="md" />
           </a>
 
           {/* Desktop Navigation Links */}
@@ -133,7 +121,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
               onClick={() => scrollToId('about-section')}
               className="block w-full text-left py-2 text-sm font-semibold border-b border-current/5"
             >
-              Giới thiệu Sovereign
+              Giới thiệu Atelier
             </button>
             <button
               type="button"
@@ -197,15 +185,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 pb-10 border-b border-current/10">
             <div className="space-y-3">
-              <div className="flex items-center gap-2.5">
-                <span
-                  className="flex h-8 w-8 items-center justify-center rounded-lg text-white font-extrabold text-xs"
-                  style={{ background: 'linear-gradient(135deg, #C2410C, #E11D48)' }}
-                >
-                  SO
-                </span>
-                <span className="text-base font-extrabold">Sovereign</span>
-              </div>
+              <BrandLogo variant="light" size="lg" />
               <p className="text-slate-400 leading-relaxed">
                 Đơn vị tiên phong trong lĩnh vực Giáo dục & Đào tạo (CFA & Financial Modeling Prep), cam kết chất lượng chuẩn quốc tế và dịch vụ tận tâm 24/7.
               </p>
@@ -225,7 +205,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
 
             <div className="space-y-2.5">
               <h4 className="font-bold uppercase tracking-wider text-[11px] opacity-80">
-                Về Sovereign
+                Về Atelier
               </h4>
               <ul className="space-y-2 text-slate-400">
                 <li><a href="#about-section" className="hover:underline">Câu chuyện Thương hiệu</a></li>
@@ -246,7 +226,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="h-3.5 w-3.5 shrink-0" />
-                  <span>contact@sovereign.vn</span>
+                  <span>contact@atelier.vn</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <MapPin className="h-3.5 w-3.5 shrink-0" />
@@ -258,7 +238,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
 
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-400">
             <div>
-              © 2026 <strong>Sovereign — CFA & Financial Modeling Prep</strong> • Mã giao diện: <code className="font-mono font-bold">5SD-EDU-019</code>
+              © 2026 <strong>Atelier — CFA & Financial Modeling Prep</strong> • Mã giao diện: <code className="font-mono font-bold">5SD-EDU-019</code>
             </div>
             <div>
               Phát triển trên nền tảng <strong>5S DEV.TEMPLATES (5sdev.vn)</strong> • Style: Bold Typography

@@ -1,4 +1,4 @@
-# 5SD-LEG-002 — Sylvan — Intellectual Property & Patent Agency
+# 5SD-LEG-002 — Crescendo — Intellectual Property & Patent Agency
 
 - **Mã sản phẩm**: `5SD-LEG-002`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

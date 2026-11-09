@@ -1,4 +1,4 @@
-# 5SD-PHO-022 — Solstice — Music Video Production House
+# 5SD-PHO-022 — Sovereign — Music Video Production House
 
 - **Mã sản phẩm**: `5SD-PHO-022`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

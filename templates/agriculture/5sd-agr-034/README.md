@@ -1,4 +1,4 @@
-# 5SD-AGR-034 — Monolith — Macadamia & Nut Processing
+# 5SD-AGR-034 — Nordic — Macadamia & Nut Processing
 
 - **Mã sản phẩm**: `5SD-AGR-034`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

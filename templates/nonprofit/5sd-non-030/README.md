@@ -1,4 +1,4 @@
-# 5SD-NON-030 — Velvet — Zero Waste Community Network
+# 5SD-NON-030 — Hyperion — Zero Waste Community Network
 
 - **Mã sản phẩm**: `5SD-NON-030`
 - **Ngành nghề**: Tổ chức Phi lợi nhuận & Từ thiện (`nonprofit`)

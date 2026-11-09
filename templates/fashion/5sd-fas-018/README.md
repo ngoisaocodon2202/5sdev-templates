@@ -1,4 +1,4 @@
-# 5SD-FAS-018 — Solstice — Eyewear & Sunglasses Brand
+# 5SD-FAS-018 — Stratos — Eyewear & Sunglasses Brand
 
 - **Mã sản phẩm**: `5SD-FAS-018`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

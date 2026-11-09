@@ -1,4 +1,4 @@
-# 5SD-HOT-028 — Nexora — Private Pool Villa Collection
+# 5SD-HOT-028 — Veritas — Private Pool Villa Collection
 
 - **Mã sản phẩm**: `5SD-HOT-028`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

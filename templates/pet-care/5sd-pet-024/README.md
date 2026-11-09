@@ -1,4 +1,4 @@
-# 5SD-PET-024 — Aethel — Dog Daycare & Social Park
+# 5SD-PET-024 — Monolith — Dog Daycare & Social Park
 
 - **Mã sản phẩm**: `5SD-PET-024`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

@@ -1,4 +1,4 @@
-# 5SD-ECO-019 — Orchid — Outdoor & Camping Gear
+# 5SD-ECO-019 — Valiant — Outdoor & Camping Gear
 
 - **Mã sản phẩm**: `5SD-ECO-019`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

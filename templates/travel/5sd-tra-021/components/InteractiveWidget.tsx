@@ -17,7 +17,7 @@ const DOMAIN_ITEMS = [
     "price": 6850000,
     "meta": "Phòng Suite ban công riêng • Xe Limousine đưa đón",
     "id": "5SD-TRA-021-01",
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Tour Khám Phá Mùa Thu Lá Đỏ Nhật Bản Cung Đường Vàng",
@@ -25,7 +25,7 @@ const DOMAIN_ITEMS = [
     "price": 29900000,
     "meta": "6N5Đ • Bay thẳng Hàng không 5 sao • Tắm Onsen",
     "id": "5SD-TRA-021-02",
-    "image": "https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Trải Nghiệm Glamping Săn Mây & Trekking Rừng Nguyên Sinh",
@@ -33,7 +33,7 @@ const DOMAIN_ITEMS = [
     "price": 3250000,
     "meta": "2N1Đ • Lều tiêu chuẩn khách sạn • BBQ tối",
     "id": "5SD-TRA-021-03",
-    "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=900&q=80"
+    "image": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=1200&q=80"
   },
   {
     "title": "Tour Châu Âu Pháp - Thụy Sĩ - Ý Thiết Kế Riêng Gia Đình",
@@ -41,7 +41,7 @@ const DOMAIN_ITEMS = [
     "price": 64500000,
     "meta": "9N8Đ • Xe riêng suốt tuyến • Khách sạn 4-5 sao",
     "id": "5SD-TRA-021-04",
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80"
+    "image": "https://images.unsplash.com/photo-1523906834658-6e259b52f0da?auto=format&fit=crop&w=1200&q=80"
   }
 ];
 

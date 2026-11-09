@@ -1,4 +1,4 @@
-# 5SD-FAS-011 — Celestia — Fine Gold & Gemstone Jewelry
+# 5SD-FAS-011 — Apex — Fine Gold & Gemstone Jewelry
 
 - **Mã sản phẩm**: `5SD-FAS-011`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

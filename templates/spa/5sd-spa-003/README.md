@@ -1,4 +1,4 @@
-# 5SD-SPA-003 — Velvet — Zen Meditation & Sound Healing
+# 5SD-SPA-003 — Solstice — Zen Meditation & Sound Healing
 
 - **Mã sản phẩm**: `5SD-SPA-003`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

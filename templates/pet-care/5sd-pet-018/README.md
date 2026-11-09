@@ -1,4 +1,4 @@
-# 5SD-PET-018 — Veritas — Smart GPS Collar & Feeder Tech
+# 5SD-PET-018 — Elysian — Smart GPS Collar & Feeder Tech
 
 - **Mã sản phẩm**: `5SD-PET-018`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

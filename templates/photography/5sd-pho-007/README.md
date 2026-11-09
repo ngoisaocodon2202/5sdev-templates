@@ -1,4 +1,4 @@
-# 5SD-PHO-007 — Solstice — Corporate Executive Headshots
+# 5SD-PHO-007 — Valiant — Corporate Executive Headshots
 
 - **Mã sản phẩm**: `5SD-PHO-007`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

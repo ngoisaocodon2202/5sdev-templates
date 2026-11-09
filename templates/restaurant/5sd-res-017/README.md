@@ -1,4 +1,4 @@
-# 5SD-RES-017 — Veritas — Steakhouse & Wine Cellar
+# 5SD-RES-017 — Atelier — Steakhouse & Wine Cellar
 
 - **Mã sản phẩm**: `5SD-RES-017`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

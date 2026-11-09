@@ -1,4 +1,4 @@
-# 5SD-FIN-002 — Apex — Smart E-Wallet & QR Payment
+# 5SD-FIN-002 — Vertex — Smart E-Wallet & QR Payment
 
 - **Mã sản phẩm**: `5SD-FIN-002`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

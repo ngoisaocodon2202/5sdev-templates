@@ -1,4 +1,4 @@
-# 5SD-HOT-011 — Prism — Overwater Bungalow Maldives Style
+# 5SD-HOT-011 — Vertex — Overwater Bungalow Maldives Style
 
 - **Mã sản phẩm**: `5SD-HOT-011`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

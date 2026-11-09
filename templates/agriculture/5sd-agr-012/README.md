@@ -1,4 +1,4 @@
-# 5SD-AGR-012 — Nordic — Seed Genetics & Plant Nursery
+# 5SD-AGR-012 — Zenith — Seed Genetics & Plant Nursery
 
 - **Mã sản phẩm**: `5SD-AGR-012`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

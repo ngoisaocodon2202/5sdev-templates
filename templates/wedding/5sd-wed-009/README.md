@@ -1,4 +1,4 @@
-# 5SD-WED-009 — Kuroshio — Beach Sunset Intimate Wedding
+# 5SD-WED-009 — Crescendo — Beach Sunset Intimate Wedding
 
 - **Mã sản phẩm**: `5SD-WED-009`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

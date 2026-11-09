@@ -1,4 +1,4 @@
-# 5SD-ECO-011 — Aurelia — Premium Pet Supplies
+# 5SD-ECO-011 — Veritas — Premium Pet Supplies
 
 - **Mã sản phẩm**: `5SD-ECO-011`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

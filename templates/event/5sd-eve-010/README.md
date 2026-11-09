@@ -1,4 +1,4 @@
-# 5SD-EVE-010 — Stratos — TEDx & Thought Leadership Forum
+# 5SD-EVE-010 — Apex — TEDx & Thought Leadership Forum
 
 - **Mã sản phẩm**: `5SD-EVE-010`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

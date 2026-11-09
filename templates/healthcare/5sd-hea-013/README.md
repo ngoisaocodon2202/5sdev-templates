@@ -1,4 +1,4 @@
-# 5SD-HEA-013 — Nova — Ophthalmology & Lasik Eye Center
+# 5SD-HEA-013 — Equinox — Ophthalmology & Lasik Eye Center
 
 - **Mã sản phẩm**: `5SD-HEA-013`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

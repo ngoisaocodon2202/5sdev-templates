@@ -1,4 +1,4 @@
-# 5SD-REA-027 — Arcadia — Suburban Family Gated Community
+# 5SD-REA-027 — Hyperion — Suburban Family Gated Community
 
 - **Mã sản phẩm**: `5SD-REA-027`
 - **Ngành nghề**: Bất động sản (`real-estate`)

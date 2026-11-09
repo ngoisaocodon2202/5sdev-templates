@@ -1,4 +1,4 @@
-# 5SD-RES-013 — Aethel — Neapolitan Wood-Fired Pizza
+# 5SD-RES-013 — Solstice — Neapolitan Wood-Fired Pizza
 
 - **Mã sản phẩm**: `5SD-RES-013`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

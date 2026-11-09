@@ -1,4 +1,4 @@
-# 5SD-HOT-027 — Crescendo — Long-Stay Digital Nomad Hub
+# 5SD-HOT-027 — Celestia — Long-Stay Digital Nomad Hub
 
 - **Mã sản phẩm**: `5SD-HOT-027`
 - **Ngành nghề**: Khách sạn & Lưu trú (`hotel`)

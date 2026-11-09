@@ -1,4 +1,4 @@
-# 5SD-PET-005 — Prism — Dog Obedience & Agility Training
+# 5SD-PET-005 — Vanguard — Dog Obedience & Agility Training
 
 - **Mã sản phẩm**: `5SD-PET-005`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

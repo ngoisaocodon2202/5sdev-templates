@@ -1,4 +1,4 @@
-# 5SD-SPA-022 — Aurelia — Hot Stone Volcanic Therapy
+# 5SD-SPA-022 — Velvet — Hot Stone Volcanic Therapy
 
 - **Mã sản phẩm**: `5SD-SPA-022`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

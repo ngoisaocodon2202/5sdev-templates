@@ -1,4 +1,4 @@
-# 5SD-FIT-010 — Valiant — Swimming & Aqua Fitness Academy
+# 5SD-FIT-010 — Zenith — Swimming & Aqua Fitness Academy
 
 - **Mã sản phẩm**: `5SD-FIT-010`
 - **Ngành nghề**: Thể hình & Thể thao (`fitness`)

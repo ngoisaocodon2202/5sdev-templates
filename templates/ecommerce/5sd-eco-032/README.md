@@ -1,4 +1,4 @@
-# 5SD-ECO-032 — Velvet — Scented Candles & Home Aroma
+# 5SD-ECO-032 — Crescendo — Scented Candles & Home Aroma
 
 - **Mã sản phẩm**: `5SD-ECO-032`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

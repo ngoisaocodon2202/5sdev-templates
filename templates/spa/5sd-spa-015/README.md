@@ -1,4 +1,4 @@
-# 5SD-SPA-015 — Orchid — Crystal & Chakra Energy Studio
+# 5SD-SPA-015 — Aurelia — Crystal & Chakra Energy Studio
 
 - **Mã sản phẩm**: `5SD-SPA-015`
 - **Ngành nghề**: Spa & Trị liệu Tự nhiên (`spa`)

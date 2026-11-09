@@ -1,4 +1,4 @@
-# 5SD-LAN-017 — Prism — Fintech Card Waitlist Referral
+# 5SD-LAN-017 — Monolith — Fintech Card Waitlist Referral
 
 - **Mã sản phẩm**: `5SD-LAN-017`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

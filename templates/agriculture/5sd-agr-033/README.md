@@ -1,4 +1,4 @@
-# 5SD-AGR-033 — Chronos — Bird Nest (Yen Sao) Tinh Che
+# 5SD-AGR-033 — Kuroshio — Bird Nest (Yen Sao) Tinh Che
 
 - **Mã sản phẩm**: `5SD-AGR-033`
 - **Ngành nghề**: Nông nghiệp & Thực phẩm Sạch (`agriculture`)

@@ -1,4 +1,4 @@
-# 5SD-BEA-026 — Nordic — K-Beauty Multi-Brand Store
+# 5SD-BEA-026 — Sylvan — K-Beauty Multi-Brand Store
 
 - **Mã sản phẩm**: `5SD-BEA-026`
 - **Ngành nghề**: Làm đẹp & Mỹ phẩm (`beauty`)

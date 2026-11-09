@@ -1,4 +1,4 @@
-# 5SD-PET-003 — Veritas — 5-Star Pet Hotel & Boarding
+# 5SD-PET-003 — Forma — 5-Star Pet Hotel & Boarding
 
 - **Mã sản phẩm**: `5SD-PET-003`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

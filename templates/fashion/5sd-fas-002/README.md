@@ -1,4 +1,4 @@
-# 5SD-FAS-002 — Kinetix — Contemporary Womenswear
+# 5SD-FAS-002 — Forma — Contemporary Womenswear
 
 - **Mã sản phẩm**: `5SD-FAS-002`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

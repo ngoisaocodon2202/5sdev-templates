@@ -1,4 +1,4 @@
-# 5SD-NEW-003 — Hyperion — Global Geopolitics & Economy
+# 5SD-NEW-003 — Apex — Global Geopolitics & Economy
 
 - **Mã sản phẩm**: `5SD-NEW-003`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

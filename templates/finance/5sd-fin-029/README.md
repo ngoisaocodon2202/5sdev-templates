@@ -1,4 +1,4 @@
-# 5SD-FIN-029 — Hyperion — Fraud Detection & AML Engine
+# 5SD-FIN-029 — Monolith — Fraud Detection & AML Engine
 
 - **Mã sản phẩm**: `5SD-FIN-029`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

@@ -1,4 +1,4 @@
-# 5SD-INT-023 — Atelier — Kids Educational Space Design
+# 5SD-INT-023 — Solstice — Kids Educational Space Design
 
 - **Mã sản phẩm**: `5SD-INT-023`
 - **Ngành nghề**: Thiết kế Nội thất & Kiến trúc (`interior-design`)

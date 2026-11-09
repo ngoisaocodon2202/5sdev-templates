@@ -1,4 +1,4 @@
-# 5SD-HEA-009 — Vanguard — Cardiology & Heart Institute
+# 5SD-HEA-009 — Vertex — Cardiology & Heart Institute
 
 - **Mã sản phẩm**: `5SD-HEA-009`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

@@ -1,4 +1,4 @@
-# 5SD-WED-034 — Kuroshio — Calligraphy Wedding Stationery
+# 5SD-WED-034 — Orchid — Calligraphy Wedding Stationery
 
 - **Mã sản phẩm**: `5SD-WED-034`
 - **Ngành nghề**: Cưới hỏi & Sự kiện Cưới (`wedding`)

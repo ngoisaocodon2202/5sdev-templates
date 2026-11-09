@@ -1,4 +1,4 @@
-# 5SD-COR-012 — Lumiere — ESG & Sustainability Report Hub
+# 5SD-COR-012 — Kinetix — ESG & Sustainability Report Hub
 
 - **Mã sản phẩm**: `5SD-COR-012`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

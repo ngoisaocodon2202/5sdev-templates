@@ -1,4 +1,4 @@
-# 5SD-FAS-024 — Aether — Traditional Ao Dai Heritage
+# 5SD-FAS-024 — Orchid — Traditional Ao Dai Heritage
 
 - **Mã sản phẩm**: `5SD-FAS-024`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

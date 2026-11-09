@@ -1,4 +1,4 @@
-# 5SD-ECO-012 — Velvet — Digital Creator Marketplace
+# 5SD-ECO-012 — Onyx — Digital Creator Marketplace
 
 - **Mã sản phẩm**: `5SD-ECO-012`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

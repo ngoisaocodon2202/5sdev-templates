@@ -1,4 +1,4 @@
-# 5SD-FUR-008 — Prism — Outdoor Patio & Teak Garden
+# 5SD-FUR-008 — Equinox — Outdoor Patio & Teak Garden
 
 - **Mã sản phẩm**: `5SD-FUR-008`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

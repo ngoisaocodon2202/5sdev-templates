@@ -1,4 +1,4 @@
-# 5SD-PHO-019 — Lumiere — E-Commerce Ghost Mannequin Studio
+# 5SD-PHO-019 — Aether — E-Commerce Ghost Mannequin Studio
 
 - **Mã sản phẩm**: `5SD-PHO-019`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

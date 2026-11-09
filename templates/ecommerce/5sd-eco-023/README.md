@@ -1,4 +1,4 @@
-# 5SD-ECO-023 — Elysian — Custom Mechanical Keyboards
+# 5SD-ECO-023 — Hyperion — Custom Mechanical Keyboards
 
 - **Mã sản phẩm**: `5SD-ECO-023`
 - **Ngành nghề**: Thương mại điện tử (`ecommerce`)

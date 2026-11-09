@@ -1,4 +1,4 @@
-# 5SD-FIN-028 — Stratos — Open Banking API Aggregator
+# 5SD-FIN-028 — Zenith — Open Banking API Aggregator
 
 - **Mã sản phẩm**: `5SD-FIN-028`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

@@ -1,4 +1,4 @@
-# 5SD-FAS-022 — Kinetix — Swimwear & Beach Club
+# 5SD-FAS-022 — Zenith — Swimwear & Beach Club
 
 - **Mã sản phẩm**: `5SD-FAS-022`
 - **Ngành nghề**: Thời trang & Phụ kiện (`fashion`)

@@ -1,4 +1,4 @@
-# 5SD-LEG-015 — Sovereign — Antitrust & Competition Law
+# 5SD-LEG-015 — Celestia — Antitrust & Competition Law
 
 - **Mã sản phẩm**: `5SD-LEG-015`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

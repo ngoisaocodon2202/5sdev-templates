@@ -1,4 +1,4 @@
-# 5SD-EVE-025 — Stratos — Speaker Bureau & Talent Booking
+# 5SD-EVE-025 — Solstice — Speaker Bureau & Talent Booking
 
 - **Mã sản phẩm**: `5SD-EVE-025`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

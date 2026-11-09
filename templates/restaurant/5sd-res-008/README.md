@@ -1,4 +1,4 @@
-# 5SD-RES-008 — Aethel — Craft Bubble Tea Lounge
+# 5SD-RES-008 — Valiant — Craft Bubble Tea Lounge
 
 - **Mã sản phẩm**: `5SD-RES-008`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

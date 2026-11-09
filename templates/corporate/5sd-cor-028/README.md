@@ -1,4 +1,4 @@
-# 5SD-COR-028 — Celestia — Chamber of Commerce Hub
+# 5SD-COR-028 — Equinox — Chamber of Commerce Hub
 
 - **Mã sản phẩm**: `5SD-COR-028`
 - **Ngành nghề**: Doanh nghiệp & Tập đoàn (`corporate`)

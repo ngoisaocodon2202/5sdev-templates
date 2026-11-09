@@ -1,4 +1,4 @@
-# 5SD-AUT-034 — Arcadia — Digital Showroom & 360 Configurator
+# 5SD-AUT-034 — Vanguard — Digital Showroom & 360 Configurator
 
 - **Mã sản phẩm**: `5SD-AUT-034`
 - **Ngành nghề**: Ô tô & Phương tiện (`automotive`)

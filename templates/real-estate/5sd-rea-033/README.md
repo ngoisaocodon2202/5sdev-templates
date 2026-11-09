@@ -1,4 +1,4 @@
-# 5SD-REA-033 — Equinox — Land Plot GIS Map Explorer
+# 5SD-REA-033 — Vertex — Land Plot GIS Map Explorer
 
 - **Mã sản phẩm**: `5SD-REA-033`
 - **Ngành nghề**: Bất động sản (`real-estate`)

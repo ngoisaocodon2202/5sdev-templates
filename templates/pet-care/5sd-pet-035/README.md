@@ -1,4 +1,4 @@
-# 5SD-PET-035 — Prism — Holistic Pet Acupuncture
+# 5SD-PET-035 — Crescendo — Holistic Pet Acupuncture
 
 - **Mã sản phẩm**: `5SD-PET-035`
 - **Ngành nghề**: Thú cưng & Thú y (`pet-care`)

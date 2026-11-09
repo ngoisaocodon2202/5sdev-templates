@@ -1,4 +1,4 @@
-# 5SD-LAN-009 — Nexora — Online Course Sales Funnel
+# 5SD-LAN-009 — Sylvan — Online Course Sales Funnel
 
 - **Mã sản phẩm**: `5SD-LAN-009`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

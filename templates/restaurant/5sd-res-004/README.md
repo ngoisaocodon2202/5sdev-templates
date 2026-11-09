@@ -1,4 +1,4 @@
-# 5SD-RES-004 — Prism — Modern Vietnamese Cuisine
+# 5SD-RES-004 — Elysian — Modern Vietnamese Cuisine
 
 - **Mã sản phẩm**: `5SD-RES-004`
 - **Ngành nghề**: Nhà hàng & Ẩm thực (`restaurant`)

@@ -1,4 +1,4 @@
-# 5SD-FUR-004 — Crescendo — Architectural Designer Lighting
+# 5SD-FUR-004 — Vertex — Architectural Designer Lighting
 
 - **Mã sản phẩm**: `5SD-FUR-004`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

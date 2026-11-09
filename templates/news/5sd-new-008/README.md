@@ -1,4 +1,4 @@
-# 5SD-NEW-008 — Hyperion — Architecture & Design Digest
+# 5SD-NEW-008 — Chronos — Architecture & Design Digest
 
 - **Mã sản phẩm**: `5SD-NEW-008`
 - **Ngành nghề**: Báo chí & Tạp chí Điện tử (`news`)

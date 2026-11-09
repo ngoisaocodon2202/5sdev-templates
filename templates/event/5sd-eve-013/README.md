@@ -1,4 +1,4 @@
-# 5SD-EVE-013 — Vanguard — Virtual & Hybrid Webinar Platform
+# 5SD-EVE-013 — Onyx — Virtual & Hybrid Webinar Platform
 
 - **Mã sản phẩm**: `5SD-EVE-013`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

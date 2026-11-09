@@ -1,4 +1,4 @@
-# 5SD-LAN-008 — Crescendo — AI Chrome Extension Landing
+# 5SD-LAN-008 — Onyx — AI Chrome Extension Landing
 
 - **Mã sản phẩm**: `5SD-LAN-008`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

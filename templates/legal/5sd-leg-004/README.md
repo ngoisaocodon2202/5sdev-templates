@@ -1,4 +1,4 @@
-# 5SD-LEG-004 — Maison — International Arbitration & Litigation
+# 5SD-LEG-004 — Sovereign — International Arbitration & Litigation
 
 - **Mã sản phẩm**: `5SD-LEG-004`
 - **Ngành nghề**: Luật & Tư vấn Pháp lý (`legal`)

@@ -1,4 +1,4 @@
-# 5SD-EVE-009 — Apex — E-Sports Championship Arena
+# 5SD-EVE-009 — Velvet — E-Sports Championship Arena
 
 - **Mã sản phẩm**: `5SD-EVE-009`
 - **Ngành nghề**: Sự kiện & Hội nghị (`event`)

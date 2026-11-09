@@ -1,4 +1,4 @@
-# 5SD-LAN-021 — Aethel — Affiliate Review & Comparison Hub
+# 5SD-LAN-021 — Prism — Affiliate Review & Comparison Hub
 
 - **Mã sản phẩm**: `5SD-LAN-021`
 - **Ngành nghề**: Landing Page Chuyển đổi Cao (`landing-page`)

@@ -1,4 +1,4 @@
-# 5SD-EDU-027 — Zenith — Mindfulness & Life Coaching
+# 5SD-EDU-027 — Aurelia — Mindfulness & Life Coaching
 
 - **Mã sản phẩm**: `5SD-EDU-027`
 - **Ngành nghề**: Giáo dục & Đào tạo (`education`)

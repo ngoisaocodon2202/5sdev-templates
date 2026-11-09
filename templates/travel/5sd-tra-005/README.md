@@ -1,4 +1,4 @@
-# 5SD-TRA-005 — Elysian — Adventure Trekking & Cave Expedition
+# 5SD-TRA-005 — Onyx — Adventure Trekking & Cave Expedition
 
 - **Mã sản phẩm**: `5SD-TRA-005`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)

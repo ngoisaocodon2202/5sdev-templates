@@ -1,4 +1,4 @@
-# 5SD-FUR-022 — Aethel — Marble Coffee Table Atelier
+# 5SD-FUR-022 — Onyx — Marble Coffee Table Atelier
 
 - **Mã sản phẩm**: `5SD-FUR-022`
 - **Ngành nghề**: Nội thất & Trang trí (`furniture`)

@@ -1,4 +1,4 @@
-# 5SD-FIN-024 — Hyperion — Pension & Retirement Planning
+# 5SD-FIN-024 — Stratos — Pension & Retirement Planning
 
 - **Mã sản phẩm**: `5SD-FIN-024`
 - **Ngành nghề**: Tài chính & Ngân hàng số (`finance`)

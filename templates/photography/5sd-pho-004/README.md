@@ -1,4 +1,4 @@
-# 5SD-PHO-004 — Lumiere — Culinary & Food Styling Studio
+# 5SD-PHO-004 — Stratos — Culinary & Food Styling Studio
 
 - **Mã sản phẩm**: `5SD-PHO-004`
 - **Ngành nghề**: Nhiếp ảnh & Phim ảnh (`photography`)

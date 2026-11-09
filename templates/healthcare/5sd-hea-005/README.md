@@ -1,4 +1,4 @@
-# 5SD-HEA-005 — Apex — Preventive Healthcare Screening
+# 5SD-HEA-005 — Prism — Preventive Healthcare Screening
 
 - **Mã sản phẩm**: `5SD-HEA-005`
 - **Ngành nghề**: Y tế & Chăm sóc sức khỏe (`healthcare`)

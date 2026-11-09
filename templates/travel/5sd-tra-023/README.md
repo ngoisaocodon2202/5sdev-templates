@@ -1,4 +1,4 @@
-# 5SD-TRA-023 — Aurelia — Digital Nomad Workation Pass
+# 5SD-TRA-023 — Nova — Digital Nomad Workation Pass
 
 - **Mã sản phẩm**: `5SD-TRA-023`
 - **Ngành nghề**: Du lịch & Lữ hành (`travel`)
