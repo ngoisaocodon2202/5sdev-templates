@@ -15,7 +15,16 @@
   "widgetType": "booking",
   "actionLabel": "Đặt lịch Khám ngay",
   "secondaryAction": "Tư vấn Bác sĩ",
-  "description": "Giao diện website Occupational Health Corporate thuộc lĩnh vực Y tế & Chăm sóc sức khỏe (Healthcare & Medical), thiết kế theo phong cách 3D Interactive kết hợp cấu trúc swiss-modular. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Occupational Health Corporate chuyên nghiệp thuộc lĩnh vực Y tế & Chăm sóc sức khỏe, thiết kế theo phong cách 3D Interactive. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1000&q=80",
+    "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=900&q=80"
+  ],
   "thumbnail": "/templates/healthcare/5sd-hea-029/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-hea-029",
   "detailsRoute": "/templates/5sd-hea-029",
@@ -35,20 +44,22 @@
     "standard"
   ],
   "features": [
-    "Thiết kế độc bản phong cách 3D Interactive (swiss-modular)",
-    "Module tương tác chuyên ngành Y tế & Chăm sóc sức khỏe hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế 3D Interactive tối ưu trải nghiệm ngành Y tế & Chăm sóc sức khỏe",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (BOOKING) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (3D Interactive)",
-    "Hero Showcase (swiss-modular)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Healthcare & Medical Module (BOOKING)",
-    "Curated Occupational Health Corporate Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (swiss-modular)",
+    "Featured Occupational Health Corporate Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -68,7 +79,7 @@
   "isTrending": false,
   "isNewRelease": false,
   "rating": 4.8,
-  "downloadsCount": 1481,
+  "downloadsCount": 1541,
   "batchNumber": 17,
   "updatedAt": "2026-11-09"
 }

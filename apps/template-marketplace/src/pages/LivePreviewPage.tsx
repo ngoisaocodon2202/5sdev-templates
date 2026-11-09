@@ -10,7 +10,6 @@ import {
   RefreshCw,
   ExternalLink,
   Info,
-  Sparkles,
   AlertTriangle,
 } from 'lucide-react';
 import { getTemplateBySlug, getLazyTemplateComponent } from '../data/template-registry';
@@ -25,7 +24,7 @@ export const LivePreviewPage: React.FC = () => {
   const isChromeless = searchParams.get('chromeless') === '1';
 
   const [device, setDevice] = useState<ViewportDevice>('desktop');
-  const [isFullscreen, setIsFullscreen] = useState(isChromeless);
+  const [isFullscreen, setIsFullscreen] = useState(false);
   const [refreshKey, setRefreshKey] = useState(0);
 
   const template = getTemplateBySlug(slug);
@@ -63,126 +62,145 @@ export const LivePreviewPage: React.FC = () => {
 
   const LazyTemplateComponent = getLazyTemplateComponent(template);
 
-  const viewportWidthClass =
-    device === 'mobile'
-      ? 'w-[375px] max-w-full my-6 rounded-[32px] border-[8px] border-slate-800 shadow-2xl overflow-hidden'
-      : device === 'tablet'
-      ? 'w-[768px] max-w-full my-6 rounded-[24px] border-[6px] border-slate-800 shadow-2xl overflow-hidden'
-      : 'w-full';
+  // When loaded with ?chromeless=1 (either in a new tab or inside the Tablet/Mobile simulator iframe),
+  // render the pure standalone template so CSS @media queries match the exact viewport width!
+  if (isChromeless) {
+    return (
+      <PreviewErrorBoundary
+        templateId={template.id}
+        templateName={template.name}
+        onReset={() => setRefreshKey((k) => k + 1)}
+      >
+        {LazyTemplateComponent ? (
+          <Suspense
+            fallback={
+              <div className="min-h-screen w-full flex flex-col items-center justify-center bg-slate-950 text-slate-200 p-8">
+                <div className="h-10 w-10 animate-spin rounded-full border-4 border-indigo-500 border-t-transparent mb-3" />
+                <div className="font-mono text-xs uppercase tracking-wider text-cyan-400">
+                  ĐANG TẢI GIAO DIỆN • {template.id}
+                </div>
+              </div>
+            }
+          >
+            <LazyTemplateComponent key={refreshKey} previewDevice="desktop" />
+          </Suspense>
+        ) : null}
+      </PreviewErrorBoundary>
+    );
+  }
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100">
       {/* Top Interactive Preview Control Bar */}
       {!isFullscreen && (
-        <header className="sticky top-0 z-50 flex flex-wrap items-center justify-between gap-3 border-b border-slate-800 bg-slate-950/95 px-4 py-2.5 backdrop-blur-xl">
-          {/* Left: Back to Marketplace + Template Info */}
-          <div className="flex items-center gap-3">
-            <Link
-              to="/templates"
-              className="inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-3 py-1.5 text-xs font-semibold text-slate-200 hover:border-indigo-500/50 hover:text-white transition"
-            >
-              <ArrowLeft className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">Marketplace</span>
-            </Link>
+        <header className="sticky top-0 z-50 border-b border-slate-800 bg-slate-950/95 px-3 py-2.5 sm:px-5 backdrop-blur-xl">
+          <div className="mx-auto flex max-w-[1600px] items-center justify-between gap-2 sm:gap-4">
+            {/* Left: Back to Marketplace + Template Info */}
+            <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+              <Link
+                to="/templates"
+                className="inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-3 py-1.5 text-xs font-semibold text-slate-200 hover:border-indigo-500/50 hover:text-white transition shrink-0 whitespace-nowrap"
+              >
+                <ArrowLeft className="h-3.5 w-3.5" />
+                <span>Thư viện</span>
+              </Link>
 
-            <div className="flex items-center gap-2">
-              <span className="rounded-lg bg-cyan-500/10 border border-cyan-500/30 px-2 py-0.5 font-mono text-xs font-bold text-cyan-400">
+              <span className="rounded-lg bg-cyan-500/10 border border-cyan-500/30 px-2.5 py-1 font-mono text-xs font-bold text-cyan-400 shrink-0 whitespace-nowrap">
                 {template.id}
               </span>
-              <div className="hidden md:block">
-                <h1 className="text-xs font-bold text-white line-clamp-1 max-w-xs">
+
+              <div className="hidden lg:block min-w-0">
+                <h1 className="text-xs font-bold text-white truncate max-w-[260px] xl:max-w-[360px]">
                   {template.name}
                 </h1>
-                <p className="text-[10px] text-slate-400">
-                  {template.categoryNameVi} • Style: {template.designStyleName}
+                <p className="text-[11px] text-slate-400 truncate">
+                  {template.categoryNameVi} • Phong cách: {template.designStyleName}
                 </p>
               </div>
             </div>
-          </div>
 
-          {/* Center: Responsive Device Switcher */}
-          <div className="flex items-center gap-1 rounded-xl border border-slate-800 bg-slate-900 p-1">
-            <button
-              type="button"
-              onClick={() => setDevice('desktop')}
-              className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
-                device === 'desktop'
-                  ? 'bg-indigo-600 text-white shadow'
-                  : 'text-slate-400 hover:text-white'
-              }`}
-              title="Desktop Preview (100%)"
-            >
-              <Monitor className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">Desktop</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setDevice('tablet')}
-              className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
-                device === 'tablet'
-                  ? 'bg-indigo-600 text-white shadow'
-                  : 'text-slate-400 hover:text-white'
-              }`}
-              title="Tablet Preview (768px)"
-            >
-              <Tablet className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">Tablet</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setDevice('mobile')}
-              className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition ${
-                device === 'mobile'
-                  ? 'bg-indigo-600 text-white shadow'
-                  : 'text-slate-400 hover:text-white'
-              }`}
-              title="Mobile Preview (375px)"
-            >
-              <Smartphone className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">Mobile</span>
-            </button>
-          </div>
+            {/* Center: Responsive Device Switcher (Desktop / Tablet / Mobile) */}
+            <div className="hidden md:flex items-center gap-1 rounded-xl border border-slate-800 bg-slate-900 p-1 shrink-0">
+              <button
+                type="button"
+                onClick={() => setDevice('desktop')}
+                className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition whitespace-nowrap ${
+                  device === 'desktop'
+                    ? 'bg-indigo-600 text-white shadow'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                <Monitor className="h-3.5 w-3.5" />
+                <span>Desktop</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setDevice('tablet')}
+                className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition whitespace-nowrap ${
+                  device === 'tablet'
+                    ? 'bg-indigo-600 text-white shadow'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                <Tablet className="h-3.5 w-3.5" />
+                <span>Tablet (768px)</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setDevice('mobile')}
+                className={`inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-semibold transition whitespace-nowrap ${
+                  device === 'mobile'
+                    ? 'bg-indigo-600 text-white shadow'
+                    : 'text-slate-400 hover:text-white'
+                }`}
+              >
+                <Smartphone className="h-3.5 w-3.5" />
+                <span>Mobile (390px)</span>
+              </button>
+            </div>
 
-          {/* Right: Refresh, Fullscreen, Open in New Tab, Details */}
-          <div className="flex items-center gap-2">
-            <button
-              type="button"
-              onClick={() => setRefreshKey((k) => k + 1)}
-              className="inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-2.5 py-1.5 text-xs font-medium text-slate-300 hover:border-slate-700 hover:text-white"
-              title="Làm mới giao diện (Refresh Preview)"
-            >
-              <RefreshCw className="h-3.5 w-3.5" />
-              <span className="hidden lg:inline">Refresh</span>
-            </button>
+            {/* Right: Actions */}
+            <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+              <button
+                type="button"
+                onClick={() => setRefreshKey((k) => k + 1)}
+                className="inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-2.5 py-1.5 text-xs font-medium text-slate-300 hover:border-slate-700 hover:text-white whitespace-nowrap"
+                title="Làm mới giao diện"
+              >
+                <RefreshCw className="h-3.5 w-3.5" />
+                <span className="hidden xl:inline">Làm mới</span>
+              </button>
 
-            <button
-              type="button"
-              onClick={() => setIsFullscreen(true)}
-              className="inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-2.5 py-1.5 text-xs font-medium text-slate-300 hover:border-slate-700 hover:text-white"
-              title="Toàn màn hình (Fullscreen Preview)"
-            >
-              <Maximize2 className="h-3.5 w-3.5" />
-              <span className="hidden lg:inline">Fullscreen</span>
-            </button>
+              <button
+                type="button"
+                onClick={() => setIsFullscreen(true)}
+                className="inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-2.5 py-1.5 text-xs font-medium text-slate-300 hover:border-slate-700 hover:text-white whitespace-nowrap"
+                title="Xem toàn màn hình"
+              >
+                <Maximize2 className="h-3.5 w-3.5" />
+                <span className="hidden xl:inline">Toàn màn hình</span>
+              </button>
 
-            <a
-              href={`/preview/${template.slug}?chromeless=1`}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-2.5 py-1.5 text-xs font-medium text-slate-300 hover:border-slate-700 hover:text-white"
-              title="Mở trong tab mới"
-            >
-              <ExternalLink className="h-3.5 w-3.5" />
-              <span className="hidden xl:inline">Tab mới</span>
-            </a>
+              <a
+                href={`/preview/${template.slug}?chromeless=1`}
+                target="_blank"
+                rel="noreferrer"
+                className="hidden sm:inline-flex items-center gap-1.5 rounded-xl border border-slate-800 bg-slate-900 px-2.5 py-1.5 text-xs font-medium text-slate-300 hover:border-slate-700 hover:text-white whitespace-nowrap"
+                title="Mở trong tab mới"
+              >
+                <ExternalLink className="h-3.5 w-3.5" />
+                <span className="hidden xl:inline">Tab mới</span>
+              </a>
 
-            <Link
-              to={template.detailsRoute}
-              className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-500 px-3.5 py-1.5 text-xs font-bold text-white hover:from-indigo-500 hover:to-cyan-400"
-            >
-              <Info className="h-3.5 w-3.5" />
-              <span>Chi tiết ({formatPriceVND(template.price.priceVnd)})</span>
-            </Link>
+              <Link
+                to={template.detailsRoute}
+                className="inline-flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-500 px-3 py-1.5 text-xs font-bold text-white hover:from-indigo-500 hover:to-cyan-400 whitespace-nowrap"
+              >
+                <Info className="h-3.5 w-3.5" />
+                <span>Chi tiết</span>
+                <span className="hidden sm:inline">({formatPriceVND(template.price.priceVnd)})</span>
+              </Link>
+            </div>
           </div>
         </header>
       )}
@@ -194,7 +212,7 @@ export const LivePreviewPage: React.FC = () => {
           <button
             type="button"
             onClick={() => setIsFullscreen(false)}
-            className="inline-flex items-center gap-1 rounded-full bg-indigo-600 px-3 py-1 text-white hover:bg-indigo-500"
+            className="inline-flex items-center gap-1 rounded-full bg-indigo-600 px-3 py-1 text-white hover:bg-indigo-500 whitespace-nowrap"
           >
             <Minimize2 className="h-3 w-3" />
             Hiện thanh công cụ
@@ -202,16 +220,9 @@ export const LivePreviewPage: React.FC = () => {
         </div>
       )}
 
-      {/* Live Viewport Container */}
-      <div
-        className={`flex-1 flex justify-center ${
-          device !== 'desktop' ? 'bg-slate-900/90 px-4 overflow-x-auto' : ''
-        }`}
-      >
-        <div
-          key={`${template.slug}-${refreshKey}`}
-          className={`${viewportWidthClass} bg-white text-slate-900 transition-all duration-300`}
-        >
+      {/* Viewport Simulator Area */}
+      {device === 'desktop' ? (
+        <div key={`${template.slug}-${refreshKey}`} className="flex-1 w-full bg-white text-slate-900">
           <PreviewErrorBoundary
             templateId={template.id}
             templateName={template.name}
@@ -220,31 +231,48 @@ export const LivePreviewPage: React.FC = () => {
             {LazyTemplateComponent ? (
               <Suspense
                 fallback={
-                  <div className="min-h-[75vh] w-full flex flex-col items-center justify-center bg-slate-950 text-slate-200 p-8">
+                  <div className="min-h-[80vh] w-full flex flex-col items-center justify-center bg-slate-950 text-slate-200 p-8">
                     <div className="h-12 w-12 animate-spin rounded-full border-4 border-indigo-500 border-t-transparent mb-4" />
                     <div className="font-mono text-xs uppercase tracking-wider text-cyan-400">
-                      LOADING LIVE TEMPLATE CHUNK • {template.id}
+                      LOADING LIVE TEMPLATE • {template.id}
                     </div>
                     <p className="mt-1 text-sm font-semibold text-white">{template.name}</p>
                   </div>
                 }
               >
-                <LazyTemplateComponent previewDevice={device} />
+                <LazyTemplateComponent previewDevice="desktop" />
               </Suspense>
-            ) : (
-              <div className="min-h-[70vh] flex items-center justify-center bg-slate-950 p-8 text-center text-white">
-                <div className="max-w-md">
-                  <AlertTriangle className="mx-auto h-10 w-10 text-amber-400 mb-3" />
-                  <h2 className="text-lg font-bold mb-2">Module chưa sẵn sàng ({template.id})</h2>
-                  <p className="text-xs text-slate-400">
-                    Đường dẫn nguồn: <code>{template.sourcePath}/page.tsx</code>
-                  </p>
-                </div>
-              </div>
-            )}
+            ) : null}
           </PreviewErrorBoundary>
         </div>
-      </div>
+      ) : (
+        /* Tablet (768px) & Mobile (390px) True Iframe Viewport Simulator so CSS @media queries trigger genuinely */
+        <div className="flex-1 flex flex-col items-center justify-start bg-slate-900/95 py-6 px-4 overflow-x-auto">
+          <div className="mb-3 flex items-center gap-2 text-xs text-slate-400 font-mono">
+            <span>
+              KHUNG NHÌN THIẾT BỊ THỰC TẾ:{' '}
+              <strong className="text-cyan-400">
+                {device === 'mobile' ? 'iPhone / Mobile (390 × 820 px)' : 'iPad / Tablet (768 × 920 px)'}
+              </strong>
+            </span>
+          </div>
+
+          <div
+            className={`relative bg-slate-950 shadow-2xl transition-all duration-300 overflow-hidden ${
+              device === 'mobile'
+                ? 'w-[390px] h-[820px] rounded-[42px] border-[12px] border-slate-800'
+                : 'w-[768px] h-[920px] rounded-[28px] border-[10px] border-slate-800'
+            }`}
+          >
+            <iframe
+              key={`${template.slug}-${device}-${refreshKey}`}
+              src={`/preview/${template.slug}?chromeless=1&r=${refreshKey}`}
+              title={`${template.name} (${device} preview)`}
+              className="w-full h-full border-0 bg-white"
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };

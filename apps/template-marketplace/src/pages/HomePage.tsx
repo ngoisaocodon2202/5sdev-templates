@@ -52,7 +52,7 @@ export const HomePage: React.FC = () => {
   }, []);
 
   const featuredTemplates = useMemo(
-    () => TEMPLATE_REGISTRY.filter((t) => t.isFeatured).slice(0, 8),
+    () => TEMPLATE_REGISTRY.filter((t) => t.isFeatured).slice(0, 6),
     []
   );
 
@@ -61,7 +61,7 @@ export const HomePage: React.FC = () => {
       [...TEMPLATE_REGISTRY]
         .filter((t) => t.isTrending)
         .sort((a, b) => b.downloadsCount - a.downloadsCount)
-        .slice(0, 8),
+        .slice(0, 6),
     []
   );
 
@@ -69,7 +69,7 @@ export const HomePage: React.FC = () => {
     () =>
       [...TEMPLATE_REGISTRY]
         .filter((t) => t.isNewRelease)
-        .slice(0, 8),
+        .slice(0, 6),
     []
   );
 
@@ -326,7 +326,7 @@ export const HomePage: React.FC = () => {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {CATEGORIES.map((cat) => {
             const count = categoryCounts[cat.slug] || cat.targetCount;
             return (
@@ -337,14 +337,14 @@ export const HomePage: React.FC = () => {
               >
                 <div className="flex items-start justify-between gap-3 mb-3">
                   <div
-                    className="flex h-10 w-10 items-center justify-center rounded-xl text-white shadow-md transition-transform group-hover:scale-110"
+                    className="flex h-10 w-10 items-center justify-center rounded-xl text-white shadow-md transition-transform group-hover:scale-110 shrink-0"
                     style={{
                       background: `linear-gradient(135deg, ${cat.gradientFrom}, ${cat.gradientTo})`,
                     }}
                   >
                     <DynamicIcon name={cat.iconName} className="h-5 w-5" />
                   </div>
-                  <span className="rounded-lg border border-slate-800 bg-slate-950 px-2 py-0.5 font-mono text-[11px] font-bold text-cyan-400">
+                  <span className="rounded-lg border border-slate-800 bg-slate-950 px-2.5 py-0.5 font-mono text-[11px] font-bold text-cyan-400 whitespace-nowrap shrink-0">
                     {count} mẫu
                   </span>
                 </div>
@@ -354,10 +354,10 @@ export const HomePage: React.FC = () => {
                       5SD-{cat.code}
                     </span>
                   </div>
-                  <h3 className="font-display text-sm font-bold text-white group-hover:text-indigo-300 transition">
+                  <h3 className="font-display text-sm font-bold text-white group-hover:text-indigo-300 transition truncate">
                     {cat.nameVi}
                   </h3>
-                  <p className="text-[11px] text-slate-400 mt-0.5 line-clamp-1">{cat.name}</p>
+                  <p className="text-[11px] text-slate-400 mt-0.5 truncate">{cat.name}</p>
                 </div>
               </Link>
             );
@@ -389,7 +389,7 @@ export const HomePage: React.FC = () => {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {featuredTemplates.map((template) => (
             <TemplateCard key={template.id} template={template} />
           ))}
@@ -420,7 +420,7 @@ export const HomePage: React.FC = () => {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {trendingTemplates.map((template) => (
             <TemplateCard key={template.id} template={template} />
           ))}
@@ -503,7 +503,7 @@ export const HomePage: React.FC = () => {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {newReleaseTemplates.map((template) => (
             <TemplateCard key={template.id} template={template} />
           ))}

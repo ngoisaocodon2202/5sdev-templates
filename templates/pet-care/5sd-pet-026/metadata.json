@@ -15,7 +15,16 @@
   "widgetType": "booking",
   "actionLabel": "Đặt lịch Cho Bé",
   "secondaryAction": "Gọi Cấp cứu 24/7",
-  "description": "Giao diện website Equine & Horse Riding Club thuộc lĩnh vực Thú cưng & Thú y (Pet Care & Veterinary), thiết kế theo phong cách Modern Dashboard kết hợp cấu trúc flagship-conversion. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Equine & Horse Riding Club chuyên nghiệp thuộc lĩnh vực Thú cưng & Thú y, thiết kế theo phong cách Modern Dashboard. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1000&q=80"
+  ],
   "thumbnail": "/templates/pet-care/5sd-pet-026/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-pet-026",
   "detailsRoute": "/templates/5sd-pet-026",
@@ -35,20 +44,22 @@
     "enterprise"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Modern Dashboard (flagship-conversion)",
-    "Module tương tác chuyên ngành Thú cưng & Thú y hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Modern Dashboard tối ưu trải nghiệm ngành Thú cưng & Thú y",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (BOOKING) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Modern Dashboard)",
-    "Hero Showcase (flagship-conversion)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Pet Care & Veterinary Module (BOOKING)",
-    "Curated Equine & Horse Riding Club Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (flagship-conversion)",
+    "Featured Equine & Horse Riding Club Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -68,7 +79,7 @@
   "isTrending": false,
   "isNewRelease": false,
   "rating": 5,
-  "downloadsCount": 871,
+  "downloadsCount": 931,
   "batchNumber": 16,
   "updatedAt": "2026-11-09"
 }

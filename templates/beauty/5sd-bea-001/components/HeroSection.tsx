@@ -1,36 +1,42 @@
 import React from 'react';
-import { ArrowRight, Sparkles, ShieldCheck } from '@shared/icons/template-icons';
+import { ArrowRight, Sparkles, CheckCircle2, Star, ShieldCheck, Play } from '@shared/icons/template-icons';
 
 export interface HeroSectionProps {
   onPrimaryAction: () => void;
   onSecondaryAction: () => void;
 }
 
+const HERO_METRICS = [{"label":"Bác sĩ & Chuyên gia","value":"30+"},{"label":"Công nghệ Chuẩn FDA","value":"100%"},{"label":"Khách hàng Thân thiết","value":"45.000+"},{"label":"Cam kết Hiệu quả","value":"Bảo hành"}];
+const AVATARS = ["https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&q=80","https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=240&q=80","https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&q=80"];
+
 export const HeroSection: React.FC<HeroSectionProps> = ({
   onPrimaryAction,
   onSecondaryAction,
 }) => {
   return (
-    <section className="relative overflow-hidden py-14 sm:py-20 lg:py-24 border-b border-current/10">
+    <section className="relative overflow-hidden py-10 sm:py-16 lg:py-20 border-b border-current/10">
+      {/* Ambient Artistic Glow */}
       <div
-        className="pointer-events-none absolute -top-32 right-10 h-80 w-80 rounded-full blur-[110px] opacity-25"
+        className="pointer-events-none absolute -top-32 right-10 h-80 w-80 rounded-full blur-[120px] opacity-20"
         style={{ background: '#2563EB' }}
       />
       <div
-        className="pointer-events-none absolute bottom-0 left-10 h-72 w-72 rounded-full blur-[110px] opacity-20"
+        className="pointer-events-none absolute bottom-0 left-10 h-72 w-72 rounded-full blur-[120px] opacity-15"
         style={{ background: '#7C3AED' }}
       />
 
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
+        {/* Main 2-Column Hero Grid */}
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-center">
-          <div className="lg:col-span-7 space-y-6">
+          {/* Left 6 Cols: Balanced Headline, Highlights, CTAs & Social Proof */}
+          <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 text-xs bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold rounded-2xl">
-              <Sparkles className="h-3.5 w-3.5" />
-              <span>5SD-BEA-001 • LÀM ĐẸP & MỸ PHẨM</span>
+              <Sparkles className="h-3.5 w-3.5 shrink-0" />
+              <span className="whitespace-nowrap">5SD-BEA-001 • LÀM ĐẸP & MỸ PHẨM</span>
             </div>
 
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display font-bold tracking-tight leading-[1.1]">
-              Trải Nghiệm{' '}
+            <h1 className="text-2xl sm:text-4xl lg:text-[42px] font-display font-bold tracking-tight leading-[1.2] tracking-tight">
+              Giải Pháp{' '}
               <span
                 className="bg-clip-text text-transparent"
                 style={{
@@ -39,99 +45,161 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               >
                 Luxury Nail & Art Studio
               </span>{' '}
-              Đẳng Cấp Cùng Nordic
+              Chuyên Nghiệp Cùng Nordic
             </h1>
 
-            <p className="max-w-2xl text-base sm:text-lg text-slate-600 leading-relaxed">
-              Giao diện website Luxury Nail & Art Studio thuộc lĩnh vực Làm đẹp & Mỹ phẩm (Beauty & Cosmetics), thiết kế theo phong cách Modern Corporate kết hợp cấu trúc bento-grid-os. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.
+            <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
+              Giải pháp giao diện website Luxury Nail & Art Studio chuyên nghiệp thuộc lĩnh vực Làm đẹp & Mỹ phẩm, thiết kế theo phong cách Modern Corporate. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.
             </p>
 
-            <div className="flex flex-wrap items-center gap-3.5 pt-1">
+            {/* Key Highlights List */}
+            <div className="space-y-2.5 pt-1">
+              {["Thiết kế Modern Corporate tối ưu trải nghiệm ngành Làm đẹp & Mỹ phẩm","Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án","Công cụ tương tác chuyên ngành (BOOKING) tính phí trực tiếp"].map((feat, idx) => (
+                <div key={idx} className="flex items-start gap-2.5 text-xs sm:text-sm font-medium">
+                  <CheckCircle2
+                    className="h-4 w-4 shrink-0 mt-0.5"
+                    style={{ color: '#2563EB' }}
+                  />
+                  <span>{feat}</span>
+                </div>
+              ))}
+            </div>
+
+            {/* CTA Buttons (Never Wrap Awkwardly) */}
+            <div className="flex flex-wrap items-center gap-3.5 pt-2">
               <button
                 type="button"
                 onClick={onPrimaryAction}
-                className="inline-flex items-center gap-2 px-6 py-3.5 text-sm font-bold text-white shadow-md hover:opacity-95 transition rounded-2xl"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold text-white shadow-md hover:opacity-95 transition rounded-2xl whitespace-nowrap"
                 style={{ background: 'linear-gradient(135deg, #2563EB, #7C3AED)' }}
               >
                 <span>Đặt lịch Chuyên gia</span>
-                <ArrowRight className="h-4 w-4" />
+                <ArrowRight className="h-4 w-4 shrink-0" />
               </button>
               <button
                 type="button"
                 onClick={onSecondaryAction}
-                className="inline-flex items-center gap-2 px-6 py-3.5 text-sm font-semibold bg-white text-slate-800 border border-slate-300 hover:bg-slate-100 transition rounded-2xl"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3.5 text-sm font-semibold bg-white text-slate-800 border border-slate-300 hover:bg-slate-100 transition rounded-2xl whitespace-nowrap"
               >
+                <Play className="h-4 w-4 shrink-0" />
                 <span>Xem liệu trình</span>
               </button>
             </div>
 
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-current/10">
-              {[{"label":"Bác sĩ & Chuyên gia","value":"30+"},{"label":"Công nghệ Chuẩn FDA","value":"100%"},{"label":"Khách hàng Thân thiết","value":"45.000+"},{"label":"Cam kết Hiệu quả","value":"Bảo hành"}].map((stat, i) => (
-                <div key={i}>
-                  <div className="text-xl sm:text-2xl font-extrabold" style={{ color: '#2563EB' }}>
-                    {stat.value}
+            {/* Customer Social Proof Bar */}
+            <div className="flex flex-wrap items-center gap-4 pt-3 border-t border-current/10">
+              <div className="flex -space-x-2.5">
+                {AVATARS.map((av, i) => (
+                  <img
+                    key={i}
+                    src={av}
+                    alt="Khách hàng"
+                    loading="lazy"
+                    className="h-9 w-9 rounded-full border-2 border-white object-cover"
+                  />
+                ))}
+              </div>
+              <div className="text-xs">
+                <div className="flex items-center gap-1 font-bold text-amber-500">
+                  <span>★★★★★</span>
+                  <span>5/5.0</span>
+                </div>
+                <p className="text-slate-600">
+                  Được tin chọn bởi hơn <strong>1.200+ khách hàng & đối tác</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right 6 Cols: High-Res Demo Photography Showcase + Secondary Photo Strip */}
+          <div className="lg:col-span-6 space-y-4">
+            <div className="relative overflow-hidden p-3 sm:p-4 bg-white border border-slate-200/90 shadow-sm rounded-2xl">
+              <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-900">
+                <img
+                  src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80"
+                  alt="Nordic — Luxury Nail & Art Studio"
+                  className="h-full w-full object-cover object-center transition-transform duration-700 hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
+
+                {/* Top Floating Badge */}
+                <div className="absolute left-3.5 top-3.5 flex items-center gap-2 rounded-lg bg-slate-950/80 px-3 py-1.5 text-xs font-bold text-white backdrop-blur-md border border-white/15">
+                  <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
+                  <span>Nordic Flagship • 5SD-BEA-001</span>
+                </div>
+
+                {/* Bottom Overlay Info inside Hero Photo */}
+                <div className="absolute inset-x-3.5 bottom-3.5 flex flex-wrap items-center justify-between gap-2 rounded-xl bg-slate-950/85 p-3.5 text-white backdrop-blur-md border border-white/15">
+                  <div>
+                    <div className="text-xs font-bold">Luxury Nail & Art Studio — Tiêu Chuẩn Quốc Tế</div>
+                    <div className="text-[11px] text-slate-300">
+                      Cam kết chất lượng • Bảo hành chính hãng • Hỗ trợ 24/7
+                    </div>
                   </div>
-                  <div className="text-xs text-slate-600 mt-0.5">{stat.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="lg:col-span-5">
-            <div className="p-5 sm:p-6 bg-white border border-slate-200/90 shadow-sm rounded-2xl space-y-5">
-              <div className="flex items-center justify-between border-b border-current/10 pb-3">
-                <div>
-                  <span className="text-[11px] font-mono uppercase tracking-wider opacity-70 block">
-                    BENTO-GRID-OS STUDIO
+                  <span
+                    className="rounded-lg px-3 py-1 text-xs font-bold text-white whitespace-nowrap"
+                    style={{ background: '#2563EB' }}
+                  >
+                    ★ 5 Đánh giá
                   </span>
-                  <h3 className="text-base font-bold">Nordic — Luxury Nail & Art Studio</h3>
                 </div>
-                <span
-                  className="px-2.5 py-1 text-xs font-bold text-white rounded-md"
-                  style={{ background: '#2563EB' }}
-                >
-                  ★ 4.9
-                </span>
               </div>
 
-              <div className="overflow-hidden rounded-xl border border-current/10">
-                <svg viewBox="0 0 480 280" className="w-full h-auto" fill="none">
-                  <defs>
-                    <linearGradient id="heroGrad-5sd-bea-001" x1="0" y1="0" x2="480" y2="280" gradientUnits="userSpaceOnUse">
-                      <stop offset="0%" stopColor="#2563EB" />
-                      <stop offset="100%" stopColor="#7C3AED" />
-                    </linearGradient>
-                  </defs>
-                  <rect width="480" height="280" fill="url(#heroGrad-5sd-bea-001)" fillOpacity="0.14" />
-                  <circle cx="380" cy="80" r="90" fill="#2563EB" fillOpacity="0.22" />
-                  <rect x="28" y="28" width="424" height="224" rx="14" fill="#FFFFFF" stroke="#2563EB" strokeOpacity="0.35" strokeWidth="1.5" />
-                  <rect x="52" y="52" width="160" height="18" rx="5" fill="#2563EB" />
-                  <rect x="52" y="80" width="240" height="10" rx="4" fill="#7C3AED" fillOpacity="0.5" />
-                  <rect x="52" y="110" width="180" height="114" rx="10" fill="url(#heroGrad-5sd-bea-001)" fillOpacity="0.85" />
-                  <rect x="248" y="110" width="180" height="52" rx="8" fill="#2563EB" fillOpacity="0.15" />
-                  <rect x="248" y="172" width="180" height="52" rx="8" fill="#7C3AED" fillOpacity="0.15" />
-                  <text x="142" y="172" fill="#FFFFFF" fontFamily="Inter, sans-serif" fontSize="14" fontWeight="800" textAnchor="middle">
-                    5SD-BEA-001
-                  </text>
-                </svg>
-              </div>
-
-              <div className="flex items-center justify-between text-xs pt-1">
-                <span className="inline-flex items-center gap-1.5 font-semibold">
-                  <ShieldCheck className="h-4 w-4" style={{ color: '#2563EB' }} />
-                  Bảo hành chất lượng & Hỗ trợ 24/7
-                </span>
-                <button
-                  type="button"
-                  onClick={onPrimaryAction}
-                  className="font-bold underline"
-                  style={{ color: '#2563EB' }}
-                >
-                  Khám phá ngay →
-                </button>
+              {/* 2 Secondary Demo Thumbnails */}
+              <div className="mt-3 grid grid-cols-2 gap-3">
+                <div className="flex items-center gap-3 rounded-xl border border-current/10 p-2.5">
+                  <img
+                    src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=80"
+                    alt="Demo 1"
+                    loading="lazy"
+                    className="h-14 w-20 shrink-0 rounded-lg object-cover"
+                  />
+                  <div className="min-w-0">
+                    <div className="text-xs font-bold truncate">Không gian & Thực tế</div>
+                    <div className="text-[11px] text-slate-600 truncate">Chuẩn mực Modern Corporate</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 rounded-xl border border-current/10 p-2.5">
+                  <img
+                    src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=900&q=80"
+                    alt="Demo 2"
+                    loading="lazy"
+                    className="h-14 w-20 shrink-0 rounded-lg object-cover"
+                  />
+                  <div className="min-w-0">
+                    <div className="text-xs font-bold truncate">Quy trình Chuyên sâu</div>
+                    <div className="text-[11px] text-slate-600 truncate">Bàn giao đúng cam kết</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Full-Width 4-Column KPI Metrics Strip (Spacious, Zero Cramped Wrapping) */}
+        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4 sm:gap-6">
+          {HERO_METRICS.map((stat, i) => (
+            <div
+              key={i}
+              className="p-5 sm:p-6 bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col justify-between"
+            >
+              <div className="flex items-center justify-between gap-2 mb-2">
+                <span className="text-[11px] font-mono uppercase tracking-wider opacity-60">
+                  CHỈ SỐ 0{i + 1}
+                </span>
+                <ShieldCheck className="h-4 w-4 shrink-0" style={{ color: '#2563EB' }} />
+              </div>
+              <div
+                className="text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
+                style={{ color: '#2563EB' }}
+              >
+                {stat.value}
+              </div>
+              <div className="text-xs sm:text-sm font-semibold text-slate-600 mt-1">
+                {stat.label}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>

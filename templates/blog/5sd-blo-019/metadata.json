@@ -15,7 +15,16 @@
   "widgetType": "explorer",
   "actionLabel": "Khám phá Bài viết",
   "secondaryAction": "Nhận Newsletter Tuần",
-  "description": "Giao diện website Gardening & Urban Jungle Diary thuộc lĩnh vực Blog & Xuất bản Nội dung (Blog & Personal Publishing), thiết kế theo phong cách Luxury kết hợp cấu trúc swiss-modular. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Gardening & Urban Jungle Diary chuyên nghiệp thuộc lĩnh vực Blog & Xuất bản Nội dung, thiết kế theo phong cách Luxury. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1000&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1000&q=80",
+    "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=900&q=80"
+  ],
   "thumbnail": "/templates/blog/5sd-blo-019/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-blo-019",
   "detailsRoute": "/templates/5sd-blo-019",
@@ -35,20 +44,22 @@
     "standard"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Luxury (swiss-modular)",
-    "Module tương tác chuyên ngành Blog & Xuất bản Nội dung hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Luxury tối ưu trải nghiệm ngành Blog & Xuất bản Nội dung",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (EXPLORER) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Luxury)",
-    "Hero Showcase (swiss-modular)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Blog & Personal Publishing Module (EXPLORER)",
-    "Curated Gardening & Urban Jungle Diary Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (swiss-modular)",
+    "Featured Gardening & Urban Jungle Diary Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -68,7 +79,7 @@
   "isTrending": false,
   "isNewRelease": false,
   "rating": 4.8,
-  "downloadsCount": 877,
+  "downloadsCount": 937,
   "batchNumber": 12,
   "updatedAt": "2026-11-09"
 }

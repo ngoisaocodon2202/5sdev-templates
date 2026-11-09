@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export interface ArtworkProps {
   code: string;
@@ -7,10 +7,44 @@ export interface ArtworkProps {
   styleId: string;
   primaryColor: string;
   secondaryColor: string;
+  heroImage?: string;
   isDark?: boolean;
   variant?: number;
   className?: string;
 }
+
+const DEFAULT_CATEGORY_IMAGES: Record<string, string> = {
+  ecommerce: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80',
+  restaurant: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80',
+  beauty: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80',
+  fashion: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=800&q=80',
+  education: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80',
+  healthcare: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80',
+  'real-estate': 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80',
+  travel: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80',
+  hotel: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80',
+  portfolio: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80',
+  corporate: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+  technology: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80',
+  finance: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80',
+  automotive: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80',
+  construction: 'https://images.unsplash.com/photo-1541888946425-d09bb18086f6?auto=format&fit=crop&w=800&q=80',
+  furniture: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80',
+  'interior-design': 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=800&q=80',
+  photography: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80',
+  wedding: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80',
+  event: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80',
+  fitness: 'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=800&q=80',
+  spa: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80',
+  'pet-care': 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=800&q=80',
+  agriculture: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80',
+  logistics: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80',
+  legal: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80',
+  news: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80',
+  blog: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&q=80',
+  nonprofit: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=800&q=80',
+  'landing-page': 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+};
 
 export const TemplateThumbnailArtwork: React.FC<ArtworkProps> = ({
   code,
@@ -19,218 +53,88 @@ export const TemplateThumbnailArtwork: React.FC<ArtworkProps> = ({
   styleId,
   primaryColor,
   secondaryColor,
+  heroImage,
   isDark = false,
-  variant = 1,
   className = 'w-full h-full',
 }) => {
-  const bg = isDark ? '#0B0F19' : '#F8FAFC';
-  const surface = isDark ? '#151C2C' : '#FFFFFF';
-  const border = isDark ? '#26324D' : '#E2E8F0';
-  const textMain = isDark ? '#F8FAFC' : '#0F172A';
-  const textMuted = isDark ? '#94A3B8' : '#64748B';
-  const layoutMode = variant % 4;
-  const gradId = `grad-${code.replace(/[^a-zA-Z0-9]/g, '')}`;
+  const [imgFailed, setImgFailed] = useState(false);
+  const catKey = category.toLowerCase().replace(/\s+/g, '-');
+  const photoUrl =
+    heroImage ||
+    DEFAULT_CATEGORY_IMAGES[catKey] ||
+    DEFAULT_CATEGORY_IMAGES.ecommerce;
 
   return (
-    <svg
-      viewBox="0 0 640 400"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
-      role="img"
-      aria-label={`${title} (${code}) UI Preview`}
+    <div
+      className={`relative overflow-hidden select-none ${
+        isDark ? 'bg-slate-950 text-white' : 'bg-slate-100 text-slate-900'
+      } ${className}`}
     >
-      <defs>
-        <linearGradient id={gradId} x1="0" y1="0" x2="640" y2="400" gradientUnits="userSpaceOnUse">
-          <stop offset="0%" stopColor={primaryColor} />
-          <stop offset="100%" stopColor={secondaryColor} />
-        </linearGradient>
-      </defs>
+      {/* Background Real Demo Photography */}
+      {!imgFailed ? (
+        <img
+          src={photoUrl}
+          alt={`${title} (${code})`}
+          loading="lazy"
+          onError={() => setImgFailed(true)}
+          className="h-full w-full object-cover object-center"
+        />
+      ) : (
+        <div
+          className="h-full w-full"
+          style={{
+            background: `linear-gradient(135deg, ${primaryColor}, ${secondaryColor})`,
+          }}
+        />
+      )}
 
-      {/* Background */}
-      <rect width="640" height="400" fill={bg} />
-      <circle cx="540" cy="80" r="140" fill={primaryColor} fillOpacity={isDark ? '0.16' : '0.09'} />
-      <circle cx="90" cy="340" r="150" fill={secondaryColor} fillOpacity={isDark ? '0.14' : '0.08'} />
-
-      {/* Browser Window Frame */}
-      <rect
-        x="24"
-        y="20"
-        width="592"
-        height="360"
-        rx={styleId === 'brutalism' || styleId === 'swiss-design' ? '4' : '16'}
-        fill={surface}
-        stroke={styleId === 'brutalism' ? '#000000' : border}
-        strokeWidth={styleId === 'brutalism' ? '3' : '1.5'}
+      {/* Subtle Gradient Overlay so UI Chrome & Text Preview Pop */}
+      <div
+        className="absolute inset-0"
+        style={{
+          background: isDark
+            ? 'linear-gradient(to top, rgba(2,6,23,0.92) 0%, rgba(2,6,23,0.45) 55%, rgba(2,6,23,0.25) 100%)'
+            : 'linear-gradient(to top, rgba(15,23,42,0.88) 0%, rgba(15,23,42,0.35) 55%, rgba(15,23,42,0.18) 100%)',
+        }}
       />
 
-      {/* Top Browser / Nav Bar */}
-      <rect
-        x="25"
-        y="21"
-        width="590"
-        height="36"
-        rx={styleId === 'brutalism' || styleId === 'swiss-design' ? '2' : '14'}
-        fill={isDark ? '#0F172A' : '#F1F5F9'}
-      />
-      <circle cx="46" cy="39" r="5" fill="#EF4444" />
-      <circle cx="62" cy="39" r="5" fill="#F59E0B" />
-      <circle cx="78" cy="39" r="5" fill="#10B981" />
-      <rect x="104" y="31" width="180" height="16" rx="8" fill={surface} />
-      <text x="116" y="42" fill={textMuted} fontFamily="JetBrains Mono, monospace" fontSize="9" fontWeight="600">
-        {code.toLowerCase()}.5sdev.vn
-      </text>
-      <rect x="520" y="30" width="76" height="18" rx="9" fill={`url(#${gradId})`} />
-      <text x="558" y="42" fill="#FFFFFF" fontFamily="Inter, sans-serif" fontSize="8.5" fontWeight="700" textAnchor="middle">
-        {styleId.toUpperCase().slice(0, 10)}
-      </text>
+      {/* Simulated Mini Browser Top Bar */}
+      <div className="absolute inset-x-3 top-2.5 flex items-center justify-between rounded-lg bg-slate-950/75 px-2.5 py-1 backdrop-blur-md border border-white/10">
+        <div className="flex items-center gap-1.5">
+          <span className="h-2 w-2 rounded-full bg-rose-500" />
+          <span className="h-2 w-2 rounded-full bg-amber-400" />
+          <span className="h-2 w-2 rounded-full bg-emerald-400" />
+          <span className="ml-1.5 font-mono text-[10px] text-slate-300 truncate max-w-[140px]">
+            {code.toLowerCase()}.5sdev.vn
+          </span>
+        </div>
+        <span
+          className="rounded px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase text-white whitespace-nowrap"
+          style={{ background: primaryColor }}
+        >
+          {styleId}
+        </span>
+      </div>
 
-      {/* Inner Website Header */}
-      <rect x="48" y="72" width="76" height="14" rx="4" fill={primaryColor} />
-      <rect x="240" y="75" width="38" height="8" rx="4" fill={textMuted} fillOpacity="0.35" />
-      <rect x="290" y="75" width="38" height="8" rx="4" fill={textMuted} fillOpacity="0.35" />
-      <rect x="340" y="75" width="38" height="8" rx="4" fill={textMuted} fillOpacity="0.35" />
-      <rect x="528" y="69" width="64" height="20" rx="6" fill={primaryColor} />
-
-      {/* Layout Architecture Variations */}
-      {layoutMode === 0 && (
-        <g>
-          {/* Asymmetric Split Hero */}
-          <rect x="48" y="106" width="290" height="142" rx="12" fill={primaryColor} fillOpacity="0.08" />
-          <rect x="66" y="124" width="90" height="14" rx="7" fill={primaryColor} fillOpacity="0.2" />
-          <text x="66" y="162" fill={textMain} fontFamily="Inter, sans-serif" fontSize="17" fontWeight="800">
-            {title.slice(0, 26)}
-          </text>
-          <rect x="66" y="176" width="210" height="8" rx="4" fill={textMuted} fillOpacity="0.45" />
-          <rect x="66" y="190" width="170" height="8" rx="4" fill={textMuted} fillOpacity="0.3" />
-          <rect x="66" y="212" width="92" height="24" rx="6" fill={`url(#${gradId})`} />
-          <rect x="166" y="212" width="76" height="24" rx="6" fill={surface} stroke={border} />
-
-          {/* Right Hero Showcase */}
-          <rect x="354" y="106" width="238" height="142" rx="12" fill={`url(#${gradId})`} fillOpacity="0.88" />
-          <circle cx="473" cy="166" r="36" fill="#FFFFFF" fillOpacity="0.2" />
-          <rect x="382" y="214" width="182" height="18" rx="6" fill="#FFFFFF" fillOpacity="0.25" />
-
-          {/* Bottom 3-Column Feature Cards */}
-          <rect x="48" y="264" width="172" height="96" rx="10" fill={bg} stroke={border} />
-          <rect x="64" y="280" width="28" height="28" rx="8" fill={primaryColor} fillOpacity="0.2" />
-          <rect x="64" y="318" width="110" height="10" rx="4" fill={textMain} fillOpacity="0.75" />
-          <rect x="64" y="334" width="136" height="7" rx="3.5" fill={textMuted} fillOpacity="0.4" />
-
-          <rect x="236" y="264" width="172" height="96" rx="10" fill={bg} stroke={border} />
-          <rect x="252" y="280" width="28" height="28" rx="8" fill={secondaryColor} fillOpacity="0.2" />
-          <rect x="252" y="318" width="110" height="10" rx="4" fill={textMain} fillOpacity="0.75" />
-          <rect x="252" y="334" width="136" height="7" rx="3.5" fill={textMuted} fillOpacity="0.4" />
-
-          <rect x="424" y="264" width="168" height="96" rx="10" fill={bg} stroke={border} />
-          <rect x="440" y="280" width="28" height="28" rx="8" fill={primaryColor} fillOpacity="0.2" />
-          <rect x="440" y="318" width="110" height="10" rx="4" fill={textMain} fillOpacity="0.75" />
-          <rect x="440" y="334" width="128" height="7" rx="3.5" fill={textMuted} fillOpacity="0.4" />
-        </g>
-      )}
-
-      {layoutMode === 1 && (
-        <g>
-          {/* Centered Editorial / Immersive Hero */}
-          <rect x="48" y="104" width="544" height="130" rx="14" fill={`url(#${gradId})`} fillOpacity="0.14" stroke={primaryColor} strokeOpacity="0.3" />
-          <rect x="250" y="118" width="140" height="16" rx="8" fill={primaryColor} fillOpacity="0.25" />
-          <text x="320" y="158" fill={textMain} fontFamily="Inter, sans-serif" fontSize="19" fontWeight="800" textAnchor="middle">
-            {title.slice(0, 30)}
-          </text>
-          <rect x="190" y="172" width="260" height="8" rx="4" fill={textMuted} fillOpacity="0.45" />
-          <rect x="242" y="194" width="156" height="26" rx="8" fill={`url(#${gradId})`} />
-
-          {/* Bento Showcase Grid */}
-          <rect x="48" y="248" width="264" height="112" rx="12" fill={bg} stroke={border} />
-          <rect x="66" y="266" width="84" height="76" rx="8" fill={`url(#${gradId})`} fillOpacity="0.75" />
-          <rect x="164" y="272" width="120" height="12" rx="4" fill={textMain} fillOpacity="0.8" />
-          <rect x="164" y="292" width="100" height="8" rx="4" fill={textMuted} fillOpacity="0.45" />
-          <rect x="164" y="316" width="76" height="22" rx="6" fill={primaryColor} fillOpacity="0.2" />
-
-          <rect x="328" y="248" width="264" height="112" rx="12" fill={bg} stroke={border} />
-          <rect x="346" y="266" width="84" height="76" rx="8" fill={secondaryColor} fillOpacity="0.75" />
-          <rect x="444" y="272" width="120" height="12" rx="4" fill={textMain} fillOpacity="0.8" />
-          <rect x="444" y="292" width="100" height="8" rx="4" fill={textMuted} fillOpacity="0.45" />
-          <rect x="444" y="316" width="76" height="22" rx="6" fill={secondaryColor} fillOpacity="0.2" />
-        </g>
-      )}
-
-      {layoutMode === 2 && (
-        <g>
-          {/* Bento OS / Dashboard Architecture */}
-          <rect x="48" y="104" width="164" height="254" rx="12" fill={bg} stroke={border} />
-          <rect x="64" y="122" width="110" height="12" rx="4" fill={primaryColor} />
-          <rect x="64" y="150" width="132" height="28" rx="6" fill={primaryColor} fillOpacity="0.15" />
-          <rect x="64" y="186" width="132" height="24" rx="6" fill={surface} />
-          <rect x="64" y="218" width="132" height="24" rx="6" fill={surface} />
-          <rect x="64" y="296" width="132" height="46" rx="8" fill={`url(#${gradId})`} fillOpacity="0.85" />
-
-          <rect x="226" y="104" width="366" height="118" rx="12" fill={`url(#${gradId})`} fillOpacity="0.9" />
-          <text x="248" y="144" fill="#FFFFFF" fontFamily="Inter, sans-serif" fontSize="17" fontWeight="800">
-            {title.slice(0, 28)}
-          </text>
-          <rect x="248" y="158" width="220" height="8" rx="4" fill="#FFFFFF" fillOpacity="0.65" />
-          <rect x="248" y="182" width="104" height="24" rx="6" fill="#FFFFFF" />
-
-          <rect x="226" y="236" width="176" height="122" rx="12" fill={bg} stroke={border} />
-          <rect x="244" y="256" width="60" height="10" rx="4" fill={textMuted} fillOpacity="0.5" />
-          <rect x="244" y="276" width="100" height="20" rx="4" fill={textMain} fillOpacity="0.85" />
-          <path d="M244 334 L276 314 L308 324 L344 296 L380 304" stroke={primaryColor} strokeWidth="3" strokeLinecap="round" />
-
-          <rect x="416" y="236" width="176" height="122" rx="12" fill={bg} stroke={border} />
-          <rect x="434" y="256" width="60" height="10" rx="4" fill={textMuted} fillOpacity="0.5" />
-          <rect x="434" y="276" width="100" height="20" rx="4" fill={textMain} fillOpacity="0.85" />
-          <rect x="434" y="314" width="140" height="12" rx="6" fill={secondaryColor} fillOpacity="0.3" />
-          <rect x="434" y="314" width="98" height="12" rx="6" fill={secondaryColor} />
-        </g>
-      )}
-
-      {layoutMode === 3 && (
-        <g>
-          {/* Swiss Grid / Flagship Showcase */}
-          <rect x="48" y="104" width="544" height="88" rx="8" fill={bg} stroke={border} />
-          <text x="68" y="142" fill={textMain} fontFamily="Inter, sans-serif" fontSize="18" fontWeight="800">
-            {title.slice(0, 32)}
-          </text>
-          <rect x="68" y="156" width="240" height="8" rx="4" fill={textMuted} fillOpacity="0.5" />
-          <rect x="464" y="128" width="108" height="36" rx="8" fill={`url(#${gradId})`} />
-
-          {/* 4 Product / Service Columns */}
-          {[0, 1, 2, 3].map((idx) => {
-            const x = 48 + idx * 139;
-            return (
-              <g key={idx}>
-                <rect x={x} y="206" width="127" height="152" rx="10" fill={bg} stroke={border} />
-                <rect
-                  x={x + 10}
-                  y="216"
-                  width="107"
-                  height="72"
-                  rx="6"
-                  fill={idx % 2 === 0 ? primaryColor : secondaryColor}
-                  fillOpacity="0.22"
-                />
-                <circle
-                  cx={x + 63}
-                  cy="252"
-                  r="18"
-                  fill={idx % 2 === 0 ? primaryColor : secondaryColor}
-                  fillOpacity="0.55"
-                />
-                <rect x={x + 10} y="300" width="84" height="9" rx="4" fill={textMain} fillOpacity="0.8" />
-                <rect x={x + 10} y="316" width="56" height="7" rx="3.5" fill={textMuted} fillOpacity="0.5" />
-                <rect x={x + 10} y="332" width="107" height="16" rx="4" fill={primaryColor} fillOpacity="0.18" />
-              </g>
-            );
-          })}
-        </g>
-      )}
-
-      {/* Bottom Watermark-Free Authentic Badge */}
-      <rect x="44" y="346" width="118" height="22" rx="6" fill="#0F172A" fillOpacity="0.85" />
-      <text x="103" y="360" fill="#38BDF8" fontFamily="JetBrains Mono, monospace" fontSize="9.5" fontWeight="700" textAnchor="middle">
-        {code} • {category.toUpperCase().slice(0, 7)}
-      </text>
-    </svg>
+      {/* Bottom Mini Website Hero Preview Overlay */}
+      <div className="absolute inset-x-3 bottom-3 rounded-xl bg-slate-950/80 p-3 backdrop-blur-md border border-white/15">
+        <div className="flex items-center justify-between gap-2">
+          <div className="min-w-0 flex-1">
+            <div className="text-xs font-bold text-white truncate">{title}</div>
+            <div className="text-[10px] text-slate-300 truncate mt-0.5">
+              {code} • Giao diện chuẩn UI/UX & Responsive
+            </div>
+          </div>
+          <span
+            className="shrink-0 rounded-lg px-2.5 py-1 text-[10px] font-bold text-white whitespace-nowrap"
+            style={{
+              background: `linear-gradient(135deg, ${primaryColor}, ${secondaryColor})`,
+            }}
+          >
+            Demo Thực Tế
+          </span>
+        </div>
+      </div>
+    </div>
   );
 };

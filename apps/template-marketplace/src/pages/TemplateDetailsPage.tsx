@@ -136,10 +136,11 @@ npm run dev
               <TemplateThumbnailArtwork
                 code={template.id}
                 title={template.name}
-                category={template.categoryName}
+                category={template.category}
                 styleId={template.designStyle}
                 primaryColor={template.primaryColor}
                 secondaryColor={template.secondaryColor}
+                heroImage={template.heroImage}
                 isDark={template.isDark}
                 variant={variantNum}
                 className="h-full w-full"
@@ -147,13 +148,32 @@ npm run dev
               <div className="absolute inset-0 flex items-center justify-center bg-slate-950/65 opacity-0 group-hover:opacity-100 transition duration-200">
                 <Link
                   to={template.previewRoute}
-                  className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-indigo-600 to-cyan-500 px-6 py-3.5 text-sm font-bold text-white shadow-2xl"
+                  className="inline-flex items-center gap-2 rounded-2xl bg-gradient-to-r from-indigo-600 to-cyan-500 px-6 py-3.5 text-sm font-bold text-white shadow-2xl whitespace-nowrap"
                 >
                   <Eye className="h-5 w-5" />
                   Khởi chạy Live Preview ({template.id})
                 </Link>
               </div>
             </div>
+
+            {template.galleryImages && template.galleryImages.length > 0 && (
+              <div className="grid grid-cols-3 sm:grid-cols-6 gap-2.5 p-4 border-t border-slate-800 bg-slate-950/70">
+                {template.galleryImages.slice(0, 6).map((imgUrl, idx) => (
+                  <Link
+                    key={idx}
+                    to={template.previewRoute}
+                    className="overflow-hidden rounded-xl border border-slate-800 hover:border-indigo-500 transition aspect-[16/10]"
+                  >
+                    <img
+                      src={imgUrl}
+                      alt={`${template.name} demo ${idx + 1}`}
+                      loading="lazy"
+                      className="h-full w-full object-cover hover:scale-110 transition-transform duration-300"
+                    />
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* Sections Included */}

@@ -15,7 +15,16 @@
   "widgetType": "calculator",
   "actionLabel": "Tra cứu Vận đơn & Cước phí",
   "secondaryAction": "Mạng lưới Kho vận",
-  "description": "Giao diện website Wholesale Distribution Network thuộc lĩnh vực Vận tải & Chuỗi cung ứng (Logistics & Supply Chain), thiết kế theo phong cách Editorial kết hợp cấu trúc swiss-modular. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Wholesale Distribution Network chuyên nghiệp thuộc lĩnh vực Vận tải & Chuỗi cung ứng, thiết kế theo phong cách Editorial. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80",
+    "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=900&q=80"
+  ],
   "thumbnail": "/templates/logistics/5sd-log-028/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-log-028",
   "detailsRoute": "/templates/5sd-log-028",
@@ -35,20 +44,22 @@
     "standard"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Editorial (swiss-modular)",
-    "Module tương tác chuyên ngành Vận tải & Chuỗi cung ứng hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Editorial tối ưu trải nghiệm ngành Vận tải & Chuỗi cung ứng",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (CALCULATOR) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Editorial)",
-    "Hero Showcase (swiss-modular)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Logistics & Supply Chain Module (CALCULATOR)",
-    "Curated Wholesale Distribution Network Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (swiss-modular)",
+    "Featured Wholesale Distribution Network Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -67,8 +78,8 @@
   "isFeatured": false,
   "isTrending": false,
   "isNewRelease": false,
-  "rating": 5,
-  "downloadsCount": 1051,
+  "rating": 4.8,
+  "downloadsCount": 1111,
   "batchNumber": 17,
   "updatedAt": "2026-11-09"
 }

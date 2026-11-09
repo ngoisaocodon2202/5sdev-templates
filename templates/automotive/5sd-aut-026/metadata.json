@@ -15,7 +15,16 @@
   "widgetType": "calculator",
   "actionLabel": "Đăng ký Lái thử",
   "secondaryAction": "Cấu hình Xe & Dự toán",
-  "description": "Giao diện website Smart Parking & Telematics thuộc lĩnh vực Ô tô & Phương tiện (Automotive & Mobility), thiết kế theo phong cách Soft UI kết hợp cấu trúc bento-grid-os. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Smart Parking & Telematics chuyên nghiệp thuộc lĩnh vực Ô tô & Phương tiện, thiết kế theo phong cách Soft UI. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1583121274602-3e2820c69888?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80"
+  ],
   "thumbnail": "/templates/automotive/5sd-aut-026/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-aut-026",
   "detailsRoute": "/templates/5sd-aut-026",
@@ -35,20 +44,22 @@
     "enterprise"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Soft UI (bento-grid-os)",
-    "Module tương tác chuyên ngành Ô tô & Phương tiện hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Soft UI tối ưu trải nghiệm ngành Ô tô & Phương tiện",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (CALCULATOR) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Soft UI)",
-    "Hero Showcase (bento-grid-os)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Automotive & Mobility Module (CALCULATOR)",
-    "Curated Smart Parking & Telematics Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (bento-grid-os)",
+    "Featured Smart Parking & Telematics Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -67,8 +78,8 @@
   "isFeatured": false,
   "isTrending": false,
   "isNewRelease": false,
-  "rating": 4.9,
-  "downloadsCount": 394,
+  "rating": 5,
+  "downloadsCount": 454,
   "batchNumber": 16,
   "updatedAt": "2026-11-09"
 }

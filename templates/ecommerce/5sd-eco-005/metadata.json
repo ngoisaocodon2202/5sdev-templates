@@ -15,7 +15,16 @@
   "widgetType": "commerce",
   "actionLabel": "Thêm vào giỏ hàng",
   "secondaryAction": "Xem bộ sưu tập",
-  "description": "Giao diện website Artisan Furniture Store thuộc lĩnh vực Thương mại điện tử (E-commerce), thiết kế theo phong cách Premium E-commerce kết hợp cấu trúc immersive-cinematic. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Artisan Furniture Store chuyên nghiệp thuộc lĩnh vực Thương mại điện tử, thiết kế theo phong cách Premium E-commerce. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1000&q=80",
+    "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80"
+  ],
   "thumbnail": "/templates/ecommerce/5sd-eco-005/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-eco-005",
   "detailsRoute": "/templates/5sd-eco-005",
@@ -35,20 +44,22 @@
     "premium"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Premium E-commerce (immersive-cinematic)",
-    "Module tương tác chuyên ngành Thương mại điện tử hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Premium E-commerce tối ưu trải nghiệm ngành Thương mại điện tử",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (COMMERCE) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Premium E-commerce)",
-    "Hero Showcase (immersive-cinematic)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive E-commerce Module (COMMERCE)",
-    "Curated Artisan Furniture Store Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (immersive-cinematic)",
+    "Featured Artisan Furniture Store Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -67,8 +78,8 @@
   "isFeatured": false,
   "isTrending": false,
   "isNewRelease": true,
-  "rating": 4.7,
-  "downloadsCount": 328,
+  "rating": 4.9,
+  "downloadsCount": 388,
   "batchNumber": 3,
   "updatedAt": "2026-11-09"
 }

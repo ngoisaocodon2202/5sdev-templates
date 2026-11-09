@@ -24,6 +24,8 @@ export interface TemplateRegistryItem {
   designStyleName: string; // e.g. "Luxury"
   architecture: string;    // e.g. "commerce-flagship"
   description: string;
+  heroImage?: string;
+  galleryImages?: string[];
   thumbnail: string;       // e.g. "/templates/ecommerce/5sd-eco-001/assets/thumbnail.svg"
   previewRoute: string;    // e.g. "/preview/5sd-eco-001"
   detailsRoute: string;    // e.g. "/templates/5sd-eco-001"

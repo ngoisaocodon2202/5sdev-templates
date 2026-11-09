@@ -15,7 +15,16 @@
   "widgetType": "commerce",
   "actionLabel": "Đặt mua Nông sản Sạch",
   "secondaryAction": "Truy xuất Nguồn gốc",
-  "description": "Giao diện website Coconut Products Processing thuộc lĩnh vực Nông nghiệp & Thực phẩm Sạch (Agriculture & Agritech), thiết kế theo phong cách Material-Inspired kết hợp cấu trúc split-showcase. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Coconut Products Processing chuyên nghiệp thuộc lĩnh vực Nông nghiệp & Thực phẩm Sạch, thiết kế theo phong cách Material-Inspired. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1592982537447-7440770cbfc9?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1000&q=80"
+  ],
   "thumbnail": "/templates/agriculture/5sd-agr-032/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-agr-032",
   "detailsRoute": "/templates/5sd-agr-032",
@@ -35,20 +44,22 @@
     "standard"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Material-Inspired (split-showcase)",
-    "Module tương tác chuyên ngành Nông nghiệp & Thực phẩm Sạch hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Material-Inspired tối ưu trải nghiệm ngành Nông nghiệp & Thực phẩm Sạch",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (COMMERCE) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Material-Inspired)",
-    "Hero Showcase (split-showcase)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Agriculture & Agritech Module (COMMERCE)",
-    "Curated Coconut Products Processing Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (split-showcase)",
+    "Featured Coconut Products Processing Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -67,8 +78,8 @@
   "isFeatured": false,
   "isTrending": false,
   "isNewRelease": true,
-  "rating": 4.9,
-  "downloadsCount": 1146,
+  "rating": 4.8,
+  "downloadsCount": 1206,
   "batchNumber": 20,
   "updatedAt": "2026-11-09"
 }

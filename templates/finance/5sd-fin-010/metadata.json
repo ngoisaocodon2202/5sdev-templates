@@ -15,7 +15,16 @@
   "widgetType": "calculator",
   "actionLabel": "Mở Tài khoản Định danh",
   "secondaryAction": "Tính Lợi nhuận Đầu tư",
-  "description": "Giao diện website Tax & Accounting Automation SaaS thuộc lĩnh vực Tài chính & Ngân hàng số (Finance & Fintech), thiết kế theo phong cách Creative Agency kết hợp cấu trúc swiss-modular. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Tax & Accounting Automation SaaS chuyên nghiệp thuộc lĩnh vực Tài chính & Ngân hàng số, thiết kế theo phong cách Creative Agency. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1579532537598-459ecdaf39cc?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1000&q=80",
+    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=80"
+  ],
   "thumbnail": "/templates/finance/5sd-fin-010/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-fin-010",
   "detailsRoute": "/templates/5sd-fin-010",
@@ -35,20 +44,22 @@
     "free"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Creative Agency (swiss-modular)",
-    "Module tương tác chuyên ngành Tài chính & Ngân hàng số hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Creative Agency tối ưu trải nghiệm ngành Tài chính & Ngân hàng số",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (CALCULATOR) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Creative Agency)",
-    "Hero Showcase (swiss-modular)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Finance & Fintech Module (CALCULATOR)",
-    "Curated Tax & Accounting Automation SaaS Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (swiss-modular)",
+    "Featured Tax & Accounting Automation SaaS Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -68,7 +79,7 @@
   "isTrending": false,
   "isNewRelease": false,
   "rating": 4.8,
-  "downloadsCount": 1149,
+  "downloadsCount": 1209,
   "batchNumber": 6,
   "updatedAt": "2026-11-09"
 }

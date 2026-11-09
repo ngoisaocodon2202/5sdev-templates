@@ -15,7 +15,16 @@
   "widgetType": "booking",
   "actionLabel": "Đặt Tour Trọn gói",
   "secondaryAction": "Lịch trình Chi tiết",
-  "description": "Giao diện website Backpacker Hostels & Passes thuộc lĩnh vực Du lịch & Lữ hành (Travel & Tourism), thiết kế theo phong cách Swiss Design kết hợp cấu trúc bento-grid-os. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Backpacker Hostels & Passes chuyên nghiệp thuộc lĩnh vực Du lịch & Lữ hành, thiết kế theo phong cách Swiss Design. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80"
+  ],
   "thumbnail": "/templates/travel/5sd-tra-014/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-tra-014",
   "detailsRoute": "/templates/5sd-tra-014",
@@ -35,20 +44,22 @@
     "enterprise"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Swiss Design (bento-grid-os)",
-    "Module tương tác chuyên ngành Du lịch & Lữ hành hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Swiss Design tối ưu trải nghiệm ngành Du lịch & Lữ hành",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (BOOKING) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Swiss Design)",
-    "Hero Showcase (bento-grid-os)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Travel & Tourism Module (BOOKING)",
-    "Curated Backpacker Hostels & Passes Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (bento-grid-os)",
+    "Featured Backpacker Hostels & Passes Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -67,8 +78,8 @@
   "isFeatured": false,
   "isTrending": false,
   "isNewRelease": false,
-  "rating": 4.7,
-  "downloadsCount": 1032,
+  "rating": 5,
+  "downloadsCount": 1092,
   "batchNumber": 8,
   "updatedAt": "2026-11-09"
 }

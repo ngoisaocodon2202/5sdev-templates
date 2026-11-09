@@ -15,7 +15,16 @@
   "widgetType": "configurator",
   "actionLabel": "Bắt đầu Ngay Hôm nay",
   "secondaryAction": "Xem Demo 60 Giây",
-  "description": "Giao diện website SaaS Product Launch Waitlist thuộc lĩnh vực Landing Page Chuyển đổi Cao (High-Converting Landing Pages), thiết kế theo phong cách 3D Interactive kết hợp cấu trúc flagship-conversion. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website SaaS Product Launch Waitlist chuyên nghiệp thuộc lĩnh vực Landing Page Chuyển đổi Cao, thiết kế theo phong cách 3D Interactive. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1000&q=80",
+    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=900&q=80"
+  ],
   "thumbnail": "/templates/landing-page/5sd-lan-001/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-lan-001",
   "detailsRoute": "/templates/5sd-lan-001",
@@ -35,20 +44,22 @@
     "enterprise"
   ],
   "features": [
-    "Thiết kế độc bản phong cách 3D Interactive (flagship-conversion)",
-    "Module tương tác chuyên ngành Landing Page Chuyển đổi Cao hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế 3D Interactive tối ưu trải nghiệm ngành Landing Page Chuyển đổi Cao",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (CONFIGURATOR) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (3D Interactive)",
-    "Hero Showcase (flagship-conversion)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive High-Converting Landing Pages Module (CONFIGURATOR)",
-    "Curated SaaS Product Launch Waitlist Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (flagship-conversion)",
+    "Featured SaaS Product Launch Waitlist Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -67,8 +78,8 @@
   "isFeatured": true,
   "isTrending": false,
   "isNewRelease": false,
-  "rating": 4.8,
-  "downloadsCount": 317,
+  "rating": 5,
+  "downloadsCount": 377,
   "batchNumber": 1,
   "updatedAt": "2026-11-09"
 }

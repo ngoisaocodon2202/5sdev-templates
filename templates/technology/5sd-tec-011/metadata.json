@@ -15,7 +15,16 @@
   "widgetType": "configurator",
   "actionLabel": "Dùng thử Miễn phí 14 ngày",
   "secondaryAction": "Xem Tài liệu API",
-  "description": "Giao diện website API Gateway & Microservices thuộc lĩnh vực Công nghệ & Phần mềm AI (Technology & AI SaaS), thiết kế theo phong cách Luxury kết hợp cấu trúc swiss-modular. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website API Gateway & Microservices chuyên nghiệp thuộc lĩnh vực Công nghệ & Phần mềm AI, thiết kế theo phong cách Luxury. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=80",
+    "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80"
+  ],
   "thumbnail": "/templates/technology/5sd-tec-011/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-tec-011",
   "detailsRoute": "/templates/5sd-tec-011",
@@ -35,20 +44,22 @@
     "free"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Luxury (swiss-modular)",
-    "Module tương tác chuyên ngành Công nghệ & Phần mềm AI hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Luxury tối ưu trải nghiệm ngành Công nghệ & Phần mềm AI",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (CONFIGURATOR) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Luxury)",
-    "Hero Showcase (swiss-modular)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Technology & AI SaaS Module (CONFIGURATOR)",
-    "Curated API Gateway & Microservices Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (swiss-modular)",
+    "Featured API Gateway & Microservices Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -68,7 +79,7 @@
   "isTrending": false,
   "isNewRelease": false,
   "rating": 4.8,
-  "downloadsCount": 1133,
+  "downloadsCount": 1193,
   "batchNumber": 7,
   "updatedAt": "2026-11-09"
 }

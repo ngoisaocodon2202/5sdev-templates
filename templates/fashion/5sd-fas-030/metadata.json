@@ -15,7 +15,16 @@
   "widgetType": "commerce",
   "actionLabel": "Mua ngay Bộ sưu tập",
   "secondaryAction": "Xem Lookbook",
-  "description": "Giao diện website Winter Outerwear & Trench thuộc lĩnh vực Thời trang & Phụ kiện (Fashion & Apparel), thiết kế theo phong cách Futuristic kết hợp cấu trúc bento-grid-os. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Winter Outerwear & Trench chuyên nghiệp thuộc lĩnh vực Thời trang & Phụ kiện, thiết kế theo phong cách Futuristic. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1000&q=80",
+    "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=900&q=80"
+  ],
   "thumbnail": "/templates/fashion/5sd-fas-030/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-fas-030",
   "detailsRoute": "/templates/5sd-fas-030",
@@ -35,20 +44,22 @@
     "enterprise"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Futuristic (bento-grid-os)",
-    "Module tương tác chuyên ngành Thời trang & Phụ kiện hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Futuristic tối ưu trải nghiệm ngành Thời trang & Phụ kiện",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (COMMERCE) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Futuristic)",
-    "Hero Showcase (bento-grid-os)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive Fashion & Apparel Module (COMMERCE)",
-    "Curated Winter Outerwear & Trench Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (bento-grid-os)",
+    "Featured Winter Outerwear & Trench Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -67,8 +78,8 @@
   "isFeatured": false,
   "isTrending": false,
   "isNewRelease": false,
-  "rating": 4.7,
-  "downloadsCount": 1412,
+  "rating": 5,
+  "downloadsCount": 1472,
   "batchNumber": 18,
   "updatedAt": "2026-11-09"
 }

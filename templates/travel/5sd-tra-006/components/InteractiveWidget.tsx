@@ -5,36 +5,42 @@ import {
   Minus,
   Sparkles,
   ArrowRight,
+  Star,
+  ShieldCheck,
 } from '@shared/icons/template-icons';
 
 const DOMAIN_ITEMS = [
   {
-    "title": "Hành Trình Du Thuyền 5 Sao Vịnh Lan Hạ 3N2Đ Trọn Gói (Orchid)",
+    "title": "Hành Trình Du Thuyền 5 Sao Vịnh Lan Hạ 3N2Đ Trọn Gói",
     "tag": "Luxury Cruise",
     "price": 6850000,
     "meta": "Phòng Suite ban công riêng • Xe Limousine đưa đón",
-    "id": "5SD-TRA-006-ITEM-1"
+    "id": "5SD-TRA-006-01",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1000&q=80"
   },
   {
-    "title": "Tour Khám Phá Mùa Thu Lá Đỏ Nhật Bản Cung Đường Vàng (Orchid)",
+    "title": "Tour Khám Phá Mùa Thu Lá Đỏ Nhật Bản Cung Đường Vàng",
     "tag": "Bao đậu Visa",
     "price": 29900000,
     "meta": "6N5Đ • Bay thẳng Hàng không 5 sao • Tắm Onsen",
-    "id": "5SD-TRA-006-ITEM-2"
+    "id": "5SD-TRA-006-02",
+    "image": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80"
   },
   {
-    "title": "Trải Nghiệm Glamping Săn Mây & Trekking Rừng Nguyên Sinh (Orchid)",
+    "title": "Trải Nghiệm Glamping Săn Mây & Trekking Rừng Nguyên Sinh",
     "tag": "Eco Adventure",
     "price": 3250000,
     "meta": "2N1Đ • Lều tiêu chuẩn khách sạn • BBQ tối",
-    "id": "5SD-TRA-006-ITEM-3"
+    "id": "5SD-TRA-006-03",
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=900&q=80"
   },
   {
-    "title": "Tour Châu Âu Pháp - Thụy Sĩ - Ý Thiết Kế Riêng Gia Đình (Orchid)",
+    "title": "Tour Châu Âu Pháp - Thụy Sĩ - Ý Thiết Kế Riêng Gia Đình",
     "tag": "Private Tour",
     "price": 64500000,
     "meta": "9N8Đ • Xe riêng suốt tuyến • Khách sạn 4-5 sao",
-    "id": "5SD-TRA-006-ITEM-4"
+    "id": "5SD-TRA-006-04",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80"
   }
 ];
 
@@ -44,8 +50,8 @@ export const InteractiveWidget: React.FC = () => {
   const [quantity, setQuantity] = useState(1);
   const [guestCount, setGuestCount] = useState(2);
   const [bookingDate, setBookingDate] = useState('2026-11-15');
-  const [bookingTime, setBookingTime] = useState('19:00');
-  const [sliderValue, setSliderValue] = useState(12);
+  const [bookingTime, setBookingTime] = useState('09:00');
+  const [sliderValue, setSliderValue] = useState(10);
   const [billingAnnual, setBillingAnnual] = useState(true);
   const [actionConfirmed, setActionConfirmed] = useState(false);
 
@@ -68,28 +74,29 @@ export const InteractiveWidget: React.FC = () => {
       : activeItem.price;
 
   return (
-    <section id="interactive-section" className="py-16 sm:py-20 border-b border-current/10">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
-          <div>
+    <section id="interactive-section" className="py-14 sm:py-20 border-b border-current/10">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-12">
+        {/* Section Heading */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+          <div className="max-w-2xl">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold rounded-2xl mb-2">
-              <Sparkles className="h-3.5 w-3.5" />
-              TRẢI NGHIỆM TƯƠNG TÁC THỰC TẾ • TRAVEL & TOURISM
+              <Sparkles className="h-3.5 w-3.5 shrink-0" />
+              <span>SẢN PHẨM & DỊCH VỤ TRỌNG ĐIỂM • 5SD-TRA-006</span>
             </span>
-            <h2 className="text-2xl sm:text-4xl font-display font-bold tracking-tight">
-              Danh Mục & Công Cụ Tương Tác Travel Storytelling & Visual Blog
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-bold tracking-tight">
+              Khám Phá Các Gói Travel Storytelling & Visual Blog Nổi Bật
             </h2>
-            <p className="mt-1.5 text-sm text-slate-600">
-              Lựa chọn gói sản phẩm/dịch vụ bên dưới để tính toán chi phí và trải nghiệm quy trình đặt hàng trực tiếp.
+            <p className="mt-2 text-sm text-slate-600">
+              Mỗi gói giải pháp đều đi kèm hình ảnh thực tế, thông số minh bạch và công cụ tính toán chi phí trực tiếp.
             </p>
           </div>
 
           {widgetType === 'configurator' && (
-            <div className="inline-flex items-center gap-2 p-1.5 bg-white border border-slate-200/90 shadow-sm rounded-2xl">
+            <div className="inline-flex items-center gap-2 p-1.5 bg-white border border-slate-200/90 shadow-sm rounded-2xl self-start">
               <button
                 type="button"
                 onClick={() => setBillingAnnual(false)}
-                className={`px-3.5 py-1.5 text-xs font-bold rounded-lg transition ${
+                className={`px-3.5 py-1.5 text-xs font-bold rounded-lg transition whitespace-nowrap ${
                   !billingAnnual ? 'bg-indigo-600 text-white' : 'opacity-70'
                 }`}
               >
@@ -98,133 +105,166 @@ export const InteractiveWidget: React.FC = () => {
               <button
                 type="button"
                 onClick={() => setBillingAnnual(true)}
-                className={`px-3.5 py-1.5 text-xs font-bold rounded-lg transition ${
+                className={`px-3.5 py-1.5 text-xs font-bold rounded-lg transition whitespace-nowrap ${
                   billingAnnual ? 'bg-indigo-600 text-white' : 'opacity-70'
                 }`}
               >
-                Theo Năm (-20%)
+                Theo Năm (Tiết kiệm 20%)
               </button>
             </div>
           )}
         </div>
 
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
-          <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {DOMAIN_ITEMS.map((item, idx) => {
-              const isSelected = idx === selectedIndex;
-              return (
-                <div
-                  key={item.id}
-                  onClick={() => {
-                    setSelectedIndex(idx);
-                    setActionConfirmed(false);
-                  }}
-                  className={`cursor-pointer p-5 transition-all ${
-                    isSelected ? 'ring-2 ring-offset-2' : 'opacity-90 hover:opacity-100'
-                  } bg-white border border-slate-200/90 shadow-sm rounded-2xl`}
-                  style={{
-                    borderColor: isSelected ? '#334155' : undefined,
-                  }}
-                >
-                  <div className="flex items-center justify-between gap-2 mb-3">
+        {/* 1. Spacious 2-Column Showcase Cards with Real Demo Images */}
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+          {DOMAIN_ITEMS.map((item, idx) => {
+            const isSelected = idx === selectedIndex;
+            return (
+              <div
+                key={item.id}
+                onClick={() => {
+                  setSelectedIndex(idx);
+                  setActionConfirmed(false);
+                }}
+                className={`group cursor-pointer overflow-hidden transition-all duration-300 ${
+                  isSelected ? 'ring-2 ring-offset-2' : 'hover:-translate-y-0.5'
+                } bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col`}
+                style={{
+                  borderColor: isSelected ? '#334155' : undefined,
+                }}
+              >
+                {/* Card Demo Image */}
+                <div className="relative h-52 sm:h-60 w-full overflow-hidden bg-slate-900">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    loading="lazy"
+                    className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/20" />
+                  <div className="absolute left-3.5 top-3.5 flex items-center gap-2">
                     <span
-                      className="px-2.5 py-0.5 text-[11px] font-bold rounded-md text-white"
+                      className="px-3 py-1 text-xs font-bold rounded-lg text-white shadow whitespace-nowrap"
                       style={{ background: idx % 2 === 0 ? '#334155' : '#0EA5E9' }}
                     >
                       {item.tag}
                     </span>
-                    <span className="font-mono text-xs opacity-60">{item.id}</span>
                   </div>
-                  <h3 className="text-base font-bold mb-1.5">{item.title}</h3>
-                  <p className="text-xs text-slate-600 mb-4">{item.meta}</p>
-                  <div className="flex items-center justify-between pt-3 border-t border-current/10">
-                    <span className="text-lg font-extrabold" style={{ color: '#334155' }}>
-                      {formatVnd(item.price)}
+                  <div className="absolute right-3.5 top-3.5 rounded-lg bg-slate-950/80 px-2.5 py-1 font-mono text-[11px] font-bold text-white backdrop-blur-md">
+                    {item.id}
+                  </div>
+                  <div className="absolute bottom-3 left-3.5 right-3.5 flex items-center justify-between text-white">
+                    <span className="text-xs font-semibold bg-black/50 px-2.5 py-1 rounded-md backdrop-blur-sm">
+                      ★ 4.9 Đánh giá thực tế
                     </span>
-                    <span className="text-xs font-semibold underline">
-                      {isSelected ? 'Đang chọn ✓' : 'Chọn mục này'}
+                    <span className="text-lg sm:text-xl font-extrabold bg-slate-950/85 px-3 py-1 rounded-lg whitespace-nowrap">
+                      {formatVnd(item.price)}
                     </span>
                   </div>
                 </div>
-              );
-            })}
-          </div>
 
-          <div className="lg:col-span-5">
-            <div className="p-6 sm:p-7 bg-white border border-slate-200/90 shadow-sm rounded-2xl space-y-5">
-              <div className="border-b border-current/10 pb-4">
-                <span className="text-xs font-mono uppercase opacity-70">
-                  BẢNG ĐIỀU KHIỂN TRỰC TUYẾN • 5SD-TRA-006
-                </span>
-                <h3 className="text-xl font-bold mt-1">{activeItem.title}</h3>
-                <p className="text-xs text-slate-600 mt-1">{activeItem.meta}</p>
+                {/* Card Content */}
+                <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between space-y-4">
+                  <div>
+                    <h3 className="text-base sm:text-lg font-bold leading-snug">
+                      {item.title}
+                    </h3>
+                    <p className="mt-1.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+                      {item.meta}
+                    </p>
+                  </div>
+
+                  <div className="flex items-center justify-between gap-3 pt-3 border-t border-current/10">
+                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold">
+                      <CheckCircle2 className="h-4 w-4 shrink-0" style={{ color: '#334155' }} />
+                      <span>Có sẵn • Hỗ trợ tư vấn ngay</span>
+                    </span>
+                    <button
+                      type="button"
+                      className="px-4 py-2 text-xs font-bold rounded-xl text-white whitespace-nowrap transition"
+                      style={{
+                        background: isSelected ? '#334155' : '#334155',
+                      }}
+                    >
+                      {isSelected ? 'Đang chọn ✓' : 'Chọn gói này'}
+                    </button>
+                  </div>
+                </div>
               </div>
+            );
+          })}
+        </div>
+
+        {/* 2. Interactive Online Calculator / Booking / Order Studio */}
+        <div className="p-6 sm:p-8 bg-white border border-slate-200/90 shadow-sm rounded-2xl">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-center">
+            <div className="lg:col-span-7 space-y-4">
+              <div className="inline-flex items-center gap-2 text-xs font-mono uppercase tracking-wider opacity-75">
+                <ShieldCheck className="h-4 w-4" style={{ color: '#334155' }} />
+                <span>CÔNG CỤ TÍNH PHÍ & ĐẶT LỊCH TRỰC TUYẾN</span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-bold">
+                Đang cấu hình: {activeItem.title}
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-600">
+                {activeItem.meta} — Tùy chỉnh các thông số bên dưới để nhận báo giá chính xác ngay lập tức.
+              </p>
 
               {widgetType === 'commerce' && (
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between">
-                    <span className="text-xs font-semibold">Số lượng đặt mua:</span>
-                    <div className="inline-flex items-center gap-3 border border-current/20 rounded-xl px-3 py-1.5">
-                      <button
-                        type="button"
-                        onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                        className="p-1 hover:opacity-70"
-                      >
-                        <Minus className="h-3.5 w-3.5" />
-                      </button>
-                      <span className="font-mono text-sm font-bold w-6 text-center">{quantity}</span>
-                      <button
-                        type="button"
-                        onClick={() => setQuantity(quantity + 1)}
-                        className="p-1 hover:opacity-70"
-                      >
-                        <Plus className="h-3.5 w-3.5" />
-                      </button>
-                    </div>
+                <div className="flex flex-wrap items-center gap-4 pt-2">
+                  <span className="text-sm font-semibold">Số lượng đặt mua:</span>
+                  <div className="inline-flex items-center gap-4 border border-current/20 rounded-xl px-4 py-2">
+                    <button
+                      type="button"
+                      onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                      className="p-1 hover:opacity-70"
+                    >
+                      <Minus className="h-4 w-4" />
+                    </button>
+                    <span className="font-mono text-base font-bold w-8 text-center">{quantity}</span>
+                    <button
+                      type="button"
+                      onClick={() => setQuantity(quantity + 1)}
+                      className="p-1 hover:opacity-70"
+                    >
+                      <Plus className="h-4 w-4" />
+                    </button>
                   </div>
                 </div>
               )}
 
               {widgetType === 'booking' && (
-                <div className="space-y-3.5 text-xs">
-                  <div className="grid grid-cols-2 gap-3">
-                    <div>
-                      <label className="block font-semibold mb-1">Ngày đặt lịch:</label>
-                      <input
-                        type="date"
-                        value={bookingDate}
-                        onChange={(e) => setBookingDate(e.target.value)}
-                        className="w-full rounded-lg border border-current/20 bg-transparent px-3 py-2"
-                      />
-                    </div>
-                    <div>
-                      <label className="block font-semibold mb-1">Khung giờ:</label>
-                      <select
-                        value={bookingTime}
-                        onChange={(e) => setBookingTime(e.target.value)}
-                        className="w-full rounded-lg border border-current/20 bg-transparent px-3 py-2"
-                      >
-                        <option value="09:00" className="text-black">09:00 Sáng</option>
-                        <option value="14:00" className="text-black">14:00 Chiều</option>
-                        <option value="19:00" className="text-black">19:00 Tối</option>
-                      </select>
-                    </div>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2 text-xs">
+                  <div>
+                    <label className="block font-semibold mb-1.5">Ngày hẹn:</label>
+                    <input
+                      type="date"
+                      value={bookingDate}
+                      onChange={(e) => setBookingDate(e.target.value)}
+                      className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5"
+                    />
                   </div>
-                  <div className="flex items-center justify-between pt-1">
-                    <span className="font-semibold">Số lượng khách / suất:</span>
-                    <div className="inline-flex items-center gap-3 border border-current/20 rounded-xl px-3 py-1">
-                      <button
-                        type="button"
-                        onClick={() => setGuestCount(Math.max(1, guestCount - 1))}
-                      >
-                        <Minus className="h-3.5 w-3.5" />
+                  <div>
+                    <label className="block font-semibold mb-1.5">Khung giờ:</label>
+                    <select
+                      value={bookingTime}
+                      onChange={(e) => setBookingTime(e.target.value)}
+                      className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5"
+                    >
+                      <option value="09:00" className="text-black">09:00 Sáng</option>
+                      <option value="14:00" className="text-black">14:00 Chiều</option>
+                      <option value="19:00" className="text-black">19:00 Tối</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block font-semibold mb-1.5">Số lượng khách / suất:</label>
+                    <div className="flex items-center justify-between border border-current/20 rounded-xl px-3.5 py-2">
+                      <button type="button" onClick={() => setGuestCount(Math.max(1, guestCount - 1))}>
+                        <Minus className="h-4 w-4" />
                       </button>
-                      <span className="font-mono font-bold">{guestCount}</span>
-                      <button
-                        type="button"
-                        onClick={() => setGuestCount(guestCount + 1)}
-                      >
-                        <Plus className="h-3.5 w-3.5" />
+                      <span className="font-mono text-sm font-bold">{guestCount}</span>
+                      <button type="button" onClick={() => setGuestCount(guestCount + 1)}>
+                        <Plus className="h-4 w-4" />
                       </button>
                     </div>
                   </div>
@@ -232,11 +272,11 @@ export const InteractiveWidget: React.FC = () => {
               )}
 
               {widgetType === 'calculator' && (
-                <div className="space-y-3 text-xs">
+                <div className="space-y-2 pt-2 text-xs sm:text-sm">
                   <div className="flex justify-between font-semibold">
-                    <span>Quy mô / Thời hạn tùy chỉnh:</span>
+                    <span>Quy mô / Diện tích / Thời hạn dự kiến:</span>
                     <span className="font-mono font-bold" style={{ color: '#334155' }}>
-                      {sliderValue} đơn vị
+                      {sliderValue * 10} đơn vị tiêu chuẩn
                     </span>
                   </div>
                   <input
@@ -247,45 +287,42 @@ export const InteractiveWidget: React.FC = () => {
                     onChange={(e) => setSliderValue(Number(e.target.value))}
                     className="w-full accent-indigo-600 cursor-pointer"
                   />
-                  <p className="text-[11px] text-slate-600">
-                    Kéo thanh trượt để ước tính ngân sách theo quy mô thực tế của bạn.
-                  </p>
                 </div>
               )}
+            </div>
 
-              <div className="rounded-xl border border-current/15 p-4 flex items-center justify-between">
-                <div>
-                  <span className="text-xs text-slate-600 block">Tổng chi phí tạm tính:</span>
-                  <span className="text-2xl font-extrabold" style={{ color: '#334155' }}>
-                    {formatVnd(estimatedTotal)}
-                  </span>
-                </div>
-                <span className="text-[11px] font-mono px-2.5 py-1 rounded bg-emerald-500/15 text-emerald-500 font-bold">
-                  Sẵn sàng
+            {/* Right 5 Cols: Total Summary & Instant Action */}
+            <div className="lg:col-span-5 rounded-2xl border border-current/15 p-5 sm:p-6 space-y-4">
+              <div className="flex items-baseline justify-between gap-2 border-b border-current/10 pb-4">
+                <span className="text-xs sm:text-sm text-slate-600">Tổng chi phí dự kiến:</span>
+                <span
+                  className="text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
+                  style={{ color: '#334155' }}
+                >
+                  {formatVnd(estimatedTotal)}
                 </span>
               </div>
 
               {actionConfirmed ? (
                 <div className="rounded-xl border border-emerald-500/40 bg-emerald-500/10 p-4 text-xs space-y-1">
                   <div className="flex items-center gap-2 font-bold text-emerald-500">
-                    <CheckCircle2 className="h-4 w-4" />
-                    <span>Đã xác nhận yêu cầu thành công!</span>
+                    <CheckCircle2 className="h-4 w-4 shrink-0" />
+                    <span>Đã ghi nhận yêu cầu đặt dịch vụ!</span>
                   </div>
                   <p className="text-slate-600">
-                    Mã tham chiếu: <strong>{activeItem.id}</strong> • Tổng: <strong>{formatVnd(estimatedTotal)}</strong>.
+                    Mã phiếu: <strong>{activeItem.id}</strong> • Tổng cộng:{' '}
+                    <strong>{formatVnd(estimatedTotal)}</strong>
                   </p>
                 </div>
               ) : (
                 <button
                   type="button"
                   onClick={() => setActionConfirmed(true)}
-                  className="w-full flex items-center justify-center gap-2 py-3.5 px-6 text-sm font-bold text-white shadow-md hover:opacity-95 transition rounded-2xl"
-                  style={{
-                    background: 'linear-gradient(135deg, #334155, #0EA5E9)',
-                  }}
+                  className="w-full flex items-center justify-center gap-2 py-3.5 px-6 text-sm font-bold text-white shadow-md hover:opacity-95 transition rounded-2xl whitespace-nowrap"
+                  style={{ background: 'linear-gradient(135deg, #334155, #0EA5E9)' }}
                 >
-                  <span>Đặt Tour Trọn gói Ngay</span>
-                  <ArrowRight className="h-4 w-4" />
+                  <span>Xác Nhận Đặt Tour Trọn gói</span>
+                  <ArrowRight className="h-4 w-4 shrink-0" />
                 </button>
               )}
             </div>

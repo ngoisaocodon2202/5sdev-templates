@@ -15,7 +15,16 @@
   "widgetType": "explorer",
   "actionLabel": "Đọc Tin tiêu điểm",
   "secondaryAction": "Đăng ký Bản tin Pro",
-  "description": "Giao diện website Photojournalism Visual Stories thuộc lĩnh vực Báo chí & Tạp chí Điện tử (News & Digital Media), thiết kế theo phong cách Premium E-commerce kết hợp cấu trúc split-showcase. Tích hợp sẵn công cụ tương tác chuyên ngành, chuẩn SEO và tương thích hoàn hảo trên Desktop, Tablet, Mobile.",
+  "description": "Giải pháp giao diện website Photojournalism Visual Stories chuyên nghiệp thuộc lĩnh vực Báo chí & Tạp chí Điện tử, thiết kế theo phong cách Premium E-commerce. Tích hợp đầy đủ hình ảnh demo thực tế, danh mục sản phẩm/dịch vụ, hồ sơ dự án, bảng giá và công cụ tương tác trực tuyến trên mọi thiết bị.",
+  "heroImage": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&w=900&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1432821596592-e2c18b78144f?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1000&q=80",
+    "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?auto=format&fit=crop&w=900&q=80",
+    "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=900&q=80"
+  ],
   "thumbnail": "/templates/news/5sd-new-023/assets/thumbnail.svg",
   "previewRoute": "/preview/5sd-new-023",
   "detailsRoute": "/templates/5sd-new-023",
@@ -35,20 +44,22 @@
     "standard"
   ],
   "features": [
-    "Thiết kế độc bản phong cách Premium E-commerce (split-showcase)",
-    "Module tương tác chuyên ngành Báo chí & Tạp chí Điện tử hoạt động thực tế",
-    "Header thông minh kèm Mobile Drawer Navigation mượt mà",
-    "Tối ưu tốc độ tải với Code-Splitting & Vector SVG sắc nét",
-    "Chuẩn cấu trúc Semantic HTML5, Meta SEO & Responsive 3 thiết bị"
+    "Thiết kế Premium E-commerce tối ưu trải nghiệm ngành Báo chí & Tạp chí Điện tử",
+    "Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án",
+    "Công cụ tương tác chuyên ngành (EXPLORER) tính phí trực tiếp",
+    "Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile",
+    "Tích hợp Bảng giá 3 gói, Hồ sơ năng lực, Đánh giá khách hàng & FAQ"
   ],
   "sections": [
-    "Header & Navigation (Premium E-commerce)",
-    "Hero Showcase (split-showcase)",
-    "KPI Telemetry & Industry Trust Strip",
-    "Interactive News & Digital Media Module (EXPLORER)",
-    "Curated Photojournalism Visual Stories Highlights & Workflow",
-    "Verified Client Reviews & FAQ Accordion",
-    "Conversion CTA, Lead Form & Multi-Column Footer"
+    "Top Utility Bar & Sticky Responsive Header",
+    "Hero Showcase & 4-Column KPI Metrics (split-showcase)",
+    "Featured Photojournalism Visual Stories Offerings with Demo Photography",
+    "Interactive Online Calculator / Booking / Order Studio",
+    "About Story, Visual Collage & Quality Benchmarks",
+    "Filterable 6-Item Project / Lookbook Gallery",
+    "3-Tier Transparent Pricing & Service Packages",
+    "Verified Customer Testimonials with Avatars & FAQ",
+    "Lead Capture Form & 4-Column Enterprise Footer"
   ],
   "version": "1.0.0",
   "status": "TESTED",
@@ -67,8 +78,8 @@
   "isFeatured": false,
   "isTrending": false,
   "isNewRelease": false,
-  "rating": 4.7,
-  "downloadsCount": 972,
+  "rating": 4.8,
+  "downloadsCount": 1032,
   "batchNumber": 14,
   "updatedAt": "2026-11-09"
 }

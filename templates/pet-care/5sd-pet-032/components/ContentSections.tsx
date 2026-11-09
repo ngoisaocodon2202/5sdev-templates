@@ -4,106 +4,396 @@ import {
   Star,
   ChevronDown,
   Send,
+  ShieldCheck,
+  Award,
+  Sparkles,
+  ArrowRight,
 } from '@shared/icons/template-icons';
 
+const GALLERY_PROJECTS = [
+  {
+    title: 'Dự Án Tiêu Điểm #01 — Nexora Flagship',
+    category: 'Tiêu biểu',
+    scale: 'Quy mô Chuẩn Quốc Tế • Hoàn thành 2026',
+    image: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    title: 'Giải Pháp Chuyên Sâu #02 — Grooming Academy & Certification',
+    category: 'Mới hoàn thành',
+    scale: 'Tối ưu 40% Hiệu suất • Đạt chuẩn ISO',
+    image: 'https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    title: 'Không Gian & Trải Nghiệm #03 — Thú cưng & Thú y',
+    category: 'Tiêu biểu',
+    scale: 'Khách hàng Doanh nghiệp VIP • 5 Sao',
+    image: 'https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    title: 'Tổ Hợp Hiện Đại #04 — Dark Luxury Edition',
+    category: 'Mới hoàn thành',
+    scale: 'Vật liệu & Công nghệ Thế hệ mới',
+    image: 'https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    title: 'Hạng Mục Cao Cấp #05 — Nexora Signature',
+    category: 'Tiêu biểu',
+    scale: 'Bảo hành dài hạn • Bàn giao vượt tiến độ',
+    image: 'https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=900&q=80',
+  },
+  {
+    title: 'Bộ Sưu Tập Thực Tế #06 — Chuẩn Mực Mới',
+    category: 'Mới hoàn thành',
+    scale: 'Được bình chọn xuất sắc nhất năm',
+    image: 'https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&w=1000&q=80',
+  },
+];
+
+const PRICING_TIERS = [
+  {
+    name: 'Gói Tiêu Chuẩn (Standard)',
+    desc: 'Phù hợp cho nhu cầu khởi đầu nhanh chóng với ngân sách tối ưu.',
+    price: '4.990.000 ₫',
+    popular: false,
+    perks: [
+      'Tư vấn & Khảo sát nhu cầu ban đầu miễn phí',
+      'Triển khai đầy đủ các hạng mục cốt lõi',
+      'Bảo hành tiêu chuẩn 12 tháng chính hãng',
+      'Hỗ trợ kỹ thuật trong giờ hành chính',
+    ],
+  },
+  {
+    name: 'Gói Chuyên Nghiệp (Pro)',
+    desc: 'Giải pháp toàn diện được 80% khách hàng doanh nghiệp & cá nhân lựa chọn.',
+    price: '9.980.000 ₫',
+    popular: true,
+    perks: [
+      'Toàn bộ quyền lợi Gói Tiêu Chuẩn nâng cao',
+      'Chuyên gia trưởng trực tiếp phụ trách hồ sơ',
+      'Vật liệu & Công nghệ phân khúc cao cấp',
+      'Bảo hành mở rộng 36 tháng & Hỗ trợ 24/7',
+    ],
+  },
+  {
+    name: 'Gói Thượng Đỉnh (Enterprise VIP)',
+    desc: 'Thiết kế độc bản theo yêu cầu riêng biệt với cam kết SLA cao nhất.',
+    price: '19.960.000 ₫',
+    popular: false,
+    perks: [
+      'Thiết kế & Triển khai May đo Độc bản 100%',
+      'Đội ngũ Chuyên gia Đặc nhiệm phục vụ riêng',
+      'Ưu tiên tiến độ khẩn cấp & Bảo mật NDA',
+      'Bảo hành trọn đời & Bảo trì định kỳ miễn phí',
+    ],
+  },
+];
+
+const TESTIMONIALS = [
+  {
+    name: 'Nguyễn Minh Quân',
+    role: 'Tổng Giám Đốc — Tập đoàn Đầu tư Á Châu',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=240&q=80',
+    quote: 'Trải nghiệm hợp tác cùng Nexora thực sự vượt mong đợi. Hình ảnh thực tế sắc nét, quy trình làm việc rõ ràng và bàn giao đúng từng cam kết trong hợp đồng.',
+  },
+  {
+    name: 'Trần Thanh Hà',
+    role: 'Giám Đốc Vận Hành — Emerald Group',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=240&q=80',
+    quote: 'Đội ngũ chuyên gia của Nexora tư vấn rất tận tâm. Chất lượng hoàn thiện trong lĩnh vực Thú cưng & Thú y đạt chuẩn quốc tế khiến chúng tôi hoàn toàn yên tâm.',
+  },
+  {
+    name: 'Lê Hoàng Nam',
+    role: 'Kiến Trúc Sư & Nhà Sáng Lập',
+    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=240&q=80',
+    quote: 'Chi phí minh bạch, tiến độ chuẩn xác và dịch vụ hậu mãi chu đáo. Chắc chắn chúng tôi sẽ tiếp tục đồng hành cùng Nexora trong các dự án lớn sắp tới.',
+  },
+];
+
 export const ContentSections: React.FC = () => {
+  const [projectFilter, setProjectFilter] = useState<'ALL' | 'Tiêu biểu' | 'Mới hoàn thành'>('ALL');
   const [openFaq, setOpenFaq] = useState<number | null>(0);
   const [leadSubmitted, setLeadSubmitted] = useState(false);
 
+  const visibleProjects =
+    projectFilter === 'ALL'
+      ? GALLERY_PROJECTS
+      : GALLERY_PROJECTS.filter((p) => p.category === projectFilter);
+
   const faqs = [
     {
-      q: 'Làm thế nào để triển khai hoặc tùy biến dịch vụ tại Nexora?',
-      a: 'Đội ngũ chuyên gia của Nexora hỗ trợ tư vấn 1-1, khảo sát nhu cầu thực tế và bàn giao lộ trình triển khai hoàn chỉnh trong vòng 24 giờ làm việc.',
+      q: 'Quy trình triển khai dịch vụ tại Nexora diễn ra như thế nào?',
+      a: 'Quy trình chuẩn hóa gồm 4 bước: (1) Tiếp nhận thông tin & Khảo sát thực tế, (2) Lên phương án demo & Báo giá chi tiết, (3) Ký hợp đồng & Triển khai chuẩn chất lượng, (4) Nghiệm thu bàn giao & Bảo hành định kỳ.',
     },
     {
-      q: 'Chính sách bảo hành và cam kết chất lượng trong lĩnh vực Thú cưng & Thú y như thế nào?',
-      a: 'Toàn bộ sản phẩm và dịch vụ đều tuân thủ tiêu chuẩn chất lượng quốc tế, đi kèm hợp đồng minh bạch và hỗ trợ kỹ thuật/chăm sóc khách hàng 24/7.',
+      q: 'Chi phí báo giá trên website đã bao gồm trọn gói chưa?',
+      a: 'Mức giá hiển thị trên bảng tính tương tác và bảng giá là mức giá minh bạch. Chúng tôi cam kết không phát sinh chi phí ẩn ngoài hợp đồng.',
     },
     {
-      q: 'Tôi có thể thanh toán linh hoạt hoặc đặt lịch hẹn trực tuyến không?',
-      a: 'Có. Hệ thống tích hợp sẵn công cụ đặt lịch, dự toán chi phí và hỗ trợ đa phương thức thanh toán an toàn.',
-    },
-  ];
-
-  const testimonials = [
-    {
-      name: 'Nguyễn Minh Quân',
-      role: 'Giám đốc Điều hành',
-      quote: 'Trải nghiệm dịch vụ tại Nexora thực sự vượt mong đợi. Quy trình chuyên nghiệp, thiết kế tinh tế và hiệu quả rõ rệt ngay từ tuần đầu tiên.',
-    },
-    {
-      name: 'Trần Thanh Hà',
-      role: 'Khách hàng Thân thiết',
-      quote: 'Sự tận tâm và chuẩn mực trong từng chi tiết giúp Nexora trở thành đối tác tin cậy hàng đầu của chúng tôi trong suốt 3 năm qua.',
-    },
-    {
-      name: 'Lê Hoàng Nam',
-      role: 'Chuyên gia Tư vấn',
-      quote: 'Tiêu chuẩn chất lượng cao, minh bạch về chi phí và đội ngũ hỗ trợ phản hồi cực kỳ nhanh chóng.',
+      q: 'Chính sách bảo hành và hỗ trợ sau bàn giao tại Nexora ra sao?',
+      a: 'Tất cả khách hàng đều nhận được chứng nhận bảo hành điện tử chính hãng cùng đội ngũ kỹ thuật trực hỗ trợ 24/7 trên toàn quốc.',
     },
   ];
 
   return (
     <>
-      {/* 1. Core Value Propositions & Workflow */}
-      <section id="features-section" className="py-16 sm:py-20 border-b border-current/10">
+      {/* 1. About Us & Multi-Photo Collage Section */}
+      <section id="about-section" className="py-14 sm:py-20 border-b border-current/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mb-12">
-            <span className="text-xs font-mono uppercase tracking-wider opacity-70">
-              GIÁ TRỊ CỐT LÕI • 5SD-PET-032
-            </span>
-            <h2 className="mt-1 text-2xl sm:text-4xl font-display font-extrabold tracking-tight">
-              Vì Sao Khách Hàng Tin Chọn Nexora?
-            </h2>
+          <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-center">
+            {/* Left 6 Cols: 2-Photo Collage */}
+            <div className="lg:col-span-6 grid grid-cols-2 gap-4">
+              <div className="space-y-4">
+                <img
+                  src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?auto=format&fit=crop&w=900&q=80"
+                  alt="Về chúng tôi 1"
+                  loading="lazy"
+                  className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
+                />
+                <div
+                  className="rounded-2xl p-5 text-white shadow-lg"
+                  style={{ background: 'linear-gradient(135deg, #334155, #0EA5E9)' }}
+                >
+                  <div className="text-2xl sm:text-3xl font-extrabold">15+ Năm</div>
+                  <div className="text-xs opacity-90 mt-1">
+                    Kinh nghiệm thực chiến dẫn đầu lĩnh vực Thú cưng & Thú y
+                  </div>
+                </div>
+              </div>
+              <div className="space-y-4 pt-6">
+                <div className="p-5 bg-[#101726] border border-slate-800/90 shadow-xl rounded-2xl">
+                  <div className="text-2xl sm:text-3xl font-extrabold" style={{ color: '#334155' }}>
+                    99.4%
+                  </div>
+                  <div className="text-xs text-slate-400 mt-1">
+                    Khách hàng hài lòng & Giới thiệu đối tác mới
+                  </div>
+                </div>
+                <img
+                  src="https://images.unsplash.com/photo-1576201836106-db1758fd1c97?auto=format&fit=crop&w=900&q=80"
+                  alt="Về chúng tôi 2"
+                  loading="lazy"
+                  className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
+                />
+              </div>
+            </div>
+
+            {/* Right 6 Cols: Story & Core Competencies */}
+            <div className="lg:col-span-6 space-y-5">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs bg-indigo-500/15 text-cyan-300 border border-indigo-500/30 font-mono rounded-2xl">
+                <Award className="h-3.5 w-3.5 shrink-0" />
+                <span>HỒ SƠ NĂNG LỰC • NEXORA</span>
+              </span>
+
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-extrabold tracking-tight leading-tight">
+                Vì Sao Hàng Nghìn Khách Hàng Tin Tưởng Nexora?
+              </h2>
+
+              <p className="text-sm sm:text-base text-slate-400 leading-relaxed">
+                Với định hướng lấy chất lượng và sự minh bạch làm trọng tâm, Nexora không ngừng đầu tư vào công nghệ, con người và quy trình chuẩn quốc tế nhằm mang lại giá trị bền vững nhất cho khách hàng trong mảng Grooming Academy & Certification.
+              </p>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                {["Thiết kế Dark Luxury tối ưu trải nghiệm ngành Thú cưng & Thú y","Đầy đủ hình ảnh Demo thực tế sắc nét cho từng dịch vụ và dự án","Công cụ tương tác chuyên ngành (BOOKING) tính phí trực tiếp","Bố cục chống tràn chữ, tương thích hoàn hảo Desktop, Tablet & Mobile"].map((feat, idx) => (
+                  <div key={idx} className="p-4 bg-[#101726] border border-slate-800/90 shadow-xl rounded-2xl space-y-1.5">
+                    <div className="flex items-center gap-2 font-bold text-xs sm:text-sm">
+                      <CheckCircle2 className="h-4 w-4 shrink-0" style={{ color: '#334155' }} />
+                      <span>Tiêu chuẩn 0{idx + 1}</span>
+                    </div>
+                    <p className="text-xs text-slate-400 leading-relaxed">{feat}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 2. Featured Projects / Lookbook / Case Study Gallery (6 Visual Photo Cards) */}
+      <section id="projects-section" className="py-14 sm:py-20 border-b border-current/10">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-10">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+            <div>
+              <span className="text-xs font-mono uppercase tracking-wider opacity-70">
+                THƯ VIỆN HÌNH ẢNH & DỰ ÁN THỰC TẾ
+              </span>
+              <h2 className="mt-1 text-2xl sm:text-3xl lg:text-4xl font-display font-extrabold tracking-tight">
+                Hình Ảnh Thực Tế & Dự Án Tiêu Biểu
+              </h2>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              {(['ALL', 'Tiêu biểu', 'Mới hoàn thành'] as const).map((tab) => (
+                <button
+                  key={tab}
+                  type="button"
+                  onClick={() => setProjectFilter(tab)}
+                  className={`px-4 py-2 text-xs font-bold rounded-xl transition whitespace-nowrap ${
+                    projectFilter === tab
+                      ? 'text-white shadow'
+                      : 'bg-[#101726] border border-slate-800/90 shadow-xl opacity-75 hover:opacity-100'
+                  }`}
+                  style={{
+                    background: projectFilter === tab ? '#334155' : undefined,
+                  }}
+                >
+                  {tab === 'ALL' ? 'Tất cả (6)' : tab}
+                </button>
+              ))}
+            </div>
           </div>
 
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-            {["Thiết kế độc bản phong cách Dark Luxury (flagship-conversion)","Module tương tác chuyên ngành Thú cưng & Thú y hoạt động thực tế","Header thông minh kèm Mobile Drawer Navigation mượt mà"].map((feat, idx) => (
-              <div key={idx} className="p-6 bg-[#101726]/90 border border-slate-800/90 backdrop-blur-xl shadow-xl rounded-2xl space-y-3">
-                <div
-                  className="inline-flex h-11 w-11 items-center justify-center rounded-xl text-white font-bold"
-                  style={{ background: idx % 2 === 0 ? '#334155' : '#0EA5E9' }}
-                >
-                  0{idx + 1}
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {visibleProjects.map((proj, idx) => (
+              <div
+                key={idx}
+                className="group overflow-hidden bg-[#101726] border border-slate-800/90 shadow-xl rounded-2xl flex flex-col"
+              >
+                <div className="relative h-56 w-full overflow-hidden bg-slate-900">
+                  <img
+                    src={proj.image}
+                    alt={proj.title}
+                    loading="lazy"
+                    className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                  <span
+                    className="absolute left-3.5 top-3.5 rounded-lg px-2.5 py-1 text-[11px] font-bold text-white"
+                    style={{ background: '#334155' }}
+                  >
+                    {proj.category}
+                  </span>
                 </div>
-                <h3 className="text-lg font-bold">{feat}</h3>
-                <p className="text-xs text-slate-400 leading-relaxed">
-                  Được tối ưu hóa chuyên biệt cho phân khúc Grooming Academy & Certification, đảm bảo hiệu suất vận hành vượt trội và trải nghiệm người dùng mượt mà.
-                </p>
+                <div className="p-5 flex-1 flex flex-col justify-between space-y-3">
+                  <div>
+                    <h3 className="text-base font-bold leading-snug">{proj.title}</h3>
+                    <p className="text-xs text-slate-400 mt-1">{proj.scale}</p>
+                  </div>
+                  <a
+                    href="#contact-section"
+                    className="inline-flex items-center gap-1.5 text-xs font-bold"
+                    style={{ color: '#334155' }}
+                  >
+                    <span>Xem chi tiết hồ sơ</span>
+                    <ArrowRight className="h-3.5 w-3.5" />
+                  </a>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 2. Customer Testimonials */}
-      <section id="reviews-section" className="py-16 sm:py-20 border-b border-current/10">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-10 gap-4">
+      {/* 3. Transparent 3-Tier Pricing Table */}
+      <section id="pricing-section" className="py-14 sm:py-20 border-b border-current/10">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-10">
+          <div className="text-center max-w-2xl mx-auto">
+            <span className="text-xs font-mono uppercase tracking-wider opacity-70">
+              BẢNG GIÁ NIÊM YẾT MINH BẠCH
+            </span>
+            <h2 className="mt-1 text-2xl sm:text-3xl lg:text-4xl font-display font-extrabold tracking-tight">
+              Lựa Chọn Gói Giải Pháp Phù Hợp
+            </h2>
+            <p className="mt-2 text-xs sm:text-sm text-slate-400">
+              Cam kết không phát sinh chi phí ẩn, hợp đồng pháp lý rõ ràng và bảo hành chính hãng.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+            {PRICING_TIERS.map((tier, idx) => (
+              <div
+                key={idx}
+                className={`relative p-6 sm:p-8 bg-[#101726] border border-slate-800/90 shadow-xl rounded-2xl flex flex-col justify-between ${
+                  tier.popular ? 'ring-2' : ''
+                }`}
+                style={{
+                  borderColor: tier.popular ? '#334155' : undefined,
+                }}
+              >
+                <div>
+                  {tier.popular && (
+                    <span
+                      className="inline-block rounded-full px-3 py-1 text-[11px] font-bold text-white mb-4"
+                      style={{ background: '#334155' }}
+                    >
+                      ★ ĐƯỢC LỰA CHỌN NHIỀU NHẤT
+                    </span>
+                  )}
+                  <h3 className="text-lg sm:text-xl font-bold">{tier.name}</h3>
+                  <p className="mt-1.5 text-xs text-slate-400 leading-relaxed">{tier.desc}</p>
+                  <div
+                    className="my-5 text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
+                    style={{ color: '#334155' }}
+                  >
+                    {tier.price}
+                  </div>
+                  <ul className="space-y-2.5 text-xs sm:text-sm border-t border-current/10 pt-5">
+                    {tier.perks.map((perk, pIdx) => (
+                      <li key={pIdx} className="flex items-start gap-2.5">
+                        <CheckCircle2
+                          className="h-4 w-4 shrink-0 mt-0.5"
+                          style={{ color: '#334155' }}
+                        />
+                        <span>{perk}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <a
+                  href="#contact-section"
+                  className="mt-8 w-full inline-flex items-center justify-center gap-2 py-3 px-5 text-xs sm:text-sm font-bold rounded-xl text-white transition whitespace-nowrap"
+                  style={{
+                    background: tier.popular ? 'linear-gradient(135deg, #334155, #0EA5E9)' : '#334155',
+                  }}
+                >
+                  <span>Đăng Ký Tư Vấn Gói Này</span>
+                  <ArrowRight className="h-4 w-4 shrink-0" />
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 4. Customer Testimonials with Real Portrait Avatars */}
+      <section id="reviews-section" className="py-14 sm:py-20 border-b border-current/10">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-10">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <div>
               <span className="text-xs font-mono uppercase tracking-wider opacity-70">
-                ĐÁNH GIÁ XÁC THỰC
+                ĐÁNH GIÁ TỪ KHÁCH HÀNG THỰC TẾ
               </span>
-              <h2 className="mt-1 text-2xl sm:text-4xl font-display font-extrabold tracking-tight">
+              <h2 className="mt-1 text-2xl sm:text-3xl lg:text-4xl font-display font-extrabold tracking-tight">
                 Khách Hàng Nói Gì Về Nexora
               </h2>
             </div>
-            <div className="flex items-center gap-1.5 text-amber-500 font-bold text-sm">
+            <div className="flex items-center gap-1.5 text-amber-500 font-bold text-sm whitespace-nowrap">
               <Star className="h-4 w-4 fill-amber-400" />
-              <span>4.8 / 5.0 (Từ 500+ đánh giá xác thực)</span>
+              <span>5 / 5.0 (1.200+ Đánh giá xác thực)</span>
             </div>
           </div>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-            {testimonials.map((t, i) => (
-              <div key={i} className="p-6 bg-[#101726]/90 border border-slate-800/90 backdrop-blur-xl shadow-xl rounded-2xl flex flex-col justify-between space-y-4">
-                <p className="text-sm leading-relaxed italic">"{t.quote}"</p>
-                <div className="flex items-center justify-between pt-3 border-t border-current/10 text-xs">
-                  <div>
-                    <div className="font-bold">{t.name}</div>
-                    <div className="text-slate-400">{t.role}</div>
+            {TESTIMONIALS.map((t, i) => (
+              <div
+                key={i}
+                className="p-6 bg-[#101726] border border-slate-800/90 shadow-xl rounded-2xl flex flex-col justify-between space-y-5"
+              >
+                <div className="space-y-3">
+                  <div className="text-amber-500 text-xs font-bold tracking-widest">★★★★★</div>
+                  <p className="text-xs sm:text-sm leading-relaxed italic">"{t.quote}"</p>
+                </div>
+                <div className="flex items-center gap-3 pt-4 border-t border-current/10">
+                  <img
+                    src={t.avatar}
+                    alt={t.name}
+                    loading="lazy"
+                    className="h-11 w-11 rounded-full object-cover shrink-0"
+                  />
+                  <div className="min-w-0">
+                    <div className="text-xs sm:text-sm font-bold truncate">{t.name}</div>
+                    <div className="text-[11px] text-slate-400 truncate">{t.role}</div>
                   </div>
-                  <span className="font-mono text-amber-500">★★★★★</span>
                 </div>
               </div>
             ))}
@@ -111,27 +401,26 @@ export const ContentSections: React.FC = () => {
         </div>
       </section>
 
-      {/* 3. Interactive FAQ & Lead Capture Section */}
-      <section id="contact-section" className="py-16 sm:py-20">
+      {/* 5. Interactive FAQ & Consultation Request Form */}
+      <section id="contact-section" className="py-14 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
-            {/* FAQ Column */}
             <div className="lg:col-span-6 space-y-4">
               <span className="text-xs font-mono uppercase tracking-wider opacity-70">
-                CÂU HỎI THƯỜNG GẶP
+                CÂU HỎI THƯỜNG GẶP (FAQ)
               </span>
-              <h2 className="text-2xl sm:text-3xl font-display font-extrabold tracking-tight mb-4">
-                Giải Đáp Nhanh Thông Tin
+              <h2 className="text-2xl sm:text-3xl font-display font-extrabold tracking-tight">
+                Giải Đáp Thắc Mắc Nhanh Chóng
               </h2>
-              <div className="space-y-3">
+              <div className="space-y-3 pt-2">
                 {faqs.map((f, idx) => {
                   const isOpen = openFaq === idx;
                   return (
-                    <div key={idx} className="bg-[#101726]/90 border border-slate-800/90 backdrop-blur-xl shadow-xl rounded-2xl overflow-hidden">
+                    <div key={idx} className="bg-[#101726] border border-slate-800/90 shadow-xl rounded-2xl overflow-hidden">
                       <button
                         type="button"
                         onClick={() => setOpenFaq(isOpen ? null : idx)}
-                        className="w-full flex items-center justify-between p-4 text-left text-sm font-bold"
+                        className="w-full flex items-center justify-between gap-4 p-4 sm:p-5 text-left text-xs sm:text-sm font-bold"
                       >
                         <span>{f.q}</span>
                         <ChevronDown
@@ -141,7 +430,7 @@ export const ContentSections: React.FC = () => {
                         />
                       </button>
                       {isOpen && (
-                        <div className="px-4 pb-4 text-xs text-slate-400 leading-relaxed border-t border-current/10 pt-3">
+                        <div className="px-4 sm:px-5 pb-4 sm:pb-5 text-xs sm:text-sm text-slate-400 leading-relaxed border-t border-current/10 pt-3">
                           {f.a}
                         </div>
                       )}
@@ -151,22 +440,21 @@ export const ContentSections: React.FC = () => {
               </div>
             </div>
 
-            {/* Lead Form Column */}
             <div className="lg:col-span-6">
-              <div className="p-6 sm:p-8 bg-[#101726]/90 border border-slate-800/90 backdrop-blur-xl shadow-xl rounded-2xl">
-                <h3 className="text-xl font-bold mb-1">
-                  Liên Hệ Tư Vấn Cùng Nexora
+              <div className="p-6 sm:p-8 bg-[#101726] border border-slate-800/90 shadow-xl rounded-2xl">
+                <h3 className="text-xl sm:text-2xl font-bold mb-1">
+                  Đăng Ký Nhận Tư Vấn & Báo Giá
                 </h3>
-                <p className="text-xs text-slate-400 mb-6">
-                  Để lại thông tin để nhận báo giá chi tiết và ưu đãi dành riêng cho khách hàng trực tuyến.
+                <p className="text-xs sm:text-sm text-slate-400 mb-6">
+                  Chuyên viên của Nexora sẽ liên hệ lại trong vòng 15 phút làm việc.
                 </p>
 
                 {leadSubmitted ? (
                   <div className="rounded-xl border border-emerald-500/40 bg-emerald-500/10 p-6 text-center space-y-2">
                     <CheckCircle2 className="mx-auto h-10 w-10 text-emerald-500" />
-                    <h4 className="text-base font-bold">Đã gửi thông tin thành công!</h4>
+                    <h4 className="text-base font-bold">Đã gửi yêu cầu tư vấn thành công!</h4>
                     <p className="text-xs text-slate-400">
-                      Chuyên viên tư vấn của Nexora sẽ liên hệ với bạn trong ít phút.
+                      Cảm ơn bạn đã tin chọn Nexora. Chúng tôi sẽ liên hệ ngay.
                     </p>
                   </div>
                 ) : (
@@ -175,11 +463,11 @@ export const ContentSections: React.FC = () => {
                       e.preventDefault();
                       setLeadSubmitted(true);
                     }}
-                    className="space-y-4 text-xs"
+                    className="space-y-4 text-xs sm:text-sm"
                   >
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
-                        <label className="block font-semibold mb-1">Họ và tên *</label>
+                        <label className="block font-semibold mb-1.5">Họ và tên *</label>
                         <input
                           type="text"
                           required
@@ -188,7 +476,7 @@ export const ContentSections: React.FC = () => {
                         />
                       </div>
                       <div>
-                        <label className="block font-semibold mb-1">Số điện thoại *</label>
+                        <label className="block font-semibold mb-1.5">Số điện thoại / Zalo *</label>
                         <input
                           type="tel"
                           required
@@ -198,22 +486,28 @@ export const ContentSections: React.FC = () => {
                       </div>
                     </div>
                     <div>
-                      <label className="block font-semibold mb-1">Nhu cầu tư vấn chi tiết</label>
+                      <label className="block font-semibold mb-1.5">Email nhận hồ sơ & báo giá</label>
+                      <input
+                        type="email"
+                        placeholder="khachhang@company.vn"
+                        className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5 focus:outline-none"
+                      />
+                    </div>
+                    <div>
+                      <label className="block font-semibold mb-1.5">Nội dung cần tư vấn</label>
                       <textarea
                         rows={3}
-                        placeholder="Nhập nội dung cần hỗ trợ..."
+                        placeholder="Nhập yêu cầu cụ thể hoặc quy mô dự án của bạn..."
                         className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5 focus:outline-none"
                       />
                     </div>
                     <button
                       type="submit"
-                      className="w-full flex items-center justify-center gap-2 py-3.5 px-6 text-sm font-bold text-white shadow-lg hover:opacity-95 transition rounded-2xl"
-                      style={{
-                        background: 'linear-gradient(135deg, #334155, #0EA5E9)',
-                      }}
+                      className="w-full flex items-center justify-center gap-2 py-3.5 px-6 text-sm font-bold text-white shadow-lg hover:opacity-95 transition rounded-2xl whitespace-nowrap"
+                      style={{ background: 'linear-gradient(135deg, #334155, #0EA5E9)' }}
                     >
-                      <Send className="h-4 w-4" />
-                      <span>Gửi Yêu Cầu Tư Vấn</span>
+                      <Send className="h-4 w-4 shrink-0" />
+                      <span>Gửi Yêu Cầu Ngay</span>
                     </button>
                   </form>
                 )}
