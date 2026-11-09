@@ -11,8 +11,8 @@ cd 5S-DEV-TEMPLATES
 # 1. Kiểm tra trạng thái Git
 git status
 
-# 2. Kết nối tới GitHub Repository chính thức (thay <YOUR_ORG_OR_USER> bằng tài khoản GitHub đã xác thực)
-git remote add origin https://github.com/<YOUR_ORG_OR_USER>/5sdev-templates.git
+# 2. Kết nối tới GitHub Repository chính thức
+git remote add origin https://github.com/ngoisaocodon2202/5sdev-templates.git
 
 # 3. Đổi nhánh mặc định thành main và đẩy code
 git branch -M main

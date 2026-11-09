@@ -124,9 +124,9 @@ Mỗi ngành nghề có đúng **35 templates** độc lập, mã hóa theo chu�
 
 ## 5. Trạng Thái GitHub & Vercel Deployment
 
-- **Git Repository**: Đã khởi tạo Git repository độc lập tại `5S-DEV-TEMPLATES/`, cấu hình `.gitignore` chuẩn (loại bỏ `node_modules/`, `dist/`, `.env*`), và tạo commit hoàn chỉnh sẵn sàng đẩy lên `5sdev-templates`.
-- **GitHub Repository URL**: Chờ người dùng xác nhận quyền truy cập tài khoản GitHub để chạy lệnh `git remote add origin https://github.com/<account>/5sdev-templates.git && git push -u origin main`.
-- **Vercel Deployment (`5sdev-templates.vercel.app`)**: Đã cấu hình sẵn `vercel.json` (SPA rewrites + immutable asset caching). Chờ người dùng kết nối tài khoản Vercel để kích hoạt automatic deployment từ nhánh `main`.
+- **Git Repository**: Đã khởi tạo Git repository độc lập tại `5S-DEV-TEMPLATES/`, cấu hình `.gitignore` chuẩn (loại bỏ `node_modules/`, `dist/`, `.env*`), và đẩy toàn bộ source code lên nhánh `main`.
+- **GitHub Repository URL**: `https://github.com/ngoisaocodon2202/5sdev-templates` (`https://github.com/ngoisaocodon2202/5sdev-templates.git`)
+- **Vercel Deployment (`5sdev-templates.vercel.app`)**: Đã cấu hình sẵn `vercel.json` (SPA rewrites + immutable asset caching). Có thể kết nối trực tiếp repository `ngoisaocodon2202/5sdev-templates` trên Vercel để kích hoạt automatic deployment từ nhánh `main`.
 
 ---
 
