@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["vite/client", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@marketplace/*": ["apps/template-marketplace/src/*"],
+      "@shared/*": ["shared/*"],
+      "@templates/*": ["templates/*"],
+      "@assets/*": ["assets/*"]
+    }
+  },
+  "include": [
+    "apps/template-marketplace/src",
+    "shared",
+    "templates"
+  ]
+}

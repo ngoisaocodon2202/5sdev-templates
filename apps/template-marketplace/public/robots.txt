@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://5sdev-templates.vercel.app/sitemap.xml
+

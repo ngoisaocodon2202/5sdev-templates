@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" fill="none">
+  <defs>
+    <linearGradient id="g-5sd-spa-007" x1="0" y1="0" x2="640" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="#0B0F19" />
+  <circle cx="520" cy="90" r="140" fill="#9333EA" fill-opacity="0.15" />
+  <rect x="28" y="24" width="584" height="352" rx="16" fill="#161F33" stroke="#9333EA" stroke-opacity="0.35" stroke-width="2" />
+  <rect x="52" y="52" width="120" height="24" rx="6" fill="url(#g-5sd-spa-007)" />
+  <text x="112" y="68" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="700" text-anchor="middle">5SD-SPA-007</text>
+  <text x="52" y="128" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="24" font-weight="800">Aurelia — Himalayan Salt Cave Therapy</text>
+  <text x="52" y="158" fill="#94A3B8" font-family="Inter, sans-serif" font-size="14">Spa & Trị liệu Tự nhiên • Creative Agency (swiss-modular)</text>
+  <rect x="52" y="188" width="160" height="42" rx="10" fill="url(#g-5sd-spa-007)" />
+  <text x="132" y="214" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Đặt lịch Thư giãn</text>
+  <rect x="52" y="256" width="168" height="92" rx="12" fill="#0B0F19" />
+  <rect x="236" y="256" width="168" height="92" rx="12" fill="#0B0F19" />
+  <rect x="420" y="256" width="168" height="92" rx="12" fill="#0B0F19" />
+</svg>

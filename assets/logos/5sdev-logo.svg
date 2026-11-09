@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="6" width="48" height="48" rx="12" fill="url(#logoGrad)" />
+  <text x="28" y="38" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="22" font-weight="800" text-anchor="middle">5S</text>
+  <text x="66" y="33" fill="#F8FAFC" font-family="Inter, sans-serif" font-size="20" font-weight="800">5S DEV</text>
+  <text x="66" y="50" fill="#38BDF8" font-family="JetBrains Mono, monospace" font-size="12" font-weight="600">.TEMPLATES</text>
+</svg>
