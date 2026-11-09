@@ -17,9 +17,11 @@ import {
 } from 'lucide-react';
 import { CATEGORIES } from '@shared/design-tokens';
 import { formatPriceVND, updateDocumentMeta } from '@shared/utilities';
+import { AnimatedCounter, ScrollReveal } from '@shared/components';
 import { TEMPLATE_REGISTRY, hasTemplateModule } from '../data/template-registry';
 import { TemplateRegistryItem, TemplateStatus } from '../data/types';
 import { useTemplatesFilter } from '../hooks/useTemplatesFilter';
+import { CustomDropdown, DropdownOption } from '../components/CustomDropdown';
 
 export const AdminLibraryPage: React.FC = () => {
   const [selectedTemplate, setSelectedTemplate] = useState<TemplateRegistryItem | null>(null);
@@ -83,6 +85,31 @@ export const AdminLibraryPage: React.FC = () => {
     return Array.from(set).sort((a, b) => a - b);
   }, []);
 
+  const categoryOptions: DropdownOption[] = useMemo(() => [
+    { value: 'all', label: 'Tất cả 30 ngành nghề' },
+    ...CATEGORIES.map((cat) => ({
+      value: cat.slug,
+      label: `${cat.code} — ${cat.nameVi}`,
+    })),
+  ], []);
+
+  const statusOptions: DropdownOption[] = [
+    { value: 'ALL', label: 'Tất cả trạng thái' },
+    { value: 'TESTED', label: 'TESTED (Đã kiểm thử)' },
+    { value: 'COMPLETED', label: 'COMPLETED (Hoàn thiện)' },
+    { value: 'IN_PROGRESS', label: 'IN_PROGRESS' },
+    { value: 'PLANNED', label: 'PLANNED' },
+    { value: 'FAILED', label: 'FAILED' },
+  ];
+
+  const batchOptions: DropdownOption[] = useMemo(() => [
+    { value: 'ALL', label: `Tất cả các Batch (1–${batches.length})` },
+    ...batches.map((b) => ({
+      value: String(b),
+      label: `Batch ${String(b).padStart(3, '0')}`,
+    })),
+  ], [batches]);
+
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 space-y-8">
       {/* Internal Mode Notice Banner (Per Requirement Section 9) */}
@@ -113,62 +140,62 @@ export const AdminLibraryPage: React.FC = () => {
         </p>
       </div>
 
-      {/* 5 KPI Summary Cards */}
+      {/* 5 KPI Summary Cards with Animated Counters */}
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
-        <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-5">
+        <ScrollReveal direction="left" delay={0} className="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
           <span className="text-xs text-slate-400">Tổng số Template</span>
           <div className="mt-2 font-display text-3xl font-extrabold text-white">
-            {stats.total.toLocaleString('vi-VN')}
+            <AnimatedCounter value={`${stats.total}`} />
           </div>
           <span className="mt-1 inline-block text-[11px] font-mono text-cyan-400">
             Mục tiêu: ≥ 1.000+
           </span>
-        </div>
+        </ScrollReveal>
 
-        <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-5">
+        <ScrollReveal direction="left" delay={50} className="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
           <span className="text-xs text-slate-400">Số Ngành nghề</span>
           <div className="mt-2 font-display text-3xl font-extrabold text-indigo-400">
-            {stats.categoriesCount}
+            <AnimatedCounter value={`${stats.categoriesCount}`} />
           </div>
           <span className="mt-1 inline-block text-[11px] font-mono text-slate-400">
             35 templates / ngành
           </span>
-        </div>
+        </ScrollReveal>
 
-        <div className="rounded-2xl border border-emerald-500/30 bg-emerald-950/20 p-5">
+        <ScrollReveal direction="up" delay={100} className="rounded-2xl border border-emerald-500/30 bg-emerald-950/20 p-5 shadow-lg">
           <span className="text-xs text-emerald-300">Hoàn thiện & Đã Test</span>
           <div className="mt-2 font-display text-3xl font-extrabold text-emerald-400">
-            {stats.completed.toLocaleString('vi-VN')}
+            <AnimatedCounter value={`${stats.completed}`} />
           </div>
           <span className="mt-1 inline-block text-[11px] font-mono text-emerald-400/80">
             100% Lazy Chunk OK
           </span>
-        </div>
+        </ScrollReveal>
 
-        <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-5">
+        <ScrollReveal direction="right" delay={150} className="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
           <span className="text-xs text-slate-400">Đang phát triển</span>
           <div className="mt-2 font-display text-3xl font-extrabold text-amber-400">
-            {stats.inProgress}
+            <AnimatedCounter value={`${stats.inProgress}`} />
           </div>
           <span className="mt-1 inline-block text-[11px] font-mono text-slate-500">
             IN_PROGRESS / PLANNED
           </span>
-        </div>
+        </ScrollReveal>
 
-        <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-5">
+        <ScrollReveal direction="right" delay={200} className="rounded-2xl border border-slate-800 bg-slate-900/80 p-5 shadow-lg">
           <span className="text-xs text-slate-400">Template Bị lỗi</span>
           <div className="mt-2 font-display text-3xl font-extrabold text-rose-400">
-            {stats.failed}
+            <AnimatedCounter value={`${stats.failed}`} />
           </div>
           <span className="mt-1 inline-block text-[11px] font-mono text-emerald-400">
             0 Broken Routes
           </span>
-        </div>
+        </ScrollReveal>
       </div>
 
-      {/* Filter & Search Bar */}
-      <div className="rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
+      {/* Filter & Search Bar with Custom Dropdowns */}
+      <div className="relative z-30 rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5 items-center">
           <div className="lg:col-span-2 relative">
             <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
             <input
@@ -176,50 +203,28 @@ export const AdminLibraryPage: React.FC = () => {
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder="Tìm theo mã (5SD-ECO-001), tên, phân khúc..."
-              className="w-full rounded-xl border border-slate-700 bg-slate-950 pl-10 pr-4 py-2.5 text-xs text-white focus:border-indigo-500 focus:outline-none"
+              className="w-full rounded-2xl border border-slate-700 bg-slate-950 pl-10 pr-4 py-2.5 text-xs text-white focus:border-indigo-500 focus:outline-none"
             />
           </div>
 
-          <select
+          <CustomDropdown
             value={category}
-            onChange={(e) => setCategory(e.target.value)}
-            className="rounded-xl border border-slate-700 bg-slate-950 px-3 py-2.5 text-xs text-white"
-          >
-            <option value="all">Tất cả 30 ngành nghề</option>
-            {CATEGORIES.map((cat) => (
-              <option key={cat.slug} value={cat.slug}>
-                {cat.code} — {cat.nameVi}
-              </option>
-            ))}
-          </select>
+            options={categoryOptions}
+            onChange={setCategory}
+            searchable
+          />
 
-          <select
+          <CustomDropdown
             value={statusFilter}
-            onChange={(e) => setStatusFilter(e.target.value as 'ALL' | TemplateStatus)}
-            className="rounded-xl border border-slate-700 bg-slate-950 px-3 py-2.5 text-xs text-white"
-          >
-            <option value="ALL">Tất cả trạng thái</option>
-            <option value="TESTED">TESTED (Đã kiểm thử)</option>
-            <option value="COMPLETED">COMPLETED (Hoàn thiện)</option>
-            <option value="IN_PROGRESS">IN_PROGRESS</option>
-            <option value="PLANNED">PLANNED</option>
-            <option value="FAILED">FAILED</option>
-          </select>
+            options={statusOptions}
+            onChange={(val) => setStatusFilter(val as 'ALL' | TemplateStatus)}
+          />
 
-          <select
-            value={batchFilter}
-            onChange={(e) =>
-              setBatchFilter(e.target.value === 'ALL' ? 'ALL' : parseInt(e.target.value, 10))
-            }
-            className="rounded-xl border border-slate-700 bg-slate-950 px-3 py-2.5 text-xs text-white"
-          >
-            <option value="ALL">Tất cả các Batch (1–{batches.length})</option>
-            {batches.map((b) => (
-              <option key={b} value={b}>
-                Batch {String(b).padStart(3, '0')}
-              </option>
-            ))}
-          </select>
+          <CustomDropdown
+            value={String(batchFilter)}
+            options={batchOptions}
+            onChange={(val) => setBatchFilter(val === 'ALL' ? 'ALL' : parseInt(val, 10))}
+          />
         </div>
       </div>
 

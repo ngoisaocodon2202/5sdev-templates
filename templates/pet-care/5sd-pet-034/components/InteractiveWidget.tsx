@@ -8,6 +8,7 @@ import {
   Star,
   ShieldCheck,
 } from '@shared/icons/template-icons';
+import { ScrollReveal } from '@shared/components';
 
 const DOMAIN_ITEMS = [
   {
@@ -115,82 +116,88 @@ export const InteractiveWidget: React.FC = () => {
           )}
         </div>
 
-        {/* 1. Spacious 2-Column Showcase Cards with Real Demo Images */}
+        {/* 1. Spacious 2-Column Showcase Cards with Real Demo Images & 2-Side Scroll In */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {DOMAIN_ITEMS.map((item, idx) => {
             const isSelected = idx === selectedIndex;
             return (
-              <div
+              <ScrollReveal
                 key={item.id}
-                onClick={() => {
-                  setSelectedIndex(idx);
-                  setActionConfirmed(false);
-                }}
-                className={`group cursor-pointer overflow-hidden transition-all duration-300 ${
-                  isSelected ? 'ring-2 ring-offset-2' : 'hover:-translate-y-0.5'
-                } bg-white border border-stone-200/90 shadow-sm rounded-xl flex flex-col`}
-                style={{
-                  borderColor: isSelected ? '#0D9488' : undefined,
-                }}
+                direction={idx % 2 === 0 ? 'left' : 'right'}
+                delay={idx * 100}
+                className="flex"
               >
-                {/* Card Demo Image */}
-                <div className="relative h-52 sm:h-60 w-full overflow-hidden bg-slate-900">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    loading="lazy"
-                    className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/20" />
-                  <div className="absolute left-3.5 top-3.5 flex items-center gap-2">
-                    <span
-                      className="px-3 py-1 text-xs font-bold rounded-lg text-white shadow whitespace-nowrap"
-                      style={{ background: idx % 2 === 0 ? '#0D9488' : '#2563EB' }}
-                    >
-                      {item.tag}
-                    </span>
+                <div
+                  onClick={() => {
+                    setSelectedIndex(idx);
+                    setActionConfirmed(false);
+                  }}
+                  className={`w-full group cursor-pointer overflow-hidden transition-all duration-300 ${
+                    isSelected ? 'ring-2 ring-offset-2' : 'hover:-translate-y-0.5'
+                  } bg-white border border-stone-200/90 shadow-sm rounded-xl flex flex-col`}
+                  style={{
+                    borderColor: isSelected ? '#0D9488' : undefined,
+                  }}
+                >
+                  {/* Card Demo Image */}
+                  <div className="relative h-52 sm:h-60 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      loading="lazy"
+                      className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/20" />
+                    <div className="absolute left-3.5 top-3.5 flex items-center gap-2">
+                      <span
+                        className="px-3 py-1 text-xs font-bold rounded-lg text-white shadow whitespace-nowrap"
+                        style={{ background: idx % 2 === 0 ? '#0D9488' : '#2563EB' }}
+                      >
+                        {item.tag}
+                      </span>
+                    </div>
+                    <div className="absolute right-3.5 top-3.5 rounded-lg bg-slate-950/80 px-2.5 py-1 font-mono text-[11px] font-bold text-white backdrop-blur-md">
+                      {item.id}
+                    </div>
+                    <div className="absolute bottom-3 left-3.5 right-3.5 flex items-center justify-between text-white">
+                      <span className="text-xs font-semibold bg-black/50 px-2.5 py-1 rounded-md backdrop-blur-sm whitespace-nowrap">
+                        ★ 4.9 Đánh giá thực tế
+                      </span>
+                      <span className="text-base sm:text-lg lg:text-xl font-extrabold bg-slate-950/85 px-3 py-1 rounded-lg whitespace-nowrap">
+                        {formatVnd(item.price)}
+                      </span>
+                    </div>
                   </div>
-                  <div className="absolute right-3.5 top-3.5 rounded-lg bg-slate-950/80 px-2.5 py-1 font-mono text-[11px] font-bold text-white backdrop-blur-md">
-                    {item.id}
-                  </div>
-                  <div className="absolute bottom-3 left-3.5 right-3.5 flex items-center justify-between text-white">
-                    <span className="text-xs font-semibold bg-black/50 px-2.5 py-1 rounded-md backdrop-blur-sm">
-                      ★ 4.9 Đánh giá thực tế
-                    </span>
-                    <span className="text-lg sm:text-xl font-extrabold bg-slate-950/85 px-3 py-1 rounded-lg whitespace-nowrap">
-                      {formatVnd(item.price)}
-                    </span>
+
+                  {/* Card Content */}
+                  <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between space-y-4">
+                    <div>
+                      <h3 className="text-base sm:text-lg font-bold leading-snug">
+                        {item.title}
+                      </h3>
+                      <p className="mt-1.5 text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        {item.meta}
+                      </p>
+                    </div>
+
+                    <div className="flex items-center justify-between gap-3 pt-3 border-t border-current/10">
+                      <span className="inline-flex items-center gap-1.5 text-xs font-semibold truncate">
+                        <CheckCircle2 className="h-4 w-4 shrink-0" style={{ color: '#0D9488' }} />
+                        <span className="truncate">Có sẵn • Hỗ trợ tư vấn</span>
+                      </span>
+                      <button
+                        type="button"
+                        className="px-4 py-2 text-xs font-bold rounded-xl text-white whitespace-nowrap transition shrink-0"
+                        style={{
+                          background: isSelected ? '#0D9488' : '#334155',
+                        }}
+                      >
+                        {isSelected ? 'Đang chọn ✓' : 'Chọn gói này'}
+                      </button>
+                    </div>
                   </div>
                 </div>
-
-                {/* Card Content */}
-                <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between space-y-4">
-                  <div>
-                    <h3 className="text-base sm:text-lg font-bold leading-snug">
-                      {item.title}
-                    </h3>
-                    <p className="mt-1.5 text-xs sm:text-sm text-stone-600 leading-relaxed">
-                      {item.meta}
-                    </p>
-                  </div>
-
-                  <div className="flex items-center justify-between gap-3 pt-3 border-t border-current/10">
-                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold">
-                      <CheckCircle2 className="h-4 w-4 shrink-0" style={{ color: '#0D9488' }} />
-                      <span>Có sẵn • Hỗ trợ tư vấn ngay</span>
-                    </span>
-                    <button
-                      type="button"
-                      className="px-4 py-2 text-xs font-bold rounded-xl text-white whitespace-nowrap transition"
-                      style={{
-                        background: isSelected ? '#0D9488' : '#334155',
-                      }}
-                    >
-                      {isSelected ? 'Đang chọn ✓' : 'Chọn gói này'}
-                    </button>
-                  </div>
-                </div>
-              </div>
+              </ScrollReveal>
             );
           })}
         </div>
@@ -241,20 +248,32 @@ export const InteractiveWidget: React.FC = () => {
                       type="date"
                       value={bookingDate}
                       onChange={(e) => setBookingDate(e.target.value)}
-                      className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5"
+                      className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5 focus:outline-none"
                     />
                   </div>
                   <div>
                     <label className="block font-semibold mb-1.5">Khung giờ:</label>
-                    <select
-                      value={bookingTime}
-                      onChange={(e) => setBookingTime(e.target.value)}
-                      className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5"
-                    >
-                      <option value="09:00" className="text-black">09:00 Sáng</option>
-                      <option value="14:00" className="text-black">14:00 Chiều</option>
-                      <option value="19:00" className="text-black">19:00 Tối</option>
-                    </select>
+                    <div className="grid grid-cols-3 gap-1.5">
+                      {[
+                        { value: '09:00', label: '09:00 Sáng' },
+                        { value: '14:00', label: '14:00 Chiều' },
+                        { value: '19:00', label: '19:00 Tối' },
+                      ].map((slot) => (
+                        <button
+                          key={slot.value}
+                          type="button"
+                          onClick={() => setBookingTime(slot.value)}
+                          className={`rounded-xl py-2 px-1 text-center font-bold text-[11px] transition-all whitespace-nowrap ${
+                            bookingTime === slot.value
+                              ? 'shadow-md ring-2 ring-indigo-500/50'
+                              : 'border border-current/15 opacity-70 hover:opacity-100'
+                          }`}
+                          style={bookingTime === slot.value ? { backgroundColor: '#0D9488', color: '#ffffff' } : {}}
+                        >
+                          {slot.label}
+                        </button>
+                      ))}
+                    </div>
                   </div>
                   <div>
                     <label className="block font-semibold mb-1.5">Số lượng khách / suất:</label>
@@ -293,10 +312,10 @@ export const InteractiveWidget: React.FC = () => {
 
             {/* Right 5 Cols: Total Summary & Instant Action */}
             <div className="lg:col-span-5 rounded-2xl border border-current/15 p-5 sm:p-6 space-y-4">
-              <div className="flex items-baseline justify-between gap-2 border-b border-current/10 pb-4">
+              <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-current/10 pb-4">
                 <span className="text-xs sm:text-sm text-stone-600">Tổng chi phí dự kiến:</span>
                 <span
-                  className="text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
+                  className="text-xl sm:text-2xl lg:text-3xl font-extrabold whitespace-nowrap"
                   style={{ color: '#0D9488' }}
                 >
                   {formatVnd(estimatedTotal)}

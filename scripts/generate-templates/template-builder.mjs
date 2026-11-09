@@ -245,6 +245,7 @@ function generateHeroComponentCode(def, theme) {
 
   return `import React from 'react';
 import { ArrowRight, Sparkles, CheckCircle2, Star, ShieldCheck, Play } from '@shared/icons/template-icons';
+import { AnimatedCounter, ScrollReveal } from '@shared/components';
 
 export interface HeroSectionProps {
   onPrimaryAction: () => void;
@@ -274,7 +275,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         {/* Main 2-Column Hero Grid */}
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-center">
           {/* Left 6 Cols: Balanced Headline, Highlights, CTAs & Social Proof */}
-          <div className="lg:col-span-6 space-y-6">
+          <ScrollReveal direction="left" className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 text-xs ${theme.badge} ${theme.radius}">
               <Sparkles className="h-3.5 w-3.5 shrink-0" />
               <span className="whitespace-nowrap">${def.id} • ${def.categoryNameVi.toUpperCase()}</span>
@@ -311,11 +312,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             </div>
 
             {/* CTA Buttons (Never Wrap Awkwardly) */}
-            <div className="flex flex-wrap items-center gap-3.5 pt-2">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3.5 pt-2">
               <button
                 type="button"
                 onClick={onPrimaryAction}
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold ${theme.btnPrimary} ${theme.radius} whitespace-nowrap"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold ${theme.btnPrimary} ${theme.radius} whitespace-nowrap shadow-lg"
                 style={{ background: '${btnBg}' }}
               >
                 <span>${def.actionLabel}</span>
@@ -324,7 +325,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <button
                 type="button"
                 onClick={onSecondaryAction}
-                className="inline-flex items-center justify-center gap-2 px-5 py-3.5 text-sm font-semibold ${theme.btnSecondary} ${theme.radius} whitespace-nowrap"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 text-sm font-semibold ${theme.btnSecondary} ${theme.radius} whitespace-nowrap"
               >
                 <Play className="h-4 w-4 shrink-0" />
                 <span>${def.secondaryAction}</span>
@@ -354,11 +355,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 </p>
               </div>
             </div>
-          </div>
+          </ScrollReveal>
 
           {/* Right 6 Cols: High-Res Demo Photography Showcase + Secondary Photo Strip */}
-          <div className="lg:col-span-6 space-y-4">
-            <div className="relative overflow-hidden p-3 sm:p-4 ${theme.surface} ${theme.radius}">
+          <ScrollReveal direction="right" className="lg:col-span-6 space-y-4">
+            <div className="relative overflow-hidden p-3 sm:p-4 ${theme.surface} ${theme.radius} shadow-xl">
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-900">
                 <img
                   src="${def.heroImage}"
@@ -418,15 +419,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 </div>
               </div>
             </div>
-          </div>
+          </ScrollReveal>
         </div>
 
-        {/* Full-Width 4-Column KPI Metrics Strip (Spacious, Zero Cramped Wrapping) */}
-        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4 sm:gap-6">
+        {/* Full-Width 4-Column KPI Metrics Strip (Animated Counters + Scroll Reveal) */}
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 sm:gap-6">
           {HERO_METRICS.map((stat, i) => (
-            <div
+            <ScrollReveal
               key={i}
-              className="p-5 sm:p-6 ${theme.surface} ${theme.radius} flex flex-col justify-between"
+              direction={i % 2 === 0 ? 'left' : 'right'}
+              delay={i * 80}
+              className="p-5 sm:p-6 ${theme.surface} ${theme.radius} flex flex-col justify-between shadow-lg"
             >
               <div className="flex items-center justify-between gap-2 mb-2">
                 <span className="text-[11px] font-mono uppercase tracking-wider opacity-60">
@@ -435,15 +438,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <ShieldCheck className="h-4 w-4 shrink-0" style={{ color: '${def.primaryColor}' }} />
               </div>
               <div
-                className="text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
+                className="text-xl sm:text-2xl lg:text-3xl font-extrabold whitespace-nowrap"
                 style={{ color: '${def.primaryColor}' }}
               >
-                {stat.value}
+                <AnimatedCounter value={stat.value} />
               </div>
               <div className="text-xs sm:text-sm font-semibold ${theme.muted} mt-1">
                 {stat.label}
               </div>
-            </div>
+            </ScrollReveal>
           ))}
         </div>
       </div>
@@ -469,6 +472,7 @@ import {
   Star,
   ShieldCheck,
 } from '@shared/icons/template-icons';
+import { ScrollReveal } from '@shared/components';
 
 const DOMAIN_ITEMS = ${JSON.stringify(def.domainItems, null, 2)};
 
@@ -543,82 +547,88 @@ export const InteractiveWidget: React.FC = () => {
           )}
         </div>
 
-        {/* 1. Spacious 2-Column Showcase Cards with Real Demo Images */}
+        {/* 1. Spacious 2-Column Showcase Cards with Real Demo Images & 2-Side Scroll In */}
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           {DOMAIN_ITEMS.map((item, idx) => {
             const isSelected = idx === selectedIndex;
             return (
-              <div
+              <ScrollReveal
                 key={item.id}
-                onClick={() => {
-                  setSelectedIndex(idx);
-                  setActionConfirmed(false);
-                }}
-                className={\`group cursor-pointer overflow-hidden transition-all duration-300 \${
-                  isSelected ? 'ring-2 ring-offset-2' : 'hover:-translate-y-0.5'
-                } ${theme.surface} ${theme.radius} flex flex-col\`}
-                style={{
-                  borderColor: isSelected ? '${def.primaryColor}' : undefined,
-                }}
+                direction={idx % 2 === 0 ? 'left' : 'right'}
+                delay={idx * 100}
+                className="flex"
               >
-                {/* Card Demo Image */}
-                <div className="relative h-52 sm:h-60 w-full overflow-hidden bg-slate-900">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    loading="lazy"
-                    className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/20" />
-                  <div className="absolute left-3.5 top-3.5 flex items-center gap-2">
-                    <span
-                      className="px-3 py-1 text-xs font-bold rounded-lg text-white shadow whitespace-nowrap"
-                      style={{ background: idx % 2 === 0 ? '${def.primaryColor}' : '${def.secondaryColor}' }}
-                    >
-                      {item.tag}
-                    </span>
+                <div
+                  onClick={() => {
+                    setSelectedIndex(idx);
+                    setActionConfirmed(false);
+                  }}
+                  className={\`w-full group cursor-pointer overflow-hidden transition-all duration-300 \${
+                    isSelected ? 'ring-2 ring-offset-2' : 'hover:-translate-y-0.5'
+                  } ${theme.surface} ${theme.radius} flex flex-col\`}
+                  style={{
+                    borderColor: isSelected ? '${def.primaryColor}' : undefined,
+                  }}
+                >
+                  {/* Card Demo Image */}
+                  <div className="relative h-52 sm:h-60 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      loading="lazy"
+                      className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-black/20" />
+                    <div className="absolute left-3.5 top-3.5 flex items-center gap-2">
+                      <span
+                        className="px-3 py-1 text-xs font-bold rounded-lg text-white shadow whitespace-nowrap"
+                        style={{ background: idx % 2 === 0 ? '${def.primaryColor}' : '${def.secondaryColor}' }}
+                      >
+                        {item.tag}
+                      </span>
+                    </div>
+                    <div className="absolute right-3.5 top-3.5 rounded-lg bg-slate-950/80 px-2.5 py-1 font-mono text-[11px] font-bold text-white backdrop-blur-md">
+                      {item.id}
+                    </div>
+                    <div className="absolute bottom-3 left-3.5 right-3.5 flex items-center justify-between text-white">
+                      <span className="text-xs font-semibold bg-black/50 px-2.5 py-1 rounded-md backdrop-blur-sm whitespace-nowrap">
+                        ★ 4.9 Đánh giá thực tế
+                      </span>
+                      <span className="text-base sm:text-lg lg:text-xl font-extrabold bg-slate-950/85 px-3 py-1 rounded-lg whitespace-nowrap">
+                        {formatVnd(item.price)}
+                      </span>
+                    </div>
                   </div>
-                  <div className="absolute right-3.5 top-3.5 rounded-lg bg-slate-950/80 px-2.5 py-1 font-mono text-[11px] font-bold text-white backdrop-blur-md">
-                    {item.id}
-                  </div>
-                  <div className="absolute bottom-3 left-3.5 right-3.5 flex items-center justify-between text-white">
-                    <span className="text-xs font-semibold bg-black/50 px-2.5 py-1 rounded-md backdrop-blur-sm">
-                      ★ 4.9 Đánh giá thực tế
-                    </span>
-                    <span className="text-lg sm:text-xl font-extrabold bg-slate-950/85 px-3 py-1 rounded-lg whitespace-nowrap">
-                      {formatVnd(item.price)}
-                    </span>
+
+                  {/* Card Content */}
+                  <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between space-y-4">
+                    <div>
+                      <h3 className="text-base sm:text-lg font-bold leading-snug">
+                        {item.title}
+                      </h3>
+                      <p className="mt-1.5 text-xs sm:text-sm ${theme.muted} leading-relaxed">
+                        {item.meta}
+                      </p>
+                    </div>
+
+                    <div className="flex items-center justify-between gap-3 pt-3 border-t border-current/10">
+                      <span className="inline-flex items-center gap-1.5 text-xs font-semibold truncate">
+                        <CheckCircle2 className="h-4 w-4 shrink-0" style={{ color: '${def.primaryColor}' }} />
+                        <span className="truncate">Có sẵn • Hỗ trợ tư vấn</span>
+                      </span>
+                      <button
+                        type="button"
+                        className="px-4 py-2 text-xs font-bold rounded-xl text-white whitespace-nowrap transition shrink-0"
+                        style={{
+                          background: isSelected ? '${def.primaryColor}' : '#334155',
+                        }}
+                      >
+                        {isSelected ? 'Đang chọn ✓' : 'Chọn gói này'}
+                      </button>
+                    </div>
                   </div>
                 </div>
-
-                {/* Card Content */}
-                <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between space-y-4">
-                  <div>
-                    <h3 className="text-base sm:text-lg font-bold leading-snug">
-                      {item.title}
-                    </h3>
-                    <p className="mt-1.5 text-xs sm:text-sm ${theme.muted} leading-relaxed">
-                      {item.meta}
-                    </p>
-                  </div>
-
-                  <div className="flex items-center justify-between gap-3 pt-3 border-t border-current/10">
-                    <span className="inline-flex items-center gap-1.5 text-xs font-semibold">
-                      <CheckCircle2 className="h-4 w-4 shrink-0" style={{ color: '${def.primaryColor}' }} />
-                      <span>Có sẵn • Hỗ trợ tư vấn ngay</span>
-                    </span>
-                    <button
-                      type="button"
-                      className="px-4 py-2 text-xs font-bold rounded-xl text-white whitespace-nowrap transition"
-                      style={{
-                        background: isSelected ? '${def.primaryColor}' : '#334155',
-                      }}
-                    >
-                      {isSelected ? 'Đang chọn ✓' : 'Chọn gói này'}
-                    </button>
-                  </div>
-                </div>
-              </div>
+              </ScrollReveal>
             );
           })}
         </div>
@@ -669,20 +679,32 @@ export const InteractiveWidget: React.FC = () => {
                       type="date"
                       value={bookingDate}
                       onChange={(e) => setBookingDate(e.target.value)}
-                      className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5"
+                      className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5 focus:outline-none"
                     />
                   </div>
                   <div>
                     <label className="block font-semibold mb-1.5">Khung giờ:</label>
-                    <select
-                      value={bookingTime}
-                      onChange={(e) => setBookingTime(e.target.value)}
-                      className="w-full rounded-xl border border-current/20 bg-transparent px-3.5 py-2.5"
-                    >
-                      <option value="09:00" className="text-black">09:00 Sáng</option>
-                      <option value="14:00" className="text-black">14:00 Chiều</option>
-                      <option value="19:00" className="text-black">19:00 Tối</option>
-                    </select>
+                    <div className="grid grid-cols-3 gap-1.5">
+                      {[
+                        { value: '09:00', label: '09:00 Sáng' },
+                        { value: '14:00', label: '14:00 Chiều' },
+                        { value: '19:00', label: '19:00 Tối' },
+                      ].map((slot) => (
+                        <button
+                          key={slot.value}
+                          type="button"
+                          onClick={() => setBookingTime(slot.value)}
+                          className={\`rounded-xl py-2 px-1 text-center font-bold text-[11px] transition-all whitespace-nowrap \${
+                            bookingTime === slot.value
+                              ? 'shadow-md ring-2 ring-indigo-500/50'
+                              : 'border border-current/15 opacity-70 hover:opacity-100'
+                          }\`}
+                          style={bookingTime === slot.value ? { backgroundColor: '${def.primaryColor}', color: '#ffffff' } : {}}
+                        >
+                          {slot.label}
+                        </button>
+                      ))}
+                    </div>
                   </div>
                   <div>
                     <label className="block font-semibold mb-1.5">Số lượng khách / suất:</label>
@@ -721,10 +743,10 @@ export const InteractiveWidget: React.FC = () => {
 
             {/* Right 5 Cols: Total Summary & Instant Action */}
             <div className="lg:col-span-5 rounded-2xl border border-current/15 p-5 sm:p-6 space-y-4">
-              <div className="flex items-baseline justify-between gap-2 border-b border-current/10 pb-4">
+              <div className="flex flex-wrap items-baseline justify-between gap-2 border-b border-current/10 pb-4">
                 <span className="text-xs sm:text-sm ${theme.muted}">Tổng chi phí dự kiến:</span>
                 <span
-                  className="text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
+                  className="text-xl sm:text-2xl lg:text-3xl font-extrabold whitespace-nowrap"
                   style={{ color: '${def.primaryColor}' }}
                 >
                   {formatVnd(estimatedTotal)}
@@ -782,6 +804,7 @@ import {
   Sparkles,
   ArrowRight,
 } from '@shared/icons/template-icons';
+import { AnimatedCounter, ScrollReveal } from '@shared/components';
 
 const GALLERY_PROJECTS = [
   {
@@ -913,8 +936,8 @@ export const ContentSections: React.FC = () => {
       <section id="about-section" className="py-14 sm:py-20 border-b border-current/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-center">
-            {/* Left 6 Cols: 2-Photo Collage */}
-            <div className="lg:col-span-6 grid grid-cols-2 gap-4">
+            {/* Left 6 Cols: 2-Photo Collage with Animated Stats */}
+            <ScrollReveal direction="left" className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
                   src="${def.galleryImages[3]}"
@@ -926,16 +949,18 @@ export const ContentSections: React.FC = () => {
                   className="rounded-2xl p-5 text-white shadow-lg"
                   style={{ background: '${btnBg}' }}
                 >
-                  <div className="text-2xl sm:text-3xl font-extrabold">15+ Năm</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold">
+                    <AnimatedCounter value="15+ Năm" />
+                  </div>
                   <div className="text-xs opacity-90 mt-1">
                     Kinh nghiệm thực chiến dẫn đầu lĩnh vực ${def.categoryNameVi}
                   </div>
                 </div>
               </div>
               <div className="space-y-4 pt-6">
-                <div className="p-5 ${theme.surface} ${theme.radius}">
+                <div className="p-5 ${theme.surface} ${theme.radius} shadow-lg">
                   <div className="text-2xl sm:text-3xl font-extrabold" style={{ color: '${def.primaryColor}' }}>
-                    99.4%
+                    <AnimatedCounter value="99.4%" />
                   </div>
                   <div className="text-xs ${theme.muted} mt-1">
                     Khách hàng hài lòng & Giới thiệu đối tác mới
@@ -948,10 +973,10 @@ export const ContentSections: React.FC = () => {
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
                 />
               </div>
-            </div>
+            </ScrollReveal>
 
             {/* Right 6 Cols: Story & Core Competencies */}
-            <div className="lg:col-span-6 space-y-5">
+            <ScrollReveal direction="right" className="lg:col-span-6 space-y-5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs ${theme.badge} ${theme.radius}">
                 <Award className="h-3.5 w-3.5 shrink-0" />
                 <span>HỒ SƠ NĂNG LỰC • ${def.brandName.toUpperCase()}</span>
@@ -976,7 +1001,7 @@ export const ContentSections: React.FC = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
@@ -1017,40 +1042,46 @@ export const ContentSections: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {visibleProjects.map((proj, idx) => (
-              <div
+              <ScrollReveal
                 key={idx}
-                className="group overflow-hidden ${theme.surface} ${theme.radius} flex flex-col"
+                direction={idx % 2 === 0 ? 'left' : 'right'}
+                delay={(idx % 3) * 100}
+                className="flex"
               >
-                <div className="relative h-56 w-full overflow-hidden bg-slate-900">
-                  <img
-                    src={proj.image}
-                    alt={proj.title}
-                    loading="lazy"
-                    className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                  <span
-                    className="absolute left-3.5 top-3.5 rounded-lg px-2.5 py-1 text-[11px] font-bold text-white"
-                    style={{ background: '${def.primaryColor}' }}
-                  >
-                    {proj.category}
-                  </span>
-                </div>
-                <div className="p-5 flex-1 flex flex-col justify-between space-y-3">
-                  <div>
-                    <h3 className="text-base font-bold leading-snug">{proj.title}</h3>
-                    <p className="text-xs ${theme.muted} mt-1">{proj.scale}</p>
+                <div
+                  className="w-full group overflow-hidden ${theme.surface} ${theme.radius} flex flex-col shadow-lg"
+                >
+                  <div className="relative h-56 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src={proj.image}
+                      alt={proj.title}
+                      loading="lazy"
+                      className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                    <span
+                      className="absolute left-3.5 top-3.5 rounded-lg px-2.5 py-1 text-[11px] font-bold text-white whitespace-nowrap"
+                      style={{ background: '${def.primaryColor}' }}
+                    >
+                      {proj.category}
+                    </span>
                   </div>
-                  <a
-                    href="#contact-section"
-                    className="inline-flex items-center gap-1.5 text-xs font-bold"
-                    style={{ color: '${def.primaryColor}' }}
-                  >
-                    <span>Xem chi tiết hồ sơ</span>
-                    <ArrowRight className="h-3.5 w-3.5" />
-                  </a>
+                  <div className="p-5 flex-1 flex flex-col justify-between space-y-3">
+                    <div>
+                      <h3 className="text-base font-bold leading-snug">{proj.title}</h3>
+                      <p className="text-xs ${theme.muted} mt-1">{proj.scale}</p>
+                    </div>
+                    <a
+                      href="#contact-section"
+                      className="inline-flex items-center gap-1.5 text-xs font-bold whitespace-nowrap"
+                      style={{ color: '${def.primaryColor}' }}
+                    >
+                      <span>Xem chi tiết hồ sơ</span>
+                      <ArrowRight className="h-3.5 w-3.5" />
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -1073,56 +1104,62 @@ export const ContentSections: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             {PRICING_TIERS.map((tier, idx) => (
-              <div
+              <ScrollReveal
                 key={idx}
-                className={\`relative p-6 sm:p-8 ${theme.surface} ${theme.radius} flex flex-col justify-between \${
-                  tier.popular ? 'ring-2' : ''
-                }\`}
-                style={{
-                  borderColor: tier.popular ? '${def.primaryColor}' : undefined,
-                }}
+                direction="up"
+                delay={idx * 120}
+                className="flex"
               >
-                <div>
-                  {tier.popular && (
-                    <span
-                      className="inline-block rounded-full px-3 py-1 text-[11px] font-bold text-white mb-4"
-                      style={{ background: '${def.primaryColor}' }}
-                    >
-                      ★ ĐƯỢC LỰA CHỌN NHIỀU NHẤT
-                    </span>
-                  )}
-                  <h3 className="text-lg sm:text-xl font-bold">{tier.name}</h3>
-                  <p className="mt-1.5 text-xs ${theme.muted} leading-relaxed">{tier.desc}</p>
-                  <div
-                    className="my-5 text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
-                    style={{ color: '${def.primaryColor}' }}
-                  >
-                    {tier.price}
-                  </div>
-                  <ul className="space-y-2.5 text-xs sm:text-sm border-t border-current/10 pt-5">
-                    {tier.perks.map((perk, pIdx) => (
-                      <li key={pIdx} className="flex items-start gap-2.5">
-                        <CheckCircle2
-                          className="h-4 w-4 shrink-0 mt-0.5"
-                          style={{ color: '${def.primaryColor}' }}
-                        />
-                        <span>{perk}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <a
-                  href="#contact-section"
-                  className="mt-8 w-full inline-flex items-center justify-center gap-2 py-3 px-5 text-xs sm:text-sm font-bold rounded-xl text-white transition whitespace-nowrap"
+                <div
+                  className={\`w-full relative p-6 sm:p-8 ${theme.surface} ${theme.radius} flex flex-col justify-between shadow-lg \${
+                    tier.popular ? 'ring-2' : ''
+                  }\`}
                   style={{
-                    background: tier.popular ? '${btnBg}' : '#334155',
+                    borderColor: tier.popular ? '${def.primaryColor}' : undefined,
                   }}
                 >
-                  <span>Đăng Ký Tư Vấn Gói Này</span>
-                  <ArrowRight className="h-4 w-4 shrink-0" />
-                </a>
-              </div>
+                  <div>
+                    {tier.popular && (
+                      <span
+                        className="inline-block rounded-full px-3 py-1 text-[11px] font-bold text-white mb-4 whitespace-nowrap shadow"
+                        style={{ background: '${def.primaryColor}' }}
+                      >
+                        ★ ĐƯỢC LỰA CHỌN NHIỀU NHẤT
+                      </span>
+                    )}
+                    <h3 className="text-lg sm:text-xl font-bold">{tier.name}</h3>
+                    <p className="mt-1.5 text-xs ${theme.muted} leading-relaxed">{tier.desc}</p>
+                    <div
+                      className="my-5 text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
+                      style={{ color: '${def.primaryColor}' }}
+                    >
+                      {tier.price}
+                    </div>
+                    <ul className="space-y-2.5 text-xs sm:text-sm border-t border-current/10 pt-5">
+                      {tier.perks.map((perk, pIdx) => (
+                        <li key={pIdx} className="flex items-start gap-2.5">
+                          <CheckCircle2
+                            className="h-4 w-4 shrink-0 mt-0.5"
+                            style={{ color: '${def.primaryColor}' }}
+                          />
+                          <span>{perk}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <a
+                    href="#contact-section"
+                    className="mt-8 w-full inline-flex items-center justify-center gap-2 py-3 px-5 text-xs sm:text-sm font-bold rounded-xl text-white transition whitespace-nowrap shadow"
+                    style={{
+                      background: tier.popular ? '${btnBg}' : '#334155',
+                    }}
+                  >
+                    <span>Đăng Ký Tư Vấn Gói Này</span>
+                    <ArrowRight className="h-4 w-4 shrink-0" />
+                  </a>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -1148,27 +1185,33 @@ export const ContentSections: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {TESTIMONIALS.map((t, i) => (
-              <div
+              <ScrollReveal
                 key={i}
-                className="p-6 ${theme.surface} ${theme.radius} flex flex-col justify-between space-y-5"
+                direction={i % 2 === 0 ? 'left' : 'right'}
+                delay={i * 100}
+                className="flex"
               >
-                <div className="space-y-3">
-                  <div className="text-amber-500 text-xs font-bold tracking-widest">★★★★★</div>
-                  <p className="text-xs sm:text-sm leading-relaxed italic">"{t.quote}"</p>
-                </div>
-                <div className="flex items-center gap-3 pt-4 border-t border-current/10">
-                  <img
-                    src={t.avatar}
-                    alt={t.name}
-                    loading="lazy"
-                    className="h-11 w-11 rounded-full object-cover shrink-0"
-                  />
-                  <div className="min-w-0">
-                    <div className="text-xs sm:text-sm font-bold truncate">{t.name}</div>
-                    <div className="text-[11px] ${theme.muted} truncate">{t.role}</div>
+                <div
+                  className="w-full p-6 ${theme.surface} ${theme.radius} flex flex-col justify-between space-y-5 shadow-lg"
+                >
+                  <div className="space-y-3">
+                    <div className="text-amber-500 text-xs font-bold tracking-widest">★★★★★</div>
+                    <p className="text-xs sm:text-sm leading-relaxed italic">"{t.quote}"</p>
+                  </div>
+                  <div className="flex items-center gap-3 pt-4 border-t border-current/10">
+                    <img
+                      src={t.avatar}
+                      alt={t.name}
+                      loading="lazy"
+                      className="h-11 w-11 rounded-full object-cover shrink-0"
+                    />
+                    <div className="min-w-0">
+                      <div className="text-xs sm:text-sm font-bold truncate">{t.name}</div>
+                      <div className="text-[11px] ${theme.muted} truncate">{t.role}</div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -1178,7 +1221,7 @@ export const ContentSections: React.FC = () => {
       <section id="contact-section" className="py-14 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
-            <div className="lg:col-span-6 space-y-4">
+            <ScrollReveal direction="left" className="lg:col-span-6 space-y-4">
               <span className="text-xs font-mono uppercase tracking-wider opacity-70">
                 CÂU HỎI THƯỜNG GẶP (FAQ)
               </span>
@@ -1189,7 +1232,7 @@ export const ContentSections: React.FC = () => {
                 {faqs.map((f, idx) => {
                   const isOpen = openFaq === idx;
                   return (
-                    <div key={idx} className="${theme.surface} ${theme.radius} overflow-hidden">
+                    <div key={idx} className="${theme.surface} ${theme.radius} overflow-hidden shadow">
                       <button
                         type="button"
                         onClick={() => setOpenFaq(isOpen ? null : idx)}
@@ -1211,10 +1254,10 @@ export const ContentSections: React.FC = () => {
                   );
                 })}
               </div>
-            </div>
+            </ScrollReveal>
 
-            <div className="lg:col-span-6">
-              <div className="p-6 sm:p-8 ${theme.surface} ${theme.radius}">
+            <ScrollReveal direction="right" className="lg:col-span-6">
+              <div className="p-6 sm:p-8 ${theme.surface} ${theme.radius} shadow-xl">
                 <h3 className="text-xl sm:text-2xl font-bold mb-1">
                   Đăng Ký Nhận Tư Vấn & Báo Giá
                 </h3>
@@ -1285,7 +1328,7 @@ export const ContentSections: React.FC = () => {
                   </form>
                 )}
               </div>
-            </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>

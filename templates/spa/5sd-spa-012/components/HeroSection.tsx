@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Sparkles, CheckCircle2, Star, ShieldCheck, Play } from '@shared/icons/template-icons';
+import { AnimatedCounter, ScrollReveal } from '@shared/components';
 
 export interface HeroSectionProps {
   onPrimaryAction: () => void;
@@ -29,7 +30,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         {/* Main 2-Column Hero Grid */}
         <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-center">
           {/* Left 6 Cols: Balanced Headline, Highlights, CTAs & Social Proof */}
-          <div className="lg:col-span-6 space-y-6">
+          <ScrollReveal direction="left" className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 text-xs bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold rounded-2xl">
               <Sparkles className="h-3.5 w-3.5 shrink-0" />
               <span className="whitespace-nowrap">5SD-SPA-012 • SPA & TRỊ LIỆU TỰ NHIÊN</span>
@@ -66,11 +67,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
             </div>
 
             {/* CTA Buttons (Never Wrap Awkwardly) */}
-            <div className="flex flex-wrap items-center gap-3.5 pt-2">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-3.5 pt-2">
               <button
                 type="button"
                 onClick={onPrimaryAction}
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold text-white shadow-md hover:opacity-95 transition rounded-2xl whitespace-nowrap"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 text-sm font-bold text-white shadow-md hover:opacity-95 transition rounded-2xl whitespace-nowrap shadow-lg"
                 style={{ background: 'linear-gradient(135deg, #1D4ED8, #06B6D4)' }}
               >
                 <span>Đặt lịch Thư giãn</span>
@@ -79,7 +80,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               <button
                 type="button"
                 onClick={onSecondaryAction}
-                className="inline-flex items-center justify-center gap-2 px-5 py-3.5 text-sm font-semibold bg-white text-slate-800 border border-slate-300 hover:bg-slate-100 transition rounded-2xl whitespace-nowrap"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 text-sm font-semibold bg-white text-slate-800 border border-slate-300 hover:bg-slate-100 transition rounded-2xl whitespace-nowrap"
               >
                 <Play className="h-4 w-4 shrink-0" />
                 <span>Menu Trị liệu</span>
@@ -109,11 +110,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 </p>
               </div>
             </div>
-          </div>
+          </ScrollReveal>
 
           {/* Right 6 Cols: High-Res Demo Photography Showcase + Secondary Photo Strip */}
-          <div className="lg:col-span-6 space-y-4">
-            <div className="relative overflow-hidden p-3 sm:p-4 bg-white border border-slate-200/90 shadow-sm rounded-2xl">
+          <ScrollReveal direction="right" className="lg:col-span-6 space-y-4">
+            <div className="relative overflow-hidden p-3 sm:p-4 bg-white border border-slate-200/90 shadow-sm rounded-2xl shadow-xl">
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-xl bg-slate-900">
                 <img
                   src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80"
@@ -173,15 +174,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 </div>
               </div>
             </div>
-          </div>
+          </ScrollReveal>
         </div>
 
-        {/* Full-Width 4-Column KPI Metrics Strip (Spacious, Zero Cramped Wrapping) */}
-        <div className="grid grid-cols-2 gap-4 lg:grid-cols-4 sm:gap-6">
+        {/* Full-Width 4-Column KPI Metrics Strip (Animated Counters + Scroll Reveal) */}
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-4 sm:gap-6">
           {HERO_METRICS.map((stat, i) => (
-            <div
+            <ScrollReveal
               key={i}
-              className="p-5 sm:p-6 bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col justify-between"
+              direction={i % 2 === 0 ? 'left' : 'right'}
+              delay={i * 80}
+              className="p-5 sm:p-6 bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col justify-between shadow-lg"
             >
               <div className="flex items-center justify-between gap-2 mb-2">
                 <span className="text-[11px] font-mono uppercase tracking-wider opacity-60">
@@ -190,15 +193,15 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <ShieldCheck className="h-4 w-4 shrink-0" style={{ color: '#1D4ED8' }} />
               </div>
               <div
-                className="text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
+                className="text-xl sm:text-2xl lg:text-3xl font-extrabold whitespace-nowrap"
                 style={{ color: '#1D4ED8' }}
               >
-                {stat.value}
+                <AnimatedCounter value={stat.value} />
               </div>
               <div className="text-xs sm:text-sm font-semibold text-slate-600 mt-1">
                 {stat.label}
               </div>
-            </div>
+            </ScrollReveal>
           ))}
         </div>
       </div>

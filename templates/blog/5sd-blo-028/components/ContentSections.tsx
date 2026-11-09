@@ -9,6 +9,7 @@ import {
   Sparkles,
   ArrowRight,
 } from '@shared/icons/template-icons';
+import { AnimatedCounter, ScrollReveal } from '@shared/components';
 
 const GALLERY_PROJECTS = [
   {
@@ -140,8 +141,8 @@ export const ContentSections: React.FC = () => {
       <section id="about-section" className="py-14 sm:py-20 border-b border-current/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-12 lg:items-center">
-            {/* Left 6 Cols: 2-Photo Collage */}
-            <div className="lg:col-span-6 grid grid-cols-2 gap-4">
+            {/* Left 6 Cols: 2-Photo Collage with Animated Stats */}
+            <ScrollReveal direction="left" className="lg:col-span-6 grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
                   src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1000&q=80"
@@ -153,16 +154,18 @@ export const ContentSections: React.FC = () => {
                   className="rounded-2xl p-5 text-white shadow-lg"
                   style={{ background: 'linear-gradient(135deg, #0D9488, #2563EB)' }}
                 >
-                  <div className="text-2xl sm:text-3xl font-extrabold">15+ Năm</div>
+                  <div className="text-2xl sm:text-3xl font-extrabold">
+                    <AnimatedCounter value="15+ Năm" />
+                  </div>
                   <div className="text-xs opacity-90 mt-1">
                     Kinh nghiệm thực chiến dẫn đầu lĩnh vực Blog & Xuất bản Nội dung
                   </div>
                 </div>
               </div>
               <div className="space-y-4 pt-6">
-                <div className="p-5 bg-white border border-slate-200/90 shadow-sm rounded-2xl">
+                <div className="p-5 bg-white border border-slate-200/90 shadow-sm rounded-2xl shadow-lg">
                   <div className="text-2xl sm:text-3xl font-extrabold" style={{ color: '#0D9488' }}>
-                    99.4%
+                    <AnimatedCounter value="99.4%" />
                   </div>
                   <div className="text-xs text-slate-600 mt-1">
                     Khách hàng hài lòng & Giới thiệu đối tác mới
@@ -175,10 +178,10 @@ export const ContentSections: React.FC = () => {
                   className="h-56 sm:h-72 w-full rounded-2xl object-cover shadow-lg"
                 />
               </div>
-            </div>
+            </ScrollReveal>
 
             {/* Right 6 Cols: Story & Core Competencies */}
-            <div className="lg:col-span-6 space-y-5">
+            <ScrollReveal direction="right" className="lg:col-span-6 space-y-5">
               <span className="inline-flex items-center gap-1.5 px-3 py-1 text-xs bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold rounded-2xl">
                 <Award className="h-3.5 w-3.5 shrink-0" />
                 <span>HỒ SƠ NĂNG LỰC • ARCADIA</span>
@@ -203,7 +206,7 @@ export const ContentSections: React.FC = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
@@ -244,40 +247,46 @@ export const ContentSections: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {visibleProjects.map((proj, idx) => (
-              <div
+              <ScrollReveal
                 key={idx}
-                className="group overflow-hidden bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col"
+                direction={idx % 2 === 0 ? 'left' : 'right'}
+                delay={(idx % 3) * 100}
+                className="flex"
               >
-                <div className="relative h-56 w-full overflow-hidden bg-slate-900">
-                  <img
-                    src={proj.image}
-                    alt={proj.title}
-                    loading="lazy"
-                    className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                  <span
-                    className="absolute left-3.5 top-3.5 rounded-lg px-2.5 py-1 text-[11px] font-bold text-white"
-                    style={{ background: '#0D9488' }}
-                  >
-                    {proj.category}
-                  </span>
-                </div>
-                <div className="p-5 flex-1 flex flex-col justify-between space-y-3">
-                  <div>
-                    <h3 className="text-base font-bold leading-snug">{proj.title}</h3>
-                    <p className="text-xs text-slate-600 mt-1">{proj.scale}</p>
+                <div
+                  className="w-full group overflow-hidden bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col shadow-lg"
+                >
+                  <div className="relative h-56 w-full overflow-hidden bg-slate-900">
+                    <img
+                      src={proj.image}
+                      alt={proj.title}
+                      loading="lazy"
+                      className="h-full w-full object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                    <span
+                      className="absolute left-3.5 top-3.5 rounded-lg px-2.5 py-1 text-[11px] font-bold text-white whitespace-nowrap"
+                      style={{ background: '#0D9488' }}
+                    >
+                      {proj.category}
+                    </span>
                   </div>
-                  <a
-                    href="#contact-section"
-                    className="inline-flex items-center gap-1.5 text-xs font-bold"
-                    style={{ color: '#0D9488' }}
-                  >
-                    <span>Xem chi tiết hồ sơ</span>
-                    <ArrowRight className="h-3.5 w-3.5" />
-                  </a>
+                  <div className="p-5 flex-1 flex flex-col justify-between space-y-3">
+                    <div>
+                      <h3 className="text-base font-bold leading-snug">{proj.title}</h3>
+                      <p className="text-xs text-slate-600 mt-1">{proj.scale}</p>
+                    </div>
+                    <a
+                      href="#contact-section"
+                      className="inline-flex items-center gap-1.5 text-xs font-bold whitespace-nowrap"
+                      style={{ color: '#0D9488' }}
+                    >
+                      <span>Xem chi tiết hồ sơ</span>
+                      <ArrowRight className="h-3.5 w-3.5" />
+                    </a>
+                  </div>
                 </div>
-              </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -300,56 +309,62 @@ export const ContentSections: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
             {PRICING_TIERS.map((tier, idx) => (
-              <div
+              <ScrollReveal
                 key={idx}
-                className={`relative p-6 sm:p-8 bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col justify-between ${
-                  tier.popular ? 'ring-2' : ''
-                }`}
-                style={{
-                  borderColor: tier.popular ? '#0D9488' : undefined,
-                }}
+                direction="up"
+                delay={idx * 120}
+                className="flex"
               >
-                <div>
-                  {tier.popular && (
-                    <span
-                      className="inline-block rounded-full px-3 py-1 text-[11px] font-bold text-white mb-4"
-                      style={{ background: '#0D9488' }}
-                    >
-                      ★ ĐƯỢC LỰA CHỌN NHIỀU NHẤT
-                    </span>
-                  )}
-                  <h3 className="text-lg sm:text-xl font-bold">{tier.name}</h3>
-                  <p className="mt-1.5 text-xs text-slate-600 leading-relaxed">{tier.desc}</p>
-                  <div
-                    className="my-5 text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
-                    style={{ color: '#0D9488' }}
-                  >
-                    {tier.price}
-                  </div>
-                  <ul className="space-y-2.5 text-xs sm:text-sm border-t border-current/10 pt-5">
-                    {tier.perks.map((perk, pIdx) => (
-                      <li key={pIdx} className="flex items-start gap-2.5">
-                        <CheckCircle2
-                          className="h-4 w-4 shrink-0 mt-0.5"
-                          style={{ color: '#0D9488' }}
-                        />
-                        <span>{perk}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <a
-                  href="#contact-section"
-                  className="mt-8 w-full inline-flex items-center justify-center gap-2 py-3 px-5 text-xs sm:text-sm font-bold rounded-xl text-white transition whitespace-nowrap"
+                <div
+                  className={`w-full relative p-6 sm:p-8 bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col justify-between shadow-lg ${
+                    tier.popular ? 'ring-2' : ''
+                  }`}
                   style={{
-                    background: tier.popular ? 'linear-gradient(135deg, #0D9488, #2563EB)' : '#334155',
+                    borderColor: tier.popular ? '#0D9488' : undefined,
                   }}
                 >
-                  <span>Đăng Ký Tư Vấn Gói Này</span>
-                  <ArrowRight className="h-4 w-4 shrink-0" />
-                </a>
-              </div>
+                  <div>
+                    {tier.popular && (
+                      <span
+                        className="inline-block rounded-full px-3 py-1 text-[11px] font-bold text-white mb-4 whitespace-nowrap shadow"
+                        style={{ background: '#0D9488' }}
+                      >
+                        ★ ĐƯỢC LỰA CHỌN NHIỀU NHẤT
+                      </span>
+                    )}
+                    <h3 className="text-lg sm:text-xl font-bold">{tier.name}</h3>
+                    <p className="mt-1.5 text-xs text-slate-600 leading-relaxed">{tier.desc}</p>
+                    <div
+                      className="my-5 text-2xl sm:text-3xl font-extrabold whitespace-nowrap"
+                      style={{ color: '#0D9488' }}
+                    >
+                      {tier.price}
+                    </div>
+                    <ul className="space-y-2.5 text-xs sm:text-sm border-t border-current/10 pt-5">
+                      {tier.perks.map((perk, pIdx) => (
+                        <li key={pIdx} className="flex items-start gap-2.5">
+                          <CheckCircle2
+                            className="h-4 w-4 shrink-0 mt-0.5"
+                            style={{ color: '#0D9488' }}
+                          />
+                          <span>{perk}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  <a
+                    href="#contact-section"
+                    className="mt-8 w-full inline-flex items-center justify-center gap-2 py-3 px-5 text-xs sm:text-sm font-bold rounded-xl text-white transition whitespace-nowrap shadow"
+                    style={{
+                      background: tier.popular ? 'linear-gradient(135deg, #0D9488, #2563EB)' : '#334155',
+                    }}
+                  >
+                    <span>Đăng Ký Tư Vấn Gói Này</span>
+                    <ArrowRight className="h-4 w-4 shrink-0" />
+                  </a>
+                </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -375,27 +390,33 @@ export const ContentSections: React.FC = () => {
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {TESTIMONIALS.map((t, i) => (
-              <div
+              <ScrollReveal
                 key={i}
-                className="p-6 bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col justify-between space-y-5"
+                direction={i % 2 === 0 ? 'left' : 'right'}
+                delay={i * 100}
+                className="flex"
               >
-                <div className="space-y-3">
-                  <div className="text-amber-500 text-xs font-bold tracking-widest">★★★★★</div>
-                  <p className="text-xs sm:text-sm leading-relaxed italic">"{t.quote}"</p>
-                </div>
-                <div className="flex items-center gap-3 pt-4 border-t border-current/10">
-                  <img
-                    src={t.avatar}
-                    alt={t.name}
-                    loading="lazy"
-                    className="h-11 w-11 rounded-full object-cover shrink-0"
-                  />
-                  <div className="min-w-0">
-                    <div className="text-xs sm:text-sm font-bold truncate">{t.name}</div>
-                    <div className="text-[11px] text-slate-600 truncate">{t.role}</div>
+                <div
+                  className="w-full p-6 bg-white border border-slate-200/90 shadow-sm rounded-2xl flex flex-col justify-between space-y-5 shadow-lg"
+                >
+                  <div className="space-y-3">
+                    <div className="text-amber-500 text-xs font-bold tracking-widest">★★★★★</div>
+                    <p className="text-xs sm:text-sm leading-relaxed italic">"{t.quote}"</p>
+                  </div>
+                  <div className="flex items-center gap-3 pt-4 border-t border-current/10">
+                    <img
+                      src={t.avatar}
+                      alt={t.name}
+                      loading="lazy"
+                      className="h-11 w-11 rounded-full object-cover shrink-0"
+                    />
+                    <div className="min-w-0">
+                      <div className="text-xs sm:text-sm font-bold truncate">{t.name}</div>
+                      <div className="text-[11px] text-slate-600 truncate">{t.role}</div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </ScrollReveal>
             ))}
           </div>
         </div>
@@ -405,7 +426,7 @@ export const ContentSections: React.FC = () => {
       <section id="contact-section" className="py-14 sm:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-10 lg:grid-cols-12">
-            <div className="lg:col-span-6 space-y-4">
+            <ScrollReveal direction="left" className="lg:col-span-6 space-y-4">
               <span className="text-xs font-mono uppercase tracking-wider opacity-70">
                 CÂU HỎI THƯỜNG GẶP (FAQ)
               </span>
@@ -416,7 +437,7 @@ export const ContentSections: React.FC = () => {
                 {faqs.map((f, idx) => {
                   const isOpen = openFaq === idx;
                   return (
-                    <div key={idx} className="bg-white border border-slate-200/90 shadow-sm rounded-2xl overflow-hidden">
+                    <div key={idx} className="bg-white border border-slate-200/90 shadow-sm rounded-2xl overflow-hidden shadow">
                       <button
                         type="button"
                         onClick={() => setOpenFaq(isOpen ? null : idx)}
@@ -438,10 +459,10 @@ export const ContentSections: React.FC = () => {
                   );
                 })}
               </div>
-            </div>
+            </ScrollReveal>
 
-            <div className="lg:col-span-6">
-              <div className="p-6 sm:p-8 bg-white border border-slate-200/90 shadow-sm rounded-2xl">
+            <ScrollReveal direction="right" className="lg:col-span-6">
+              <div className="p-6 sm:p-8 bg-white border border-slate-200/90 shadow-sm rounded-2xl shadow-xl">
                 <h3 className="text-xl sm:text-2xl font-bold mb-1">
                   Đăng Ký Nhận Tư Vấn & Báo Giá
                 </h3>
@@ -512,7 +533,7 @@ export const ContentSections: React.FC = () => {
                   </form>
                 )}
               </div>
-            </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>

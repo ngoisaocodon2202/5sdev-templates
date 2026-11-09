@@ -34,33 +34,33 @@ export const MarketplaceHeader: React.FC = () => {
   };
 
   const navItems = [
-    { label: 'Home', path: '/' },
-    { label: 'Templates', path: '/templates' },
-    { label: 'Categories', path: '/#categories' },
-    { label: 'Trending', path: '/#trending' },
-    { label: 'About', path: '/#about' },
-    { label: 'Admin Library', path: '/admin/library' },
+    { label: 'Trang Chủ', path: '/' },
+    { label: 'Kho Giao Diện', path: '/templates' },
+    { label: '30 Ngành Nghề', path: '/#categories' },
+    { label: 'Xu Hướng', path: '/#trending' },
+    { label: 'Về Chúng Tôi', path: '/#about' },
+    { label: 'Quản Trị Thư Viện', path: '/admin/library' },
   ];
 
   return (
     <>
-      <header className="sticky top-0 z-40 w-full border-b border-slate-800/80 bg-slate-950/85 backdrop-blur-xl">
+      <header className="sticky top-0 z-40 w-full border-b border-slate-800/80 bg-slate-950/90 backdrop-blur-2xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
           {/* Brand Logo */}
           <Link to="/" className="flex items-center gap-3 group shrink-0">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 text-white font-extrabold text-lg shadow-lg shadow-indigo-500/25 group-hover:scale-105 transition">
+            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 text-white font-extrabold text-lg shadow-lg shadow-indigo-500/30 group-hover:scale-105 group-hover:shadow-indigo-500/50 transition duration-300">
               5S
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <span className="font-display text-base font-extrabold tracking-tight text-white">
+                <span className="font-display text-base font-extrabold tracking-tight text-white whitespace-nowrap">
                   5S DEV
                 </span>
-                <span className="font-mono text-xs font-bold text-cyan-400 bg-cyan-500/10 border border-cyan-500/20 px-1.5 py-0.5 rounded">
+                <span className="font-mono text-xs font-bold text-cyan-400 bg-cyan-500/10 border border-cyan-500/25 px-1.5 py-0.5 rounded whitespace-nowrap">
                   .TEMPLATES
                 </span>
               </div>
-              <p className="text-[11px] text-slate-400 hidden sm:block">
+              <p className="text-[11px] text-slate-400 hidden sm:block whitespace-nowrap">
                 {TEMPLATE_REGISTRY.length.toLocaleString('vi-VN')}+ UI Templates • 5sdev.vn
               </p>
             </div>
@@ -77,10 +77,10 @@ export const MarketplaceHeader: React.FC = () => {
                 <Link
                   key={item.label}
                   to={item.path}
-                  className={`px-3.5 py-2 rounded-lg text-sm font-medium transition ${
+                  className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all duration-200 whitespace-nowrap ${
                     isActive
-                      ? 'bg-indigo-500/15 text-indigo-300 border border-indigo-500/30'
-                      : 'text-slate-300 hover:text-white hover:bg-slate-900'
+                      ? 'bg-gradient-to-r from-indigo-600/30 to-cyan-500/20 text-cyan-300 border border-cyan-500/30 shadow-sm'
+                      : 'text-slate-300 hover:text-white hover:bg-slate-900/80'
                   }`}
                 >
                   {item.label}
@@ -98,7 +98,7 @@ export const MarketplaceHeader: React.FC = () => {
                 value={quickSearch}
                 onChange={(e) => setQuickSearch(e.target.value)}
                 placeholder="Tìm mã 5SD-ECO-001, ngành..."
-                className="w-56 xl:w-64 rounded-xl border border-slate-800 bg-slate-900/90 pl-9 pr-3 py-2 text-xs text-slate-100 placeholder:text-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                className="w-52 xl:w-64 rounded-xl border border-slate-800 bg-slate-900/90 pl-9 pr-3 py-2 text-xs text-slate-100 placeholder:text-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 transition"
               />
             </form>
 
@@ -108,10 +108,10 @@ export const MarketplaceHeader: React.FC = () => {
                 setContactSubmitted(false);
                 setContactModalOpen(true);
               }}
-              className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-500 px-4 py-2 text-xs font-bold text-white shadow-lg shadow-indigo-500/20 hover:from-indigo-500 hover:to-cyan-400 transition shrink-0"
+              className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 via-purple-600 to-cyan-500 px-4 py-2 text-xs font-bold text-white shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-[1.02] transition shrink-0 whitespace-nowrap"
             >
               <PhoneCall className="h-3.5 w-3.5" />
-              Liên hệ 5sdev.vn
+              <span>Liên hệ 5sdev.vn</span>
             </button>
           </div>
 
@@ -128,7 +128,7 @@ export const MarketplaceHeader: React.FC = () => {
 
         {/* Mobile Menu Drawer */}
         {mobileMenuOpen && (
-          <div className="lg:hidden border-t border-slate-800 bg-slate-950 px-4 py-5 space-y-4">
+          <div className="lg:hidden border-t border-slate-800 bg-slate-950/98 px-4 py-5 space-y-4 shadow-2xl backdrop-blur-2xl animate-in slide-in-from-top-2 duration-200">
             <form onSubmit={handleQuickSearch} className="relative">
               <Search className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
               <input
@@ -136,7 +136,7 @@ export const MarketplaceHeader: React.FC = () => {
                 value={quickSearch}
                 onChange={(e) => setQuickSearch(e.target.value)}
                 placeholder="Tìm tên template, mã 5SD-ECO-001..."
-                className="w-full rounded-xl border border-slate-800 bg-slate-900 pl-10 pr-4 py-2.5 text-sm text-white placeholder:text-slate-500"
+                className="w-full rounded-xl border border-slate-800 bg-slate-900 pl-10 pr-4 py-2.5 text-xs text-white placeholder:text-slate-500"
               />
             </form>
             <div className="grid grid-cols-2 gap-2">
@@ -145,7 +145,7 @@ export const MarketplaceHeader: React.FC = () => {
                   key={item.label}
                   to={item.path}
                   onClick={() => setMobileMenuOpen(false)}
-                  className="rounded-xl border border-slate-800/80 bg-slate-900/60 px-3.5 py-2.5 text-sm font-medium text-slate-200 hover:border-indigo-500/40 hover:text-white"
+                  className="rounded-xl border border-slate-800/80 bg-slate-900/60 px-3.5 py-2.5 text-xs font-bold text-slate-200 hover:border-indigo-500/40 hover:text-cyan-300 transition whitespace-nowrap truncate"
                 >
                   {item.label}
                 </Link>
@@ -158,10 +158,10 @@ export const MarketplaceHeader: React.FC = () => {
                 setContactSubmitted(false);
                 setContactModalOpen(true);
               }}
-              className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-500 py-3 text-sm font-bold text-white"
+              className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-500 py-3 text-xs font-bold text-white shadow-lg whitespace-nowrap"
             >
               <PhoneCall className="h-4 w-4" />
-              Liên hệ Tư vấn & Bản quyền 5sdev.vn
+              <span>Liên hệ Tư vấn & Bản quyền 5sdev.vn</span>
             </button>
           </div>
         )}

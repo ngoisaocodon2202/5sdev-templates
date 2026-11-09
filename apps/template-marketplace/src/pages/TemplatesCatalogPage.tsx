@@ -15,6 +15,8 @@ import { updateDocumentMeta } from '@shared/utilities';
 import { TEMPLATE_REGISTRY } from '../data/template-registry';
 import { useTemplatesFilter, PriceFilterType, SortOptionType } from '../hooks/useTemplatesFilter';
 import { TemplateCard } from '../components/TemplateCard';
+import { CustomDropdown, DropdownOption } from '../components/CustomDropdown';
+import { ScrollReveal } from '@shared/components/ScrollReveal';
 
 export const TemplatesCatalogPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -77,10 +79,56 @@ export const TemplatesCatalogPage: React.FC = () => {
     setSearchParams(next);
   };
 
+  const categoryOptions: DropdownOption[] = [
+    { value: 'all', label: `Tất cả 30 ngành nghề`, badge: `${TEMPLATE_REGISTRY.length}` },
+    ...CATEGORIES.map((cat) => ({
+      value: cat.slug,
+      label: cat.nameVi,
+      subLabel: cat.name,
+      badge: `${cat.targetCount}`,
+    })),
+  ];
+
+  const styleOptions: DropdownOption[] = [
+    { value: 'all', label: 'Tất cả 20 phong cách' },
+    ...DESIGN_STYLES.map((st) => ({
+      value: st.id,
+      label: st.name,
+      subLabel: st.nameVi,
+    })),
+  ];
+
+  const priceOptions: DropdownOption[] = [
+    { value: 'all', label: 'Tất cả mức giá' },
+    { value: 'free', label: 'Miễn phí (Free)', badge: 'Free' },
+    { value: 'paid', label: 'Trả phí (Commercial)' },
+    { value: 'STANDARD', label: 'Gói Standard' },
+    { value: 'PREMIUM', label: 'Gói Premium' },
+    { value: 'ENTERPRISE', label: 'Gói Enterprise' },
+  ];
+
+  const techOptions: DropdownOption[] = [
+    { value: 'all', label: 'Tất cả công nghệ' },
+    { value: 'React', label: 'React 18' },
+    { value: 'TypeScript', label: 'TypeScript' },
+    { value: 'Tailwind', label: 'Tailwind CSS' },
+    { value: 'Vite', label: 'Vite' },
+    { value: 'Lucide', label: 'Lucide Icons' },
+  ];
+
+  const sortOptions: DropdownOption[] = [
+    { value: 'featured', label: 'Nổi bật nhất (Featured)' },
+    { value: 'popular', label: 'Phổ biến nhất (Popular)' },
+    { value: 'newest', label: 'Mới phát hành (Newest)' },
+    { value: 'code-asc', label: 'Mã Template (A → Z)' },
+    { value: 'price-asc', label: 'Giá: Thấp đến Cao' },
+    { value: 'price-desc', label: 'Giá: Cao đến Thấp' },
+  ];
+
   return (
     <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
       {/* Page Header */}
-      <div className="mb-8 rounded-3xl border border-slate-800 bg-gradient-to-r from-slate-900 via-slate-900 to-indigo-950/40 p-6 sm:p-8">
+      <div className="relative z-30 mb-8 rounded-3xl border border-slate-800 bg-gradient-to-r from-slate-900 via-slate-900 to-indigo-950/40 p-6 sm:p-8 shadow-2xl">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div>
             <div className="inline-flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-wider text-cyan-400 mb-2">
@@ -105,108 +153,58 @@ export const TemplatesCatalogPage: React.FC = () => {
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Tìm tên, mã (VD: 5SD-ECO-001), tag..."
-                className="w-full rounded-xl border border-slate-700 bg-slate-950 pl-11 pr-4 py-3 text-sm text-white placeholder:text-slate-500 focus:border-indigo-500 focus:outline-none"
+                className="w-full rounded-2xl border border-slate-700 bg-slate-950 pl-11 pr-4 py-3 text-xs text-white placeholder:text-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30 transition shadow-inner"
               />
             </div>
           </div>
         </div>
 
-        {/* Multi-Facet Filter Bar */}
-        <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-5 pt-6 border-t border-slate-800/80">
+        {/* Multi-Facet Filter Bar with Custom Beautiful Dropdowns */}
+        <div className="mt-6 grid grid-cols-1 gap-3.5 sm:grid-cols-2 lg:grid-cols-5 pt-6 border-t border-slate-800/80">
           {/* Category Filter */}
-          <div>
-            <label className="block text-[11px] font-mono uppercase text-slate-400 mb-1">
-              Ngành nghề (30 Ngành)
-            </label>
-            <select
-              value={category}
-              onChange={(e) => handleCategoryChange(e.target.value)}
-              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2.5 text-xs font-medium text-white focus:border-indigo-500 focus:outline-none"
-            >
-              <option value="all">Tất cả 30 ngành nghề ({TEMPLATE_REGISTRY.length})</option>
-              {CATEGORIES.map((cat) => (
-                <option key={cat.slug} value={cat.slug}>
-                  {cat.nameVi} ({cat.name})
-                </option>
-              ))}
-            </select>
-          </div>
+          <CustomDropdown
+            label="Ngành nghề (30 Ngành)"
+            value={category}
+            options={categoryOptions}
+            onChange={handleCategoryChange}
+            searchable
+          />
 
           {/* Design Style Filter */}
-          <div>
-            <label className="block text-[11px] font-mono uppercase text-slate-400 mb-1">
-              Phong cách thiết kế (20 Styles)
-            </label>
-            <select
-              value={designStyle}
-              onChange={(e) => handleStyleChange(e.target.value)}
-              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2.5 text-xs font-medium text-white focus:border-indigo-500 focus:outline-none"
-            >
-              <option value="all">Tất cả 20 phong cách</option>
-              {DESIGN_STYLES.map((st) => (
-                <option key={st.id} value={st.id}>
-                  {st.name} — {st.nameVi}
-                </option>
-              ))}
-            </select>
-          </div>
+          <CustomDropdown
+            label="Phong cách thiết kế (20 Styles)"
+            value={designStyle}
+            options={styleOptions}
+            onChange={handleStyleChange}
+            searchable
+          />
 
           {/* Price Tier Filter */}
-          <div>
-            <label className="block text-[11px] font-mono uppercase text-slate-400 mb-1">
-              Phân khúc Giá / Bản quyền
-            </label>
-            <select
-              value={priceFilter}
-              onChange={(e) => setPriceFilter(e.target.value as PriceFilterType)}
-              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2.5 text-xs font-medium text-white focus:border-indigo-500 focus:outline-none"
-            >
-              <option value="all">Tất cả mức giá</option>
-              <option value="free">Miễn phí (Free Community)</option>
-              <option value="paid">Trả phí (Commercial)</option>
-              <option value="STANDARD">Gói Standard</option>
-              <option value="PREMIUM">Gói Premium</option>
-              <option value="ENTERPRISE">Gói Enterprise</option>
-            </select>
-          </div>
+          <CustomDropdown
+            label="Phân khúc Giá / Bản quyền"
+            value={priceFilter}
+            options={priceOptions}
+            onChange={(val) => setPriceFilter(val as PriceFilterType)}
+          />
 
           {/* Tech Stack Filter */}
-          <div>
-            <label className="block text-[11px] font-mono uppercase text-slate-400 mb-1">
-              Công nghệ sử dụng
-            </label>
-            <select
-              value={techFilter}
-              onChange={(e) => setTechFilter(e.target.value)}
-              className="w-full rounded-xl border border-slate-700 bg-slate-950 px-3 py-2.5 text-xs font-medium text-white focus:border-indigo-500 focus:outline-none"
-            >
-              <option value="all">Tất cả công nghệ</option>
-              <option value="React">React 18</option>
-              <option value="TypeScript">TypeScript</option>
-              <option value="Tailwind">Tailwind CSS</option>
-              <option value="Vite">Vite</option>
-              <option value="Lucide">Lucide Icons</option>
-            </select>
-          </div>
+          <CustomDropdown
+            label="Công nghệ sử dụng"
+            value={techFilter}
+            options={techOptions}
+            onChange={setTechFilter}
+          />
 
           {/* Sort By */}
-          <div>
-            <label className="block text-[11px] font-mono uppercase text-slate-400 mb-1">
-              Sắp xếp theo
-            </label>
-            <div className="flex gap-2">
-              <select
+          <div className="flex flex-col">
+            <div className="flex items-end gap-2">
+              <CustomDropdown
+                label="Sắp xếp theo"
                 value={sortBy}
-                onChange={(e) => setSortBy(e.target.value as SortOptionType)}
-                className="flex-1 rounded-xl border border-slate-700 bg-slate-950 px-3 py-2.5 text-xs font-medium text-white focus:border-indigo-500 focus:outline-none"
-              >
-                <option value="featured">Nổi bật nhất (Featured)</option>
-                <option value="popular">Phổ biến nhất (Popular)</option>
-                <option value="newest">Mới phát hành (Newest)</option>
-                <option value="code-asc">Mã Template (A → Z)</option>
-                <option value="price-asc">Giá: Thấp đến Cao</option>
-                <option value="price-desc">Giá: Cao đến Thấp</option>
-              </select>
+                options={sortOptions}
+                onChange={(val) => setSortBy(val as SortOptionType)}
+                className="flex-1"
+              />
               <button
                 type="button"
                 onClick={() => {
@@ -214,7 +212,7 @@ export const TemplatesCatalogPage: React.FC = () => {
                   setSearchParams({});
                 }}
                 title="Đặt lại bộ lọc"
-                className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900 px-3 text-slate-300 hover:bg-slate-800 hover:text-white"
+                className="h-[42px] px-3.5 inline-flex items-center justify-center rounded-2xl border border-slate-700 bg-slate-950 text-slate-300 hover:bg-slate-800 hover:text-white transition shrink-0"
               >
                 <RotateCcw className="h-4 w-4" />
               </button>
