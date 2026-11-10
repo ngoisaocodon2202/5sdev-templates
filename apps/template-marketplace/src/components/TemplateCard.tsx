@@ -86,16 +86,20 @@ export const TemplateCard: React.FC<TemplateCardProps> = ({ template }) => {
             </span>
           </div>
 
-          {/* Template Brand & Name */}
+          {/* Template Brand & Name (Official 5sdev.vn Copyright Logo) */}
           <Link to={template.detailsRoute} className="flex items-center gap-2.5 group-hover:text-indigo-300 transition">
             <div
-              className="flex h-7 w-7 items-center justify-center rounded-lg text-white font-black text-xs shrink-0 shadow-sm"
-              style={{
-                background: `linear-gradient(135deg, ${template.primaryColor}, ${template.secondaryColor})`,
-              }}
-              title={template.brandName || template.name}
+              className="relative flex h-7 w-7 items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 text-white font-black text-[10px] shrink-0 shadow-sm border border-white/20"
+              title="Bản quyền thuộc 5S DEV (5sdev.vn)"
             >
-              {(template.brandName || template.name).slice(0, 2).toUpperCase()}
+              <img
+                src="/images/logo.png"
+                alt="5sdev.vn"
+                className="h-full w-full object-contain p-0.5 bg-white/95 rounded-[inherit]"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.display = 'none';
+                }}
+              />
             </div>
             <h3 className="font-display text-base sm:text-lg font-bold text-white truncate">
               {template.name}

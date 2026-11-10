@@ -48,8 +48,15 @@ export const MarketplaceHeader: React.FC = () => {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
           {/* Brand Logo */}
           <Link to="/" className="flex items-center gap-3 group shrink-0">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 text-white font-extrabold text-lg shadow-lg shadow-indigo-500/30 group-hover:scale-105 group-hover:shadow-indigo-500/50 transition duration-300">
-              5S
+            <div className="relative flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 text-white font-extrabold text-lg shadow-lg shadow-indigo-500/30 group-hover:scale-105 group-hover:shadow-indigo-500/50 transition duration-300 border border-white/20">
+              <img
+                src="/images/logo.png"
+                alt="5S DEV - 5sdev.vn"
+                className="h-full w-full object-contain p-0.5 bg-white/95 rounded-[inherit]"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.display = 'none';
+                }}
+              />
             </div>
             <div>
               <div className="flex items-center gap-1.5">
@@ -61,7 +68,7 @@ export const MarketplaceHeader: React.FC = () => {
                 </span>
               </div>
               <p className="text-[11px] text-slate-400 hidden sm:block whitespace-nowrap">
-                {TEMPLATE_REGISTRY.length.toLocaleString('vi-VN')}+ UI Templates • 5sdev.vn
+                {TEMPLATE_REGISTRY.length.toLocaleString('vi-VN')}+ UI Templates • © 5sdev.vn
               </p>
             </div>
           </Link>

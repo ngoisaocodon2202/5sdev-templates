@@ -8,10 +8,10 @@
   <rect width="640" height="400" fill="#F8FAFC" />
   <circle cx="520" cy="90" r="140" fill="#15803D" fill-opacity="0.15" />
   <rect x="28" y="24" width="584" height="352" rx="16" fill="#FFFFFF" stroke="#15803D" stroke-opacity="0.35" stroke-width="2" />
-  <rect x="52" y="52" width="120" height="24" rx="6" fill="url(#g-5sd-hot-020)" />
-  <text x="112" y="68" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="700" text-anchor="middle">5SD-HOT-020</text>
+  <rect x="52" y="52" width="180" height="24" rx="6" fill="url(#g-5sd-hot-020)" />
+  <text x="142" y="68" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="700" text-anchor="middle">5S DEV (5sdev.vn) • 5SD-HOT-020</text>
   <text x="52" y="128" fill="#0F172A" font-family="Inter, sans-serif" font-size="22" font-weight="800">Lumiere — Floating River Eco Lodge</text>
-  <text x="52" y="158" fill="#64748B" font-family="Inter, sans-serif" font-size="14">Khách sạn & Lưu trú • Editorial</text>
+  <text x="52" y="158" fill="#64748B" font-family="Inter, sans-serif" font-size="14">Khách sạn & Lưu trú • © Bản quyền 5sdev.vn</text>
   <rect x="52" y="188" width="160" height="42" rx="10" fill="url(#g-5sd-hot-020)" />
   <text x="132" y="214" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">Kiểm tra Phòng trống</text>
   <rect x="52" y="256" width="168" height="92" rx="12" fill="#F8FAFC" />

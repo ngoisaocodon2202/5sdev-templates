@@ -110,12 +110,14 @@ export const TemplateThumbnailArtwork: React.FC<ArtworkProps> = ({
         </div>
         <div className="flex items-center gap-1.5">
           <div
-            className="flex h-4 w-4 items-center justify-center rounded text-[8px] font-black text-white shrink-0"
-            style={{
-              background: `linear-gradient(135deg, ${primaryColor}, ${secondaryColor})`,
-            }}
+            className="relative flex h-4 w-4 items-center justify-center overflow-hidden rounded bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 text-[8px] font-black text-white shrink-0"
+            title="5S DEV - 5sdev.vn"
           >
-            {title.slice(0, 2).toUpperCase()}
+            <img
+              src="/images/logo.png"
+              alt="5S"
+              className="h-full w-full object-contain bg-white/95 rounded-[inherit]"
+            />
           </div>
           <span
             className="rounded px-1.5 py-0.5 font-mono text-[9px] font-bold uppercase text-white whitespace-nowrap"
@@ -130,17 +132,19 @@ export const TemplateThumbnailArtwork: React.FC<ArtworkProps> = ({
       <div className="absolute inset-x-3 bottom-3 rounded-xl bg-slate-950/80 p-2.5 sm:p-3 backdrop-blur-md border border-white/15">
         <div className="flex items-center justify-between gap-2.5">
           <div
-            className="flex h-8 w-8 items-center justify-center rounded-lg text-white font-black text-xs shrink-0 shadow-md"
-            style={{
-              background: `linear-gradient(135deg, ${primaryColor}, ${secondaryColor})`,
-            }}
+            className="relative flex h-8 w-8 items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 text-white font-black text-xs shrink-0 shadow-md border border-white/20"
+            title="Bản quyền thuộc 5S DEV (5sdev.vn)"
           >
-            {title.slice(0, 2).toUpperCase()}
+            <img
+              src="/images/logo.png"
+              alt="5S DEV - 5sdev.vn"
+              className="h-full w-full object-contain p-0.5 bg-white/95 rounded-[inherit]"
+            />
           </div>
           <div className="min-w-0 flex-1">
             <div className="text-xs font-bold text-white truncate">{title}</div>
             <div className="text-[10px] text-slate-300 truncate mt-0.5">
-              {code} • Giao diện chuẩn UI/UX & Responsive
+              {code} • © Bản quyền 5S DEV (5sdev.vn)
             </div>
           </div>
           <span

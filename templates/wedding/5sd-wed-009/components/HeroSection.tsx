@@ -124,9 +124,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
 
                 {/* Top Floating Badge */}
-                <div className="absolute left-3.5 top-3.5 flex items-center gap-2 rounded-lg bg-slate-950/80 px-3 py-1.5 text-xs font-bold text-white backdrop-blur-md border border-white/15">
+                <div className="absolute left-3.5 top-3.5 flex items-center gap-2 rounded-lg bg-slate-950/85 px-3 py-1.5 text-xs font-bold text-white backdrop-blur-md border border-white/15">
                   <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span>Crescendo Flagship • 5SD-WED-009</span>
+                  <span>© Bản quyền 5S DEV (5sdev.vn) • 5SD-WED-009</span>
                 </div>
 
                 {/* Bottom Overlay Info inside Hero Photo */}

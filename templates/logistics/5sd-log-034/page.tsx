@@ -43,7 +43,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <Mail className="h-3.5 w-3.5" />
-              contact@aethel.vn
+              contact@5sdev.vn
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <MapPin className="h-3.5 w-3.5" />
@@ -53,7 +53,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
           <div className="flex items-center gap-4">
             <span className="inline-flex items-center gap-1 font-semibold">
               <ShieldCheck className="h-3.5 w-3.5" style={{ color: '#B91C1C' }} />
-              Chứng nhận Chất lượng Quốc tế
+              © Bản quyền thuộc 5S DEV (5sdev.vn)
             </span>
             <span className="font-mono text-[11px] opacity-70">5SD-LOG-034</span>
           </div>
@@ -185,9 +185,9 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 pb-10 border-b border-current/10">
             <div className="space-y-3">
-              <BrandLogo variant="light" size="lg" />
+              <BrandLogo variant="full" size="lg" />
               <p className="text-slate-400 leading-relaxed">
-                Đơn vị tiên phong trong lĩnh vực Vận tải & Chuỗi cung ứng (Cross-Docking Distribution Center), cam kết chất lượng chuẩn quốc tế và dịch vụ tận tâm 24/7.
+                Giao diện mẫu <strong>Aethel — Cross-Docking Distribution Center (5SD-LOG-034)</strong> thuộc lĩnh vực Vận tải & Chuỗi cung ứng — Thiết kế và bảo hộ bản quyền độc quyền bởi <strong>5S DEV (5sdev.vn)</strong>.
               </p>
             </div>
 
@@ -226,11 +226,11 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="h-3.5 w-3.5 shrink-0" />
-                  <span>contact@aethel.vn</span>
+                  <span>contact@5sdev.vn</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <MapPin className="h-3.5 w-3.5 shrink-0" />
-                  <span>Tòa nhà Trung tâm, Quận 1, TP. Hồ Chí Minh</span>
+                  <span>Hệ sinh thái 5sdev.vn — TP. Hồ Chí Minh & Hà Nội</span>
                 </li>
               </ul>
             </div>
@@ -238,10 +238,10 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
 
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-400">
             <div>
-              © 2026 <strong>Aethel — Cross-Docking Distribution Center</strong> • Mã giao diện: <code className="font-mono font-bold">5SD-LOG-034</code>
+              © 2026 Bản quyền thuộc <strong>5S DEV (5sdev.vn)</strong> • Giao diện: <strong>Aethel — Cross-Docking Distribution Center</strong> (<code className="font-mono font-bold">5SD-LOG-034</code>)
             </div>
             <div>
-              Phát triển trên nền tảng <strong>5S DEV.TEMPLATES (5sdev.vn)</strong> • Style: Glassmorphism
+              Thiết kế & Phân phối chính thức trên <strong>https://5sdev.vn</strong> • Style: Glassmorphism
             </div>
           </div>
         </div>

@@ -226,10 +226,10 @@ function generateThumbnailSvg(def) {
   <rect width="640" height="400" fill="${bg}" />
   <circle cx="520" cy="90" r="140" fill="${def.primaryColor}" fill-opacity="0.15" />
   <rect x="28" y="24" width="584" height="352" rx="16" fill="${card}" stroke="${def.primaryColor}" stroke-opacity="0.35" stroke-width="2" />
-  <rect x="52" y="52" width="120" height="24" rx="6" fill="url(#g-${def.slug})" />
-  <text x="112" y="68" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="700" text-anchor="middle">${def.id}</text>
+  <rect x="52" y="52" width="180" height="24" rx="6" fill="url(#g-${def.slug})" />
+  <text x="142" y="68" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="11" font-weight="700" text-anchor="middle">5S DEV (5sdev.vn) • ${def.id}</text>
   <text x="52" y="128" fill="${text}" font-family="Inter, sans-serif" font-size="22" font-weight="800">${def.name.replace(/&/g, '&amp;')}</text>
-  <text x="52" y="158" fill="${muted}" font-family="Inter, sans-serif" font-size="14">${def.categoryNameVi} • ${def.designStyleName}</text>
+  <text x="52" y="158" fill="${muted}" font-family="Inter, sans-serif" font-size="14">${def.categoryNameVi} • © Bản quyền 5sdev.vn</text>
   <rect x="52" y="188" width="160" height="42" rx="10" fill="url(#g-${def.slug})" />
   <text x="132" y="214" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="13" font-weight="700" text-anchor="middle">${def.actionLabel}</text>
   <rect x="52" y="256" width="168" height="92" rx="12" fill="${bg}" />
@@ -371,9 +371,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/15 to-transparent" />
 
                 {/* Top Floating Badge */}
-                <div className="absolute left-3.5 top-3.5 flex items-center gap-2 rounded-lg bg-slate-950/80 px-3 py-1.5 text-xs font-bold text-white backdrop-blur-md border border-white/15">
+                <div className="absolute left-3.5 top-3.5 flex items-center gap-2 rounded-lg bg-slate-950/85 px-3 py-1.5 text-xs font-bold text-white backdrop-blur-md border border-white/15">
                   <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span>${def.brandName} Flagship • ${def.id}</span>
+                  <span>© Bản quyền 5S DEV (5sdev.vn) • ${def.id}</span>
                 </div>
 
                 {/* Bottom Overlay Info inside Hero Photo */}
@@ -1391,7 +1391,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <Mail className="h-3.5 w-3.5" />
-              contact@${def.brandName.toLowerCase()}.vn
+              contact@5sdev.vn
             </span>
             <span className="inline-flex items-center gap-1.5 opacity-80">
               <MapPin className="h-3.5 w-3.5" />
@@ -1401,7 +1401,7 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
           <div className="flex items-center gap-4">
             <span className="inline-flex items-center gap-1 font-semibold">
               <ShieldCheck className="h-3.5 w-3.5" style={{ color: '${def.primaryColor}' }} />
-              Chứng nhận Chất lượng Quốc tế
+              © Bản quyền thuộc 5S DEV (5sdev.vn)
             </span>
             <span className="font-mono text-[11px] opacity-70">${def.id}</span>
           </div>
@@ -1533,9 +1533,9 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 pb-10 border-b border-current/10">
             <div className="space-y-3">
-              <BrandLogo variant="light" size="lg" />
+              <BrandLogo variant="full" size="lg" />
               <p className="${theme.muted} leading-relaxed">
-                Đơn vị tiên phong trong lĩnh vực ${def.categoryNameVi} (${def.subNiche}), cam kết chất lượng chuẩn quốc tế và dịch vụ tận tâm 24/7.
+                Giao diện mẫu <strong>${def.name} (${def.id})</strong> thuộc lĩnh vực ${def.categoryNameVi} — Thiết kế và bảo hộ bản quyền độc quyền bởi <strong>5S DEV (5sdev.vn)</strong>.
               </p>
             </div>
 
@@ -1574,11 +1574,11 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
                 </li>
                 <li className="flex items-center gap-2">
                   <Mail className="h-3.5 w-3.5 shrink-0" />
-                  <span>contact@${def.brandName.toLowerCase()}.vn</span>
+                  <span>contact@5sdev.vn</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <MapPin className="h-3.5 w-3.5 shrink-0" />
-                  <span>Tòa nhà Trung tâm, Quận 1, TP. Hồ Chí Minh</span>
+                  <span>Hệ sinh thái 5sdev.vn — TP. Hồ Chí Minh & Hà Nội</span>
                 </li>
               </ul>
             </div>
@@ -1586,10 +1586,10 @@ export default function TemplatePage({ previewDevice }: TemplatePageProps) {
 
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 ${theme.muted}">
             <div>
-              © 2026 <strong>${def.name}</strong> • Mã giao diện: <code className="font-mono font-bold">${def.id}</code>
+              © 2026 Bản quyền thuộc <strong>5S DEV (5sdev.vn)</strong> • Giao diện: <strong>${def.name}</strong> (<code className="font-mono font-bold">${def.id}</code>)
             </div>
             <div>
-              Phát triển trên nền tảng <strong>5S DEV.TEMPLATES (5sdev.vn)</strong> • Style: ${def.designStyleName}
+              Thiết kế & Phân phối chính thức trên <strong>https://5sdev.vn</strong> • Style: ${def.designStyleName}
             </div>
           </div>
         </div>

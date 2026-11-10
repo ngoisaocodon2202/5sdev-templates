@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" fill="none">
+  <defs>
+    <linearGradient id="logo-blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="50%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="logo-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF" />
+      <stop offset="100%" stop-color="#E0F2FE" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark Squircle / Hexagon -->
+  <g transform="translate(6, 6)">
+    <rect x="0" y="0" width="48" height="48" rx="14" fill="url(#logo-bg-grad)" stroke="#BFDBFE" stroke-width="2" />
+    <path d="M 16 15 L 34 15 L 34 21 L 22 21 L 22 25 L 30 25 C 33.5 25 36 27.5 36 31 C 36 35 33 37 29 37 L 16 37 L 16 31 L 28 31 C 29 31 30 30 30 29 C 30 28 29 27 28 27 L 16 27 Z" fill="url(#logo-blue-grad)" />
+    <circle cx="36" cy="14" r="3" fill="#0284C7" />
+  </g>
+
+  <!-- Text 5S TECHNOLOGY -->
+  <text x="64" y="31" fill="#0F172A" font-family="'Plus Jakarta Sans', 'Be Vietnam Pro', sans-serif" font-size="20" font-weight="900" letter-spacing="1">5S</text>
+  <text x="96" y="31" fill="#2563EB" font-family="'Plus Jakarta Sans', 'Be Vietnam Pro', sans-serif" font-size="20" font-weight="900" letter-spacing="1.5">TECHNOLOGY</text>
+  <text x="64" y="46" fill="#64748B" font-family="'Inter', 'Be Vietnam Pro', sans-serif" font-size="8.5" font-weight="700" letter-spacing="2.5">DIGITAL SOLUTIONS</text>
+</svg>

@@ -11,8 +11,12 @@ export const MarketplaceFooter: React.FC = () => {
           {/* Col 1: Brand Info */}
           <div className="lg:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 text-white font-extrabold text-lg">
-                5S
+              <div className="relative flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 text-white font-extrabold text-lg border border-white/20">
+                <img
+                  src="/images/logo.png"
+                  alt="5S DEV - 5sdev.vn"
+                  className="h-full w-full object-contain p-0.5 bg-white/95 rounded-[inherit]"
+                />
               </div>
               <div>
                 <span className="font-display text-lg font-extrabold text-white">5S DEV</span>
