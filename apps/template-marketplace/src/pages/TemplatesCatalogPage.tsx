@@ -2,13 +2,11 @@ import React, { useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import {
   Search,
-  Filter,
   RotateCcw,
   ChevronLeft,
   ChevronRight,
   Layers,
   Sparkles,
-  SlidersHorizontal,
 } from 'lucide-react';
 import { CATEGORIES, DESIGN_STYLES } from '@shared/design-tokens';
 import { updateDocumentMeta } from '@shared/utilities';
@@ -16,7 +14,6 @@ import { TEMPLATE_REGISTRY } from '../data/template-registry';
 import { useTemplatesFilter, PriceFilterType, SortOptionType } from '../hooks/useTemplatesFilter';
 import { TemplateCard } from '../components/TemplateCard';
 import { CustomDropdown, DropdownOption } from '../components/CustomDropdown';
-import { ScrollReveal } from '@shared/components/ScrollReveal';
 
 export const TemplatesCatalogPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -80,7 +77,7 @@ export const TemplatesCatalogPage: React.FC = () => {
   };
 
   const categoryOptions: DropdownOption[] = [
-    { value: 'all', label: `Tất cả 30 ngành nghề`, badge: `${TEMPLATE_REGISTRY.length}` },
+    { value: 'all', label: 'Tất cả ngành nghề', badge: '1.050' },
     ...CATEGORIES.map((cat) => ({
       value: cat.slug,
       label: cat.nameVi,
@@ -90,7 +87,7 @@ export const TemplatesCatalogPage: React.FC = () => {
   ];
 
   const styleOptions: DropdownOption[] = [
-    { value: 'all', label: 'Tất cả 20 phong cách' },
+    { value: 'all', label: 'Tất cả phong cách', badge: '20' },
     ...DESIGN_STYLES.map((st) => ({
       value: st.id,
       label: st.name,
@@ -126,98 +123,94 @@ export const TemplatesCatalogPage: React.FC = () => {
   ];
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
-      {/* Page Header */}
-      <div className="relative z-30 mb-8 rounded-3xl border border-slate-800 bg-gradient-to-r from-slate-900 via-slate-900 to-indigo-950/40 p-6 sm:p-8 shadow-2xl">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      {/* Page Header & Filter Engine Box (Clean White Theme) */}
+      <div className="relative z-30 mb-8 rounded-3xl border border-slate-200/90 bg-white p-6 sm:p-8 shadow-sm">
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6">
           <div>
-            <div className="inline-flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-wider text-cyan-400 mb-2">
+            <div className="inline-flex items-center gap-2 text-xs font-mono font-bold uppercase tracking-wider text-indigo-600 mb-2">
               <Sparkles className="h-4 w-4" />
               TEMPLATE EXPLORER & FILTER ENGINE
             </div>
-            <h1 className="font-display text-2xl sm:text-4xl font-extrabold text-white">
+            <h1 className="font-display text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
               Kho Giao Diện 5S DEV.TEMPLATES
             </h1>
-            <p className="mt-1.5 text-sm text-slate-400">
+            <p className="mt-1.5 text-sm text-slate-600">
               Hiển thị <strong>{totalItems.toLocaleString('vi-VN')}</strong> trên tổng số{' '}
               <strong>{TEMPLATE_REGISTRY.length.toLocaleString('vi-VN')}</strong> templates chuẩn React + TypeScript + Tailwind CSS.
             </p>
           </div>
 
-          {/* Search Input */}
-          <div className="w-full lg:w-96">
-            <div className="relative">
+          {/* Search Input & Reset Button */}
+          <div className="flex items-center gap-2.5 w-full lg:w-auto">
+            <div className="relative flex-1 lg:w-80">
               <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
               <input
                 type="search"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder="Tìm tên, mã (VD: 5SD-ECO-001), tag..."
-                className="w-full rounded-2xl border border-slate-700 bg-slate-950 pl-11 pr-4 py-3 text-xs text-white placeholder:text-slate-500 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/30 transition shadow-inner"
+                className="w-full h-11 rounded-xl border border-slate-200 bg-slate-50 pl-11 pr-4 text-xs text-slate-900 placeholder:text-slate-400 focus:bg-white focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 transition shadow-sm"
               />
             </div>
+            <button
+              type="button"
+              onClick={() => {
+                resetFilters();
+                setSearchParams({});
+              }}
+              title="Đặt lại toàn bộ bộ lọc"
+              className="h-11 px-3.5 inline-flex items-center gap-1.5 rounded-xl border border-slate-200 bg-white text-slate-700 hover:text-rose-600 hover:border-rose-300 hover:bg-rose-50 transition text-xs font-bold whitespace-nowrap shadow-sm shrink-0"
+            >
+              <RotateCcw className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">Đặt lại</span>
+            </button>
           </div>
         </div>
 
-        {/* Multi-Facet Filter Bar with Custom Beautiful Dropdowns */}
-        <div className="mt-6 grid grid-cols-1 gap-3.5 sm:grid-cols-2 lg:grid-cols-5 pt-6 border-t border-slate-800/80">
-          {/* Category Filter */}
+        {/* 5 Perfectly Symmetrical, Equal-Height Combobox Columns */}
+        <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5 pt-6 border-t border-slate-100">
+          {/* Col 1: Category Filter */}
           <CustomDropdown
-            label="Ngành nghề (30 Ngành)"
+            label="Ngành nghề (30 ngành)"
             value={category}
             options={categoryOptions}
             onChange={handleCategoryChange}
             searchable
           />
 
-          {/* Design Style Filter */}
+          {/* Col 2: Design Style Filter */}
           <CustomDropdown
-            label="Phong cách thiết kế (20 Styles)"
+            label="Phong cách (20 styles)"
             value={designStyle}
             options={styleOptions}
             onChange={handleStyleChange}
             searchable
           />
 
-          {/* Price Tier Filter */}
+          {/* Col 3: Price Tier Filter */}
           <CustomDropdown
-            label="Phân khúc Giá / Bản quyền"
+            label="Phân khúc giá"
             value={priceFilter}
             options={priceOptions}
             onChange={(val) => setPriceFilter(val as PriceFilterType)}
           />
 
-          {/* Tech Stack Filter */}
+          {/* Col 4: Tech Stack Filter */}
           <CustomDropdown
-            label="Công nghệ sử dụng"
+            label="Công nghệ"
             value={techFilter}
             options={techOptions}
             onChange={setTechFilter}
           />
 
-          {/* Sort By */}
-          <div className="flex flex-col">
-            <div className="flex items-end gap-2">
-              <CustomDropdown
-                label="Sắp xếp theo"
-                value={sortBy}
-                options={sortOptions}
-                onChange={(val) => setSortBy(val as SortOptionType)}
-                className="flex-1"
-              />
-              <button
-                type="button"
-                onClick={() => {
-                  resetFilters();
-                  setSearchParams({});
-                }}
-                title="Đặt lại bộ lọc"
-                className="h-[42px] px-3.5 inline-flex items-center justify-center rounded-2xl border border-slate-700 bg-slate-950 text-slate-300 hover:bg-slate-800 hover:text-white transition shrink-0"
-              >
-                <RotateCcw className="h-4 w-4" />
-              </button>
-            </div>
-          </div>
+          {/* Col 5: Sort By */}
+          <CustomDropdown
+            label="Sắp xếp theo"
+            value={sortBy}
+            options={sortOptions}
+            onChange={(val) => setSortBy(val as SortOptionType)}
+          />
         </div>
       </div>
 
@@ -226,10 +219,10 @@ export const TemplatesCatalogPage: React.FC = () => {
         <button
           type="button"
           onClick={() => handleCategoryChange('all')}
-          className={`shrink-0 rounded-xl px-3.5 py-2 text-xs font-bold transition ${
+          className={`shrink-0 rounded-xl px-3.5 py-2 text-xs font-bold transition shadow-sm ${
             category === 'all'
-              ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
-              : 'border border-slate-800 bg-slate-900 text-slate-300 hover:text-white'
+              ? 'bg-indigo-600 text-white shadow-indigo-600/25'
+              : 'border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 hover:text-slate-900 hover:border-slate-300'
           }`}
         >
           Tất cả ({TEMPLATE_REGISTRY.length})
@@ -239,10 +232,10 @@ export const TemplatesCatalogPage: React.FC = () => {
             key={cat.slug}
             type="button"
             onClick={() => handleCategoryChange(cat.slug)}
-            className={`shrink-0 rounded-xl px-3.5 py-2 text-xs font-semibold transition ${
+            className={`shrink-0 rounded-xl px-3.5 py-2 text-xs font-semibold transition shadow-sm ${
               category === cat.slug
-                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
-                : 'border border-slate-800 bg-slate-900/70 text-slate-300 hover:border-slate-700 hover:text-white'
+                ? 'bg-indigo-600 text-white shadow-indigo-600/25 font-bold'
+                : 'border border-slate-200 bg-white text-slate-700 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-900'
             }`}
           >
             {cat.nameVi}
@@ -252,12 +245,12 @@ export const TemplatesCatalogPage: React.FC = () => {
 
       {/* Results Grid */}
       {paginatedTemplates.length === 0 ? (
-        <div className="rounded-3xl border border-slate-800 bg-slate-900/40 p-16 text-center">
-          <Layers className="mx-auto h-12 w-12 text-slate-500 mb-4" />
-          <h3 className="text-xl font-bold text-white mb-2">
+        <div className="rounded-3xl border border-slate-200 bg-white p-16 text-center shadow-sm">
+          <Layers className="mx-auto h-12 w-12 text-slate-400 mb-4" />
+          <h3 className="text-xl font-bold text-slate-900 mb-2">
             Không tìm thấy template phù hợp với bộ lọc hiện tại
           </h3>
-          <p className="text-sm text-slate-400 mb-6">
+          <p className="text-sm text-slate-600 mb-6">
             Hãy thử từ khóa khác hoặc đặt lại bộ lọc để khám phá toàn bộ kho 1.050+ giao diện.
           </p>
           <button
@@ -266,7 +259,7 @@ export const TemplatesCatalogPage: React.FC = () => {
               resetFilters();
               setSearchParams({});
             }}
-            className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-indigo-500"
+            className="inline-flex items-center gap-2 rounded-xl bg-indigo-600 px-5 py-2.5 text-sm font-bold text-white hover:bg-indigo-700 shadow-md transition"
           >
             <RotateCcw className="h-4 w-4" />
             Xóa bộ lọc
@@ -282,11 +275,11 @@ export const TemplatesCatalogPage: React.FC = () => {
 
           {/* Pagination Controls */}
           {totalPages > 1 && (
-            <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 rounded-2xl border border-slate-800 bg-slate-900/60 px-6 py-4">
-              <div className="text-xs text-slate-400">
-                Trang <strong className="text-white">{page}</strong> /{' '}
-                <strong className="text-white">{totalPages}</strong> (Tổng cộng{' '}
-                <strong className="text-cyan-400">{totalItems.toLocaleString('vi-VN')}</strong> templates)
+            <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white px-6 py-4 shadow-sm">
+              <div className="text-xs text-slate-600">
+                Trang <strong className="text-slate-900">{page}</strong> /{' '}
+                <strong className="text-slate-900">{totalPages}</strong> (Tổng cộng{' '}
+                <strong className="text-indigo-600">{totalItems.toLocaleString('vi-VN')}</strong> templates)
               </div>
 
               <div className="flex flex-wrap items-center gap-1.5">
@@ -297,7 +290,7 @@ export const TemplatesCatalogPage: React.FC = () => {
                     setPage(Math.max(1, page - 1));
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="inline-flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-xs font-semibold text-slate-200 disabled:opacity-40 hover:border-indigo-500"
+                  className="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-700 disabled:opacity-40 hover:bg-slate-50 hover:border-indigo-400 transition"
                 >
                   <ChevronLeft className="h-4 w-4" />
                   Trước
@@ -316,10 +309,10 @@ export const TemplatesCatalogPage: React.FC = () => {
                         setPage(pageNum);
                         window.scrollTo({ top: 0, behavior: 'smooth' });
                       }}
-                      className={`h-9 min-w-[36px] rounded-xl px-2.5 text-xs font-bold transition ${
+                      className={`h-9 min-w-[36px] rounded-xl px-2.5 text-xs font-bold transition shadow-sm ${
                         page === pageNum
-                          ? 'bg-indigo-600 text-white'
-                          : 'border border-slate-800 bg-slate-950 text-slate-400 hover:text-white'
+                          ? 'bg-indigo-600 text-white shadow-indigo-600/30'
+                          : 'border border-slate-200 bg-white text-slate-600 hover:bg-slate-50 hover:text-slate-900'
                       }`}
                     >
                       {pageNum}
@@ -334,7 +327,7 @@ export const TemplatesCatalogPage: React.FC = () => {
                     setPage(Math.min(totalPages, page + 1));
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="inline-flex items-center gap-1 rounded-xl border border-slate-700 bg-slate-950 px-3 py-2 text-xs font-semibold text-slate-200 disabled:opacity-40 hover:border-indigo-500"
+                  className="inline-flex items-center gap-1 rounded-xl border border-slate-200 bg-white px-3 py-2 text-xs font-semibold text-slate-700 disabled:opacity-40 hover:bg-slate-50 hover:border-indigo-400 transition"
                 >
                   Tiếp
                   <ChevronRight className="h-4 w-4" />

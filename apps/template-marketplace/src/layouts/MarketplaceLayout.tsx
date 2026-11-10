@@ -19,7 +19,7 @@ export const MarketplaceLayout: React.FC = () => {
   }, [pathname, hash]);
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-950 text-slate-100">
+    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900">
       <MarketplaceHeader />
       <main className="flex-1">
         <Outlet />
